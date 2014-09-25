@@ -2,25 +2,26 @@
 layout: post
 title:  "Device for Upper Tropospheric Solid Testing (D.U.S.T)"
 categories: hab iop aersol
+asset_path: /assets/posts/dust/
 ---
 
 The first Bristol SEDS project was inspired by the increasing number of amatuer High Altitude Balloon (HAB) missions. It was hard not to find the images of the Earth recorded on these missions inspirational and it was decided that a HAB project with a scientific mission would be ideal. 
 
-![The team about to launch the helium-filled balloon]({% asset_path launch_team_photo.jpg%})
+![The team about to launch the helium-filled balloon]({{ "launch_team_photo.jpg" | prepend: page.asset_path }})
 
 The first intake consisted of 2 postgraduate and 6 undergraduate physics students all of which had a keen interest in space. To help organise the group Jim Sadler acted as Bristol SEDS project coordinator, whilst Hannah Price took up the role of team leader. Hannah had a keen interest in the mechanism of cloud formation, and as team leader set the scientific goal to recover cloud nucleation particles from the upper troposphere.
 
-![The polystyrene box containing the electronics and cameras for the flight]({% asset_path payload.jpg%})
+![The polystyrene box containing the electronics and cameras for the flight]({{ "payload.jpg" | prepend: page.asset_path }})
 
 The balloon launched on the 13th August 2011 from the [University of Surrey EARS](https://www.ussu.co.uk/ClubsSocieties/societies/ears/Pages/home.aspx) launch site. However, soon after lift-off the onboard tracking failed and the mission was looking lost. Fortunately, as this was our first launch and we anticipated some teething problems [Steve Randall](http://randomsolutions.co.uk/Random_Aerospace/Welcome.html) of [UKHAS](http://ukhas.org.uk/) who was helping with the launch had provided a backup tracker which worked perfectly throughout the flight. The balloon reached a peak altitude of 21km before the envelope burst and the payload returned to Earth under parachute.
 
-![A map of the path the balloon took]({% asset_path flight_path.jpg%})
+![A map of the path the balloon took]({{ "flight_path.jpg" | prepend: page.asset_path }})
 
 After a long chase the launch team eventually found the payload sitting in a farmers field undamaged. Upon returning to the lab the images and samples from the payload were collected. The payload had been equiped with a single digital camera set to record an image every 30 seconds. A selection of the images recorded near apogee can be seen in figure 2 and figure 3.
 
-![An image of the earth taken by the onboard cameras]({% asset_path onboard_1.jpg%})
+![An image of the earth taken by the onboard cameras]({{ "onboard_1.jpg" | prepend: page.asset_path }})
 
-![An image of the earth taken by the onboard cameras]({% asset_path onboard_2.jpg%})
+![An image of the earth taken by the onboard cameras]({{ "onboard_2.jpg" | prepend: page.asset_path }})
 
 To analyse the solid sample collected from the upper troposphere a technique called [EDX](http://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy) was used. This showed a collection of small particulate right on the edge of the microscopes imaging capability. However, even though the particles were small, material classification could still be carried out and they were found to consist of silicon dioxide. 
 

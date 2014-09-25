@@ -1,5 +1,6 @@
 ---
 layout: default
+asset_path: /assets/
 ---
 
 <div class="row"><div class="col-md-12">
@@ -8,7 +9,7 @@ layout: default
             <p class="lead">Exploring Space</p>
         </div>
         <div class="col-md-5">
-            <img src="{% asset_path profile-picture.jpg %}" class="img-rounded img-responsive">
+            <img src="{{ "profile-picture.jpg" | prepend: page.asset_path }}" class="img-rounded img-responsive">
         </div>
     </div>
             
