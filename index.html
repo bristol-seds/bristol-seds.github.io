@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="row"><div class="col-md-12">
+    <div class="jumbotron row">   
+        <div class="col-md-7"><h1 id="hello">Hello, world!</h1>
+            <p class="lead">Exploring Space</p>
+        </div>
+        <div class="col-md-5">
+            <img src="{% asset_path profile-picture.jpg %}" class="img-rounded img-responsive">
+        </div>
+    </div>
+            
+    <div class="panel panel-default">
+        <div class="panel-body bg-warning">
+            I'm still making this website, so please excuse the mess.
+        </div>
+    </div>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+    </div>
+</div>
