@@ -3,10 +3,12 @@
 ---
 @charset "utf-8";
 
-
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400);
+$open-sans: 'Open Sans';
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: $open-sans, Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
