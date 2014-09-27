@@ -14,9 +14,6 @@ asset_path: /assets/
   <div class="carousel-inner">
     <div class="item active">
       <img src="{{ "slide1.png" | prepend: page.asset_path }}">
-      <div class="carousel-caption">
-	<h1 style="color:initial; text-shadow:none;">Students for the Exploration and Development of Space</h1>
-      </div>
     </div>
     <div class="item">
       <img src="{{ "slide2.jpg" | prepend: page.asset_path }}">
@@ -38,16 +35,16 @@ asset_path: /assets/
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
+    <li>
+    <span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    </li>
     {% endfor %}
   </ul>
 
-    </div>
+</div>
 </div>
 </div>
