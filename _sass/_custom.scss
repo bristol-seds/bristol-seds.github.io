@@ -4,6 +4,9 @@
 body {
     font-family: $base-font-family;
 }
+a:hover, a:focus {
+  text-decoration: none;
+}
 
 .navbar-brand strong {
   color: rgb(190,0,0);
@@ -54,6 +57,9 @@ pre {
     }
 }
 
+/**
+ * Committee Page
+ */
 
 #committee-gallery img {
   max-width:18rem;
@@ -61,6 +67,9 @@ pre {
 #committee-gallery li {
   border: solid white;
   margin: 20px
+}
+#committee-gallery a {
+  padding-right: 1em;
 }
 
 /**
@@ -102,4 +111,11 @@ pre {
   h4 {
     font-size: 20px;
   }
+}
+
+.glyphicon-warning-sign {
+  font-size: 4em;
+  color: #f77;
+  padding-right: 10px;
+  float: right
 }
