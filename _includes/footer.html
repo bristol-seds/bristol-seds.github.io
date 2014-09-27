@@ -36,6 +36,15 @@
           </a>
         </li>
       {% endif %}
+      {% if site.facebook_group %}
+      <li>
+     
+      <a href="https://www.facebook.com/groups/bristolseds/">
+	<img width="16" height="16" src="{{ "/assets/logos/facebook.png" | prepend: site.baseurl }}">
+	<span class="username">{{ site.facebook_group }}</span>
+      </a>
+      </li>
+      {% endif %}
 
     </ul>
   </div>
