@@ -6,10 +6,10 @@
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-	<span class="sr-only">Toggle navigation</span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
       <a href="{{ "/" | prepend: site.baseurl }}" class="navbar-brand">
         <strong>UBSEDS</strong>
@@ -17,16 +17,26 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#">Projects</a></li>
-	<li><a href="{{ "/committee.html" | prepend: site.baseurl }}">Committee</a></li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="{{ "/committee.html" | prepend: site.baseurl }}">Committee</a>
+        </li>
       </ul>
-      <a href="http://bris.ac.uk" class="navbar-text navbar-right">
-        University of Bristol 
-        <img style="margin-left:5px;" width="20" height="20" src="{{ "/assets/logos/bristol_university_logo.png" | prepend: site.baseurl }}">
-      </a>
-      <a href="http://ukseds.org" class="navbar-text navbar-right">
-	<img src="{{ "/assets/logos/uksedssmall.png" | prepend: site.baseurl }}">
-      </a>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="http://ukseds.org">
+            <img src="{{ "/assets/logos/uksedssmall.png" | prepend: site.baseurl }}">
+          </a>
+        </li>
+        <li>
+          <a href="http://bris.ac.uk">
+            University of Bristol 
+            <img style="margin-left:5px;" width="20" height="20" src="{{ "/assets/logos/bristol_university_logo.png" | prepend: site.baseurl }}">
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
