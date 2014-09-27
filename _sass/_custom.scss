@@ -5,6 +5,13 @@ body {
     font-family: $base-font-family;
 }
 
+.navbar-brand strong {
+  color: rgb(190,0,0);
+}
+.navbar-brand strong:hover {
+  color: rgb(140,0,0);
+}
+
 /**
  * Icons
  */
