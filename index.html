@@ -42,8 +42,12 @@ asset_path: /assets/
       class="img-responsive img-rounded">
     </div>
     <div class="col-md-8">
-      <h3>High-altitude balloon launch</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis ipsum, aliquet eget nunc a, malesuada lacinia dui. Nam pellentesque semper nulla, vel mattis nulla tristique nec. Sed vel odio suscipit, finibus erat eget, interdum libero. Integer at purus vitae lorem euismod ultrices sed vel est. Duis consequat lectus sit amet eros eleifend, sed efficitur urna hendrerit. </p>
+      {% for post in site.posts %}
+      {% if post.id == "/balloon/2014/06/15/hab-launch" %}
+      <h3>{{ post.title }}</h3>
+      <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
   <hr>
