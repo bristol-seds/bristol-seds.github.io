@@ -3,21 +3,38 @@ layout: default
 asset_path: /assets/
 ---
 
-<div class="row"><div class="col-md-12">
-    <div class="jumbotron row">
-        <div class="col-md-7"><h1 id="hello">Hello, world!</h1>
-            <p class="lead">Exploring Space</p>
-        </div>
-        <div class="col-md-5">
-            <img src="{{ "profile-picture.jpg" | prepend: page.asset_path }}" class="img-rounded img-responsive">
-        </div>
-    </div>
+<!--<img src="{{ "wide.jpg" | prepend: page.asset_path }}" class="img-responsive">-->
+<div id="image-carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target:"#image-carousel" data-slide-to="0" class="active"></li>
+    <li data-target:"#image-carousel" data-slide-to="1"></li>
+    <li data-target:"#image-carousel" data-slide-to="2"></li>
+  </ol>
 
-    <div class="panel panel-default">
-        <div class="panel-body bg-warning">
-            I'm still making this website, so please excuse the mess.
-        </div>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="{{ "slide1.png" | prepend: page.asset_path }}">
+      <div class="carousel-caption">
+	<h1 style="color:initial; text-shadow:none;">Students for the Exploration and Development of Space</h1>
+      </div>
     </div>
+    <div class="item">
+      <img src="{{ "slide2.jpg" | prepend: page.asset_path }}">
+    </div>
+    <div class="item">
+      <img src="{{ "slide3.jpg" | prepend: page.asset_path }}">
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#image-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#image-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+</div>
+<div class="container">
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -32,4 +49,5 @@ asset_path: /assets/
   </ul>
 
     </div>
+</div>
 </div>
