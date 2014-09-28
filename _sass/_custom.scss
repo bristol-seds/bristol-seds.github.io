@@ -8,6 +8,9 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+/**
+* Styling for the top left of the navbar
+*/
 .navbar-brand strong {
   color: rgb(190,0,0);
 }
@@ -19,11 +22,10 @@ a:hover, a:focus {
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
-        height: 16px;
+        height: 19px;
         vertical-align: text-bottom;
 
         path {
