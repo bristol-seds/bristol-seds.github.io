@@ -59,7 +59,7 @@ stories:
         {% if post.id == story.id %}
         <h2>{{ post.title }}</h2>
         <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-	<a class="btn btn-default btn-primary" href="{{ post.url }}">Read more...</a>
+	<p><a class="btn btn-default btn-primary" href="{{ post.url }}">Read more...</a></p>
         {% endif %}
         {% endfor %}
       </div>
