@@ -5,11 +5,15 @@ categories: rockoon
 asset_path: /assets/posts/bristol-rockoon/
 ---
 
-{% include old-notice.html %}
+
+Rockoons (Balloon launched rockets) were developed in the 1950's to provide a cheap way to access the space environment for scientific study. These early Rockoons consisted of surplus military rockets from world war two launched from below meteorological high altitude balloons. However with advances in high powered rocketry Rockoons were largely replaced, mostly due to the inherent unreliability and drift of the balloons.
+
+<!--more-->
 
 ## Introduction
 
-Rockoons (Balloon launched rockets) were developed in the 1950's to provide a cheap way to access the space environment for scientific study. These early Rockoons consisted of surplus military rockets from world war two launched from below meteorological high altitude balloons. However with advances in high powered rocketry Rockoons were largely replaced, mostly due to the inherent unreliability and drift of the balloons.
+{% include old-notice.html %}
+
 
 The basic premise behind a rockoon is to use a high altitude balloon to loft the rocket to around 35km, allowing it to launch above the majority of the atmosphere. This can be seen in empirically in graph 1, plotted using data from NASA. This significantly reduces the aerodynamic loading and drag forces on the rocket vehicle, which have the knock-on effect of reducing the amount of fuel needed to reach the Kármán line at 100 km (N.B. The Kármán line is the official edge of space!). A reduced fuel requirement means that either a smaller rocket can be used, or a larger payload can be launched. Basic calculations show that the velocity increment (ΔV) required to reach 100 km from a 35 km launch altitude are as low as 1.1 kms<sup>-1</sup>.
 
