@@ -1,9 +1,17 @@
 ---
 layout: default
 asset_path: /assets/
+stories:
+  - id: /balloon/2014/06/15/hab-launch
+    image: hab.jpg
+
+  - id: /pico-tracker/balloon/2014/08/01/pico-tracker
+    image: pico-tracker.jpg
+
+  - id: /rocket/2013/01/01/rocket-launch
+    image: rocketlaunch.jpg
 ---
 
-<!--<img src="{{ "wide.jpg" | prepend: page.asset_path }}" class="img-responsive">-->
 <div id="image-carousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#image-carousel" data-slide-to="0" class="active"></li>
@@ -36,60 +44,36 @@ asset_path: /assets/
   <p class="lead">We are the Bristol branch of UKSEDS (UK Students for the Exploration and
   Development of Space. Here are some projects that we've done.</p>
 
-  <div class="row">
-    <div class="col-md-4">
-      <img src="{{ "hab.jpg" | prepend: page.asset_path }}" 
-      class="img-responsive img-rounded">
-    </div>
-    <div class="col-md-8">
-      {% for post in site.posts %}
-      {% if post.id == "/balloon/2014/06/15/hab-launch" %}
-      <h3>{{ post.title }}</h3>
-      <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+  {% for story in page.stories %}
+    {% capture image %}{% cycle 'odd', 'even' %}{% endcapture %}
+  
+    <div class="row">  
+      {% if image == 'odd' %}
+        <div class="col-md-4">
+          <img src="{{ story.image | prepend: page.asset_path }}" 
+          class="img-responsive img-rounded">
+        </div>
       {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-8">
-       {% for post in site.posts %}
-      {% if post.id == "/pico-tracker/balloon/2014/08/01/pico-tracker" %}
-      <h3>{{ post.title }}</h3>
-      <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+      <div class="col-md-8">
+        {% for post in site.posts %}
+        {% if post.id == story.id %}
+        <h3>{{ post.title }}</h3>
+        <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        {% endif %}
+        {% endfor %}
+      </div>
+      {% if image == 'even' %}
+        <div class="col-md-4">
+          <img src="{{ story.image | prepend: page.asset_path }}" 
+          class="img-responsive img-rounded">
+        </div>
       {% endif %}
-      {% endfor %}
     </div>
-    <div class="col-md-4">
-      <img src="{{ "pico-tracker.jpg" | prepend: page.asset_path }}" 
-      class="img-responsive img-rounded">
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-4">
-      <img src="{{ "rocketlaunch.jpg" | prepend: page.asset_path }}" 
-      class="img-responsive img-rounded">
-    </div>
-    <div class="col-md-8">
-      <h3>Rocket launch</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis ipsum, aliquet eget nunc a, malesuada lacinia dui. Nam pellentesque semper nulla, vel mattis nulla tristique nec. Sed vel odio suscipit, finibus erat eget, interdum libero. Integer at purus vitae lorem euismod ultrices sed vel est. Duis consequat lectus sit amet eros eleifend, sed efficitur urna hendrerit.</p>
-    </div>
-  </div>
-  <hr>
+    <hr>
+  {% endfor %}
+
+
   <h1>Join us!</h1>
   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis ipsum, aliquet eget nunc a, malesuada lacinia dui. Nam pellentesque semper nulla, vel mattis nulla tristique nec. Sed vel odio suscipit, finibus erat eget, interdum libero. </p>
-
-  <!--  <ul class="post-list">
-    {% for post in site.posts %}
-    <li>
-    <span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
-
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    </li>
-    {% endfor %}
-  </ul>-->
 
 </div>
