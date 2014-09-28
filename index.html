@@ -53,11 +53,15 @@ asset_path: /assets/
   <hr>
   <div class="row">
     <div class="col-md-8">
-      <h3>Mini trackers</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis ipsum, aliquet eget nunc a, malesuada lacinia dui. Nam pellentesque semper nulla, vel mattis nulla tristique nec. Sed vel odio suscipit, finibus erat eget, interdum libero. Integer at purus vitae lorem euismod ultrices sed vel est. Duis consequat lectus sit amet eros eleifend, sed efficitur urna hendrerit.</p>
+       {% for post in site.posts %}
+      {% if post.id == "/pico-tracker/balloon/2014/08/01/pico-tracker" %}
+      <h3>{{ post.title }}</h3>
+      <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+      {% endif %}
+      {% endfor %}
     </div>
     <div class="col-md-4">
-      <img src="{{ "mini-tracker.jpg" | prepend: page.asset_path }}" 
+      <img src="{{ "pico-tracker.jpg" | prepend: page.asset_path }}" 
       class="img-responsive img-rounded">
     </div>
   </div>
