@@ -12,7 +12,7 @@ stories:
     image: rocketlaunch.jpg
 ---
 
-<div id="image-carousel" class="carousel slide" data-ride="carousel">
+<div id="image-carousel" class="carousel slide carousel-max-width" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#image-carousel" data-slide-to="0" class="active"></li>
     <li data-target="#image-carousel" data-slide-to="1"></li>
@@ -21,7 +21,7 @@ stories:
 
   <div class="carousel-inner">
     <div class="item active">
-      <img src="{{ "slide1.png" | prepend: page.asset_path }}">
+      <img src="{{ "slide1.jpg" | prepend: page.asset_path }}">
     </div>
     <div class="item">
       <img src="{{ "slide2.jpg" | prepend: page.asset_path }}">
@@ -57,8 +57,9 @@ stories:
       <div class="col-md-8">
         {% for post in site.posts %}
         {% if post.id == story.id %}
-        <h3>{{ post.title }}</h3>
+        <h2>{{ post.title }}</h2>
         <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+	<a class="btn btn-default btn-primary" href="{{ post.url }}">Read more...</a>
         {% endif %}
         {% endfor %}
       </div>
