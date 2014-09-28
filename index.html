@@ -40,7 +40,7 @@ stories:
 
 </div>
 <div class="container">
-  <h1>We send stuff into near space <small>and sometimes get it back again</small></h1>
+  <h1>We send stuff into the stratosphere <small>and sometimes get it back again</small></h1>
   <p class="lead">We are the Bristol branch of UKSEDS (UK Students for the Exploration and
   Development of Space). Here are some projects that we've done.</p>
 
@@ -59,7 +59,7 @@ stories:
         {% if post.id == story.id %}
         <h2>{{ post.title }}</h2>
         <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-	<a class="btn btn-default btn-primary" href="{{ post.url }}">Read more...</a>
+	<p><a class="btn btn-default btn-primary" href="{{ post.url }}">Read more...</a></p>
         {% endif %}
         {% endfor %}
       </div>
