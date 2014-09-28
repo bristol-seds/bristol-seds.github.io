@@ -57,8 +57,9 @@ stories:
       <div class="col-md-8">
         {% for post in site.posts %}
         {% if post.id == story.id %}
-        <h3>{{ post.title }}</h3>
+        <h2>{{ post.title }}</h2>
         <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+	<a class="btn btn-default btn-primary" href="{{ post.url }}">Read more...</a>
         {% endif %}
         {% endfor %}
       </div>
