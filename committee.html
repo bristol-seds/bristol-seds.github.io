@@ -9,7 +9,7 @@ people:
 
   - image: richard.53640.jpg
     name: Richard Meadows
-    link: richard
+    link: richardeoin
     bio: 2nd Year Undergraduate Electrical and Electronic Engineering
     role: Treasurer
     github: richardeoin
@@ -35,7 +35,7 @@ people:
 
   <ul id="committee-gallery" class="list-group">
     {% for person in page.people %}
-      <li class="list-group-item">
+      <li class="list-group-item" id="{{ person.link }}">
           <img src="assets/people/{{ person.image }}" class="img-circle">
         <h1><strong>{{ person.name }}</strong></h1>
         <h5><small>{{ person.bio }}</small></h5>
