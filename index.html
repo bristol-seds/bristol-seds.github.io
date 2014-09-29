@@ -48,13 +48,11 @@ stories:
     {% capture image %}{% cycle 'odd', 'even' %}{% endcapture %}
   
     <div class="row">  
-      {% if image == 'odd' %}
-        <div class="col-md-4">
+      <div class="col-md-4 {% if image == 'even' %}col-md-push-8{% endif %}">
           <img src="{{ story.image | prepend: page.asset_path }}" 
           class="img-responsive img-rounded">
         </div>
-      {% endif %}
-      <div class="col-md-8">
+      <div class="col-md-8 {% if image == 'even' %}col-md-pull-4{% endif %}">
         {% for post in site.posts %}
         {% if post.id == story.id %}
         <h2>{{ post.title }}</h2>
@@ -63,12 +61,6 @@ stories:
         {% endif %}
         {% endfor %}
       </div>
-      {% if image == 'even' %}
-        <div class="col-md-4">
-          <img src="{{ story.image | prepend: page.asset_path }}" 
-          class="img-responsive img-rounded">
-        </div>
-      {% endif %}
     </div>
     <hr>
   {% endfor %}
