@@ -3,6 +3,9 @@ layout: post
 title:  "High-altitude balloon launch"
 date:   2014-06-15 10:00:00
 categories: balloon
+asset_path: /assets/posts/buseds1/
+maps:
+  - url: trajectory.js 
 ---
 
 The main project of 2013/2014 was to launch a high-altitude balloon into the stratosphere, where it could take photos and video, and to subsequently recover it. The balloon was successfully launched on the 15th June from an airfield near Tewksebury, Cheltenham, and landed near Glastonbury. It reached an altitude of 32 km, and spent about 3 hours in the air.
@@ -10,26 +13,6 @@ The main project of 2013/2014 was to launch a high-altitude balloon into the str
 <!--more-->
 
 ### Trajectory
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-<script>
-  function initialize() {
-    var bath = new google.maps.LatLng(51.375801,-2.3599039);
-    var mapOptions = {
-      zoom: 10,
-      center: bath 
-    }
-
-    var map = new google.maps.Map(document.getElementById('balloon-trajectory'), mapOptions);
-
-    var ctaLayer = new google.maps.KmlLayer({
-      url: 'http://www.samhatfield.co.uk/balloon/balloonpath.kml'
-    });
-    ctaLayer.setMap(map);
-  }
-
-  google.maps.event.addDomListener(window, 'load', initialize);
-
-</script>
 <div class="map-canvas" id="balloon-trajectory"></div>
 
 ### Payload
