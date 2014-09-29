@@ -37,8 +37,13 @@ a:hover, a:focus {
 /**
 * Carousel
 */
-.carousel-max-width {
+.carousel-max-width-1920 {
   max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-max-width-800 {
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }

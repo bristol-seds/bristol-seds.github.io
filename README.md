@@ -14,6 +14,17 @@ Start Jekyll:
 
 Note that changes to `_config.yml` may require restarting the server.
 
+## Adding photo carousels
+
+First put all photos in the `asset_path` directory for a post. Then list all in the front-matter like so:
+
+    photos:
+      - url: photo1.jpg
+      - url: photo2.jpg
+      - url: photo3.jpg
+
+Then simply add {% raw %}`{% include carousel.html %}`{% raw %} where you want the carousel.
+
 ## Adding Javascript to posts
 
 Make sure your post has an `asset_path` key-value pair.
