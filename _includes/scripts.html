@@ -24,3 +24,10 @@
     ga('create', 'UA-XXXXX-X', '');
     ga('send', 'pageview');
 </script>
+
+{% if page.maps %}
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+{% for map in page.maps %}
+<script src="{{ map.url | prepend: page.asset_path }}"></script>
+{% endfor %}
+{% endif %}
