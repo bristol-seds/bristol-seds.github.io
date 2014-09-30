@@ -66,7 +66,9 @@ for i in range(0, len(data)-1):
     end   = [data[i+1][1], data[i+1][2], data[i+1][3] + earth_radius]
     dist = ground_distance_covered(start, end)
     ground_speed = dist / timeDiff
-    final_data.append([thisTime, ground_speed])
+
+    alt_speed = (data[i+1][3] - data[i][3]) / timeDiff
+    final_data.append([thisTime, ground_speed, alt_speed])
 
 for i in range(0, len(final_data)):
   print final_data[i][0], final_data[i][1]

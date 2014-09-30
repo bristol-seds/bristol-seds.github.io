@@ -6,32 +6,35 @@ var w = 400;
 var h = 300;
 
 // Import data
-var data = [];
 d3.text("{{ "balloon_coords.csv" | prepend: "http://www.bristol-seds.co.uk/assets/posts/buseds1/" }}", function(text) {
-  var rawData = d3.csv.parseRows(text);
+//d3.text("{{ "balloon_coords.csv" | prepend: "http://0.0.0.0:4000/assets/posts/buseds1/" }}", function(text) {
+    var rawData = d3.csv.parseRows(text);
 
-  parsetime = d3.time.format("%H:%M:%S").parse;
-  // Convert non-date values to numbers
-  for (var i = 0; i < rawData.length; i++) {
-    data.push({"x": parsetime(rawData[i][0]), "y": Number(rawData[i][3])})
-  }
-  dataseries = [{"values": data, "key": "Altitude", "color": '#ff7f0e'}];
+    parsetime = d3.time.format("%H:%M:%S").parse;
 
-  nv.addGraph(function() {
-    var chart = nv.models.lineChart().margin({left: 80, right: 40});
-    chart.xAxis.tickFormat(function (d) {
-      return d3.time.format("%H:%M:%S")(new Date(d))
+    var data = [];
+    // Convert non-date values to numbers
+    for (var i = 0; i < rawData.length; i++) {
+      data.push({"x": parsetime(rawData[i][0]), "y": Number(rawData[i][3])});
+    }
+    dataseries = [{"values": data, "key": "Altitude", "color": 'FireBrick'}];
+
+    nv.addGraph(function() {
+      var chart = nv.models.lineChart().margin({left: 80, right: 40});
+      chart.xAxis.tickFormat(function (d) {
+	return d3.time.format("%H:%M:%S")(new Date(d));
+      });
+      chart.xAxis.axisLabel('Time');
+      chart.yAxis.axisLabel('Altitude (m)');
+      chart.tooltips(false);
+
+      chart.showLegend(false);
+      d3.select("#alt-time")
+      .attr("width", w).attr("height", h)
+      .datum(dataseries).call(chart);
+    nv.utils.windowResize(function() { chart.update() });
+    return chart;
     });
-    chart.xAxis.axisLabel('Time')
-    chart.yAxis.axisLabel('Altitude (m)')
-
-    chart.showLegend(false);
-  d3.select("#alt-time")
-    .attr("width", w).attr("height", h)
-    .datum(dataseries).call(chart);
-  nv.utils.windowResize(function() { chart.update() });
-  return chart;
-  });
 });
 
 

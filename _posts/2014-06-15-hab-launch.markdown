@@ -34,9 +34,13 @@ The balloon was also equipped with two cameras; a GoPro Hero 3 mounted to the bo
 ### Data
 <div class="row">
   <div class="col-md-6">
-    <svg id="alt-time"></svg>
+    <div>
+      <svg id="alt-time"></svg>
+    </div>
   </div>
   <div class="col-md-6">
-    <svg id="speed-time"></svg>
+    <div>
+      <svg id="speed-time"></svg>
+    </div>
   </div>
 </div>
