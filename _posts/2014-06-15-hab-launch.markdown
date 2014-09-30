@@ -6,6 +6,8 @@ categories: balloon
 asset_path: /assets/posts/buseds1/
 maps:
   - url: trajectory.js 
+graphs:
+  - url: plot1.js
 photos:
   - url: IMG_2026.JPG
   - url: IMG_2068.JPG
@@ -29,3 +31,8 @@ The main payload carried by the balloon contained two flight computers. The firs
 The balloon was also equipped with two cameras; a GoPro Hero 3 mounted to the bottom capturing 1080p footage at 30 fps and an ordinary Canon point-and-shoot programmed to take photos every 15 seconds. For the latter, we opted for the [Canon Hack Development Kit (CHDK)](http://chdk.wikia.com/wiki/CHDK), an open source custom firmware for Canon cameras.
 
 ### Data
+<div class="row">
+  <div class="col-md-6">
+    <svg id="alt-time"></svg>
+  </div>
+</div>
