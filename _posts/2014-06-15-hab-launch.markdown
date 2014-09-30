@@ -8,6 +8,7 @@ maps:
   - url: trajectory.js 
 graphs:
   - url: plot1.js
+  - url: plot2.js
 photos:
   - url: IMG_2026.JPG
   - url: IMG_2068.JPG
@@ -34,5 +35,8 @@ The balloon was also equipped with two cameras; a GoPro Hero 3 mounted to the bo
 <div class="row">
   <div class="col-md-6">
     <svg id="alt-time"></svg>
+  </div>
+  <div class="col-md-6">
+    <svg id="speed-time"></svg>
   </div>
 </div>

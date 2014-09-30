@@ -42,7 +42,8 @@ data = []
 with open(file_path, 'rb') as csvfile:
     file_reader = csv.reader(csvfile)
     for row in file_reader:
-        thisDateTime = datetime.strptime(row[0], '%H:%M:%S')
+        launch_date = '2014-06-15 '
+        thisDateTime = datetime.strptime(launch_date + row[0], '%Y-%m-%d %H:%M:%S')
         formattedRow = []
         formattedRow.append(time.mktime(thisDateTime.timetuple()))# Time
         formattedRow.append(math.radians(float(row[1])))# Latitude
@@ -51,21 +52,28 @@ with open(file_path, 'rb') as csvfile:
         data.append(formattedRow)
 
 
-offset = data[0][0]# might as well offset the UNIX timestamps so that the first starts at zero
 final_data = []
 
+out_file = open('speed.csv', 'w')
+file_writer = csv.writer(out_file)
+
 for i in range(0, len(data)-1):
-    thisTime = data[i][0]   - offset
-    nextTime = data[i+1][0] - offset
+    thisTime = data[i][0]
+    nextTime = data[i+1][0]
     timeDiff = nextTime - thisTime
 
     start = [data[i][1],   data[i][2],   data[i][3]   + earth_radius]
     end   = [data[i+1][1], data[i+1][2], data[i+1][3] + earth_radius]
     dist = ground_distance_covered(start, end)
     ground_speed = dist / timeDiff
-    final_data.append(ground_speed)
-    print i, ground_speed
+    final_data.append([thisTime, ground_speed])
 
-print float(sum(final_data))/len(final_data)
+for i in range(0, len(final_data)):
+  print final_data[i][0], final_data[i][1]
+
+
+with open('speed.csv', 'w') as file_pointer:
+    file_writer = csv.writer(file_pointer, delimiter=',')
+    file_writer.writerows(final_data)
 
 
