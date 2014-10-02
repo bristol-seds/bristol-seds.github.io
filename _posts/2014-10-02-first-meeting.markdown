@@ -63,7 +63,7 @@ Probably not that far.
 ---
 ---
 
-* Or make you balloon our of a material that's not going to pop so easily
+* Or make the balloon out of a material that's not going to pop so easily
 
 ---
 ---
