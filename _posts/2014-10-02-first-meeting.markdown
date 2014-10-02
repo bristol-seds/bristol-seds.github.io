@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "High Altitude Ballooning"
-date:   2014-10-02 10:00:00
-categories:
+title:  "First Meeting 2014: High Altitude Ballooning"
+date:   2014-10-02 13:10:00
+categories: presentation 2014 meeting
 asset_path: /assets/posts/buseds1/
 photos:
   - url: IMG_2026.JPG
@@ -379,5 +379,3 @@ We could give these away to schools -- with instructions and our help -- and see
 ---
 ---
 ---
-
-## __Ultimately it's up to you__
