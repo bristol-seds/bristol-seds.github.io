@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "UBSEDS2"
+categories: pico-tracker balloon launch
+asset_path: /assets/posts/ubseds2/
+maps:
+  - url: trajectory.js 
+---
+
+This was the very first launch of the pico tracker. It was an overall success as the tracker functioned perfectly until the battery was fully discharged.
+
+It was a joint launch with [SUSF](http://www.susf.co.uk) and [CUSF](http://www.cusf.co.uk) from [EMF Camp](http://www.emfcamp.org) on 31st August 2014.
+
+<!--more-->
+
+## The Board
+
+During the first revision board bring-up we found that the DFLL inside the Atmel SAM D20 was hilariously unsuitable for generating the HF clock. To be quite fair to Atmel it is made clear that the DFLL was not at all designed for this, useful resources here here here.
+
+To work around this a 16MHz crystal was soldered - dead bug style - onto the radio's crystal driver. This wasn't ideal, but at least the clock jitter was vaguely reasonable!
+
+![The pico tracker before launch]({{ "payload.jpg" | prepend: page.asset_path }})
+
+### <small>The pico tracker before launch. A small piece of cardboard has been placed on the battery so that tracker can be kept de-activated.</small>
+
+## Launch
+
+With all three payloads active and attached to a 100g balloon, the flight was ready to go.
+
+![The balloon about to be released]({{ "launch.jpg" | prepend: page.asset_path }})
+
+### <small>[Phil Crump](https://www.philcrump.co.uk) from [SUSF](http://www.susf.co.uk) about to release the balloon.</small>
+
+## Trajectory
+<div class="map-canvas" id="balloon-trajectory"></div>
+
+----
+
+The assent rate was much lower that planned: It averaged about 1.1ms<sup>-1</sup> for most of the flight.
+
+## Lessons learnt
+
+- Batteries do not give their full capacity in flight. An attempt at power saving is required!
+- Measuring temperature in flight is useful. We didn't have time to add this before launch.
+

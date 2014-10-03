@@ -1,14 +1,8 @@
 function initialize() {
-//  var bath = new google.maps.LatLng(51.375801,-2.3599039);
-//  var mapOptions = {
-//    zoom: 10,
-//    center: bath 
-//  }
-
   var map = new google.maps.Map(document.getElementById('balloon-trajectory'), {});
 
   var ctaLayer = new google.maps.KmlLayer({
-    url: 'http://www.samhatfield.co.uk/balloon/balloonpath.kml'
+    url: 'http://www.bristol-seds.co.uk/assets/posts/ubseds2/path.kml'
   });
   ctaLayer.setMap(map);
 }
