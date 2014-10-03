@@ -16,8 +16,8 @@ d3.text("{{ "speed.csv" | prepend: "/assets/posts/buseds1/" }}", function(text) 
       dataGroundSpeed.push({"x": Number(rawData2[i][0]), "y": Number(rawData2[i][1])});
       dataAltSpeed.push({"x": Number(rawData2[i][0]), "y": Number(rawData2[i][2])});
     }
-    dataseries2 = [{"values": dataGroundSpeed, "key": "Ground speed", "color": 'steelblue'},
-    {"values": dataAltSpeed,    "key": "Rate of elevation", "color": 'rgb(44,160,44)'}];
+    dataseries2 = [{"values": dataGroundSpeed, "key": "Ground speed", "color": 'steelblue' },
+                   {"values": dataAltSpeed,    "key": "Ascent Rate", "color": 'rgb(44,160,44)'}];
 
     nv.addGraph(function() {
       var chart2 = nv.models.lineChart().margin({left: 80, right: 40});
