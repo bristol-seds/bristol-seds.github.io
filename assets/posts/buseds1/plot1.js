@@ -6,7 +6,7 @@ var w = 400;
 var h = 300;
 
 // Import data
-d3.text("{{ "balloon_coords.csv" | prepend: "http://www.bristol-seds.co.uk/assets/posts/buseds1/" }}", function(text) {
+d3.text("{{ "balloon_coords.csv" | prepend: "/assets/posts/buseds1/" }}", function(text) {
 //d3.text("{{ "balloon_coords.csv" | prepend: "http://0.0.0.0:4000/assets/posts/buseds1/" }}", function(text) {
     var rawData = d3.csv.parseRows(text);
 
