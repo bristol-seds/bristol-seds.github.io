@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Old site"
+categories: test
+asset_path: /assets/posts/old-site/
+---
+
+<!-- more -->
+
+The old site was at [https://sites.google.com/site/bristolseds/home](https://sites.google.com/site/bristolseds/home)
+
+Also there was a [google group](https://groups.google.com/forum/embed/?parenturl=https%3A%2F%2Fsites.google.com%2Fsite%2Fbristolseds%2Fmembers-area%2Fdiscussion&service=jotspot&ul=1&theme=default&place=forum%2Fbristolseds&showpopout=true&showsearch=true#!forum/bristolseds)
+
+All the pages apart from the following got transfered to the new site:
+
+# Front Page 
+
+Space has always been seen by the general public and the scientific community as the playground of governments who are able to spend millions of pounds on performing cutting edge science. Here at Bristol SEDS we say why should they have all the fun!
+
+There have been a number of student run projects across the world recently that have shown that you don´t need a government sized budget to do some amazing space projects. All you really need is an idea, a little ingenuity and most importantly of all a limitless supply of duct tape!
+
+So we have decided to team up with UKSEDS to create Bristol SEDS the University of Bristol's very own space agency! Our aim is to raise interest in space and most importantly of all to help students have some fun!
+
+The long term goal of Bristol SEDS is to develop a space launch capability for UKSEDS. To achieve this we are developing a high powered rockoon (rocket launched from a high altitude balloon) and a Picosat to act as an experimental subsystem for UKSEDS science projects. The aim is to achieve a launch cost of less than £2000 to put 2-3 Picosats at a time into space for 5-15 minute suborbital flights. The rockoon is being developed with help from Aspirespace members and is open to the whole of the UKSEDS community.
+
+By participating in the projects students will gain experience in working together to a common goal in a research environment and will learn to organise themselves effectively and gain vital research skills. 
+Alongside the set projects students are free to suggest any project that they wish and we will help them to find interested people and give information on how to start and progress with a project, where to find resources, and places to look to for potential sponsorship.
+
+If you are interested in taking part in any of our projects please email bristolseds@gmail.com.
+
+# About Us
+
+Bristol SEDS was founded in the 2010-2011 academic year by Jim Sadler and Damian Rumble as a way to encourage students wish a passion for space, to apply the knowledge from their degrees in a practical way.
+
+Bristol SEDS first project was a High Altitude Balloon (HAB) mission to collect cloud nucleation particles from the upper troposphere.  This project was aptly named DUST, and was completed successfully in August 2011.
+
+With the success of the DUST project in its first year, Bristol SEDS has decided to set its sights higher...much higher. After a meeting of the new committee, and spurred on by the eagerness of the UKSEDS community, it was decided that Bristol SEDS new projects should aim to do what every SEDS member aspires to, put an object into space. This left Bristol SEDS with a new mission statement: 
+
+To design and construct a space technology infrastructure for use by the UKSEDS community. 
+
+This infrastructure will aid students in the construction and launch of experiments to be performed in the space environment. 
+
+It will also allow them to apply the skills from their degrees in a constructive way and give them experience that will be beneficial for their future careers. 
+
+To achieve this rather ambitious mission statement two main technologies are required. The first is a launch system to achieve insertion into the space environment, and the second is a satellite module capable of surviving in the space environment. These form the basis of Bristol SEDS two main projects, the Bristol Rockoon and the Pico3 Satellite Subsystem
