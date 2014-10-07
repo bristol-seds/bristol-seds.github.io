@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pico<sup>3</sup>"
+title:  "Pico3"
 categories: rockoon
 asset_path: /assets/posts/pico-cubed/
 ---
