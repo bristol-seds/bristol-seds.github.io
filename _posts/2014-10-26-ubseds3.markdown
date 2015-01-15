@@ -3,6 +3,9 @@ layout: post
 title:  "UBSEDS3"
 categories: pico-tracker balloon launch
 asset_path: /assets/posts/ubseds3/
+graphs:
+  - url: plot1.js
+  - url: plot2.js
 ---
 
 The launch of UBSEDS3 is planned for noon on 26th October 2014 ([UKHAS Launch Announcment](https://groups.google.com/d/msg/ukhas/Tzg2VEQuJ9w/LoL_P7tkEE0J)). The  [pico tracker](/pico-tracker/balloon/2014/08/01/pico-tracker.html) will be built into a paper plane and launched inside a High Altitude Balloon by the [MARSBalloon team](http://marsballoon.com/). When the balloon bursts, the paper plane will hopefully glide back down to earth.
@@ -37,5 +40,20 @@ We've made several improvements since the last launch:
 ![PCB with spray lacquer]({{ "tracker_for_scale.jpg" | prepend: page.asset_path }})
 
 ### <small>The PCB has been sprayed with laqcuer for protection against damp on the way back down through the troposphere.</small>
+
+
+### Data
+<div class="row">
+  <div class="col-md-6">
+    <div>
+      <svg id="alt-time"></svg>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div>
+      <svg id="speed-time"></svg>
+    </div>
+  </div>
+</div>
 
 <!--<div class="map-canvas" id="balloon-trajectory"></div>-->
