@@ -6,6 +6,9 @@ categories: balloon
 asset_path: /assets/posts/buseds1/
 maps:
   - url: trajectory.js
+graphs:
+  - url: plot1.js
+  - url: plot2.js
 
 photos:
   - url: IMG_2026.JPG
