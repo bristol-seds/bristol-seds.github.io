@@ -6,8 +6,8 @@ Available at http://bristol-seds.github.io/.
 
 You need Jekyll installed:
 
-    $ sudo gem install jekyll
-    
+    $ sudo gem install jekyll RedCloth
+
 Start Jekyll:
 
     $ jekyll serve --watch
@@ -40,4 +40,4 @@ a script containing a Google Maps generator as its value, e.g.:
 
 The scripts should be placed in the `asset_path` directory.
 For each map, insert a `<div>` tag into the post, with a unique ID referenced by the map generator script.
-**TO-DO**: Google Maps KML files must be hosted publicly. Find a way to automatically insert the KML file's fully-qualified url into a map script. Currently I'm just hosting them from http://samhatfield.co.uk 
+**TO-DO**: Google Maps KML files must be hosted publicly. Find a way to automatically insert the KML file's fully-qualified url into a map script. Currently I'm just hosting them from http://samhatfield.co.uk
