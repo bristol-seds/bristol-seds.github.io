@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "UBSEDS2"
-categories: pico-tracker balloon launch
+categories: balloon launch
 asset_path: /assets/posts/ubseds2/
 maps:
-  - url: trajectory.js 
+  - url: trajectory.js
 ---
 
 This was the very first launch of the pico tracker. It was an overall success as the tracker functioned perfectly until the battery was fully discharged.
@@ -42,4 +42,3 @@ The assent rate was much lower that planned: It averaged about 1.1ms<sup>-1</sup
 
 - Batteries do not give their full capacity in flight. An attempt at power saving is required!
 - Measuring temperature in flight is useful. We didn't have time to add this before launch.
-

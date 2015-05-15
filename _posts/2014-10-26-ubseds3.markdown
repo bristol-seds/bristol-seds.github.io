@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "UBSEDS3"
-categories: pico-tracker balloon launch
+categories: balloon launch
 asset_path: /assets/posts/ubseds3/
 graphs:
   - url: plot1.js

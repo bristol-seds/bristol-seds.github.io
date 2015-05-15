@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reflow Soldering"
-categories: pico-tracker soldering reflow
+categories: soldering reflow
 asset_path: /assets/posts/pico-reflow/
 ---
 
