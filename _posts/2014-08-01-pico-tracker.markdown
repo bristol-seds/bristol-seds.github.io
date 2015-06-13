@@ -3,7 +3,7 @@ layout: post
 title:  "Pico Tracker"
 date:   2014-08-01 00:00:00
 asset_path: /assets/
-categories: balloon
+categories: hab
 ---
 
 In recent months the society has been working to build a "pico"

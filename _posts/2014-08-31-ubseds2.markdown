@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "UBSEDS2"
-categories: balloon launch
-asset_path: /assets/posts/ubseds2/
+categories: hab flight
+asset_path: /assets/flights/2/
 maps:
   - url: trajectory.js
 ---

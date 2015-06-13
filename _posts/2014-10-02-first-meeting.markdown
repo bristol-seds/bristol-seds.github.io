@@ -2,14 +2,14 @@
 layout: post
 title:  "First Meeting 2014: High Altitude Ballooning"
 date:   2014-10-02 13:10:00
-categories: presentation 2014 meeting
+categories: presentation meeting
 asset_path: /assets/posts/buseds1/
 photos:
   - url: IMG_2026.JPG
   - url: IMG_2068.JPG
   - url: IMG_2117.JPG
   - url: IMG_2189.JPG
-  - url: IMG_2406.JPG 
+  - url: IMG_2406.JPG
 ---
 
 # __Have you ever wondered where helium balloons go when you let go?__

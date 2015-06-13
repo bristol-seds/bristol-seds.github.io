@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "UBSEDS3"
-categories: balloon launch
-asset_path: /assets/posts/ubseds3/
+categories: hab flight
+asset_path: /assets/flights/3/
 graphs:
   - url: plot1.js
   - url: plot2.js
