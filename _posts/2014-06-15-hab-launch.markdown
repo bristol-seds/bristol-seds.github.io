@@ -9,7 +9,6 @@ maps:
 graphs:
   - url: plot1.js
   - url: plot2.js
-
 photos:
   - url: IMG_2026.JPG
   - url: IMG_2068.JPG
@@ -24,8 +23,7 @@ The main project of 2013/2014 was to launch a high-altitude balloon into the str
 
 {% include carousel.html %}
 
-### Trajectory
-<div class="map-canvas" id="balloon-trajectory"></div>
+{% include flight/map.html %}
 
 ### Payload
 The main payload carried by the balloon contained two flight computers. The first was an [LPCXpresso](http://www.lpcware.com/lpcxpresso) microcontroller fitted with an ARM processor. This interfaced with the environmental sensors (barometers, thermometers et cetera) and the GPS receiver and relayed the data via radio. We then received this data using a portable radio receiver and uploaded it to the [habhub](http://habhub.org/) server, where it could be corroborated with other tracking data and plotted on a map. See Richard Meadows' [github](https://github.com/richardeoin/buseds-hab/tree/master/lpc-src) page for the lpc source code. The second computer was an mBed, which also received data from the GPS module and sent it via a GSM modem to an ordinary mobile phone, telling us where the balloon was. Unfortunately, this computer failed for some reason, but it wasn't essential.
