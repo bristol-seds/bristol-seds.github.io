@@ -328,7 +328,7 @@ flight:
 flight_map: /assets/flights/6/flight_map.kml
 layout: post
 speed_plot: /assets/flights/6/speed_plot.csv
-title: "UBSEDS6"
+title: UBSEDS6
 ---
 
 <!--more-->
