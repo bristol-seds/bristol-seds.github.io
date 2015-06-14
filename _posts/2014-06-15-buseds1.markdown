@@ -88,11 +88,11 @@ layout: post
 speed_plot: /assets/flights/1/speed_plot.csv
 title: BUSEDS1
 photos:
-  - url: IMG_2026.JPG
-  - url: IMG_2068.JPG
-  - url: IMG_2117.JPG
-  - url: IMG_2189.JPG
-  - url: IMG_2406.JPG
+  - /assets/flights/1/IMG_2026.JPG
+  - /assets/flights/1/IMG_2068.JPG
+  - /assets/flights/1/IMG_2117.JPG
+  - /assets/flights/1/IMG_2189.JPG
+  - /assets/flights/1/IMG_2406.JPG
 ---
 
 The main project of 2013/2014 was to launch a high-altitude balloon into the stratosphere, where it could take photos and video, and to subsequently recover it. The balloon was successfully launched on the 15th June from an airfield near Tewksebury, Cheltenham, and landed near Glastonbury. It reached an altitude of 32 km, and spent about 3 hours in the air.
