@@ -15,21 +15,7 @@
                     <tessellate>1</tessellate>
                     <altitudeMode>absolute</altitudeMode>
                     <coordinates>
-    0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
--2.59142,51.46387,313
+    -2.59142,51.46387,313
 -2.59313,51.46365,360
 -2.59493,51.4636,423
 -2.59666,51.46369,482
@@ -585,12 +571,12 @@
             <name>Launch, Burst and Landing Points</name>
             <Placemark>
                 <name>Launch</name>
-                <description>temperature_internal: 25.8, battery: 1.35, altitude: 0, time: 17:18:36, _sentence: $$UBSEDS4,17:18:36,0.00000,0.00000,0,0,1.35,25.8,-48*EDE9
-, longitude: 0.0, _raw: JCRVQlNFRFM0LDE3OjE4OjM2LDAuMDAwMDAsMC4wMDAwMCwwLDAsMS4zNSwyNS44LC00OCpFREU5Cg==, satellites: 0, _fix_invalid: True, _protocol: UKHAS, _parsed: {u'time_parsed': u'2015-03-21T17:18:58Z', u'payload_configuration': u'ba3931c823e9136cafc5c6fc04f79616', u'configuration_sentence_index': 0}, latitude: 0.0, payload: UBSEDS4, tcxo_drift: -48</description>
+                <description>temperature_internal: 18.7, battery: 1.5, altitude: 313, time: 12:09:31, _sentence: $$UBSEDS4,12:09:31,51.46387,-2.59142,313,5,1.50,18.7,7124*9B83
+, longitude: -2.59142, _raw: JCRVQlNFRFM0LDEyOjA5OjMxLDUxLjQ2Mzg3LC0yLjU5MTQyLDMxMyw1LDEuNTAsMTguNyw3MTI0KjlCODMK, satellites: 5, _protocol: UKHAS, _parsed: {u'payload_configuration': u'ba3931c823e9136cafc5c6fc04f79616', u'time_parsed': u'2015-03-22T12:09:48Z', u'flight': u'ba3931c823e9136cafc5c6fc04f7ed8e', u'configuration_sentence_index': 0}, latitude: 51.46387, payload: UBSEDS4, tcxo_drift: 7124</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>0.0,0.0,0
+                    <coordinates>-2.59142,51.46387,313
 </coordinates>
                 </Point>
             </Placemark>
