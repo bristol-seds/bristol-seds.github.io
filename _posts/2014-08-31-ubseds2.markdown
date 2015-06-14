@@ -1,10 +1,181 @@
 ---
+altitude_plot: /assets/flights/2/altitude_plot.csv
+categories: 'hab flight'
+date: '2014-08-31 03:27:29'
+flight:
+  countries:
+    - isocode: gb
+      name: 'United Kingdom'
+    - isocode: fr
+      name: France
+  great_circle: 298.9
+  max_altitude: 23.7
+  receivers:
+    - callsign: G0WXI
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 309.2
+        rxcount: 633
+    - callsign: G8KNN
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 305.3
+        rxcount: 517
+    - callsign: G8FJG
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 165.7
+        rxcount: 499
+    - callsign: G6SUQ
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 121.4
+        rxcount: 366
+    - callsign: M0ZBU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 87.2
+        rxcount: 330
+    - callsign: M0DNY/EMF
+      data:
+        rxcount: 318
+    - callsign: F1OIL
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 190.6
+        rxcount: 309
+    - callsign: G0TDJ
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 130.1
+        rxcount: 273
+    - callsign: G8IMN
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 225.9
+        rxcount: 238
+    - callsign: G0HDI
+      data:
+        max_distance: 130.1
+        rxcount: 198
+    - callsign: G6GZH-M
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 86.5
+        rxcount: 186
+    - callsign: G8NWC
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 250.2
+        rxcount: 148
+    - callsign: F4FWT
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 164.8
+        rxcount: 134
+    - callsign: G8DHE
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 101.6
+        rxcount: 129
+    - callsign: PD3T
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 365.1
+        rxcount: 128
+    - callsign: F4FWT-1
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 181.8
+        rxcount: 50
+    - callsign: SWL014
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 261.9
+        rxcount: 39
+    - callsign: maxmed
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 37.0
+        rxcount: 30
+    - callsign: CALL
+      data:
+        rxcount: 15
+    - callsign: F5APQ
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 207.1
+        rxcount: 13
+    - callsign: JP404
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 17.3
+        rxcount: 11
+    - callsign: m6dnu
+      data:
+        rxcount: 10
+    - callsign: PE1CME
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 464.1
+        rxcount: 5
+    - callsign: G4YHE
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 21.8
+        rxcount: 1
+    - callsign: G8ZBJ
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 161.1
+        rxcount: 1
+  total_distance: 362.6
+flight_map: /assets/flights/2/flight_map.kml
 layout: post
-title:  "UBSEDS2"
-categories: hab flight
-asset_path: /assets/flights/2/
-maps:
-  - url: trajectory.js
+speed_plot: /assets/flights/2/speed_plot.csv
+title: UBSEDS2
 ---
 
 This was the very first launch of the pico tracker. It was an overall success as the tracker functioned perfectly until the battery was fully discharged.
@@ -19,7 +190,7 @@ During the first revision board bring-up we found that the DFLL inside the Atmel
 
 To work around this a 16MHz crystal was soldered - dead bug style - onto the radio's crystal driver. This wasn't ideal, but at least the clock jitter was vaguely reasonable!
 
-![The pico tracker before launch]({{ "payload.jpg" | prepend: page.asset_path }})
+![The pico tracker before launch]({{ "/assets/flights/2/payload.jpg" }})
 
 ### <small>The pico tracker before launch. A small piece of cardboard has been placed on the battery so that tracker can be kept de-activated.</small>
 
@@ -27,14 +198,13 @@ To work around this a 16MHz crystal was soldered - dead bug style - onto the rad
 
 With all three payloads active and attached to a 100g balloon, the flight was ready to go.
 
-![The balloon about to be released]({{ "launch.jpg" | prepend: page.asset_path }})
+![The balloon about to be released]({{ "/assets/flights/2/launch.jpg" }})
 
 ### <small>[Phil Crump](https://www.philcrump.co.uk) from [SUSF](http://www.susf.co.uk) about to release the balloon.</small>
 
-## Trajectory
-<div class="map-canvas" id="balloon-trajectory"></div>
+{% include flight/map.html %}
 
-----
+{% include flight/statistics.html %}
 
 The assent rate was much lower that planned: It averaged about 1.1ms<sup>-1</sup> for most of the flight.
 
@@ -42,3 +212,5 @@ The assent rate was much lower that planned: It averaged about 1.1ms<sup>-1</sup
 
 - Batteries do not give their full capacity in flight. An attempt at power saving is required!
 - Measuring temperature in flight is useful. We didn't have time to add this before launch.
+
+{% include flight/receivers.html %}
