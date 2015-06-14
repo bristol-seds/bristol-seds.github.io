@@ -87,7 +87,7 @@ flight:
 flight_map: /assets/flights/1/path.kml
 layout: post
 speed_plot: /assets/flights/1/speed.csv
-title: High Altitude Ballon Launch
+title: High Altitude Balloon Launch
 photos:
   - /assets/flights/1/IMG_2026.JPG
   - /assets/flights/1/IMG_2068.JPG
