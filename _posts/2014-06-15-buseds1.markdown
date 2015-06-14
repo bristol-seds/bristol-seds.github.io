@@ -1,14 +1,92 @@
 ---
+altitude_plot: /assets/flights/1/altitude_plot.csv
+categories: 'hab flight'
+date: '2014-06-15 10:36:28'
+flight:
+  countries:
+    - isocode: gb
+      name: 'United Kingdom'
+  great_circle: 117.1
+  max_altitude: 23.8
+  receivers:
+    - callsign: 0x17
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 1245.1
+        rxcount: 120
+    - callsign: G8KNN-1
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 1520.3
+        rxcount: 58
+    - callsign: G8FJG
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 1535.4
+        rxcount: 41
+    - callsign: G8ZBJ
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 1372.4
+        rxcount: 38
+    - callsign: M0CJM
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 1378.7
+        rxcount: 35
+    - callsign: M0SBU
+      data:
+        rxcount: 20
+    - callsign: M0MKS
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 211.8
+        rxcount: 16
+    - callsign: M0UPU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 267.0
+        rxcount: 14
+    - callsign: F5APQ
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 310.2
+        rxcount: 8
+    - callsign: G3VPF
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 82.1
+        rxcount: 3
+    - callsign: G4AIU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 76.2
+        rxcount: 2
+  total_distance: 10625.6
+flight_map: /assets/flights/1/flight_map.kml
 layout: post
-title:  "High-altitude balloon launch"
-date:   2014-06-15 10:00:00
-categories: hab flight
-asset_path: /assets/flights/1/
-maps:
-  - url: trajectory.js
-graphs:
-  - url: plot1.js
-  - url: plot2.js
+speed_plot: /assets/flights/1/speed_plot.csv
+title: BUSEDS1
 photos:
   - url: IMG_2026.JPG
   - url: IMG_2068.JPG
@@ -29,6 +107,8 @@ The main project of 2013/2014 was to launch a high-altitude balloon into the str
 The main payload carried by the balloon contained two flight computers. The first was an [LPCXpresso](http://www.lpcware.com/lpcxpresso) microcontroller fitted with an ARM processor. This interfaced with the environmental sensors (barometers, thermometers et cetera) and the GPS receiver and relayed the data via radio. We then received this data using a portable radio receiver and uploaded it to the [habhub](http://habhub.org/) server, where it could be corroborated with other tracking data and plotted on a map. See Richard Meadows' [github](https://github.com/richardeoin/buseds-hab/tree/master/lpc-src) page for the lpc source code. The second computer was an mBed, which also received data from the GPS module and sent it via a GSM modem to an ordinary mobile phone, telling us where the balloon was. Unfortunately, this computer failed for some reason, but it wasn't essential.
 
 The balloon was also equipped with two cameras; a GoPro Hero 3 mounted to the bottom capturing 1080p footage at 30 fps and an ordinary Canon point-and-shoot programmed to take photos every 15 seconds. For the latter, we opted for the [Canon Hack Development Kit (CHDK)](http://chdk.wikia.com/wiki/CHDK), an open source custom firmware for Canon cameras.
+
+{% include flight/receivers.html %}
 
 ### Data
 <div class="row">

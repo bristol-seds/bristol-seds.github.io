@@ -1,0 +1,8 @@
+HTTP/1.0 500 Internal Server Error
+Server: CouchDB/1.2.0 (Erlang OTP/R15B)
+Date: Sun, 14 Jun 2015 18:24:00 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 102
+Cache-Control: must-revalidate
+
+{"error":"unhandled exception","reason":"AttributeError: 'NoneType' object has no attribute 'items'"}
