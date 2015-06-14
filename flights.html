@@ -1,0 +1,45 @@
+---
+layout: default
+asset_path: /assets/
+---
+
+<div class="container">
+  <h1>High Altitude Balloon Flights</h1>
+  <br/>
+
+  <ul class="post-list">
+    {% for post in site.posts reversed %}
+      {% if post.categories contains 'flight' %}
+        <li>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span>
+          {% if post.flight.pico %}
+          <code>pico</code>&nbsp;
+          {% endif %}
+          {% if post.flight.max_altitude %}
+          <code><img src="/assets/famfamfam_mini_icons/arrow_up.gif", alt="Up">
+            {{ post.flight.max_altitude }}km
+          </code>&nbsp;
+          {% endif %}
+          {% if post.flight.total_distance %}
+          <code><img src="/assets/famfamfam_mini_icons/arrow_right.gif", alt="Distance">
+            {{ post.flight.total_distance }}km
+          </code>&nbsp;
+          {% endif %}
+          {% if post.flight.countries %}
+          <code>
+            {% for flag in post.flight.countries %}
+            <a href="http://wikipedia.org/wiki/{{ flag.name }}">
+              <img src="/assets/famfamfam_flag_icons/gif/{{ flag.isocode }}.gif"
+                   alt="{{ flag.isocode }}" title="{{ flag.name }}">
+            </a>
+            {% endfor %}
+          </code>&nbsp;
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
