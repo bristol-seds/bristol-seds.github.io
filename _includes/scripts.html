@@ -39,10 +39,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 {% endif %}
 
 <!-- nvd3 Graphs -->
-{% if page.graphs %}
+{% if page.plots %}
 <script src="/lib/nvd3/d3.min.js"></script>
 <script src="/lib/nvd3/nv.d3.min.js"></script>
-{% for graph in page.graphs %}
-<script src="{{ graph.url | prepend: page.asset_path }}"></script>
-{% endfor %}
+{% if page.altitude_plot %}<script>{% include plot/altitude-plot.js %}</script>{% endif %}
+{% if page.speed_plot %}<script>{% include plot/speed-plot.js %}</script>{% endif %}
 {% endif %}

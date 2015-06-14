@@ -1,6 +1,7 @@
 ---
-altitude_plot: /assets/flights/1/altitude_plot.csv
-categories: 'hab flight'
+altitude_plot: /assets/flights/1/balloon_coords.csv
+plots: true
+categories: hab
 date: '2014-06-15 10:36:28'
 flight:
   countries:
@@ -85,8 +86,8 @@ flight:
   total_distance: 132.9
 flight_map: /assets/flights/1/flight_map.kml
 layout: post
-speed_plot: /assets/flights/1/speed_plot.csv
-title: BUSEDS1
+speed_plot: /assets/flights/1/speed.csv
+title: High Altitude Ballon Launch
 photos:
   - /assets/flights/1/IMG_2026.JPG
   - /assets/flights/1/IMG_2068.JPG
