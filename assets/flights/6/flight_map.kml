@@ -15,45 +15,7 @@
                     <tessellate>1</tessellate>
                     <altitudeMode>absolute</altitudeMode>
                     <coordinates>
-    0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
--2.58014,51.46686,80
--2.58011,51.46689,91
--2.58008,51.46679,64
--2.58019,51.46671,74
--2.5802,51.46682,74
--2.58011,51.46678,55
--2.58024,51.46671,64
--2.58015,51.46689,86
--2.58019,51.46684,100
--2.58017,51.46681,60
--2.58001,51.46682,56
--2.58006,51.46679,46
--2.5801,51.46686,72
--2.58009,51.46675,75
--2.58011,51.46691,89
--2.58014,51.46689,68
--2.58013,51.46681,80
--2.58009,51.46684,69
--2.58012,51.46689,65
--2.58008,51.46684,64
--2.58013,51.46683,83
--2.58003,51.46679,52
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
-0.0,0.0,0
--2.57951,51.4626,294
+    -2.57951,51.4626,294
 -2.57957,51.46125,306
 -2.57998,51.45828,349
 -2.58027,51.43722,219
@@ -1625,12 +1587,12 @@
             <name>Launch, Burst and Landing Points</name>
             <Placemark>
                 <name>Launch</name>
-                <description>temperature_internal: 24.7, battery: 1.4, altitude: 0, time: 00:08:31, _sentence: $$UBSEDS6,00:08:31,0.00000,0.00000,0,0,1.40,24.7,-28*21D2
-, longitude: 0.0, _raw: JCRVQlNFRFM2LDAwOjA4OjMxLDAuMDAwMDAsMC4wMDAwMCwwLDAsMS40MCwyNC43LC0yOCoyMUQyCg==, satellites: 0, _fix_invalid: True, _protocol: UKHAS, _parsed: {u'time_parsed': u'2015-06-06T23:08:52Z', u'payload_configuration': u'1923dfa3338fe61e1ceec1c67b6b1609', u'configuration_sentence_index': 0}, latitude: 0.0, payload: UBSEDS6, tcxo_drift: -28</description>
+                <description>temperature_internal: 23.8, battery: 1.51, altitude: 294, time: 08:17:52, _sentence: $$UBSEDS6,08:17:52,51.46260,-2.57951,294,4,1.51,23.8,-8*0ADA
+, longitude: -2.57951, _raw: JCRVQlNFRFM2LDA4OjE3OjUyLDUxLjQ2MjYwLC0yLjU3OTUxLDI5NCw0LDEuNTEsMjMuOCwtOCowQURBCg==, satellites: 4, _protocol: UKHAS, _parsed: {u'payload_configuration': u'1923dfa3338fe61e1ceec1c67b6b1609', u'time_parsed': u'2015-06-07T08:18:09Z', u'flight': u'1923dfa3338fe61e1ceec1c67b6b562a', u'configuration_sentence_index': 0}, latitude: 51.4626, payload: UBSEDS6, tcxo_drift: -8</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>0.0,0.0,0
+                    <coordinates>-2.57951,51.4626,294
 </coordinates>
                 </Point>
             </Placemark>
