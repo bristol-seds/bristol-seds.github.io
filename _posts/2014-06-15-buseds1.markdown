@@ -84,7 +84,7 @@ flight:
         max_distance: 76.2
         rxcount: 2
   total_distance: 132.9
-flight_map: /assets/flights/1/flight_map.kml
+flight_map: /assets/flights/1/path.kml
 layout: post
 speed_plot: /assets/flights/1/speed.csv
 title: High Altitude Ballon Launch
