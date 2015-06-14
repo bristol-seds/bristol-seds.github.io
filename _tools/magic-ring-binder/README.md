@@ -17,3 +17,8 @@ sudo pip install wget arrow matplotlib geopy pyaml couchdbkit
 ```
 
 ## Usage
+
+```
+cd _tools/magic-ring-binder
+python mrb.py
+```
