@@ -1,0 +1,33 @@
+{% if page.flight.receivers %}
+
+## Listeners
+
+Thank you to all listeners who have tracked this flight!
+
+<div class="row">
+<div class="col-md-6">
+<table class="table table-bordered table-striped"><thead>
+<tr>
+<td>Callsign</td>
+<td>Telemetry Lines Received</td>
+<td>Longest Path</td>
+</tr>
+</thead><tbody>
+{% for r in page.flight.receivers %}
+<tr>
+<td>{{ r.callsign }}
+{% if r.data.country %}
+<a href="http://wikipedia.org/wiki/{{ r.data.country.name }}">
+    <img src="/assets/famfamfam_flag_icons/gif/{{ r.data.country.isocode }}.gif"
+    alt="{{ r.data.country.isocode }}" title="{{ r.data.country.name }}">
+</a>
+{% endif %}</td>
+<td>{{ r.data.rxcount }}</td>
+<td>{% if r.data.max_distance %}{{ r.data.max_distance }}km{% endif %}</td>
+</tr>
+{% endfor %}
+</tbody></table>
+</div>
+</div>
+
+{% endif %}

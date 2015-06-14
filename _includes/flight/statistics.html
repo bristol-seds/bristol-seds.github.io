@@ -1,0 +1,25 @@
+## Statistics
+
+<ul>
+{% if page.flight.total_distance %}
+<li> Total distance traveled: <code>{{ page.flight.total_distance }}km</code></li>
+{% endif %}
+{% if page.flight.great_circle %}
+<li> Great circle distance: <code>{{ page.flight.great_circle }}km</code></li>
+{% endif %}
+{% if page.flight.max_altitude %}
+<li> Maximum altitude: <code>{{ page.flight.max_altitude }}km</code></li>
+{% endif %}
+{% if page.flight.countries %}
+<li>Countries passed through:
+  <code>
+    {% for flag in page.flight.countries %}
+    <a href="http://wikipedia.org/wiki/{{ flag.name }}">
+      <img src="/assets/famfamfam_flag_icons/gif/{{ flag.isocode }}.gif"
+           alt="{{ flag.isocode }}" title="{{ flag.name }}">
+    </a>
+    {% endfor %}
+  </code>
+</li>
+{% endif %}
+</ul>

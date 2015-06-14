@@ -1,0 +1,189 @@
+---
+altitude_plot: /assets/flights/4/altitude_plot.csv
+categories: 'hab flight'
+date: '2015-03-22 12:09:48'
+flight:
+  countries:
+    - isocode: gb
+      name: 'United Kingdom'
+  great_circle: 172.9
+  max_altitude: 9.3
+  receivers:
+    - callsign: 0x17
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 98.0
+        rxcount: 416
+    - callsign: G4AIU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 102.6
+        rxcount: 389
+    - callsign: G1DYQ
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 173.5
+        rxcount: 327
+    - callsign: M0SBU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 137.5
+        rxcount: 279
+    - callsign: DEV88
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 122.6
+        rxcount: 219
+    - callsign: g0nzo
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 179.2
+        rxcount: 189
+    - callsign: G0WXI
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 317.6
+        rxcount: 185
+    - callsign: G8DHE
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 247.4
+        rxcount: 181
+    - callsign: G4BGQ
+      data:
+        country:
+          isocode: be
+          name: Belgium
+        max_distance: 568.6
+        rxcount: 151
+    - callsign: G6GZH
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 334.1
+        rxcount: 150
+    - callsign: G3VPF
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 141.5
+        rxcount: 145
+    - callsign: M0ION
+      data:
+        rxcount: 141
+    - callsign: G4DND
+      data:
+        rxcount: 111
+    - callsign: G8FJG_1
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 307.0
+        rxcount: 111
+    - callsign: G8KNN
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 308.2
+        rxcount: 108
+    - callsign: G8FJG_3
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 290.1
+        rxcount: 107
+    - callsign: M0CJM
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 184.0
+        rxcount: 105
+    - callsign: G4NIA
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 143.1
+        rxcount: 72
+    - callsign: M0UPU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 324.9
+        rxcount: 23
+    - callsign: SA6BSS
+      data:
+        country:
+          isocode: se
+          name: Sweden
+        max_distance: 1370.9
+        rxcount: 17
+    - callsign: G4AYU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 273.7
+        rxcount: 10
+    - callsign: G4WPO
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 234.1
+        rxcount: 10
+    - callsign: G0HDI
+      data:
+        max_distance: 125.9
+        rxcount: 5
+    - callsign: 0x17b
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 50.8
+        rxcount: 3
+    - callsign: JFS1
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 267.7
+        rxcount: 1
+  total_distance: 174.1
+flight_map: /assets/flights/4/flight_map.kml
+layout: post
+speed_plot: /assets/flights/4/speed_plot.csv
+title: UBSEDS4
+---
+
+<!--more-->
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/receivers.html %}

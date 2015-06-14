@@ -1,0 +1,340 @@
+---
+altitude_plot: /assets/flights/6/altitude_plot.csv
+categories: 'hab flight'
+date: '2015-06-07 08:18:09'
+flight:
+  countries:
+    - isocode: gb
+      name: 'United Kingdom'
+    - isocode: nl
+      name: Netherlands
+    - isocode: de
+      name: Germany
+    - isocode: dk
+      name: Denmark
+    - isocode: se
+      name: Sweden
+    - isocode: lv
+      name: Latvia
+  great_circle: 1719.6
+  max_altitude: 8.7
+  receivers:
+    - callsign: PE2G
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 373.9
+        rxcount: 603
+    - callsign: PE2BZ
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 346.2
+        rxcount: 573
+    - callsign: MH
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 359.0
+        rxcount: 518
+    - callsign: G8KNN
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 357.4
+        rxcount: 502
+    - callsign: F5APQ
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 395.4
+        rxcount: 492
+    - callsign: M0UPU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 407.5
+        rxcount: 389
+    - callsign: G1DYQ
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 287.0
+        rxcount: 360
+    - callsign: G8DHE
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 240.8
+        rxcount: 338
+    - callsign: PE1ANS
+      data:
+        max_distance: 401.0
+        rxcount: 336
+    - callsign: PB0AHX
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 382.1
+        rxcount: 327
+    - callsign: SM7DSE
+      data:
+        country:
+          isocode: se
+          name: Sweden
+        max_distance: 309.2
+        rxcount: 325
+    - callsign: M0ZBU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 340.0
+        rxcount: 323
+    - callsign: 0x17
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 322.0
+        rxcount: 304
+    - callsign: ROS
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 330.5
+        rxcount: 274
+    - callsign: G0WXI
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 242.6
+        rxcount: 264
+    - callsign: PE1RQM
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 276.1
+        rxcount: 246
+    - callsign: NLincs
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 369.1
+        rxcount: 244
+    - callsign: G8FJG_2
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 326.8
+        rxcount: 228
+    - callsign: PD5TON/A
+      data:
+        max_distance: 282.1
+        rxcount: 221
+    - callsign: G8FJG_1
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 288.4
+        rxcount: 210
+    - callsign: OZ1SKY
+      data:
+        country:
+          isocode: dk
+          name: Denmark
+        max_distance: 373.4
+        rxcount: 193
+    - callsign: SA6BSS
+      data:
+        country:
+          isocode: se
+          name: Sweden
+        max_distance: 1267.9
+        rxcount: 174
+    - callsign: G4AIU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 257.4
+        rxcount: 166
+    - callsign: M0SBU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 355.0
+        rxcount: 149
+    - callsign: GOS
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 234.2
+        rxcount: 122
+    - callsign: YL3CT
+      data:
+        country:
+          isocode: lv
+          name: Latvia
+        max_distance: 354.9
+        rxcount: 118
+    - callsign: G8ZBJ
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 163.4
+        rxcount: 106
+    - callsign: VA1DWR
+      data:
+        max_distance: 4867.6
+        rxcount: 98
+    - callsign: g0nzo
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 283.2
+        rxcount: 98
+    - callsign: G8JNJ
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 253.7
+        rxcount: 91
+    - callsign: M0CJM
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 119.6
+        rxcount: 90
+    - callsign: SWL014
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 370.2
+        rxcount: 80
+    - callsign: PD3T
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 348.7
+        rxcount: 68
+    - callsign: 2E1FOV
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 292.1
+        rxcount: 66
+    - callsign: x-f
+      data:
+        rxcount: 61
+    - callsign: SP1TMN
+      data:
+        country:
+          isocode: pl
+          name: Poland
+        max_distance: 372.6
+        rxcount: 56
+    - callsign: DUTCH
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 178.9
+        rxcount: 40
+    - callsign: Northants
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 114.3
+        rxcount: 28
+    - callsign: AlgidSpace
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 176.9
+        rxcount: 23
+    - callsign: YL2CP
+      data:
+        country:
+          isocode: lv
+          name: Latvia
+        max_distance: 268.6
+        rxcount: 22
+    - callsign: SP3MCY
+      data:
+        country:
+          isocode: pl
+          name: Poland
+        max_distance: 1177.9
+        rxcount: 20
+    - callsign: PB5A
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 140.3
+        rxcount: 15
+    - callsign: G4YHE
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 186.8
+        rxcount: 11
+    - callsign: G7SVI
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 132.8
+        rxcount: 8
+    - callsign: G8IMN
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 136.9
+        rxcount: 4
+    - callsign: m6dnu
+      data:
+        rxcount: 2
+  total_distance: 1804.3
+flight_map: /assets/flights/6/flight_map.kml
+layout: post
+speed_plot: /assets/flights/6/speed_plot.csv
+title: "UBSEDS6"
+---
+
+<!--more-->
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/receivers.html %}
