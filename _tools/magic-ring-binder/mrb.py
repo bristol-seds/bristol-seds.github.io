@@ -118,6 +118,7 @@ post_path = "../../_posts/{}-{}.markdown".format(launch_date, payload_name)
 yaml = {
     "layout": "post",
     "title": payload_name.upper(),
+    "payload_title": payload_name.upper(),
     "date": launch_time,
     "categories": "hab flight",
     "flight_map": flight_map,
