@@ -16,6 +16,8 @@ across the UK.
 
 {% include flight/tracker-link.html %}
 
+You can find technical details about the tracker on its [project page](/pico-tracker).
+
 <br/>
 
 ![Assembled Tracker alongside MARSBalloon Firestar Payload]({{ "/assets/flights/7/ubseds7-assembled-firestar.jpg" }})
