@@ -1,0 +1,31 @@
+---
+categories: 'hab flight'
+layout: post
+title: MARSBalloon Firestar
+payload_title: UBSEDS7
+description: MARSBalloon Firestar
+---
+
+UBSEDS7 is set to launch at noon on Wednesday 17 June on board
+[MARSBallon Firestar](http://marsballoon.com/firestar-is-go/).  The
+tracker will be used to ensure the MARSBalloon science experiments are
+located at the end of the flight and can be safely returned to schools
+across the UK.
+
+<!--more-->
+
+{% include flight/tracker-link.html %}
+
+<br/>
+
+![Assembled Tracker alongside MARSBalloon Firestar Payload]({{ "/assets/flights/7/ubseds7-assembled-firestar.jpg" }})
+
+![Tracker Electronics, same as UBSEDS6]({{ "/assets/flights/7/ubseds6-electronics.jpg" }})
+
+<br/>
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/receivers.html %}
