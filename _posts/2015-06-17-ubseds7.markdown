@@ -16,7 +16,7 @@ across the UK.
 
 {% include flight/tracker-link.html %}
 
-You can find technical details about the tracker on its [project page](/pico-tracker).
+More technical details about the tracker are available on the [project page](/pico-tracker).
 
 <br/>
 
