@@ -6,15 +6,18 @@ payload_title: UBSEDS7
 description: MARSBalloon Firestar
 ---
 
-UBSEDS7 is set to launch at noon on Wednesday 17 June on board
+UBSEDS7 was launched on Wednesday 17 June on board
 [MARSBallon Firestar](http://marsballoon.com/firestar-is-go/).  The
-tracker will be used to ensure the MARSBalloon science experiments are
-located at the end of the flight and can be safely returned to schools
-across the UK.
+tracker was intended be used to ensure the MARSBalloon science
+experiments could be located at the end of the flight and safely
+returned to schools across the UK.
+
+However the launch team didn't remove the "Remove Before Flight" tag
+on the tracker, and therefore it was inactive for the entire
+flight. However, the payload has been located and hopefuly UBSEDS7
+will fly again on a future launch.
 
 <!--more-->
-
-{% include flight/tracker-link.html %}
 
 More technical details about the tracker are available on the [project page](/pico-tracker).
 
