@@ -19,7 +19,9 @@ def receiver_info(payload_json):
     # Foreach telemetry packet
     for t in payload_json:
         # For each receiver of that packet
-        for callsign in t['doc']['receivers']:
+        for callsign_thing in t['doc']['receivers']:
+
+            callsign = str(callsign_thing)
 
             # Get info about this reception
             info = t['doc']['receivers'][callsign]

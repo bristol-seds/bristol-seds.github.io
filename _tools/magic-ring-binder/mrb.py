@@ -6,6 +6,7 @@ import wget
 from datetime import datetime
 import arrow
 import dateutil.parser
+import yaml
 import pyaml
 import re
 
@@ -115,7 +116,7 @@ post_path = "../../_posts/{}-{}.markdown".format(launch_date, payload_name)
 
 # =-----------------------------------------------------------------------
 
-yaml = {
+post_yaml = {
     "layout": "post",
     "title": payload_name.upper(),
     "payload_title": payload_name.upper(),
@@ -132,7 +133,7 @@ yaml = {
         "receivers": receivers,
     },
 }
-yaml_str = pyaml.dumps(yaml)
+
 
 
 # =-----------------------------------------------------------------------
@@ -144,14 +145,23 @@ try:
 
     print "Reading {}...".format(post_path)
 
+    # Read the yaml the already exists at the top of the file
+    template_yaml_str = re.search("---\n(.*)---\n", template, re.S).group(1)
+    template_yaml = yaml.load(template_yaml_str)
+
 except IOError:
     # Read in a template
     with open("template.markdown", 'r') as f:
         template = f.read()
 
     print "Using template..."
+    template_yaml = {}
+
+# Combine our yaml object with the template (we take precidence)
+template_yaml.update(post_yaml)
 
 # Substitute in the new yaml
+yaml_str = pyaml.dumps(post_yaml)
 combined = re.sub(r"---\n(.*)---\n", r"---\n{}---\n".format(yaml_str),
                   template, re.M, re.S)
 
