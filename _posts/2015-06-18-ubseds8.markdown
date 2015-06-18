@@ -1,0 +1,219 @@
+---
+altitude_plot: /assets/flights/8/altitude_plot.csv
+categories: 'hab flight'
+date: '2015-06-18 08:09:13'
+flight:
+  countries:
+    - isocode: gb
+      name: 'United Kingdom'
+    - isocode: fr
+      name: France
+  great_circle: 401.7
+  max_altitude: 11.2
+  receivers:
+    - callsign: G8DHE
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 241.7
+        rxcount: 331
+    - callsign: G6GZH
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 384.5
+        rxcount: 201
+    - callsign: F5APQ
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 263.1
+        rxcount: 187
+    - callsign: 0x17
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 290.1
+        rxcount: 184
+    - callsign: G8FJG_v
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 285.4
+        rxcount: 167
+    - callsign: G1DYQ
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 234.1
+        rxcount: 157
+    - callsign: G8IMN
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 304.6
+        rxcount: 148
+    - callsign: G8KNN
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 355.7
+        rxcount: 143
+    - callsign: ON5LT
+      data:
+        country:
+          isocode: be
+          name: Belgium
+        max_distance: 261.9
+        rxcount: 108
+    - callsign: M1ARI
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 88.8
+        rxcount: 69
+    - callsign: ASTRA
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 273.8
+        rxcount: 68
+    - callsign: M0SBU
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 102.7
+        rxcount: 65
+    - callsign: G8ZBJ
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 267.8
+        rxcount: 23
+    - callsign: ULC_websdr
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 120.1
+        rxcount: 21
+    - callsign: DutchMillbt
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 349.8
+        rxcount: 19
+    - callsign: G8FJG_V
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 282.7
+        rxcount: 15
+    - callsign: swl
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 85.0
+        rxcount: 14
+    - callsign: G0WXI
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 278.6
+        rxcount: 12
+    - callsign: G8FJG_H
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 125.2
+        rxcount: 5
+    - callsign: chimpusmaximus
+      data:
+        country:
+          isocode: gb
+          name: 'United Kingdom'
+        max_distance: 205.7
+        rxcount: 2
+  total_distance: 404.2
+flight_map: /assets/flights/8/flight_map.kml
+layout: post
+payload_title: UBSEDS8
+speed_plot: /assets/flights/8/speed_plot.csv
+title: UBSEDS8
+description: Qualatex with unusually high float
+photos:
+ - /assets/flights/8/ubseds8_attaching_payload.jpg
+ - /assets/flights/8/ubseds8_free_lift.jpg
+ - /assets/flights/8/ubseds8_tree.jpg
+resources:
+  g8dhe: http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS8_20150618/
+altitude_plot: /assets/flights/8/altitude.csv
+plots: true
+---
+
+UBSEDS8 was our second launch with a
+[36" Qualatex Balloon](http://randomsolutions.co.uk/Random_Aerospace/Balloons.html). After
+breifly appearing to enter a float at 9.3km, this flight continued to
+slowly ascend, eventually reaching 11.2km. This is possibly a record
+for the highest flight with a Qualatex balloon.
+
+<!--more-->
+
+### Pre-stretching
+
+This envelope was pre-stretched slightly more than UBSEDS6, eventually reaching an internal pressure of 4.9kPa as measured on the [Omron M2](http://www.omron-healthcare.com/eu/en/our-products/blood-pressure-monitoring/m2).
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+### Tracker
+
+This flight enabled APRS tracking outside of countires that disallow
+airbourne APRS operation. However no packets were heard, possibly due
+to the output power being too low. More investiagion required.
+
+The output voltage swing from the TCXO on this board seemed
+particularly low, and it would not drive the MCU input. The TCXO is
+normally used by the MCU for symbol timing and to measure the TCXO
+drift against GPS, but for this flight the MCU used its internal
+oscillator. The frequnecy of the internal oscillator is only specified
+to ±2.5% and this error in the symbol timing prevented Contestia from
+decoding except at high SNRs. RTTY appeared to be unaffected.
+
+The tracker failed about 4 hours into the flight. This didn't appear
+to be related to low temperatures.
+
+{% include flight/map.html %}
+
+### Data
+<div class="row">
+  <div class="col-md-6">
+    <div>
+      <svg id="alt-time"></svg>
+    </div>
+  </div>
+</div>
+
+{% include flight/statistics.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}

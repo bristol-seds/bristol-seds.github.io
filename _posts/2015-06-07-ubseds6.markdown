@@ -330,12 +330,59 @@ layout: post
 payload_title: UBSEDS6
 speed_plot: /assets/flights/6/speed_plot.csv
 title: UBSEDS6
+photos:
+  - /assets/flights/6/ubseds6_inflated.JPG
+  - /assets/flights/6/prestretch_before_after.JPG
+  - /assets/flights/6/ubseds6_straight_2.JPG
+  - /assets/flights/6/ubseds6_free_lift.JPG
+  - /assets/flights/6/ubseds6_top_straight.JPG
+description: Qualatex to Latvia
+resources:
+  g8dhe: http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS6_20150607/
 ---
 
+UBSEDS6 was our first launch using a [36" Qualatex Balloon](http://randomsolutions.co.uk/Random_Aerospace/Balloons.html). Despite
+a bumpy ascent over Bristol the balloon super-pressured and floated at
+about 8.6km. Favourable winds carried the balloon to Latvia before the
+tracker failed 14 hours into the flight.
+
 <!--more-->
+
+### Pre-stretching
+
+The balloon was "pre-stretched" before flight but pumping air into the
+balloon using a slightly modified [Omron M2](http://www.omron-healthcare.com/eu/en/our-products/blood-pressure-monitoring/m2) Blood Pressure
+Monitor. While in flight the balloon experiences about 2kPa of
+internal super-pressure at 8.5km float (this figure is a vague guess)
+the balloon was inflated to a pressure of 4.7kPa on the ground
+(measured as 35mmHg on the Omron M2).
+
+<a href="/assets/flights/6/ubseds6_inflate_20mmhg_35mmhg.gif" target="_blank">Gif of the balloon inflating from 2.7kPa to 4.7KPa.</a> This takes about 2 hours.
+
+The difference between the balloon at the start and end of the process
+is very noticable. One of the slides below shows an un-modified
+balloon on the left and a pre-stretched envelope on the right.
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+## Float
+
+During the day the balloon entered a very stable float at about 8.6km
+altitude and dropped to a similarly stable float at 8.2km during the night.
+
+## Tracker
+
+No major changes since last launch. The cause of tracker failure is
+unknown, but possibly due to cold (-30ºC).
+
+<br/>
 
 {% include flight/map.html %}
 
 {% include flight/statistics.html %}
+
+{% include flight/resources.html %}
 
 {% include flight/receivers.html %}
