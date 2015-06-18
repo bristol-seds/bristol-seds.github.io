@@ -16,7 +16,7 @@ flight:
       name: Sweden
     - isocode: lv
       name: Latvia
-  great_circle: 1719.6
+  great_circle: 1721.1
   max_altitude: 8.7
   receivers:
     - callsign: PE2G
@@ -324,9 +324,10 @@ flight:
     - callsign: m6dnu
       data:
         rxcount: 2
-  total_distance: 1804.3
+  total_distance: 1746.9
 flight_map: /assets/flights/6/flight_map.kml
 layout: post
+payload_title: UBSEDS6
 speed_plot: /assets/flights/6/speed_plot.csv
 title: UBSEDS6
 ---

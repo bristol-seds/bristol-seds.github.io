@@ -171,9 +171,10 @@ flight:
           name: 'United Kingdom'
         max_distance: 161.1
         rxcount: 1
-  total_distance: 362.6
+  total_distance: 306.4
 flight_map: /assets/flights/2/flight_map.kml
 layout: post
+payload_title: UBSEDS2
 speed_plot: /assets/flights/2/speed_plot.csv
 title: UBSEDS2
 ---

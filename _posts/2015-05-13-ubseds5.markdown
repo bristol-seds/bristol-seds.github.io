@@ -159,6 +159,7 @@ flight:
   total_distance: 82.3
 flight_map: /assets/flights/5/flight_map.kml
 layout: post
+payload_title: UBSEDS5
 speed_plot: /assets/flights/5/speed_plot.csv
 title: UBSEDS5
 ---

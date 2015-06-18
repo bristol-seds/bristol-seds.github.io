@@ -86,10 +86,23 @@ payload_json = [t for t in payload_json_raw if t['doc']['data']['altitude'] > 20
 # Extract just the data
 payload_data = [t['doc']['data'] for t in payload_json]
 
+# Sort the payload data by date
+def data_timesort(dp):
+    parsed_t = arrow.get(dp['_parsed']['time_parsed'])
+    telemetry_t = arrow.get(dp['time'], "HH:mm:ss")
+
+    # Correction for packets that get parsed the next day
+    if telemetry_t.hour == 23 and parsed_t.hour == 0:
+        parsed_t = parsed_t.replace(hours=-1)
+
+    return [parsed_t.date(), telemetry_t.timestamp]
+
+payload_data_sorted = sorted(payload_data, key=data_timesort)
+
 # =-----------------------------------------------------------------------
 
 flight_map = asset_path+"flight_map.kml"
-kml.output(payload_data, "../.."+flight_map)
+kml.output(payload_data_sorted, "../.."+flight_map)
 
 altitude_plot = asset_path+"altitude_plot.csv"
 speed_plot = asset_path+"speed_plot.csv"
@@ -104,7 +117,7 @@ for r in receivers:
 
 # =-----------------------------------------------------------------------
 
-launch_arrow = arrow.get(payload_data[0]['_parsed']['time_parsed'])
+launch_arrow = arrow.get(payload_data_sorted[0]['_parsed']['time_parsed'])
 launch_date = launch_arrow.format('YYYY-MM-DD')
 launch_time = launch_arrow.format('YYYY-MM-DD hh:mm:ss')
 
@@ -126,10 +139,10 @@ post_yaml = {
     "altitude_plot": altitude_plot,
     "speed_plot": speed_plot,
     "flight": {
-        "total_distance": "{:0.1f}".format(distance.total(payload_data)),
-        "great_circle": "{:0.1f}".format(distance.great_circle(payload_data)),
-        "countries": countries.flight_countries(payload_data),
-        "max_altitude": "{:0.1f}".format(distance.max_altitude(payload_data)),
+        "total_distance": "{:0.1f}".format(distance.total(payload_data_sorted)),
+        "great_circle": "{:0.1f}".format(distance.great_circle(payload_data_sorted)),
+        "countries": countries.flight_countries(payload_data_sorted),
+        "max_altitude": "{:0.1f}".format(distance.max_altitude(payload_data_sorted)),
         "receivers": receivers,
     },
 }

@@ -128,9 +128,10 @@ flight:
     - callsign: UBRCVR
       data:
         rxcount: 1
-  total_distance: 260.7
+  total_distance: 157.6
 flight_map: /assets/flights/3/flight_map.kml
 layout: post
+payload_title: UBSEDS3
 speed_plot: /assets/flights/3/speed_plot.csv
 title: UBSEDS3
 ---
