@@ -181,7 +181,9 @@ for the highest flight with a Qualatex balloon.
 This envelope was pre-stretched slightly more than UBSEDS6, eventually reaching an internal pressure of 4.9kPa as measured on the [Omron M2](http://www.omron-healthcare.com/eu/en/our-products/blood-pressure-monitoring/m2).
 
 <br/>
+
 {% include carousel.html %}
+
 <br/>
 
 ### Tracker
