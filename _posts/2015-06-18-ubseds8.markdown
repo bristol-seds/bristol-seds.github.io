@@ -157,7 +157,7 @@ layout: post
 payload_title: UBSEDS8
 speed_plot: /assets/flights/8/speed_plot.csv
 title: UBSEDS8
-description: Qualatex with unusually high float
+description: Qualatex with an unusually high float
 photos:
  - /assets/flights/8/ubseds8_attaching_payload.jpg
  - /assets/flights/8/ubseds8_free_lift.jpg
