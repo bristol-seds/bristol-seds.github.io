@@ -196,7 +196,7 @@ The output voltage swing from the TCXO on this board seemed
 particularly low, and it would not drive the MCU input. The TCXO is
 normally used by the MCU for symbol timing and to measure the TCXO
 drift against GPS, but for this flight the MCU used its internal
-oscillator. The frequnecy of the internal oscillator is only specified
+oscillator. The frequency of the internal oscillator is only specified
 to ±2.5% and this error in the symbol timing prevented Contestia from
 decoding except at high SNRs. RTTY appeared to be unaffected.
 
