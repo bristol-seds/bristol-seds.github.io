@@ -363,9 +363,7 @@ The difference between the balloon at the start and end of the process
 is very noticable. One of the slides below shows an un-modified
 balloon on the left and a pre-stretched envelope on the right.
 
-<br/>
 {% include carousel.html %}
-<br/>
 
 ## Float
 
