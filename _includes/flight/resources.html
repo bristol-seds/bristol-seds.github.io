@@ -1,0 +1,14 @@
+{% if page.resources %}
+
+# Resources
+
+<ul>
+{% if page.resources.g8dhe %}
+<li><a href="{{ page.resources.g8dhe }}">Geoff G8DHE Images</a></li>
+{% endif %}
+{% if page.payload_title %}
+<li><a href="http://x-f.lv/dev/habitat-graphs/payload/{{ page.payload_title }}#g/altitude,battery">HAB Telemetry Visualisation</a></li>
+{% endif %}
+</ul>
+
+{% endif %}

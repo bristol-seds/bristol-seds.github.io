@@ -15,6 +15,7 @@ asset_path: /assets/
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
               {% if post.payload_title %}{{ post.payload_title }}{% else %}{{ post.title }}{% endif %}
             </a>
+            <small>{{ post.description }}</small>
           </h2>
           <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span>
           {% if post.flight.pico %}
