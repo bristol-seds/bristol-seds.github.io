@@ -335,7 +335,7 @@ photos:
   - /assets/flights/6/prestretch_before_after.JPG
   - /assets/flights/6/ubseds6_straight_2.JPG
   - /assets/flights/6/ubseds6_free_lift.JPG
-  - /assets/flights/6/ubseds6_top_straight.JPG
+  - /assets/flights/6/ubseds6_top.JPG
 description: Qualatex to Latvia
 resources:
   g8dhe: http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS6_20150607/
