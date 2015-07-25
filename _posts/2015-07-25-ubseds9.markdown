@@ -2,22 +2,25 @@
 altitude_plot: /assets/flights/9/altitude_plot.csv
 categories: 'hab flight'
 date: '2015-07-25 07:12:38'
+description: 'Solar tracker test'
+resources:
+  g8dhe: http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS9_20150725/index.php?ind=9
 flight:
   countries:
     - isocode: gb
       name: 'United Kingdom'
     - isocode: fr
       name: France
-  great_circle: 573.7
-  max_altitude: 10.3
+  great_circle: 639.1
+  max_altitude: 10.4
   receivers:
     - callsign: F5APQ
       data:
         country:
           isocode: fr
           name: France
-        max_distance: 273.0
-        rxcount: 313
+        max_distance: 300.4
+        rxcount: 332
     - callsign: G8DHE
       data:
         country:
@@ -32,6 +35,13 @@ flight:
           name: 'United Kingdom'
         max_distance: 297.3
         rxcount: 199
+    - callsign: ON3LA
+      data:
+        country:
+          isocode: be
+          name: Belgium
+        max_distance: 184.8
+        rxcount: 185
     - callsign: SWL014
       data:
         country:
@@ -67,20 +77,13 @@ flight:
           name: 'United Kingdom'
         max_distance: 327.5
         rxcount: 119
-    - callsign: ON3LA
-      data:
-        country:
-          isocode: be
-          name: Belgium
-        max_distance: 184.8
-        rxcount: 106
     - callsign: ON5LT
       data:
         country:
           isocode: be
           name: Belgium
-        max_distance: 219.5
-        rxcount: 62
+        max_distance: 261.6
+        rxcount: 73
     - callsign: G8FJG_h
       data:
         country:
@@ -130,6 +133,13 @@ flight:
           name: 'United Kingdom'
         max_distance: 187.6
         rxcount: 30
+    - callsign: F0ERP
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 149.3
+        rxcount: 20
     - callsign: G4BWR
       data:
         country:
@@ -148,7 +158,7 @@ flight:
       data:
         max_distance: 321.9
         rxcount: 2
-  total_distance: 594.7
+  total_distance: 666.6
 flight_map: /assets/flights/9/flight_map.kml
 layout: post
 payload_title: UBSEDS9
@@ -161,5 +171,7 @@ title: UBSEDS9
 {% include flight/map.html %}
 
 {% include flight/statistics.html %}
+
+{% include flight/resources.html %}
 
 {% include flight/receivers.html %}

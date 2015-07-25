@@ -631,6 +631,87 @@
 4.71441,49.1635,10268
 4.72594,49.16302,10262
 4.73749,49.16252,10260
+4.76066,49.16148,10270
+4.77229,49.16092,10271
+4.78393,49.16033,10269
+4.79553,49.15976,10271
+4.80717,49.15917,10281
+4.83042,49.15793,10279
+4.85353,49.15676,10294
+4.87665,49.15552,10293
+4.89968,49.15438,10303
+4.91118,49.15376,10305
+4.92266,49.15312,10297
+4.93419,49.15243,10295
+4.94566,49.15176,10287
+4.95714,49.15109,10291
+4.96851,49.15042,10295
+4.97991,49.14982,10289
+4.99131,49.14927,10289
+5.00266,49.14868,10297
+5.014,49.14819,10313
+5.02528,49.14774,10321
+5.0365,49.14728,10319
+5.04777,49.14682,10320
+5.05906,49.14629,10306
+5.07046,49.14572,10303
+5.08193,49.1451,10299
+5.09337,49.14451,10288
+5.10475,49.14399,10295
+5.11614,49.14355,10300
+5.12742,49.14315,10302
+5.13864,49.14283,10313
+5.14983,49.14251,10314
+5.16104,49.14225,10316
+5.17215,49.14197,10331
+5.18321,49.14171,10332
+5.19425,49.14152,10337
+5.20535,49.14132,10331
+5.21652,49.14105,10318
+5.22777,49.14075,10318
+5.23906,49.14042,10320
+5.25036,49.14013,10325
+5.26164,49.13987,10335
+5.27291,49.1396,10341
+5.28415,49.13943,10340
+5.29551,49.13912,10330
+5.30699,49.13875,10314
+5.31853,49.13827,10305
+5.33003,49.13781,10302
+5.34162,49.13734,10309
+5.35307,49.137,10310
+5.36443,49.13673,10306
+5.37575,49.13652,10307
+5.38702,49.13634,10310
+5.39825,49.13621,10317
+5.40942,49.13609,10335
+5.42046,49.13602,10347
+5.4315,49.13592,10354
+5.44256,49.13572,10347
+5.45377,49.13534,10350
+5.46488,49.13499,10344
+5.47599,49.13471,10335
+5.48706,49.13445,10338
+5.49812,49.13416,10348
+5.50912,49.13386,10341
+5.52027,49.1334,10348
+5.53148,49.13293,10345
+5.54272,49.13242,10331
+5.55406,49.13195,10325
+5.56535,49.13152,10317
+5.57682,49.13109,10323
+5.58825,49.13075,10323
+5.59965,49.13051,10327
+5.61105,49.13024,10341
+5.62242,49.12999,10348
+5.63378,49.12976,10344
+5.6452,49.12945,10348
+5.66788,49.12894,10342
+5.67927,49.12873,10326
+5.69065,49.12843,10316
+5.70206,49.12813,10313
+5.71336,49.12793,10312
+5.72466,49.12783,10317
 
                     </coordinates>
                 </LineString>
@@ -653,23 +734,23 @@
             </Placemark>
             <Placemark>
                 <name>Burst</name>
-                <description>_protocol: UKHAS, solar: 0.62, battery: 4.08, altitude: 10280, time: 13:26:00, _sentence: $$UBSEDS9,13:26:00,49.16403,4.70287,10280,10,4.08,0.62,-9.9,-4*884E
-, longitude: 4.70287, _raw: JCRVQlNFRFM5LDEzOjI2OjAwLDQ5LjE2NDAzLDQuNzAyODcsMTAyODAsMTAsNC4wOCwwLjYyLC05LjksLTQqODg0RQo=, satellites: 10, temperature_internal: -9.9, _parsed: {u'payload_configuration': u'f6edccff27a79d2ccfc1414070c31afe', u'time_parsed': u'2015-07-25T13:26:02Z', u'flight': u'486086d6d9632cf24e25ba49a094d0c5', u'configuration_sentence_index': 0}, latitude: 49.16403, payload: UBSEDS9, tcxo_drift: -4</description>
+                <description>_protocol: UKHAS, solar: 0.64, battery: 4.09, altitude: 10354, time: 13:58:00, _sentence: $$UBSEDS9,13:58:00,49.13592,5.43150,10354,7,4.09,0.64,-8.3,-4*AC65
+, longitude: 5.4315, _raw: JCRVQlNFRFM5LDEzOjU4OjAwLDQ5LjEzNTkyLDUuNDMxNTAsMTAzNTQsNyw0LjA5LDAuNjQsLTguMywtNCpBQzY1Cg==, satellites: 7, temperature_internal: -8.3, _parsed: {u'payload_configuration': u'f6edccff27a79d2ccfc1414070c31afe', u'time_parsed': u'2015-07-25T13:58:01Z', u'flight': u'486086d6d9632cf24e25ba49a094d0c5', u'configuration_sentence_index': 0}, latitude: 49.13592, payload: UBSEDS9, tcxo_drift: -4</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>4.70287,49.16403,10280
+                    <coordinates>5.4315,49.13592,10354
 </coordinates>
                 </Point>
             </Placemark>
             <Placemark>
                 <name>Landing</name>
-                <description>_protocol: UKHAS, solar: 0.6, battery: 4.07, altitude: 10260, time: 13:27:30, _sentence: $$UBSEDS9,13:27:30,49.16252,4.73749,10260,8,4.07,0.60,-9.7,-4*14ED
-, longitude: 4.73749, _raw: JCRVQlNFRFM5LDEzOjI3OjMwLDQ5LjE2MjUyLDQuNzM3NDksMTAyNjAsOCw0LjA3LDAuNjAsLTkuNywtNCoxNEVECg==, satellites: 8, temperature_internal: -9.7, _parsed: {u'payload_configuration': u'f6edccff27a79d2ccfc1414070c31afe', u'time_parsed': u'2015-07-25T13:27:37Z', u'flight': u'486086d6d9632cf24e25ba49a094d0c5', u'configuration_sentence_index': 0}, latitude: 49.16252, payload: UBSEDS9, tcxo_drift: -4</description>
+                <description>_protocol: UKHAS, solar: 0.58, battery: 4.09, altitude: 10317, time: 14:11:00, _sentence: $$UBSEDS9,14:11:00,49.12783,5.72466,10317,9,4.09,0.58,-7.0,0*AAB2
+, longitude: 5.72466, _raw: JCRVQlNFRFM5LDE0OjExOjAwLDQ5LjEyNzgzLDUuNzI0NjYsMTAzMTcsOSw0LjA5LDAuNTgsLTcuMCwwKkFBQjIK, satellites: 9, temperature_internal: -7.0, _parsed: {u'payload_configuration': u'f6edccff27a79d2ccfc1414070c31afe', u'time_parsed': u'2015-07-25T14:11:01Z', u'flight': u'486086d6d9632cf24e25ba49a094d0c5', u'configuration_sentence_index': 0}, latitude: 49.12783, payload: UBSEDS9, tcxo_drift: 0</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>4.73749,49.16252,10260
+                    <coordinates>5.72466,49.12783,10317
 </coordinates>
                 </Point>
             </Placemark>
