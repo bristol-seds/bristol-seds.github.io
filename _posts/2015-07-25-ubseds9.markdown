@@ -3,15 +3,19 @@ altitude_plot: /assets/flights/9/altitude_plot.csv
 categories: 'hab flight'
 date: '2015-07-25 07:12:38'
 description: 'Solar tracker test'
-resources:
-  g8dhe: http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS9_20150725/index.php?ind=9
 flight:
   countries:
     - isocode: gb
       name: 'United Kingdom'
     - isocode: fr
       name: France
-  great_circle: 639.1
+    - isocode: de
+      name: Germany
+    - isocode: fr
+      name: France
+    - isocode: de
+      name: Germany
+  great_circle: 870.8
   max_altitude: 10.4
   receivers:
     - callsign: F5APQ
@@ -21,6 +25,13 @@ flight:
           name: France
         max_distance: 300.4
         rxcount: 332
+    - callsign: ON3LA
+      data:
+        country:
+          isocode: be
+          name: Belgium
+        max_distance: 184.8
+        rxcount: 304
     - callsign: G8DHE
       data:
         country:
@@ -35,13 +46,6 @@ flight:
           name: 'United Kingdom'
         max_distance: 297.3
         rxcount: 199
-    - callsign: ON3LA
-      data:
-        country:
-          isocode: be
-          name: Belgium
-        max_distance: 184.8
-        rxcount: 185
     - callsign: SWL014
       data:
         country:
@@ -63,6 +67,13 @@ flight:
           name: France
         max_distance: 199.2
         rxcount: 155
+    - callsign: F0ERP
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 357.0
+        rxcount: 145
     - callsign: G6GZH
       data:
         country:
@@ -77,13 +88,20 @@ flight:
           name: 'United Kingdom'
         max_distance: 327.5
         rxcount: 119
+    - callsign: F0EQE
+      data:
+        country:
+          isocode: fr
+          name: France
+        max_distance: 189.7
+        rxcount: 108
     - callsign: ON5LT
       data:
         country:
           isocode: be
           name: Belgium
-        max_distance: 261.6
-        rxcount: 73
+        max_distance: 293.0
+        rxcount: 76
     - callsign: G8FJG_h
       data:
         country:
@@ -133,13 +151,6 @@ flight:
           name: 'United Kingdom'
         max_distance: 187.6
         rxcount: 30
-    - callsign: F0ERP
-      data:
-        country:
-          isocode: fr
-          name: France
-        max_distance: 149.3
-        rxcount: 20
     - callsign: G4BWR
       data:
         country:
@@ -147,6 +158,20 @@ flight:
           name: 'United Kingdom'
         max_distance: 88.8
         rxcount: 14
+    - callsign: PE1CME
+      data:
+        country:
+          isocode: nl
+          name: Netherlands
+        max_distance: 316.1
+        rxcount: 8
+    - callsign: SA6BSS
+      data:
+        country:
+          isocode: se
+          name: Sweden
+        max_distance: 966.8
+        rxcount: 8
     - callsign: M0ZBU
       data:
         country:
@@ -158,15 +183,28 @@ flight:
       data:
         max_distance: 321.9
         rxcount: 2
-  total_distance: 666.6
+  total_distance: 956.6
 flight_map: /assets/flights/9/flight_map.kml
 layout: post
 payload_title: UBSEDS9
+photos:
+  - /assets/flights/9/ubseds9_assembled_vase.jpg
+  - /assets/flights/9/ubseds9_pcb_early.jpg
+resources:
+  g8dhe: http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS9_20150725/index.php?ind=9
 speed_plot: /assets/flights/9/speed_plot.csv
 title: UBSEDS9
 ---
 
 <!--more-->
+
+### Tracker
+
+<br/>
+
+{% include carousel.html %}
+
+<br/>
 
 {% include flight/map.html %}
 
