@@ -174,7 +174,7 @@ except IOError:
 template_yaml.update(post_yaml)
 
 # Substitute in the new yaml
-yaml_str = pyaml.dumps(post_yaml)
+yaml_str = pyaml.dumps(template_yaml)
 combined = re.sub(r"---\n(.*)---\n", r"---\n{}---\n".format(yaml_str),
                   template, re.M, re.S)
 
