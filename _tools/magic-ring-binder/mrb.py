@@ -83,21 +83,23 @@ payload_json_raw = db.view("payload_telemetry/payload_time",
 # Only telemetry points above 200m are considered part of the flight
 payload_json = [t for t in payload_json_raw if t['doc']['data']['altitude'] > 200]
 
-# Extract just the data
-payload_data = [t['doc']['data'] for t in payload_json]
-
 # Sort the payload data by date
-def data_timesort(dp):
-    parsed_t = arrow.get(dp['_parsed']['time_parsed'])
-    telemetry_t = arrow.get(dp['time'], "HH:mm:ss")
+def data_timesort(datum):
 
-    # Correction for packets that get parsed the next day
-    if telemetry_t.hour == 23 and parsed_t.hour == 0:
-        parsed_t = parsed_t.replace(hours=-1)
+    received_mean_t = arrow.get(datum['key'][1])
+    telemetry_t = arrow.get(datum['doc']['data']['time'], "HH:mm:ss")
 
-    return [parsed_t.date(), telemetry_t.timestamp]
+    # Correction for packets that get received the next day
+    if telemetry_t.hour == 23 and received_mean_t.hour == 0:
+        received_mean_t = received_mean_t.replace(hours=-1)
 
-payload_data_sorted = sorted(payload_data, key=data_timesort)
+    return [received_mean_t.date(), telemetry_t.timestamp]
+
+payload_json_sorted = sorted(payload_json, key=data_timesort)
+
+# Extract just the data
+payload_data_sorted = [t['doc']['data'] for t in payload_json_sorted]
+
 
 # =-----------------------------------------------------------------------
 
