@@ -15,7 +15,13 @@ flight:
       name: France
     - isocode: de
       name: Germany
-  great_circle: 968.2
+    - isocode: se
+      name: Sweden
+    - isocode: no
+      name: Norway
+    - isocode: ru
+      name: Russia
+  great_circle: 4601.2
   max_altitude: 10.4
   receivers:
     - callsign: F5APQ
@@ -165,6 +171,9 @@ flight:
           name: France
         max_distance: 170.5
         rxcount: 34
+    - callsign: BACKLOG
+      data:
+        rxcount: 32
     - callsign: G1DYQ
       data:
         country:
@@ -211,7 +220,7 @@ flight:
           name: 'Czech Rep.'
         max_distance: 250.0
         rxcount: 1
-  total_distance: 1131.1
+  total_distance: 6808.4
 flight_map: /assets/flights/9/flight_map.kml
 layout: post
 payload_title: UBSEDS9

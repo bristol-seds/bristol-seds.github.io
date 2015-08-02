@@ -47,6 +47,7 @@
 -2.33447,51.19656,2546
 -2.32945,51.19142,2623
 -2.32446,51.18621,2679
+-2.305288,51.166665,2651
 -2.30231,51.16358,2658
 -2.29642,51.15724,2699
 -2.2895,51.15082,2774
@@ -111,6 +112,7 @@
 -1.71059,50.85738,5719
 -1.7033,50.85397,5748
 -1.69585,50.85049,5781
+-1.688181,50.847057,5803
 -1.68819,50.84706,5810
 -1.68047,50.84357,5847
 -1.66453,50.83657,5915
@@ -221,6 +223,7 @@
 -0.38093,50.29484,9196
 -0.36786,50.28956,9209
 -0.3548,50.28431,9205
+-0.341799,50.279167,9206
 -0.3418,50.27917,9217
 -0.32888,50.27401,9229
 -0.31594,50.26892,9251
@@ -341,6 +344,7 @@
 1.09515,49.795,9857
 1.10787,49.79175,9868
 1.12054,49.78841,9887
+1.13328,49.785118,9892
 1.13328,49.78512,9902
 1.146,49.78189,9895
 1.15873,49.77865,9903
@@ -459,6 +463,7 @@
 2.5914,49.42819,10062
 2.60379,49.4257,10064
 2.61623,49.42323,10071
+2.628563,49.420772,10052
 2.62856,49.42077,10072
 2.64088,49.41833,10074
 2.65321,49.41591,10077
@@ -576,6 +581,7 @@
 4.06061,49.2092,10201
 4.07231,49.20804,10209
 4.08396,49.20696,10217
+4.095641,49.205943,10214
 4.09565,49.20594,10218
 4.10733,49.20497,10215
 4.11902,49.20399,10205
@@ -690,6 +696,7 @@
 5.44256,49.13572,10347
 5.45377,49.13534,10350
 5.46488,49.13499,10344
+5.476003,49.134709,10316
 5.47599,49.13471,10335
 5.48706,49.13445,10338
 5.49812,49.13416,10348
@@ -802,6 +809,7 @@
 6.7459,49.18793,10308
 6.75764,49.18927,10316
 6.76935,49.19053,10317
+6.781034,49.191791,10316
 6.78103,49.19179,10327
 6.79257,49.19307,10331
 6.80404,49.19429,10343
@@ -912,6 +920,7 @@
 8.06786,49.41585,10378
 8.07872,49.41819,10381
 8.08935,49.42059,10385
+8.099967,49.423059,10378
 8.11061,49.42562,10400
 8.12127,49.42827,10403
 8.13201,49.431,10407
@@ -981,6 +990,7 @@
 9.22519,49.70358,10356
 9.24543,49.70887,10354
 9.26551,49.7143,10352
+9.313851,49.727527,10316
 9.36027,49.74037,10375
 9.36931,49.74288,10378
 9.37825,49.7454,10384
@@ -1064,6 +1074,28 @@
 11.31667,50.81897,10145
 11.32958,50.82993,10113
 11.34325,50.84073,10043
+12.667321,58.821068,10072
+12.093898,59.33238,10133
+11.485401,59.852428,10153
+10.974709,60.365205,10214
+10.526118,60.878472,10255
+10.221576,61.386529,10296
+9.942446,61.877113,10275
+9.643511,62.355694,10358
+9.211826,62.835204,10420
+8.682673,63.370235,10337
+8.188299,63.935077,10358
+7.901881,64.507529,10316
+7.568336,65.100715,10275
+7.209022,65.688317,10316
+6.833915,66.290597,10296
+6.421216,66.896064,10275
+6.002909,67.52353,10255
+86.408972,67.358017,10193
+83.968267,67.199553,10173
+80.181831,66.363853,10153
+78.074272,65.039131,10173
+77.632107,64.230423,10193
 
                     </coordinates>
                 </LineString>
@@ -1086,23 +1118,23 @@
             </Placemark>
             <Placemark>
                 <name>Burst</name>
-                <description>_protocol: UKHAS, solar: 0.65, battery: 4.08, altitude: 10419, time: 16:41:00, _sentence: $$UBSEDS9,16:41:00,49.63175,8.94269,10419,11,4.08,0.65,-9.7,-12*DA42
-, longitude: 8.94269, _raw: JCRVQlNFRFM5LDE2OjQxOjAwLDQ5LjYzMTc1LDguOTQyNjksMTA0MTksMTEsNC4wOCwwLjY1LC05LjcsLTEyKkRBNDIK, satellites: 11, temperature_internal: -9.7, _parsed: {u'payload_configuration': u'f6edccff27a79d2ccfc1414070c31afe', u'time_parsed': u'2015-07-25T16:41:02Z', u'flight': u'486086d6d9632cf24e25ba49a094d0c5', u'configuration_sentence_index': 0}, latitude: 49.63175, payload: UBSEDS9, tcxo_drift: -12</description>
+                <description>_protocol: UKHAS, solar: 0.59, battery: 4.082, altitude: 10420, time: 12:00:00, _sentence: $$UBSEDS9,12:00:00,62.835204,9.211826,10420,9,4.082,0.59,-10.2,-1*17CF
+, longitude: 9.211826, _raw: JCRVQlNFRFM5LDEyOjAwOjAwLDYyLjgzNTIwNCw5LjIxMTgyNiwxMDQyMCw5LDQuMDgyLDAuNTksLTEwLjIsLTEqMTdDRgo=, satellites: 9, temperature_internal: -10.2, _parsed: {u'time_parsed': u'2015-08-02T11:20:52Z', u'payload_configuration': u'f6edccff27a79d2ccfc1414070c31afe', u'configuration_sentence_index': 0}, latitude: 62.835204, payload: UBSEDS9, tcxo_drift: -1</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>8.94269,49.63175,10419
+                    <coordinates>9.211826,62.835204,10420
 </coordinates>
                 </Point>
             </Placemark>
             <Placemark>
                 <name>Landing</name>
-                <description>_protocol: UKHAS, solar: 0.56, battery: 3.25, altitude: 10043, time: 19:11:30, _sentence: $$UBSEDS9,19:11:30,50.84073,11.34325,10043,9,3.25,0.56,-26.3,-4*1A5A
-, longitude: 11.34325, _raw: JCRVQlNFRFM5LDE5OjExOjMwLDUwLjg0MDczLDExLjM0MzI1LDEwMDQzLDksMy4yNSwwLjU2LC0yNi4zLC00KjFBNUEK, satellites: 9, temperature_internal: -26.3, _parsed: {u'payload_configuration': u'f6edccff27a79d2ccfc1414070c31afe', u'time_parsed': u'2015-07-25T19:11:34Z', u'flight': u'486086d6d9632cf24e25ba49a094d0c5', u'configuration_sentence_index': 0}, latitude: 50.84073, payload: UBSEDS9, tcxo_drift: -4</description>
+                <description>_protocol: UKHAS, solar: 0.657, battery: 4.073, altitude: 10193, time: 10:00:00, _sentence: $$UBSEDS9,10:00:00,64.230423,77.632107,10193,8,4.073,0.657,-10.2,-1*0E87
+, longitude: 77.632107, _raw: JCRVQlNFRFM5LDEwOjAwOjAwLDY0LjIzMDQyMyw3Ny42MzIxMDcsMTAxOTMsOCw0LjA3MywwLjY1NywtMTAuMiwtMSowRTg3Cg==, satellites: 8, temperature_internal: -10.2, _parsed: {u'time_parsed': u'2015-08-02T11:20:55Z', u'payload_configuration': u'f6edccff27a79d2ccfc1414070c31afe', u'configuration_sentence_index': 0}, latitude: 64.230423, payload: UBSEDS9, tcxo_drift: -1</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>11.34325,50.84073,10043
+                    <coordinates>77.632107,64.230423,10193
 </coordinates>
                 </Point>
             </Placemark>
