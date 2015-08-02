@@ -7,7 +7,6 @@ from datetime import datetime
 import arrow
 import dateutil.parser
 import yaml
-import pyaml
 import re
 
 import distance
@@ -176,7 +175,7 @@ except IOError:
 template_yaml.update(post_yaml)
 
 # Substitute in the new yaml
-yaml_str = pyaml.dumps(template_yaml)
+yaml_str = yaml.dump(template_yaml)
 combined = re.sub(r"---\n(.*)---\n", r"---\n{}---\n".format(yaml_str),
                   template, re.M, re.S)
 
