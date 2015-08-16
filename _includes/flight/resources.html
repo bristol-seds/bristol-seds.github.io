@@ -9,6 +9,9 @@
 {% if page.payload_title %}
 <li><a href="http://x-f.lv/dev/habitat-graphs/payload/{{ page.payload_title }}#g/altitude,battery">HAB Telemetry Visualisation</a></li>
 {% endif %}
+{% if page.flight_map %}
+<li><a href="{{ page.flight_map }}">KML Flight Map</a></li>
+{% endif %}
 </ul>
 
 {% endif %}
