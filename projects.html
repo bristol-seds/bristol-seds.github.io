@@ -3,7 +3,11 @@ layout: default
 asset_path: /assets/
 ---
 
+<img class="img-responsive" src="{{ "slide2_thin.jpg" | prepend: page.asset_path }}">
+
 <div class="container">
+  <h1>Projects</h1>
+
   <ul class="post-list">
     {% for post in site.posts %}
       {% if post.categories contains 'test' %}{% else %}
