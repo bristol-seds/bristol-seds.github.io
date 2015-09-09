@@ -159,11 +159,13 @@ flight:
 flight_map: /assets/flights/9/flight_map.kml
 layout: post
 payload_title: UBSEDS9
-photos: [/assets/flights/9/ubseds9_assembled_vase.jpg, /assets/flights/9/ubseds9_pcb_early.jpg]
+photos: [/assets/flights/9/ubseds9_assembled_vase.jpg, /assets/flights/9/ubseds9_pcb_early.jpg, /assets/flights/9/flight_map.png]
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS9_20150725/index.php?ind=9'}
 speed_plot: /assets/flights/9/speed_plot.csv
 title: UBSEDS9
 ---
+
+UBSEDS9 was our first superpressure HAB to use solar panels for recharging the battery during daylight hours. It floated at an altitude of 10.3 km (34,000 ft) and was tracked for 6,800 km. The flight used a v0.98.0 [pico tracker](/pico-tracker).
 
 <!--more-->
 
@@ -174,8 +176,6 @@ title: UBSEDS9
 {% include carousel.html %}
 
 <br/>
-
-UBSEDS9 was our first superpressure HAB to use solar panels for recharging the battery during daylight hours. It floated at an altitude of 10.3 km (34,000 ft) and was tracked for 6,800 km.
 
 The mission was a great success: We managed to verify that our APRS transmitter worked. This was demonstrated in international waters north of Norway. Also the solar panels worked well at generating energy during daylight hours. The balloon was tracked to the furthest distance compared to all previous flights (see flight path below). The balloon initially headed south into France, then curved up through mainland Europe and past Norway into the Arctic Circle and beyond. Fours days later, the balloon re-emerged over Siberia. This mission was also successful as it demonstrated that the solar panel was capable of recharging and bringing back to life the battery that had gone flat overnight.
 
