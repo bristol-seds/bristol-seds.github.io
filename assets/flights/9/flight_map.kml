@@ -2,13 +2,16 @@
     <kml xmlns="http://earth.google.com/kml/2.0">
     <Document>
         <Style id="ept">
-            <PolyStyle>
-                <color>33ffffff</color>
-            </PolyStyle>
+          <LineStyle>
+            <width>7</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>334a1ba6</color>
+          </PolyStyle>
         </Style>
         <Folder>
             <Placemark>
-                <name>Track Segment</name>
+                <name>Flight Path</name>
                 <styleUrl>#ept</styleUrl>
                 <LineString>
                     <extrude>1</extrude>
