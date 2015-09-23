@@ -87,7 +87,7 @@ Try not to disturb the board too much while it's cooling as the crystal structur
 
 ![Pico Tracker]({{ "pico-tracker.jpg" | prepend: page.asset_path }})
 
-# Conculsions
+# Conclusions
 
 With a little practice we've been building a board like this in two or three hours. It would be much less time-consuming if we had tools such as a [pick and place machine](http://en.wikipedia.org/wiki/SMT_placement_equipment) but on a student budget this is an excellent method of achieving "professional quality" boards in very small quantities.
 
