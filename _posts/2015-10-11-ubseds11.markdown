@@ -1,0 +1,134 @@
+---
+altitude_plot: /assets/flights/11/altitude_plot.csv
+categories: hab flight
+date: '2015-10-11 07:24:23'
+description: Dual launch
+flight:
+  countries:
+  - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  great_circle: '137.7'
+  max_altitude: '5.5'
+  receivers:
+  - callsign: g0nzo
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '119.2'
+      rxcount: 498
+  - callsign: M0JCU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '150.3'
+      rxcount: 368
+  - callsign: '0x17'
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '120.7'
+      rxcount: 321
+  - callsign: G8DHE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '178.6'
+      rxcount: 303
+  - callsign: G0WXI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '263.3'
+      rxcount: 286
+  - callsign: G8KNN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '229.9'
+      rxcount: 256
+  - callsign: G8FJG_v
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '213.3'
+      rxcount: 243
+  - callsign: PD5TON
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '495.8 (websdr?)'
+      rxcount: 223
+  - callsign: G6SUQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '168.3'
+      rxcount: 148
+  - callsign: G4YHE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '181.3'
+      rxcount: 143
+  - callsign: G6GZH
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '240.6'
+      rxcount: 137
+  - callsign: G6SSN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '239.2'
+      rxcount: 127
+  - callsign: M0EYT
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '74.7'
+      rxcount: 120
+  - callsign: G8DJN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '58.6'
+      rxcount: 114
+  - callsign: M0NRD
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '237.9'
+      rxcount: 74
+  - callsign: M0ZBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '230.4'
+      rxcount: 67
+  - callsign: craag-websdr
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '141.6'
+      rxcount: 60
+  - callsign: M0SBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '20.4'
+      rxcount: 26
+  - callsign: 2E0SHG
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '192.1'
+      rxcount: 15
+  - callsign: DEV88
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '109.6'
+      rxcount: 11
+  - callsign: F5APQ
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '333.2 (websdr?)'
+      rxcount: 4
+  total_distance: '476.1'
+flight_map: /assets/flights/11/flight_map.kml
+layout: post
+payload_title: UBSEDS11
+resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS10-11_20151011/index.php?ind=3'}
+speed_plot: /assets/flights/11/speed_plot.csv
+title: UBSEDS11
+---
+
+<!--more-->
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}
