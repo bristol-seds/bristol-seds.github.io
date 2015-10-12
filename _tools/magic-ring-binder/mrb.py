@@ -82,6 +82,11 @@ payload_json_raw = db.view("payload_telemetry/payload_time",
 # Only telemetry points above 200m are considered part of the flight
 payload_json = [t for t in payload_json_raw if t['doc']['data']['altitude'] > 200]
 
+# If telemetry includes date field
+if payload_json[0]['doc']['data']['date']:
+    # Strip points with invalid date
+    payload_json = [t for t in payload_json if t['doc']['data']['date'] != "000000"]
+
 # Sort the payload data by date
 def data_timesort(datum):
 
