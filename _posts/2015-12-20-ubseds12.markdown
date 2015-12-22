@@ -44,7 +44,7 @@ layout: post
 payload_title: UBSEDS12
 speed_plot: /assets/flights/12/speed_plot.csv
 title: UBSEDS12
-description: '\'Low Altitude Balloon\''
+description: Low Altitude Balloon
 ---
 
 <!--more-->
