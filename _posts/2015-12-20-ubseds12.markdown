@@ -1,0 +1,57 @@
+---
+altitude_plot: /assets/flights/12/altitude_plot.csv
+categories: hab flight
+date: '2015-12-20 08:50:38'
+flight:
+  countries:
+  - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  great_circle: '292.4'
+  max_altitude: '1.1'
+  receivers:
+  - callsign: M0UPU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '123.0'
+      rxcount: 78
+  - callsign: G6GZH
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '111.1'
+      rxcount: 69
+  - callsign: 2E0KPI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '63.3'
+      rxcount: 59
+  - callsign: G1DYQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '98.8'
+      rxcount: 42
+  - callsign: M0SBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '40.6'
+      rxcount: 37
+  - callsign: GTO1
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '62.0'
+      rxcount: 29
+  total_distance: '296.5'
+flight_map: /assets/flights/12/flight_map.kml
+layout: post
+payload_title: UBSEDS12
+speed_plot: /assets/flights/12/speed_plot.csv
+title: UBSEDS12
+---
+
+<!--more-->
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}
