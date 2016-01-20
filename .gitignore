@@ -4,6 +4,3 @@ _site
 
 # raw images
 assets/flights/*/images/*
-
-# pre 2014 assets
-assets/pre-2014/*
