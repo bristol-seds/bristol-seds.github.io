@@ -1,0 +1,143 @@
+---
+altitude_plot: /assets/flights/13/altitude_plot.csv
+categories: hab flight
+date: '2016-01-20 12:57:00'
+flight:
+  countries:
+  - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+  - {isocode: !!python/unicode 'de', name: !!python/unicode 'Germany'}
+  - {isocode: !!python/unicode 'ch', name: !!python/unicode 'Switzerland'}
+  - {isocode: !!python/unicode 'it', name: !!python/unicode 'Italy'}
+  - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
+  - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
+  - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  great_circle: '3221.2'
+  max_altitude: '10.2'
+  receivers:
+  - callsign: G6GZH
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '338.1'
+      rxcount: 157
+  - callsign: G8KNN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '319.1'
+      rxcount: 145
+  - callsign: G8DHE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '302.0'
+      rxcount: 121
+  - callsign: '0x17'
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '245.4'
+      rxcount: 102
+  - callsign: G4AIU
+    data: {rxcount: 99}
+  - callsign: M0SBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '21.4'
+      rxcount: 93
+  - callsign: M0JCU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '110.8'
+      rxcount: 89
+  - callsign: G8FJG_v
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '197.5'
+      rxcount: 87
+  - callsign: DEV88
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '181.5'
+      rxcount: 73
+  - callsign: G8JNJ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '137.9'
+      rxcount: 67
+  - callsign: SM0ULC-2
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '138.4'
+      rxcount: 46
+  - callsign: BACKLOG
+    data: {rxcount: 45}
+  - callsign: M0UPU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '440.8'
+      rxcount: 36
+  - callsign: SM0ULC
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '180.6'
+      rxcount: 33
+  - callsign: M0ZBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '187.5'
+      rxcount: 30
+  - callsign: jijdaar
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '254.0'
+      rxcount: 27
+  - callsign: G1BLO
+    data: {rxcount: 21}
+  - callsign: F5APQ
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '292.1'
+      rxcount: 6
+  - callsign: sa6bss
+    data:
+      country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
+      max_distance: '1087.4'
+      rxcount: 5
+  - callsign: G0CXW
+    data: {max_distance: '201.7', rxcount: 2}
+  total_distance: '3780.1'
+flight_map: /assets/flights/13/flight_map.kml
+layout: post
+payload_title: UBSEDS13
+speed_plot: /assets/flights/13/speed_plot.csv
+description: Custom Envelope to the Black Sea
+photos: [/assets/flights/13/ubseds13_air_extracted_1.jpg,
+/assets/flights/13/ubseds13_tracker.jpg,
+/assets/flights/13/ubseds13_tracker_weight.jpg,
+/assets/flights/13/ubseds13_deadweight.jpg,
+/assets/flights/13/ubseds13_neutrally_buoyant_2.jpg,
+/assets/flights/13/ubseds13_free_lift.jpg,
+/assets/flights/13/ubseds13_launch.jpg
+]
+resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS13_20160120/index.php?ind=7'}
+title: UBSEDS13
+---
+
+UBSEDS13 was our first float with a custom envelope. The envelope was built to 1.4 meters diameter and flown with 11.3 grams of free lift. It floated at an altitude of 10km (33,000 ft).
+
+<!--more-->
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+# Tracker
+
+This tracker used a AA Lithium Energiser Battery (LR91) for power and was the first to use the SE880 GPS unit. A failure related to the SE880 was probably the reason for losing the flight after 2 days.
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}
