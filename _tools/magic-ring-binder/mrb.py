@@ -83,9 +83,9 @@ payload_json_raw = db.view("payload_telemetry/payload_time",
 payload_json = [t for t in payload_json_raw if t['doc']['data']['altitude'] > 200]
 
 # If telemetry includes date field
-if payload_json[0]['doc']['data']['date']:
+#if payload_json[0]['doc']['data']['date']:
     # Strip points with invalid date
-    payload_json = [t for t in payload_json if t['doc']['data']['date'] != "000000"]
+#    payload_json = [t for t in payload_json if t['doc']['data']['date'] != "000000"]
 
 # Sort the payload data by date
 def data_timesort(datum):
@@ -111,6 +111,17 @@ flight_map = asset_path+"flight_map.kml"
 kml.output(payload_data_sorted, "../.."+flight_map)
 
 altitude_plot = asset_path+"altitude_plot.csv"
+with open("../.."+altitude_plot, 'w') as outfile:
+    outfile.write('time,latitude,longitude,altitude\n')
+    for d in payload_data_sorted:
+        if 'date' in d:
+            date = d['date']
+        else:
+            date = "000000"
+
+        outfile.write("{}-{},{:.6f},{:.6f},{}\n".format(
+            date, d['time'], d['latitude'], d['longitude'], d['altitude']))
+
 speed_plot = asset_path+"speed_plot.csv"
 
 # =-----------------------------------------------------------------------
@@ -143,7 +154,8 @@ post_yaml = {
     "categories": "hab flight",
     "flight_map": flight_map,
     "altitude_plot": altitude_plot,
-    "speed_plot": speed_plot,
+#    "speed_plot": speed_plot,
+    "plots": True,
     "flight": {
         "total_distance": "{:0.1f}".format(distance.total(payload_data_sorted)),
         "great_circle": "{:0.1f}".format(distance.great_circle(payload_data_sorted)),

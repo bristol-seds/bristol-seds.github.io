@@ -6,7 +6,7 @@ var h = 300;
 d3.text("{{ page.altitude_plot }}", function(text) {
     var rawData = d3.csv.parseRows(text);
 
-    parsetime = d3.time.format("%H:%M:%S").parse;
+    parsetime = d3.time.format("%y%m%d-%H:%M:%S").parse;
 
     var data = [];
     // Convert non-date values to numbers
