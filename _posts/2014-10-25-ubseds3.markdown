@@ -1,4 +1,5 @@
 ---
+description: 'MARSBalloon Elysium'
 altitude_plot: /assets/flights/3/altitude_plot.csv
 categories: hab flight
 date: '2014-10-25 11:27:40'
