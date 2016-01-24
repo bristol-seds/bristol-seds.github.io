@@ -1,64 +1,64 @@
 ---
 altitude_plot: /assets/flights/10/altitude_plot.csv
 categories: hab flight
-date: '2015-10-11 04:10:25'
+date: '2015-10-11 04:54:24'
 description: Dual launch
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-  great_circle: '78.3'
+  great_circle: '69.4'
   max_altitude: '5.5'
   receivers:
   - callsign: M0JCU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '148.6'
-      rxcount: 357
+      rxcount: 358
   - callsign: G8DXZ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '149.2'
-      rxcount: 334
+      rxcount: 335
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '114.1'
-      rxcount: 298
+      rxcount: 300
   - callsign: G8DHE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '178.2'
-      rxcount: 253
+      rxcount: 254
   - callsign: G8FJG_v
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '213.4'
-      rxcount: 241
+      rxcount: 242
   - callsign: DEV88
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '112.4'
-      rxcount: 225
+      rxcount: 226
   - callsign: G0WXI
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '235.1'
-      rxcount: 214
+      rxcount: 215
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '231.0'
-      rxcount: 170
+      rxcount: 171
   - callsign: G4YHE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '188.5'
-      rxcount: 142
+      rxcount: 143
   - callsign: M0NRD
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '239.3'
-      rxcount: 68
+      rxcount: 69
   - callsign: craag-websdr
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -99,12 +99,12 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '59.6'
       rxcount: 1
-  total_distance: '114.1'
+  total_distance: '160.7'
 flight_map: /assets/flights/10/flight_map.kml
 layout: post
 payload_title: UBSEDS10
+plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS10-11_20151011/index.php?ind=3'}
-speed_plot: /assets/flights/10/speed_plot.csv
 title: UBSEDS10
 ---
 

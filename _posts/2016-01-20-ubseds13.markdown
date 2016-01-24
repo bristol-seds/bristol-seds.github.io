@@ -2,6 +2,7 @@
 altitude_plot: /assets/flights/13/altitude_plot.csv
 categories: hab flight
 date: '2016-01-20 12:57:00'
+description: Custom Envelope to the Black Sea
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -108,16 +109,11 @@ flight:
 flight_map: /assets/flights/13/flight_map.kml
 layout: post
 payload_title: UBSEDS13
-speed_plot: /assets/flights/13/speed_plot.csv
-description: Custom Envelope to the Black Sea
-photos: [/assets/flights/13/ubseds13_air_extracted_1.jpg,
-/assets/flights/13/ubseds13_tracker.jpg,
-/assets/flights/13/ubseds13_tracker_weight.jpg,
-/assets/flights/13/ubseds13_deadweight.jpg,
-/assets/flights/13/ubseds13_neutrally_buoyant_2.jpg,
-/assets/flights/13/ubseds13_free_lift.jpg,
-/assets/flights/13/ubseds13_launch.jpg
-]
+photos: [/assets/flights/13/ubseds13_air_extracted_1.jpg, /assets/flights/13/ubseds13_tracker.jpg,
+  /assets/flights/13/ubseds13_tracker_weight.jpg, /assets/flights/13/ubseds13_deadweight.jpg,
+  /assets/flights/13/ubseds13_neutrally_buoyant_2.jpg, /assets/flights/13/ubseds13_free_lift.jpg,
+  /assets/flights/13/ubseds13_launch.jpg]
+plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS13_20160120/index.php?ind=7'}
 title: UBSEDS13
 ---
@@ -135,6 +131,8 @@ UBSEDS13 was our first float with a custom envelope. The envelope was built to 1
 This tracker used a AA Lithium Energiser Battery (LR91) for power and was the first to use the SE880 GPS unit. A failure related to the SE880 was probably the reason for losing the flight after 2 days.
 
 {% include flight/map.html %}
+
+{% include flight/plots.html %}
 
 {% include flight/statistics.html %}
 

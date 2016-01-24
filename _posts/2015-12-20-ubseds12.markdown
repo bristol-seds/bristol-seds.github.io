@@ -2,6 +2,7 @@
 altitude_plot: /assets/flights/12/altitude_plot.csv
 categories: hab flight
 date: '2015-12-20 08:50:38'
+description: Low Altitude Balloon
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -42,14 +43,15 @@ flight:
 flight_map: /assets/flights/12/flight_map.kml
 layout: post
 payload_title: UBSEDS12
-speed_plot: /assets/flights/12/speed_plot.csv
+plots: true
 title: UBSEDS12
-description: Low Altitude Balloon
 ---
 
 <!--more-->
 
 {% include flight/map.html %}
+
+{% include flight/plots.html %}
 
 {% include flight/statistics.html %}
 

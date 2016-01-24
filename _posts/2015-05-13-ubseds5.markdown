@@ -1,171 +1,138 @@
 ---
 altitude_plot: /assets/flights/5/altitude_plot.csv
-categories: 'hab flight'
+categories: hab flight
 date: '2015-05-13 04:46:38'
 flight:
   countries:
-    - isocode: gb
-      name: 'United Kingdom'
-  great_circle: 71.3
-  max_altitude: 7.3
+  - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  great_circle: '71.3'
+  max_altitude: '7.3'
   receivers:
-    - callsign: M0CJM
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 103.3
-        rxcount: 195
-    - callsign: G1DYQ
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 114.6
-        rxcount: 185
-    - callsign: G0WXI
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 206.6
-        rxcount: 160
-    - callsign: G6GZH
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 223.5
-        rxcount: 151
-    - callsign: G8KNN
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 202.0
-        rxcount: 139
-    - callsign: G8DHE
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 167.3
-        rxcount: 126
-    - callsign: M0SBU
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 53.5
-        rxcount: 121
-    - callsign: M0DNY_Websdr
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 71.7
-        rxcount: 78
-    - callsign: SM0ULC-2
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 107.1
-        rxcount: 68
-    - callsign: G8FJG
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 162.7
-        rxcount: 57
-    - callsign: G4BWR
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 82.5
-        rxcount: 46
-    - callsign: G4YHE
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 125.7
-        rxcount: 42
-    - callsign: G8FJG_2
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 141.0
-        rxcount: 33
-    - callsign: M0UPU
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 269.2
-        rxcount: 32
-    - callsign: G8DXZ
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 161.7
-        rxcount: 30
-    - callsign: SA6BSS
-      data:
-        country:
-          isocode: se
-          name: Sweden
-        max_distance: 1263.6
-        rxcount: 18
-    - callsign: M0ZBU
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 159.6
-        rxcount: 12
-    - callsign: 'SUWS WEB SDR'
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 53.9
-        rxcount: 9
-    - callsign: PB0AHX
-      data:
-        country:
-          isocode: nl
-          name: Netherlands
-        max_distance: 438.0
-        rxcount: 3
-    - callsign: 'SUWS Farnham WEB SDR'
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 52.7
-        rxcount: 3
-    - callsign: SUWS_WEBSDR
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 54.1
-        rxcount: 1
-  total_distance: 82.3
+  - callsign: M0CJM
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '103.3'
+      rxcount: 195
+  - callsign: G1DYQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '114.6'
+      rxcount: 185
+  - callsign: G0WXI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '206.6'
+      rxcount: 160
+  - callsign: G6GZH
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '223.5'
+      rxcount: 151
+  - callsign: G8KNN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '202.0'
+      rxcount: 139
+  - callsign: G8DHE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '167.3'
+      rxcount: 126
+  - callsign: M0SBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '53.5'
+      rxcount: 121
+  - callsign: M0DNY_Websdr
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '71.7'
+      rxcount: 78
+  - callsign: SM0ULC-2
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '107.1'
+      rxcount: 68
+  - callsign: G8FJG
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '162.7'
+      rxcount: 57
+  - callsign: G4BWR
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '82.5'
+      rxcount: 46
+  - callsign: G4YHE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '125.7'
+      rxcount: 42
+  - callsign: G8FJG_2
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '141.0'
+      rxcount: 33
+  - callsign: M0UPU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '269.2'
+      rxcount: 32
+  - callsign: G8DXZ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '161.7'
+      rxcount: 30
+  - callsign: SA6BSS
+    data:
+      country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
+      max_distance: '1263.6'
+      rxcount: 18
+  - callsign: M0ZBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '159.6'
+      rxcount: 12
+  - callsign: SUWS WEB SDR
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '53.9'
+      rxcount: 9
+  - callsign: PB0AHX
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '438.0'
+      rxcount: 3
+  - callsign: SUWS Farnham WEB SDR
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '52.7'
+      rxcount: 3
+  - callsign: SUWS_WEBSDR
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '54.1'
+      rxcount: 1
+  total_distance: '82.3'
 flight_map: /assets/flights/5/flight_map.kml
 layout: post
 payload_title: UBSEDS5
+plots: true
 speed_plot: /assets/flights/5/speed_plot.csv
 title: UBSEDS5
 ---
 <!--more-->
 
 {% include flight/map.html %}
+
+### Data
+<div class="row">
+  <div class="col-md-6">
+    <div>
+      <svg id="alt-time"></svg>
+    </div>
+  </div>
+</div>
 
 {% include flight/statistics.html %}
 

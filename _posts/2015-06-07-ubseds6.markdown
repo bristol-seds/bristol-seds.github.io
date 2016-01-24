@@ -1,5 +1,4 @@
 ---
-altitude_plot: /assets/flights/6/altitude_plot.csv
 categories: 'hab flight'
 date: '2015-06-07 08:18:09'
 flight:
@@ -339,6 +338,8 @@ photos:
 description: Qualatex to Latvia
 resources:
   g8dhe: http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS6_20150607/
+altitude_plot: /assets/flights/6/altitude.csv
+plots: true
 ---
 
 UBSEDS6 was our first launch using a [36" Qualatex Balloon](http://randomsolutions.co.uk/Random_Aerospace/Balloons.html). Despite
@@ -382,6 +383,8 @@ unknown, but possibly due to cold (-30ºC).
 <br/>
 
 {% include flight/map.html %}
+
+{% include flight/plots.html %}
 
 {% include flight/statistics.html %}
 

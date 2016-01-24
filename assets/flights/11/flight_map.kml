@@ -15,7 +15,12 @@
                     <tessellate>1</tessellate>
                     <altitudeMode>absolute</altitudeMode>
                     <coordinates>
-    -2.62989,51.45525,208
+    -2.7188,51.24724,5049
+-2.7055,51.24863,4907
+-2.67523,51.25371,5144
+-2.45863,51.21046,5399
+-2.41253,51.20169,4190
+-2.62989,51.45525,208
 -2.64214,51.44704,326
 -2.64592,51.44443,346
 -2.64939,51.44178,352
@@ -468,6 +473,13 @@
 -2.50124,50.88325,1661
 -2.50305,50.87781,1643
 -2.50497,50.87226,1630
+-2.79305,50.45442,1323
+-2.83168,50.39251,1377
+-2.892,50.28202,1522
+-3.05035,50.01867,1224
+-3.06199,50.00072,1196
+-3.0688,49.98971,1198
+-3.0898,49.95749,1175
 -2.50685,50.86674,1607
 -2.50886,50.86119,1590
 -2.51102,50.85558,1579
@@ -597,12 +609,12 @@
             <name>Launch, Burst and Landing Points</name>
             <Placemark>
                 <name>Launch</name>
-                <description>bus_voltage: 1.26, temperature_bmp: 21.9, temperature_external: 11.9, altitude: 208, time: 16:05:30, satellites: 7, _sentence: $$UBSEDS11,16:05:30,151011,51.45525,-2.62989,208,7,1.26,99712,11.9,21.9,28.3,0*4ED1
-, longitude: -2.62989, _raw: JCRVQlNFRFMxMSwxNjowNTozMCwxNTEwMTEsNTEuNDU1MjUsLTIuNjI5ODksMjA4LDcsMS4yNiw5OTcxMiwxMS45LDIxLjksMjguMywwKjRFRDEK, pressure: 99712, _protocol: UKHAS, _parsed: {u'payload_configuration': u'17c891a9046ac34662d76f825dc0db50', u'time_parsed': u'2015-10-11T16:05:55Z', u'flight': u'de5be7be510c6f33ed3936c9b51b24a6', u'configuration_sentence_index': 0}, date: 151011, latitude: 51.45525, payload: UBSEDS11, tcxo_drift: 0, temperature_radio: 28.3</description>
+                <description>bus_voltage: 1.07, temperature_bmp: -11.1, temperature_external: -18.2, altitude: 5049, _parsed: {u'payload_configuration': u'17c891a9046ac34662d76f825dc0db50', u'time_parsed': u'2015-10-11T19:24:23Z', u'flight': u'de5be7be510c6f33ed3936c9b51b24a6', u'configuration_sentence_index': 0}, _sentence: $$UBSEDS11,00:00:30,000000,51.24724,-2.71880,5049,9,1.07,54523,-18.2,-11.1,128.0,0*FB1C
+, longitude: -2.7188, payload: UBSEDS11, pressure: 54523, time: 00:00:30, _protocol: UKHAS, _raw: JCRVQlNFRFMxMSwwMDowMDozMCwwMDAwMDAsNTEuMjQ3MjQsLTIuNzE4ODAsNTA0OSw5LDEuMDcsNTQ1MjMsLTE4LjIsLTExLjEsMTI4LjAsMCpGQjFDCg==, date: 000000, latitude: 51.24724, satellites: 9, tcxo_drift: 0, temperature_radio: 128.0</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>-2.62989,51.45525,208
+                    <coordinates>-2.7188,51.24724,5049
 </coordinates>
                 </Point>
             </Placemark>
