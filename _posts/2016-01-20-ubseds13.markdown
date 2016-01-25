@@ -96,6 +96,8 @@ flight:
       rxcount: 27
   - callsign: G1BLO
     data: {rxcount: 21}
+  - callsign: BACKLOG2
+    data: {rxcount: 6}
   - callsign: F5APQ
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -106,11 +108,9 @@ flight:
       country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
       max_distance: '1087.4'
       rxcount: 5
-  - callsign: BACKLOG2
-    data: {rxcount: 4}
   - callsign: G0CXW
     data: {max_distance: '201.7', rxcount: 2}
-  total_distance: '11708.2'
+  total_distance: '11708.4'
 flight_map: /assets/flights/13/flight_map.kml
 layout: post
 payload_title: UBSEDS13
