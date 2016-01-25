@@ -133,7 +133,11 @@ UBSEDS13 was our first float with a custom envelope. The envelope was built to 1
 
 # Tracker
 
-This tracker used a AA Lithium Energiser Battery (LR91) for power and was the first to use the SE880 GPS unit. A failure related to the SE880 was probably the reason for losing the flight after 2 days.
+This tracker used a AA Lithium Energiser Battery (LR91) for power and was the first to use the SE880 GPS unit. A failure related to the SE880 was probably the reason for a temporary failure of the tracker on the third day of the flight.
+
+The tracker also suffered in the cold above Russia and Mongolia. An temperature of -63ºC was recorded by the external thermistor and data for the rest of the nighttime period was not recorded.
+
+The balloon passed north of Japan on the 6th day of the flight.
 
 {% include flight/map.html %}
 
