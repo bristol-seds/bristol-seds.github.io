@@ -2,7 +2,7 @@
 altitude_plot: /assets/flights/13/altitude_plot.csv
 categories: hab flight
 date: '2016-01-20 12:57:00'
-description: Custom Envelope to the Black Sea
+description: Custom Envelope to <strike>the Black Sea</strike> Japan
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -14,7 +14,10 @@ flight:
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  great_circle: '3221.2'
+  - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
+  great_circle: '8796.3'
   max_altitude: '10.2'
   receivers:
   - callsign: G6GZH
@@ -64,13 +67,13 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '137.9'
       rxcount: 67
+  - callsign: BACKLOG
+    data: {rxcount: 64}
   - callsign: SM0ULC-2
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '138.4'
       rxcount: 46
-  - callsign: BACKLOG
-    data: {rxcount: 45}
   - callsign: M0UPU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -103,9 +106,11 @@ flight:
       country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
       max_distance: '1087.4'
       rxcount: 5
+  - callsign: BACKLOG2
+    data: {rxcount: 4}
   - callsign: G0CXW
     data: {max_distance: '201.7', rxcount: 2}
-  total_distance: '3780.1'
+  total_distance: '11708.2'
 flight_map: /assets/flights/13/flight_map.kml
 layout: post
 payload_title: UBSEDS13

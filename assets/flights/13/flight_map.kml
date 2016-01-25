@@ -290,8 +290,31 @@
 30.156849,40.553724,9972
 31.743425,40.775788,10012
 33.031696,41.023054,10052
+34.615752,41.3821,10072
 36.153983,41.820721,10052
+37.592309,42.388086,10012
 38.781685,42.917638,10072
+64.756409,55.143466,10173
+66.003518,55.307301,10193
+67.246237,55.420467,10153
+68.432714,55.547358,10193
+69.562613,55.640508,10214
+70.656369,55.704507,10173
+71.756278,55.741553,10153
+92.100954,52.766942,10133
+93.148129,52.467064,10112
+94.266666,52.17994,10112
+95.424077,51.963906,10112
+96.637751,51.806931,10112
+97.972226,51.656705,10112
+99.386043,51.546329,10032
+131.490148,50.17846,9677
+135.264151,49.181182,9639
+136.909426,48.55579,9677
+139.648625,47.261017,9716
+141.001454,46.423699,9639
+142.128896,45.638838,9639
+143.219124,45.032678,9620
 
                     </coordinates>
                 </LineString>
@@ -325,12 +348,12 @@
             </Placemark>
             <Placemark>
                 <name>Landing</name>
-                <description>barometric_pressure: -1, ttff: 9, temperature_internal: 4.8, latitude: 42.917638, temperature_external: 0.8, altitude: 10072, time: 09:16:00, _sentence: $$UBSEDS13,09:16:00,160122,42.917638,38.781685,10072,8,9,-1,1.531,0.8,4.8,-1*E418
-, longitude: 38.781685, _raw: JCRVQlNFRFMxMywwOToxNjowMCwxNjAxMjIsNDIuOTE3NjM4LDM4Ljc4MTY4NSwxMDA3Miw4LDksLTEsMS41MzEsMC44LDQuOCwtMSpFNDE4Cg==, satellites: 8, _protocol: UKHAS, _parsed: {u'time_parsed': u'2016-01-23T15:13:51Z', u'payload_configuration': u'd9f4e6c0af5b2aa17a31ca4c4d891d50', u'configuration_sentence_index': 0}, date: 160122, payload: UBSEDS13, battery: 1.531, temperature_radio: -1.0</description>
+                <description>barometric_pressure: -1, ttff: 15, temperature_internal: -36.2, latitude: 45.032678, temperature_external: -59.2, altitude: 9620, time: 07:57:00, _sentence: $$UBSEDS13,07:57:00,160125,45.032678,143.219124,9620,6,15,-1,1.438,-59.2,-36.2,-1*8905
+, longitude: 143.219124, _raw: JCRVQlNFRFMxMywwNzo1NzowMCwxNjAxMjUsNDUuMDMyNjc4LDE0My4yMTkxMjQsOTYyMCw2LDE1LC0xLDEuNDM4LC01OS4yLC0zNi4yLC0xKjg5MDUK, satellites: 6, _protocol: UKHAS, _parsed: {u'payload_configuration': u'd9f4e6c0af5b2aa17a31ca4c4d891d50', u'time_parsed': u'2016-01-25T09:55:03Z', u'flight': u'd9f4e6c0af5b2aa17a31ca4c4d93ac0a', u'configuration_sentence_index': 0}, date: 160125, payload: UBSEDS13, battery: 1.438, temperature_radio: -1.0</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>38.781685,42.917638,10072
+                    <coordinates>143.219124,45.032678,9620
 </coordinates>
                 </Point>
             </Placemark>
