@@ -1,171 +1,125 @@
 ---
 altitude_plot: /assets/flights/8/altitude_plot.csv
-categories: 'hab flight'
+categories: hab flight
 date: '2015-06-18 08:09:13'
+description: Qualatex with an unusually high float
 flight:
   countries:
-    - isocode: gb
-      name: 'United Kingdom'
-    - isocode: fr
-      name: France
-  great_circle: 401.7
-  max_altitude: 11.2
+  - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+  great_circle: '401.7'
+  max_altitude: '11.2'
   receivers:
-    - callsign: G8DHE
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 241.7
-        rxcount: 331
-    - callsign: G6GZH
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 384.5
-        rxcount: 201
-    - callsign: F5APQ
-      data:
-        country:
-          isocode: fr
-          name: France
-        max_distance: 263.1
-        rxcount: 187
-    - callsign: 0x17
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 290.1
-        rxcount: 184
-    - callsign: G8FJG_v
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 285.4
-        rxcount: 167
-    - callsign: G1DYQ
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 234.1
-        rxcount: 157
-    - callsign: G8IMN
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 304.6
-        rxcount: 148
-    - callsign: G8KNN
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 355.7
-        rxcount: 143
-    - callsign: ON5LT
-      data:
-        country:
-          isocode: be
-          name: Belgium
-        max_distance: 261.9
-        rxcount: 108
-    - callsign: M1ARI
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 88.8
-        rxcount: 69
-    - callsign: ASTRA
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 273.8
-        rxcount: 68
-    - callsign: M0SBU
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 102.7
-        rxcount: 65
-    - callsign: G8ZBJ
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 267.8
-        rxcount: 23
-    - callsign: ULC_websdr
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 120.1
-        rxcount: 21
-    - callsign: DutchMillbt
-      data:
-        country:
-          isocode: nl
-          name: Netherlands
-        max_distance: 349.8
-        rxcount: 19
-    - callsign: G8FJG_V
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 282.7
-        rxcount: 15
-    - callsign: swl
-      data:
-        country:
-          isocode: fr
-          name: France
-        max_distance: 85.0
-        rxcount: 14
-    - callsign: G0WXI
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 278.6
-        rxcount: 12
-    - callsign: G8FJG_H
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 125.2
-        rxcount: 5
-    - callsign: chimpusmaximus
-      data:
-        country:
-          isocode: gb
-          name: 'United Kingdom'
-        max_distance: 205.7
-        rxcount: 2
-  total_distance: 404.2
+  - callsign: G8DHE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '241.7'
+      rxcount: 331
+  - callsign: G6GZH
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '384.5'
+      rxcount: 201
+  - callsign: F5APQ
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '263.1'
+      rxcount: 187
+  - callsign: '0x17'
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '290.1'
+      rxcount: 184
+  - callsign: G8FJG_v
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '285.4'
+      rxcount: 167
+  - callsign: G1DYQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '234.1'
+      rxcount: 157
+  - callsign: G8IMN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '304.6'
+      rxcount: 148
+  - callsign: G8KNN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '355.7'
+      rxcount: 143
+  - callsign: ON5LT
+    data:
+      country: {isocode: !!python/unicode 'be', name: !!python/unicode 'Belgium'}
+      max_distance: '261.9'
+      rxcount: 108
+  - callsign: M1ARI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '88.8'
+      rxcount: 69
+  - callsign: ASTRA
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '273.8'
+      rxcount: 68
+  - callsign: M0SBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '102.7'
+      rxcount: 65
+  - callsign: G8ZBJ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '267.8'
+      rxcount: 23
+  - callsign: ULC_websdr
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '120.1'
+      rxcount: 21
+  - callsign: DutchMillbt
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '349.8'
+      rxcount: 19
+  - callsign: G8FJG_V
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '282.7'
+      rxcount: 15
+  - callsign: swl
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '85.0'
+      rxcount: 14
+  - callsign: G0WXI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '278.6'
+      rxcount: 12
+  - callsign: G8FJG_H
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '125.2'
+      rxcount: 5
+  - callsign: chimpusmaximus
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '205.7'
+      rxcount: 2
+  total_distance: '404.2'
 flight_map: /assets/flights/8/flight_map.kml
 layout: post
 payload_title: UBSEDS8
+photos: [/assets/flights/8/ubseds8_attaching_payload.jpg, /assets/flights/8/ubseds8_free_lift.jpg,
+  /assets/flights/8/ubseds8_tree.jpg]
+plots: true
+resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS8_20150618/'}
 speed_plot: /assets/flights/8/speed_plot.csv
 title: UBSEDS8
-description: Qualatex with an unusually high float
-photos:
- - /assets/flights/8/ubseds8_attaching_payload.jpg
- - /assets/flights/8/ubseds8_free_lift.jpg
- - /assets/flights/8/ubseds8_tree.jpg
-resources:
-  g8dhe: http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS8_20150618/
-altitude_plot: /assets/flights/8/altitude.csv
-plots: true
 ---
 
 UBSEDS8 was our second launch with a
