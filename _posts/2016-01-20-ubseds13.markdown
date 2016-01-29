@@ -127,7 +127,7 @@ resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS13_20160
 title: UBSEDS13
 ---
 
-UBSEDS13 was our first float with a custom envelope. The envelope was built to 1.4 meters diameter and flown with 11.3 grams of free lift. It floated at an altitude of 10km (33,000 ft).
+UBSEDS13 was our first float with a custom envelope heat sealed together by hand. The multilayer film used was 50 micron thick PA-EVOH-PE. The envelope was built to 1.4 meters diameter and flown with 21.3 grams of payload. It was filled with Helium to 11.3 grams of free lift and floated at an altitude of about 10km (33,000 ft).
 
 <!--more-->
 
@@ -137,13 +137,46 @@ UBSEDS13 was our first float with a custom envelope. The envelope was built to 1
 
 # Tracker
 
-This tracker used a AA Lithium Energiser Battery (LR91) for power and was the first to use the SE880 GPS unit. A failure related to the SE880 was probably the reason for a temporary failure of the tracker on the third day of the flight.
+This tracker was based around our [pico tracker](/pico-tracker) with some modifications for low power and low temperature operation. It was powered from single AA Lithium Energiser Battery (LR91).
 
-The tracker also suffered in the cold above Russia and Mongolia. An temperature of -63ºC was recorded by the external thermistor and data for the rest of the nighttime period was not recorded.
+Changes made:
 
-The balloon passed north of Japan on the 6th day of the flight.
+#### SE880
+
+This tracker used the SE880 GPS unit with the goal of reduced power consumption. This was somewhat successful, but the SE880 sometimes took much longer than anticipated to output a valid GPS fix. We suspect this is mostly due to the TCXO drift varying and very low but changing temperatures, particularly a dusk and dawn. A failure related to the SE880 was probably the reason for a temporary failure of the tracker on the third day of the flight.
+
+#### MS5607
+
+A MS5607 barometeric sensor was added for this flight.
+
+#### 32kHz clocks
+
+Both the SE880 and MCU were fed with 32kHz clocks from SiT1552 TCXOs. This allowed the main 16.369MHz TCXOs (which draw about 1.5mA) to be switched off when not in use.
+
+# Transmissions
+
+The balloon transmitted once per minute during the ascent, and once every 4 minutes thereafter.
+
+### UHF 434.6MHz
+
+Contestia 16/1000 was transmitted on 434.6MHz USB in Western Europe. We did not know of any UHF listeners outside of this area, apart from one in Los Angeles, and so UHF transmissions were switched off while outside this area. [(geofence map here)](/assets/flights/13/geofences/ubseds13_uhf_geofence_world_millar_cylindrical.jpg)
+
+The transmission power on this band was measured to be +5dBm on a similar board, which is well below the +10dBm limit for ISM band operation. Each packet was preceeded by 10 seconds of 1Hz pips for manual alignment and a RSID tone for automatic alignment with suitable software (dl-fldigi for example).
+
+### APRS M0SBU-11
+
+For many countries the balloon transmitted APRS packets on local frequencies. In particular this was 144.8MHz in Europe, 144.66MHz in Japan and 144.39MHz in North America.
+
+In some European countries (including the UK) amateur radio is not permitted while airbourne, and so no APRS was transmitted while within the terratorial waters of these countries. We understand that the reciprocal license that would be issued to a British licensee visting the USA would not allow airbourne operation either, and so no APRS packets were transmitted while in the USA.
 
 {% include flight/map.html %}
+
+<br/>
+
+The map above is drawn using data received from UHF and from APRS backlog frames. APRS backlog is where the tracker inserts information about where it was in the past into the comment field of an APRS packet that also contains the current position. This backlog allows the map to be drawn ex post even where there are no receivers.
+
+Straight lines are visible where no data was recorded, usually because the battery voltage was too low. This happened during the extreme night-time cold above Russia and Mongolia, and above northern Canada. For instance on the 23rd a temperature of -63ºC was recorded by the external thermistor and data for the rest of the night-time period was not recorded.
+
 
 {% include flight/plots.html %}
 
