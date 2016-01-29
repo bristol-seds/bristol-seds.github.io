@@ -19,7 +19,7 @@ flight:
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  great_circle: '5262.2'
+  great_circle: '5755.2'
   max_altitude: '10.2'
   receivers:
   - callsign: G6GZH
@@ -37,6 +37,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '302.0'
       rxcount: 121
+  - callsign: BACKLOG
+    data: {rxcount: 105}
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -59,8 +61,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '197.5'
       rxcount: 87
-  - callsign: BACKLOG
-    data: {rxcount: 84}
   - callsign: DEV88
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -112,7 +112,7 @@ flight:
       rxcount: 5
   - callsign: G0CXW
     data: {max_distance: '201.7', rxcount: 2}
-  total_distance: '23745.2'
+  total_distance: '25536.0'
 flight_map: /assets/flights/13/flight_map.kml
 layout: post
 payload_title: UBSEDS13

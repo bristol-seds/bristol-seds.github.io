@@ -317,26 +317,47 @@
 141.001454,46.423699,9639
 142.128896,45.638838,9639
 143.219124,45.032678,9620
+146.796722,43.609929,9581
 148.152324,43.086305,9524
+150.415944,42.447793,9505
 155.400576,41.630857,9354
 157.397458,41.553236,9317
+161.914115,41.542415,9261
+166.524711,41.356038,8705
 172.828045,41.225025,9505
+174.975528,41.236755,9448
+-175.454225,40.491408,9243
 -163.454881,39.44804,9042
 -161.079391,39.611657,9078
+-156.594819,40.380846,9133
 -154.533169,40.949612,9224
+-152.743546,41.581462,9224
 -148.912975,44.495839,9280
 -148.026976,45.633703,9261
+-146.940687,49.021122,9373
 -146.870316,50.162037,9392
+-146.898253,51.290938,9467
 -147.659409,54.180143,9467
 -148.174527,54.980479,9429
+-149.622147,56.554202,9543
 -150.348356,57.224487,9524
+-151.15425,57.813069,9486
 -153.341641,59.730092,9600
+-153.943648,60.307052,9677
 -155.619385,62.296638,9543
+-156.037141,63.524753,9697
 -155.821073,65.850052,9658
 -155.265836,66.609236,9736
+-153.454923,67.827392,9697
+-149.484908,70.046967,9755
 -102.60219,64.853578,9562
 -100.901818,64.039895,9562
+-97.720885,62.343484,9562
+-94.52112,60.716606,9639
 -88.661777,56.789371,9677
+-86.105732,54.404971,9639
+-84.502754,51.704069,9562
+-81.608302,42.853368,9562
 
                     </coordinates>
                 </LineString>
@@ -370,12 +391,12 @@
             </Placemark>
             <Placemark>
                 <name>Landing</name>
-                <description>barometric_pressure: -1, ttff: 2, temperature_internal: -36.2, latitude: 56.789371, temperature_external: -58.2, altitude: 9677, time: 04:16:00, _sentence: $$UBSEDS13,04:16:00,160129,56.789371,-88.661777,9677,6,2,-1,1.38,-58.2,-36.2,-1*C097
-, longitude: -88.661777, _raw: JCRVQlNFRFMxMywwNDoxNjowMCwxNjAxMjksNTYuNzg5MzcxLC04OC42NjE3NzcsOTY3Nyw2LDIsLTEsMS4zOCwtNTguMiwtMzYuMiwtMSpDMDk3Cg==, satellites: 6, _protocol: UKHAS, _parsed: {u'time_parsed': u'2016-01-29T11:58:11Z', u'payload_configuration': u'd9f4e6c0af5b2aa17a31ca4c4d891d50', u'configuration_sentence_index': 0}, date: 160129, payload: UBSEDS13, battery: 1.38, temperature_radio: -1.0</description>
+                <description>barometric_pressure: -1, ttff: 15, temperature_internal: 7.8, latitude: 42.853368, temperature_external: -8.2, altitude: 9562, time: 14:42:00, _sentence: $$UBSEDS13,14:42:00,160129,42.853368,-81.608302,9562,7,15,-1,1.459,-8.2,7.8,-1*38B9
+, longitude: -81.608302, _raw: JCRVQlNFRFMxMywxNDo0MjowMCwxNjAxMjksNDIuODUzMzY4LC04MS42MDgzMDIsOTU2Miw3LDE1LC0xLDEuNDU5LC04LjIsNy44LC0xKjM4QjkK, satellites: 7, _protocol: UKHAS, _parsed: {u'time_parsed': u'2016-01-29T15:09:52Z', u'payload_configuration': u'd9f4e6c0af5b2aa17a31ca4c4d891d50', u'configuration_sentence_index': 0}, date: 160129, payload: UBSEDS13, battery: 1.459, temperature_radio: -1.0</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>-88.661777,56.789371,9677
+                    <coordinates>-81.608302,42.853368,9562
 </coordinates>
                 </Point>
             </Placemark>
