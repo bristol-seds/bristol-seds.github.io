@@ -154,6 +154,9 @@ post_yaml = {
     "categories": "hab flight",
     "flight_map": flight_map,
     "altitude_plot": altitude_plot,
+    "habhub": {
+        "live": "http://tracker.habhub.org/#!qm=All&q={}".format(payload["doc"]["name"])
+    },
 #    "speed_plot": speed_plot,
     "plots": True,
     "flight": {

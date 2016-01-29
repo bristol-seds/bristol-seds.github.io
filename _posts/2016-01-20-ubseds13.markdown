@@ -114,7 +114,9 @@ flight:
     data: {max_distance: '201.7', rxcount: 2}
   total_distance: '25536.0'
 flight_map: /assets/flights/13/flight_map.kml
+habhub: {live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS13'}
 layout: post
+live: true
 payload_title: UBSEDS13
 photos: [/assets/flights/13/ubseds13_air_extracted_1.jpg, /assets/flights/13/ubseds13_tracker.jpg,
   /assets/flights/13/ubseds13_tracker_weight.jpg, /assets/flights/13/ubseds13_deadweight.jpg,

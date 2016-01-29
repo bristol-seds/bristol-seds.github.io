@@ -15,9 +15,13 @@ asset_path: /assets/
         <li>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              {% if post.payload_title %}{{ post.payload_title }}{% else %}{{ post.title }}{% endif %}
+              <u>{% if post.payload_title %}{{ post.payload_title }}{% else %}{{ post.title }}{% endif %}</u>
             </a>
-            <small>{{ post.description }}</small>
+            <small>{{ post.description }}
+              {% if post.habhub.live and post.live %}
+              &nbsp;&nbsp;&nbsp;<a class="live-tracker" href="{{ post.habhub.live }}"><u>LIVE TRACKER</u></a>
+              {% endif %}
+            </small>
           </h2>
           <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span>
           {% if post.flight.pico %}
