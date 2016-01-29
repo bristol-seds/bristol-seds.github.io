@@ -143,7 +143,7 @@ Changes made:
 
 #### SE880
 
-This tracker used the SE880 GPS unit with the goal of reduced power consumption. This was somewhat successful, but the SE880 sometimes took much longer than anticipated to output a valid GPS fix. We suspect this is mostly due to the TCXO drift varying and very low but changing temperatures, particularly a dusk and dawn. A failure related to the SE880 was probably the reason for a temporary failure of the tracker on the third day of the flight.
+This tracker used the SE880 GPS unit with the goal of reduced power consumption. This was somewhat successful, but the SE880 sometimes took much longer than anticipated to output a valid GPS fix. We suspect this is mostly due to the TCXO drift varying at very low but changing temperatures, particularly a dusk and dawn. A failure related to the SE880 was probably the reason for a temporary failure of the tracker on the third day of the flight.
 
 #### MS5607
 
