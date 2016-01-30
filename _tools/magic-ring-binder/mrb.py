@@ -73,6 +73,35 @@ print
 
 # =-----------------------------------------------------------------------
 
+# Grab the list of all flights
+flight_list = db.view("flight/end_start_including_payloads",
+                       include_docs=False)
+
+flights_payload_list = [f for f in flight_list if (f['key'][3] == 0)]
+flights_with_pid     = [f for f in flights_payload_list if f['value'][0] == pid]
+
+if len(flights_with_pid) < 1:
+    print "Note: No flights with containing this payload found. Continuing..."
+    print
+else:
+    print "Found {} flights:".format(len(flights_with_pid))
+    for f in flights_with_pid:
+        print "{id}".format(**f)
+        print
+
+# Select which flight
+if len(flights_with_pid) > 1:
+    n = input("Which flight to use? (1, 2, ...): ")
+else:
+    n = 1
+
+flight = flights_with_pid[n-1]
+fid = flight["id"]
+print "Using {}...".format(fid)
+print
+
+# =-----------------------------------------------------------------------
+
 print "Loading view payload_telemetry/payload_time..."
 print
 payload_json_raw = db.view("payload_telemetry/payload_time",
@@ -155,7 +184,8 @@ post_yaml = {
     "flight_map": flight_map,
     "altitude_plot": altitude_plot,
     "habhub": {
-        "live": "http://tracker.habhub.org/#!qm=All&q={}".format(payload["doc"]["name"])
+        "live": "http://tracker.habhub.org/#!qm=All&q={}".format(payload["doc"]["name"]),
+        "archive": "http://tracker.habhub.org/#!qm={}".format(fid)
     },
 #    "speed_plot": speed_plot,
     "plots": True,

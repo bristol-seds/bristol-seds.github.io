@@ -41,6 +41,8 @@ flight:
       rxcount: 29
   total_distance: '296.5'
 flight_map: /assets/flights/12/flight_map.kml
+habhub: {archive: 'http://tracker.habhub.org/#!qm=8ab25b0e838ccff1726b3b4f4274ca64',
+  live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS12'}
 layout: post
 payload_title: UBSEDS12
 plots: true
