@@ -8,6 +8,7 @@ import arrow
 import dateutil.parser
 import yaml
 import re
+import sys
 
 import distance
 import countries
@@ -26,7 +27,12 @@ def mkdir_p(path):
 
 # =---------------------------------------------------------------------
 
-flight_nr = input("Flight Number: ")
+if len(sys.argv) >= 2:
+    flight_nr = int(sys.argv[1])
+else:
+    flight_nr = input("Flight Number: ")
+
+# =---------------------------------------------------------------------
 
 if flight_nr == 1:
     payload_name = "buseds1"
@@ -61,7 +67,10 @@ for p in payloads:
     print
 
 if len(payloads) > 1:
-    n = input("Which payload to use? (1, 2, ...): ")
+    if len(sys.argv) >= 3:
+        n = int(sys.argv[2])
+    else:
+        n = input("Which payload to use? (1, 2, ...): ")
 else:
     n = 1
 
@@ -91,7 +100,10 @@ else:
 
 # Select which flight
 if len(flights_with_pid) > 1:
-    n = input("Which flight to use? (1, 2, ...): ")
+    if len(sys.argv) >= 4:
+        n = int(sys.argv[3])
+    else:
+        n = input("Which flight to use? (1, 2, ...): ")
 else:
     n = 1
 
