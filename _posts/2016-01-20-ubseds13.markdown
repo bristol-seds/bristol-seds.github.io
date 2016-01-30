@@ -20,7 +20,7 @@ flight:
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  great_circle: '4515.1'
+  great_circle: '4385.4'
   max_altitude: '10.2'
   receivers:
   - callsign: G6GZH
@@ -29,7 +29,7 @@ flight:
       max_distance: '338.1'
       rxcount: 157
   - callsign: BACKLOG
-    data: {rxcount: 150}
+    data: {rxcount: 153}
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -113,7 +113,7 @@ flight:
       rxcount: 5
   - callsign: G0CXW
     data: {max_distance: '201.7', rxcount: 2}
-  total_distance: '27605.4'
+  total_distance: '27742.0'
 flight_map: /assets/flights/13/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=d9f4e6c0af5b2aa17a31ca4c4d93ac0a',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS13'}
