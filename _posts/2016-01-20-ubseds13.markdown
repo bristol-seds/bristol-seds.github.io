@@ -20,16 +20,17 @@ flight:
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  great_circle: '4385.4'
+  - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
+  great_circle: '2070.6'
   max_altitude: '10.2'
   receivers:
+  - callsign: BACKLOG
+    data: {rxcount: 160}
   - callsign: G6GZH
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '338.1'
       rxcount: 157
-  - callsign: BACKLOG
-    data: {rxcount: 153}
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -113,7 +114,7 @@ flight:
       rxcount: 5
   - callsign: G0CXW
     data: {max_distance: '201.7', rxcount: 2}
-  total_distance: '27742.0'
+  total_distance: '30916.6'
 flight_map: /assets/flights/13/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=d9f4e6c0af5b2aa17a31ca4c4d93ac0a',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS13'}
@@ -161,7 +162,7 @@ The balloon transmitted once per minute during the ascent, and once every 4 minu
 
 ### UHF 434.6MHz
 
-Contestia 16/1000 was transmitted on 434.6MHz USB in Western Europe. We did not know of any UHF listeners outside of this area, apart from one in Los Angeles, and so UHF transmissions were switched off while outside this area so save power [(geofence map here)](/assets/flights/13/geofences/ubseds13_uhf_geofence_world_millar_cylindrical.jpg). We will proably add the USA to this for the next flight.
+Contestia 16/1000 was transmitted on 434.6MHz USB in Western Europe. We did not know of any UHF listeners outside of this area, apart from one in Los Angeles, and so UHF transmissions were switched off while outside this area to save power [(geofence map here)](/assets/flights/13/geofences/ubseds13_uhf_geofence_world_millar_cylindrical.jpg). We will proably add the USA to this for the next flight.
 
 The transmission power on this band was measured to be +5dBm on a similar board, which is well below the +10dBm limit for ISM band operation. Each packet was preceeded by 10 seconds of 1Hz pips for manual alignment and a RSID tone for automatic alignment with suitable software (dl-fldigi for example).
 

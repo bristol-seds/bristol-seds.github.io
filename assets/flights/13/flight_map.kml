@@ -382,6 +382,7 @@
 -94.52112,60.716606,9639
 -92.958517,59.798504,9677
 -91.500669,58.821102,9600
+-90.131522,57.810906,9658
 -88.661777,56.789371,9677
 -87.267007,55.678604,9620
 -86.105732,54.404971,9639
@@ -403,9 +404,15 @@
 -71.510771,38.272053,9392
 -70.319621,38.755338,9429
 -67.752225,40.170437,9429
+-66.423778,40.862089,9467
 -65.32159,41.610523,9486
 -63.24735,43.391068,9392
 -62.163769,44.32925,9392
+-61.113004,45.189948,9354
+-58.369342,47.541457,9354
+-57.552081,48.286864,9505
+-54.873366,51.240522,9505
+-26.983551,65.345442,9280
 
                     </coordinates>
                 </LineString>
@@ -439,12 +446,12 @@
             </Placemark>
             <Placemark>
                 <name>Landing</name>
-                <description>barometric_pressure: -1, ttff: 15, temperature_internal: -33.2, latitude: 44.32925, temperature_external: -47.2, altitude: 9392, time: 06:57:00, _sentence: $$UBSEDS13,06:57:00,160130,44.329250,-62.163769,9392,7,15,-1,1.357,-47.2,-33.2,-1*723B
-, longitude: -62.163769, _raw: JCRVQlNFRFMxMywwNjo1NzowMCwxNjAxMzAsNDQuMzI5MjUwLC02Mi4xNjM3NjksOTM5Miw3LDE1LC0xLDEuMzU3LC00Ny4yLC0zMy4yLC0xKjcyM0IK, satellites: 7, _protocol: UKHAS, _parsed: {u'payload_configuration': u'd9f4e6c0af5b2aa17a31ca4c4d891d50', u'time_parsed': u'2016-01-30T12:58:07Z', u'flight': u'd9f4e6c0af5b2aa17a31ca4c4d93ac0a', u'configuration_sentence_index': 0}, date: 160130, payload: UBSEDS13, battery: 1.357, temperature_radio: -1.0</description>
+                <description>barometric_pressure: -1, ttff: 3, temperature_internal: -36.2, latitude: 65.345442, temperature_external: -59.2, altitude: 9280, time: 18:37:00, _sentence: $$UBSEDS13,18:37:00,160131,65.345442,-26.983551,9280,6,3,-1,1.431,-59.2,-36.2,-1*EF5D
+, longitude: -26.983551, _raw: JCRVQlNFRFMxMywxODozNzowMCwxNjAxMzEsNjUuMzQ1NDQyLC0yNi45ODM1NTEsOTI4MCw2LDMsLTEsMS40MzEsLTU5LjIsLTM2LjIsLTEqRUY1RAo=, satellites: 6, _protocol: UKHAS, _parsed: {u'payload_configuration': u'd9f4e6c0af5b2aa17a31ca4c4d891d50', u'time_parsed': u'2016-01-31T19:30:51Z', u'flight': u'd9f4e6c0af5b2aa17a31ca4c4d93ac0a', u'configuration_sentence_index': 0}, date: 160131, payload: UBSEDS13, battery: 1.431, temperature_radio: -1.0</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>-62.163769,44.32925,9392
+                    <coordinates>-26.983551,65.345442,9280
 </coordinates>
                 </Point>
             </Placemark>
