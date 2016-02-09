@@ -278,7 +278,8 @@ photos: [/assets/flights/13/ubseds13_air_extracted_1.jpg, /assets/flights/13/ubs
   /assets/flights/13/ubseds13_neutrally_buoyant_2.jpg, /assets/flights/13/ubseds13_free_lift.jpg,
   /assets/flights/13/ubseds13_launch.jpg]
 plots: true
-resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS13_20160120/index.php?ind=7'}
+resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS13_20160120/index.php?ind=7',
+pngmap: /assets/flights/13/map.png}
 title: UBSEDS13
 ---
 
