@@ -2,7 +2,7 @@
 altitude_plot: /assets/flights/13/altitude_plot.csv
 categories: hab flight
 date: '2016-01-20 12:57:00'
-description: Custom Envelope to <strike>the Black Sea</strike> <strike>Japan</strike>
+description: Custom Envelope to <strike>the Black Sea</strike> <strike>Japan</strike> Iceland
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -17,11 +17,12 @@ flight:
   - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  great_circle: '2070.6'
+  great_circle: '2049.9'
   max_altitude: '10.2'
   receivers:
   - callsign: BACKLOG
@@ -73,11 +74,15 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '137.9'
       rxcount: 67
+  - callsign: VO1QU
+    data: {rxcount: 50}
   - callsign: SM0ULC-2
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '138.4'
       rxcount: 46
+  - callsign: JL8SSD-10
+    data: {rxcount: 36}
   - callsign: M0UPU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -93,33 +98,180 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '187.5'
       rxcount: 30
+  - callsign: JH8YIN-10
+    data: {rxcount: 30}
   - callsign: jijdaar
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
       max_distance: '254.0'
       rxcount: 27
+  - callsign: YM7KK
+    data: {rxcount: 24}
+  - callsign: VE1LV-2
+    data: {rxcount: 24}
+  - callsign: TA2AWO
+    data: {rxcount: 23}
+  - callsign: N1RCW-2
+    data: {rxcount: 22}
   - callsign: G1BLO
     data: {rxcount: 21}
-  - callsign: BACKLOG2
+  - callsign: VE1GX-1
+    data: {rxcount: 20}
+  - callsign: VE1WN
+    data: {rxcount: 16}
+  - callsign: LZ0BGN
+    data: {rxcount: 16}
+  - callsign: VA3APW-1
+    data: {rxcount: 16}
+  - callsign: VA1ALW
+    data: {rxcount: 15}
+  - callsign: TA2EY
+    data: {rxcount: 12}
+  - callsign: TA1DX-3
+    data: {rxcount: 11}
+  - callsign: VE3RQQ
+    data: {rxcount: 11}
+  - callsign: VO1UM-3
+    data: {rxcount: 10}
+  - callsign: SV2HRT-6
+    data: {rxcount: 9}
+  - callsign: SV2HNH-1
+    data: {rxcount: 9}
+  - callsign: VE1AIC-2
+    data: {rxcount: 9}
+  - callsign: YM7KA
+    data: {rxcount: 8}
+  - callsign: N3LLO-3
+    data: {rxcount: 8}
+  - callsign: TF3SUT-2
+    data: {rxcount: 8}
+  - callsign: VE3SNT-3
+    data: {rxcount: 7}
+  - callsign: W8DR
+    data: {rxcount: 7}
+  - callsign: LZ0DAP-13
+    data: {rxcount: 6}
+  - callsign: VE2YAG
+    data: {rxcount: 6}
+  - callsign: LZ0VRF-1
     data: {rxcount: 6}
   - callsign: F5APQ
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '292.1'
       rxcount: 6
+  - callsign: BACKLOG2
+    data: {rxcount: 6}
+  - callsign: ''
+    data: {rxcount: 5}
+  - callsign: KB1NYT
+    data: {rxcount: 5}
+  - callsign: VE3SNB-3
+    data: {rxcount: 5}
   - callsign: sa6bss
     data:
       country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
       max_distance: '1087.4'
       rxcount: 5
+  - callsign: JR8IVS-10
+    data: {rxcount: 5}
+  - callsign: VE3SNE-3
+    data: {rxcount: 5}
+  - callsign: SV4FFB-4
+    data: {rxcount: 5}
+  - callsign: VE3CRC
+    data: {rxcount: 4}
+  - callsign: N2MH-6
+    data: {rxcount: 4}
+  - callsign: N1IEK-2
+    data: {rxcount: 4}
+  - callsign: KE4NYV-2
+    data: {rxcount: 4}
+  - callsign: K2RPF-5
+    data: {rxcount: 4}
+  - callsign: TA2BBS-13
+    data: {rxcount: 3}
+  - callsign: VE2RIN-10
+    data: {rxcount: 3}
+  - callsign: K8GPS-4
+    data: {rxcount: 3}
+  - callsign: VE3PHC-10
+    data: {rxcount: 3}
+  - callsign: VE3TSA
+    data: {rxcount: 3}
+  - callsign: DB0MM
+    data: {rxcount: 2}
+  - callsign: VE1YZ-4
+    data: {rxcount: 2}
+  - callsign: KB3KBR-1
+    data: {rxcount: 2}
+  - callsign: VE3OSH
+    data: {rxcount: 2}
+  - callsign: JM8ACU-10
+    data: {rxcount: 2}
+  - callsign: DF6MD-10
+    data: {rxcount: 2}
   - callsign: G0CXW
     data: {max_distance: '201.7', rxcount: 2}
-  total_distance: '30916.6'
+  - callsign: VE9CAS-2
+    data: {rxcount: 2}
+  - callsign: DL4SBK-10
+    data: {rxcount: 2}
+  - callsign: N1LMA
+    data: {rxcount: 2}
+  - callsign: TA2MCD-11
+    data: {rxcount: 2}
+  - callsign: W2GSA-10
+    data: {rxcount: 2}
+  - callsign: TA1AFT
+    data: {rxcount: 2}
+  - callsign: SV7DMD
+    data: {rxcount: 2}
+  - callsign: KD8GBH-1
+    data: {rxcount: 1}
+  - callsign: VO1JWW-1
+    data: {rxcount: 1}
+  - callsign: K3UG
+    data: {rxcount: 1}
+  - callsign: TA3CY
+    data: {rxcount: 1}
+  - callsign: VE3SPR
+    data: {rxcount: 1}
+  - callsign: W4TTU
+    data: {rxcount: 1}
+  - callsign: N3XKU-7
+    data: {rxcount: 1}
+  - callsign: SV8QG
+    data: {rxcount: 1}
+  - callsign: DB0DLG-10
+    data: {rxcount: 1}
+  - callsign: SV2RCK-5
+    data: {rxcount: 1}
+  - callsign: DG2SDK-10
+    data: {rxcount: 1}
+  - callsign: VE3TEJ
+    data: {rxcount: 1}
+  - callsign: DE1TBK-10
+    data: {rxcount: 1}
+  - callsign: KB1ROO-10
+    data: {rxcount: 1}
+  - callsign: JR8YMH-3
+    data: {rxcount: 1}
+  - callsign: K3GJ-1
+    data: {rxcount: 1}
+  - callsign: W2WCC-1
+    data: {rxcount: 1}
+  - callsign: N8CJM-1
+    data: {rxcount: 1}
+  - callsign: NR3I
+    data: {rxcount: 1}
+  - callsign: KD2EAE-1
+    data: {rxcount: 1}
+  total_distance: '31018.2'
 flight_map: /assets/flights/13/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=d9f4e6c0af5b2aa17a31ca4c4d93ac0a',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS13'}
 layout: post
-live: true
 payload_title: UBSEDS13
 photos: [/assets/flights/13/ubseds13_air_extracted_1.jpg, /assets/flights/13/ubseds13_tracker.jpg,
   /assets/flights/13/ubseds13_tracker_weight.jpg, /assets/flights/13/ubseds13_deadweight.jpg,
