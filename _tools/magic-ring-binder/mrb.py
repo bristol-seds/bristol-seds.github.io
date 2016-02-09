@@ -13,6 +13,7 @@ import sys
 import distance
 import countries
 import receivers
+import aprs_json
 import kml
 
 import os, errno
@@ -120,23 +121,47 @@ payload_json_raw = db.view("payload_telemetry/payload_time",
                           include_docs = True,
                           startkey = [pid], endkey = [pid,[]])
 
-# Only telemetry points above 200m are considered part of the flight
-payload_json = [t for t in payload_json_raw if t['doc']['data']['altitude'] > 200]
+payload_json = [t for t in payload_json_raw]
 
-# If telemetry includes date field
-#if payload_json[0]['doc']['data']['date']:
-    # Strip points with invalid date
-#    payload_json = [t for t in payload_json if t['doc']['data']['date'] != "000000"]
+# =-----------------------------------------------------------------------
+
+aprs_rawfile = payload_name + "-rawdata.txt"
+
+print "Loading aprs data from {}...".format(aprs_rawfile)
+
+aprs_json = aprs_json.get_aprs_json(aprs_rawfile)
+
+if aprs_json is None:
+    print "(raw aprs data file not found)"
+    print
+else:
+    # Add on aprs json
+    payload_json.extend(aprs_json)
+
+    print "(added {} aprs data points)".format(len(aprs_json))
+    print
+
+# =-----------------------------------------------------------------------
+
+# Only telemetry points above 200m are considered part of the flight
+payload_json = [t for t in payload_json if t['doc']['data']['altitude'] > 200]
+
+# =-----------------------------------------------------------------------
 
 # Sort the payload data by date
 def data_timesort(datum):
 
-    received_mean_t = arrow.get(datum['key'][1])
     telemetry_t = arrow.get(datum['doc']['data']['time'], "HH:mm:ss")
 
-    # Correction for packets that get received the next day
-    if telemetry_t.hour == 23 and received_mean_t.hour == 0:
-        received_mean_t = received_mean_t.replace(hours=-1)
+    if 'key' in datum: # From habitat
+        received_mean_t = arrow.get(datum['key'][1])
+
+        # Correction for packets that get received the next day
+        if telemetry_t.hour == 23 and received_mean_t.hour == 0:
+            received_mean_t = received_mean_t.replace(hours=-1)
+
+    else: # From some other source
+        received_mean_t = arrow.get(datum['doc']['data']['date'], "YYMMDD")
 
     return [received_mean_t.date(), telemetry_t.timestamp]
 
@@ -144,7 +169,6 @@ payload_json_sorted = sorted(payload_json, key=data_timesort)
 
 # Extract just the data
 payload_data_sorted = [t['doc']['data'] for t in payload_json_sorted]
-
 
 # =-----------------------------------------------------------------------
 

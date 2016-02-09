@@ -13,7 +13,7 @@ python?
 
 ```
 sudo apt-get install python-pyproj gfortran
-sudo pip install wget arrow matplotlib geopy couchdbkit
+sudo pip install wget arrow matplotlib geopy couchdbkit aprslib
 ```
 
 ## Usage
