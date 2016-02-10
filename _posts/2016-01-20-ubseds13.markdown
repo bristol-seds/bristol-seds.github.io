@@ -2,7 +2,8 @@
 altitude_plot: /assets/flights/13/altitude_plot.csv
 categories: hab flight
 date: '2016-01-20 12:57:00'
-description: Custom Envelope to <strike>the Black Sea</strike> <strike>Japan</strike> Iceland
+description: Custom Envelope to <strike>the Black Sea</strike> <strike>Japan</strike>
+  Iceland
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -24,6 +25,7 @@ flight:
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   great_circle: '2049.9'
   max_altitude: '10.2'
+  receiver_count: 97
   receivers:
   - callsign: BACKLOG
     data: {rxcount: 160}
@@ -279,7 +281,7 @@ photos: [/assets/flights/13/ubseds13_air_extracted_1.jpg, /assets/flights/13/ubs
   /assets/flights/13/ubseds13_launch.jpg]
 plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS13_20160120/index.php?ind=7',
-pngmap: /assets/flights/13/map.png}
+  pngmap: /assets/flights/13/map.png}
 title: UBSEDS13
 ---
 
