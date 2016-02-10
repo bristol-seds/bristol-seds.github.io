@@ -230,6 +230,7 @@ post_yaml = {
         "great_circle": "{:0.1f}".format(distance.great_circle(payload_data_sorted)),
         "countries": countries.flight_countries(payload_data_sorted),
         "max_altitude": "{:0.1f}".format(distance.max_altitude(payload_data_sorted)),
+        "receiver_count": len(receivers),
         "receivers": receivers,
     },
 }
