@@ -173,7 +173,10 @@ payload_data_sorted = [t['doc']['data'] for t in payload_json_sorted]
 # =-----------------------------------------------------------------------
 
 flight_map = asset_path+"flight_map.kml"
-kml.output(payload_data_sorted, "../.."+flight_map)
+if flight_nr in [1,2,4,5]:      # Up/down
+    kml.output(payload_data_sorted, "../.."+flight_map, True, "Landing")
+else:                           # Float
+    kml.output(payload_data_sorted, "../.."+flight_map, False, "Last Reported")
 
 altitude_plot = asset_path+"altitude_plot.csv"
 with open("../.."+altitude_plot, 'w') as outfile:

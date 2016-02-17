@@ -6,7 +6,21 @@
 #   Adam Greig, Nov 2012
 #   CouchDB List Functions
 #
-def output(payload_data, kml_path):
+def output(payload_data, kml_path, does_burst, ending_name):
+
+    new_linestring = """
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Track Segment</name>
+                <styleUrl>#ept</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>
+    """
 
     print "Writing {}...".format(kml_path)
     print
@@ -31,7 +45,8 @@ def output(payload_data, kml_path):
                     <coordinates>
     """)
 
-        launch = burst = land = name = None
+        launch = burst = ending = name = None
+        last_longitude = None
         for data in payload_data:
             if not name:
                 name = data['payload'] if 'payload' in data else "Unknown"
@@ -41,18 +56,35 @@ def output(payload_data, kml_path):
                 if data["altitude"] > burst["altitude"]:
                     burst = data
 
-                land = data
+                ending = data
+
+                if last_longitude:
+                    if last_longitude > 90 and data["longitude"] < -90: # Cross the antiprime meridian
+                        # Write final point of linestring
+                        data["longitude"] += 360
+                        outfile.write("{longitude},{latitude},{altitude}\r\n".format(**data))
+                        data["longitude"] -= 360
+
+                        # Start a new one
+                        outfile.write(new_linestring)
+
+                last_longitude = data["longitude"] # Save last longitude
                 outfile.write("{longitude},{latitude},{altitude}\r\n".format(**data))
 
 
         launch_desc = ", ".join("{0}: {1}".format(k, v) for k, v in launch.items())
         burst_desc = ", ".join("{0}: {1}".format(k, v) for k, v in burst.items())
-        land_desc = ", ".join("{0}: {1}".format(k, v) for k, v in land.items())
+        ending_desc = ", ".join("{0}: {1}".format(k, v) for k, v in ending.items())
         launch_coords = "{longitude},{latitude},{altitude}\r\n".format(**launch)
         burst_coords = "{longitude},{latitude},{altitude}\r\n".format(**burst)
-        land_coords = "{longitude},{latitude},{altitude}\r\n".format(**land)
+        ending_coords = "{longitude},{latitude},{altitude}\r\n".format(**ending)
 
-        outfile.write( """
+        if does_burst:
+            points_title = "Launch, Burst and {} Points".format(ending_name)
+        else:
+            points_title = "Launch and {} Points".format(ending_name)
+
+        outfile.write("""
                     </coordinates>
                 </LineString>
             </Placemark>
@@ -60,7 +92,7 @@ def output(payload_data, kml_path):
         </Folder>
         <name>{name} Data Export</name>
         <Folder>
-            <name>Launch, Burst and Landing Points</name>
+            <name>{points_title}</name>
             <Placemark>
                 <name>Launch</name>
                 <description>{launch_desc}</description>
@@ -69,7 +101,10 @@ def output(payload_data, kml_path):
                     <altitudeMode>absolute</altitudeMode>
                     <coordinates>{launch_coords}</coordinates>
                 </Point>
-            </Placemark>
+            </Placemark>""".format(**locals()))
+
+        if does_burst:
+            outfile.write("""
             <Placemark>
                 <name>Burst</name>
                 <description>{burst_desc}</description>
@@ -78,14 +113,17 @@ def output(payload_data, kml_path):
                     <altitudeMode>absolute</altitudeMode>
                     <coordinates>{burst_coords}</coordinates>
                 </Point>
-            </Placemark>
+            </Placemark>""".format(**locals()))
+
+
+        outfile.write("""
             <Placemark>
-                <name>Landing</name>
-                <description>{land_desc}</description>
+                <name>{ending_name}</name>
+                <description>{ending_desc}</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>{land_coords}</coordinates>
+                    <coordinates>{ending_coords}</coordinates>
                 </Point>
             </Placemark>
         </Folder>
