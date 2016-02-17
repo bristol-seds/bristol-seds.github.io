@@ -564,7 +564,20 @@
 174.975528,41.236755,9448
 177.142458,41.198779,9373
 179.364202,41.086494,9354
--178.086258,40.868284,9114
+181.913742,40.868284,9114
+
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Track Segment</name>
+                <styleUrl>#ept</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>
+    -178.086258,40.868284,9114
 -175.454225,40.491408,9243
 -172.97809,40.087749,9206
 -170.337877,39.77959,9224
@@ -951,7 +964,7 @@
         </Folder>
         <name>UBSEDS13 Data Export</name>
         <Folder>
-            <name>Launch, Burst and Landing Points</name>
+            <name>Launch and Last Reported Points</name>
             <Placemark>
                 <name>Launch</name>
                 <description>barometric_pressure: 96380, ttff: 43, temperature_internal: 14.9, latitude: 51.4757, temperature_external: 6.1, altitude: 450, time: 12:56:32, _sentence: $$UBSEDS13,12:56:32,160120,51.4757,-2.6048,450,5,43,96380,1.53,6.1,14.9,16.5*3586
@@ -964,18 +977,7 @@
                 </Point>
             </Placemark>
             <Placemark>
-                <name>Burst</name>
-                <description>barometric_pressure: -1, ttff: 11, temperature_internal: -8.2, latitude: 46.410376, temperature_external: -19.2, altitude: 10214, time: 08:43:00, _sentence: $$UBSEDS13,08:43:00,160121,46.410376,10.429910,10214,7,11,-1,1.5,-19.2,-8.2,-1*F89B
-, longitude: 10.42991, _raw: JCRVQlNFRFMxMywwODo0MzowMCwxNjAxMjEsNDYuNDEwMzc2LDEwLjQyOTkxMCwxMDIxNCw3LDExLC0xLDEuNSwtMTkuMiwtOC4yLC0xKkY4OUIK, satellites: 7, _protocol: UKHAS, _parsed: {u'time_parsed': u'2016-01-23T15:13:47Z', u'payload_configuration': u'd9f4e6c0af5b2aa17a31ca4c4d891d50', u'configuration_sentence_index': 0}, date: 160121, payload: UBSEDS13, battery: 1.5, temperature_radio: -1.0</description>
-                <Point>
-                    <extrude>0</extrude>
-                    <altitudeMode>absolute</altitudeMode>
-                    <coordinates>10.42991,46.410376,10214
-</coordinates>
-                </Point>
-            </Placemark>
-            <Placemark>
-                <name>Landing</name>
+                <name>Last Reported</name>
                 <description>date: 160131, latitude: 65.8724975455, altitude: 9286.6464, longitude: -25.4004399805, time: 19:46:01</description>
                 <Point>
                     <extrude>0</extrude>
