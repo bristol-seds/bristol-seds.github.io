@@ -566,13 +566,17 @@
 179.364202,41.086494,9354
 181.913742,40.868284,9114
 
-        </coordinates>
-    </LineString>
-    <LineString>
-        <extrude>1</extrude>
-        <tessellate>1</tessellate>
-        <altitudeMode>absolute</altitudeMode>
-        <coordinates>
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Track Segment</name>
+                <styleUrl>#ept</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>
     -178.086258,40.868284,9114
 -175.454225,40.491408,9243
 -172.97809,40.087749,9206
