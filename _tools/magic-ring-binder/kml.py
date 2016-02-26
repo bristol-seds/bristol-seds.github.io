@@ -1,4 +1,17 @@
+# Outputs KMLs for map display
 #
+
+import arrow
+
+#
+# Description that appears in placemark bubble
+#
+def description_text(datapoint):
+    time_arrow = arrow.get("{date} {time}".format(**datapoint), 'YYMMDD HH:mm:ss')
+    time_str = time_arrow.format('DD MMMM YYYY HH:mm:ss')
+
+    return "{}: ({latitude:.4f}, {longitude:.4f}) @ {altitude:.0f} m".format(time_str, **datapoint)
+
 #
 # Somewhat from habitat:
 #   https://github.com/ukhas/habitat-export-payload-telemetry/blob/master/habitat_export_payload_telemetry/lists.py
@@ -72,9 +85,9 @@ def output(payload_data, kml_path, does_burst, ending_name):
                 outfile.write("{longitude},{latitude},{altitude}\r\n".format(**data))
 
 
-        launch_desc = ", ".join("{0}: {1}".format(k, v) for k, v in launch.items())
-        burst_desc = ", ".join("{0}: {1}".format(k, v) for k, v in burst.items())
-        ending_desc = ", ".join("{0}: {1}".format(k, v) for k, v in ending.items())
+        launch_desc = description_text(launch)
+        burst_desc = description_text(burst)
+        ending_desc = description_text(ending)
         launch_coords = "{longitude},{latitude},{altitude}\r\n".format(**launch)
         burst_coords = "{longitude},{latitude},{altitude}\r\n".format(**burst)
         ending_coords = "{longitude},{latitude},{altitude}\r\n".format(**ending)
