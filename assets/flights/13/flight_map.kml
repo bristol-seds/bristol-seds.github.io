@@ -967,8 +967,7 @@
             <name>Launch and Last Reported Points</name>
             <Placemark>
                 <name>Launch</name>
-                <description>barometric_pressure: 96380, ttff: 43, temperature_internal: 14.9, latitude: 51.4757, temperature_external: 6.1, altitude: 450, time: 12:56:32, _sentence: $$UBSEDS13,12:56:32,160120,51.4757,-2.6048,450,5,43,96380,1.53,6.1,14.9,16.5*3586
-, longitude: -2.6048, _raw: JCRVQlNFRFMxMywxMjo1NjozMiwxNjAxMjAsNTEuNDc1NywtMi42MDQ4LDQ1MCw1LDQzLDk2MzgwLDEuNTMsNi4xLDE0LjksMTYuNSozNTg2Cg==, satellites: 5, _protocol: UKHAS, _parsed: {u'payload_configuration': u'd9f4e6c0af5b2aa17a31ca4c4d891d50', u'time_parsed': u'2016-01-20T12:57:00Z', u'flight': u'd9f4e6c0af5b2aa17a31ca4c4d93ac0a', u'configuration_sentence_index': 0}, date: 160120, payload: UBSEDS13, battery: 1.53, temperature_radio: 16.5</description>
+                <description>20 January 2016 12:56:32: (51.4757, -2.6048) @ 450 m</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
@@ -978,7 +977,7 @@
             </Placemark>
             <Placemark>
                 <name>Last Reported</name>
-                <description>date: 160131, latitude: 65.8724975455, altitude: 9286.6464, longitude: -25.4004399805, time: 19:46:01</description>
+                <description>31 January 2016 19:46:01: (65.8725, -25.4004) @ 9287 m</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
