@@ -1,14 +1,14 @@
 ---
-live: true,
 altitude_plot: /assets/flights/14/altitude_plot.csv
 categories: hab flight
 date: '2016-03-07 02:41:12'
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-  great_circle: '209.2'
+  - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+  great_circle: '503.0'
   max_altitude: '11.8'
-  receiver_count: 14
+  receiver_count: 15
   receivers:
   - callsign: G4AIU
     data: {rxcount: 107}
@@ -20,18 +20,18 @@ flight:
   - callsign: G8DHE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '186.7'
-      rxcount: 76
+      max_distance: '272.5'
+      rxcount: 83
   - callsign: G8FJG_V
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '271.0'
-      rxcount: 73
+      max_distance: '366.8'
+      rxcount: 79
   - callsign: G8DXZ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '219.6'
-      rxcount: 70
+      max_distance: '316.7'
+      rxcount: 78
   - callsign: M1ARI
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -40,13 +40,13 @@ flight:
   - callsign: G8DJN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '108.1'
-      rxcount: 43
+      max_distance: '257.2'
+      rxcount: 49
   - callsign: F-80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-      max_distance: '241.8'
-      rxcount: 37
+      max_distance: '251.4'
+      rxcount: 49
   - callsign: g0hdi
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -77,11 +77,17 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '166.4'
       rxcount: 5
-  total_distance: '215.4'
+  - callsign: G4BGQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '199.5'
+      rxcount: 1
+  total_distance: '509.6'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
 layout: post
+live: true,
 payload_title: UBSEDS14
 plots: true
 title: UBSEDS14
