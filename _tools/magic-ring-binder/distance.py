@@ -23,17 +23,23 @@ def total(payload_data):
 
 # First/last great circle
 def great_circle(payload_data):
-    d = gc(payload_data[0], payload_data[-1])
-    f = (payload_data[0]["latitude"], payload_data[0]["longitude"])
-    l = (payload_data[-1]["latitude"], payload_data[-1]["longitude"])
+    if len(payload_data) > 0:
+        d = gc(payload_data[0], payload_data[-1])
+        f = (payload_data[0]["latitude"], payload_data[0]["longitude"])
+        l = (payload_data[-1]["latitude"], payload_data[-1]["longitude"])
 
-    print "Great circle distance is {:0.1f} km ({} to {})".format(d, f, l)
-    print
-    return d
+        print "Great circle distance is {:0.1f} km ({} to {})".format(d, f, l)
+        print
+        return d
+    else:
+        return 0
 
 # Max altitude!
 def max_altitude(payload_data):
-    m = max([dp["altitude"] for dp in payload_data])/1000.0
-    print "Maximum altitude is {:0.3f} km".format(m)
-    print
-    return m
+    if len(payload_data) > 0:
+        m = max([dp["altitude"] for dp in payload_data])/1000.0
+        print "Maximum altitude is {:0.3f} km".format(m)
+        print
+        return m
+    else:
+        return 0

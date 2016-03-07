@@ -202,7 +202,11 @@ for r in receivers:
 
 # =-----------------------------------------------------------------------
 
-launch_arrow = arrow.get(payload_data_sorted[0]['_parsed']['time_parsed'])
+if len(payload_data_sorted) > 0:
+    launch_arrow = arrow.get(payload_data_sorted[0]['_parsed']['time_parsed'])
+else:
+    launch_arrow = arrow.utcnow() # Use current time for now
+
 launch_date = launch_arrow.format('YYYY-MM-DD')
 launch_time = launch_arrow.format('YYYY-MM-DD hh:mm:ss')
 

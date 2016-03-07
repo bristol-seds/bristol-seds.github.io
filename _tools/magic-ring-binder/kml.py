@@ -7,10 +7,13 @@ import arrow
 # Description that appears in placemark bubble
 #
 def description_text(datapoint):
-    time_arrow = arrow.get("{date} {time}".format(**datapoint), 'YYMMDD HH:mm:ss')
-    time_str = time_arrow.format('DD MMMM YYYY HH:mm:ss')
+    if datapoint:
+        time_arrow = arrow.get("{date} {time}".format(**datapoint), 'YYMMDD HH:mm:ss')
+        time_str = time_arrow.format('DD MMMM YYYY HH:mm:ss')
 
-    return "{}: ({latitude:.4f}, {longitude:.4f}) @ {altitude:.0f} m".format(time_str, **datapoint)
+        return "{}: ({latitude:.4f}, {longitude:.4f}) @ {altitude:.0f} m".format(time_str, **datapoint)
+    else:
+        return ""
 
 #
 # Somewhat from habitat:
@@ -88,9 +91,22 @@ def output(payload_data, kml_path, does_burst, ending_name):
         launch_desc = description_text(launch)
         burst_desc = description_text(burst)
         ending_desc = description_text(ending)
-        launch_coords = "{longitude},{latitude},{altitude}\r\n".format(**launch)
-        burst_coords = "{longitude},{latitude},{altitude}\r\n".format(**burst)
-        ending_coords = "{longitude},{latitude},{altitude}\r\n".format(**ending)
+
+        # Launch location
+        if launch:
+            launch_coords = "{longitude},{latitude},{altitude}\r\n".format(**launch)
+        else:
+            launch_coords = ""
+        # Burst location
+        if burst:
+            burst_coords = "{longitude},{latitude},{altitude}\r\n".format(**burst)
+        else:
+            burst_coords = ""
+        # Ending location
+        if ending:
+            ending_coords = "{longitude},{latitude},{altitude}\r\n".format(**ending)
+        else:
+            ending_coords = ""
 
         if does_burst:
             points_title = "Launch, Burst and {} Points".format(ending_name)
