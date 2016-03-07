@@ -6,7 +6,7 @@ flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-  great_circle: '503.0'
+  great_circle: '538.0'
   max_altitude: '11.8'
   receiver_count: 15
   receivers:
@@ -37,15 +37,15 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '147.7'
       rxcount: 70
+  - callsign: F-80106
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '281.4'
+      rxcount: 50
   - callsign: G8DJN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '257.2'
-      rxcount: 49
-  - callsign: F-80106
-    data:
-      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-      max_distance: '251.4'
       rxcount: 49
   - callsign: g0hdi
     data:
@@ -82,7 +82,7 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '199.5'
       rxcount: 1
-  total_distance: '509.6'
+  total_distance: '544.6'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}

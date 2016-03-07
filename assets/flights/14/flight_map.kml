@@ -164,6 +164,7 @@
 -1.9761,47.6594,11059
 -1.9443,47.1907,11031
 -1.9229,46.9571,11059
+-1.9009,46.6427,11078
 
                     </coordinates>
                 </LineString>
@@ -185,11 +186,11 @@
             </Placemark>
             <Placemark>
                 <name>Last Reported</name>
-                <description>07 March 2016 19:31:22: (46.9571, -1.9229) @ 11059 m</description>
+                <description>07 March 2016 19:47:55: (46.6427, -1.9009) @ 11078 m</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>-1.9229,46.9571,11059
+                    <coordinates>-1.9009,46.6427,11078
 </coordinates>
                 </Point>
             </Placemark>
