@@ -10,9 +10,9 @@ flight:
   - {isocode: !!python/unicode 'es', name: !!python/unicode 'Spain'}
   - {isocode: !!python/unicode 'dz', name: !!python/unicode 'Algeria'}
   - {isocode: !!python/unicode 'tn', name: !!python/unicode 'Tunisia'}
-  great_circle: '2125.7'
+  great_circle: '2139.3'
   max_altitude: '11.8'
-  receiver_count: 51
+  receiver_count: 52
   receivers:
   - callsign: G4AIU
     data: {rxcount: 107}
@@ -57,7 +57,7 @@ flight:
       max_distance: '114.1'
       rxcount: 34
   - callsign: BACKLOG
-    data: {rxcount: 31}
+    data: {rxcount: 33}
   - callsign: M0ION
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -72,10 +72,10 @@ flight:
     data: {rxcount: 25}
   - callsign: EA5HZZ
     data: {rxcount: 24}
+  - callsign: 9H1XE-1
+    data: {rxcount: 20}
   - callsign: EA5RCK-10
     data: {rxcount: 19}
-  - callsign: 9H1XE-1
-    data: {rxcount: 18}
   - callsign: G6GZH
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -102,6 +102,8 @@ flight:
       rxcount: 6
   - callsign: IW9FRA-10
     data: {rxcount: 5}
+  - callsign: IW9GRL-12
+    data: {rxcount: 5}
   - callsign: G1DYQ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -112,6 +114,8 @@ flight:
   - callsign: EA4OF
     data: {rxcount: 5}
   - callsign: EA1FAQ
+    data: {rxcount: 4}
+  - callsign: IQ9PA-13
     data: {rxcount: 4}
   - callsign: M0GQS
     data: {rxcount: 4}
@@ -125,8 +129,6 @@ flight:
     data: {rxcount: 3}
   - callsign: F4DBS-10
     data: {rxcount: 3}
-  - callsign: IW9GRL-12
-    data: {rxcount: 3}
   - callsign: F1ZNQ-3
     data: {rxcount: 2}
   - callsign: G6SQX
@@ -134,8 +136,6 @@ flight:
   - callsign: EA5AHQ-10
     data: {rxcount: 2}
   - callsign: ED1YCB-3
-    data: {rxcount: 2}
-  - callsign: IQ9PA-13
     data: {rxcount: 2}
   - callsign: F6CJP-10
     data: {rxcount: 2}
@@ -158,20 +158,65 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '3067.3'
+  - callsign: 9H1FJ-5
+    data: {rxcount: 1}
+  total_distance: '3256.5'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
 layout: post
 live: true,
 payload_title: UBSEDS14
+photos: [/assets/flights/14/envelope_prestretch_2.jpg, /assets/flights/14/tracker.jpg,
+  /assets/flights/14/tracker_packaged_arty.jpg, /assets/flights/14/payload_weight.jpg,
+  /assets/flights/14/free_lift.jpg, /assets/flights/14/flying_away_1.jpg, /assets/flights/14/flying_away_3.jpg]
 plots: true
+resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS14_20160307/'}
 title: UBSEDS14
 ---
 
+Like UBSEDS13, the UBSEDS14 balloon was built from 50 micron thick PA-EVOH-PE multilayer film. It was built to 1.5 meters diameter (0.1m more than UBSEDS13) and flown with 21.3 grams of payload. It was filled with Helium to 13.0 grams of free lift and floated at an altitude of about 11km (36,000 ft).
+
 <!--more-->
 
+<br/>
+{% include carousel.html %}
+<br/>
+
+# Tracker
+
+This tracker was based around our [pico tracker](/pico-tracker) with some modifications for low power and low temperature operation. It was powered from single AA Lithium Energiser Battery (LR91).
+
+# Transmissions
+
+The balloon transmitted once per minute during the ascent, and once every 4 minutes thereafter.
+
+### UHF 434.6MHz
+
+It uses the error-correcting Contestia 16/1000 mode on 434.6MHz USB.
+
+The transmission power on this band was measured to be +5dBm on a similar board, which is well below the +10dBm limit for ISM band operation. Each packet was preceeded by 10 seconds of 1Hz pips for manual alignment and a RSID tone for automatic alignment with suitable software (dl-fldigi for example).
+
+To save power UHF transmissions are only made **within** the red lines on the geofence below.
+
+* [UHF Geofence image link](/assets/flights/14/ubseds14_uhf_geofence_world_miller_cylindrical.jpg)
+
+### APRS M0SBU-11
+
+For many countries the balloon transmits APRS packets on local frequencies. In particular this is 144.8MHz in Europe, 144.66MHz in Japan and 144.39MHz in North America.
+
+Some countries do not allow aeronautical mobile operation, which limits the balloon from using the amateur bands. Therefore APRS is only tranmitted **outside** the red lines on the geofence below.
+
+* [APRS Geofence image link](/assets/flights/14/ubseds14_no_aprs_world_miller_cylindrical.jpg)
+
 {% include flight/map.html %}
+
+<br/>
+
+The map above is drawn using data received from UHF and from APRS backlog frames. APRS backlog is where the tracker inserts information about where it was in the past into the comment field of an APRS packet that also contains the current position. This backlog allows the map to be drawn ex post even where there are no receivers.
+
+Straight lines are visible where no data was recorded, usually because the battery voltage was too low.
+
 
 {% include flight/statistics.html %}
 
