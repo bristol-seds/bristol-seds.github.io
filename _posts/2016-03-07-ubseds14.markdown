@@ -10,9 +10,9 @@ flight:
   - {isocode: !!python/unicode 'es', name: !!python/unicode 'Spain'}
   - {isocode: !!python/unicode 'dz', name: !!python/unicode 'Algeria'}
   - {isocode: !!python/unicode 'tn', name: !!python/unicode 'Tunisia'}
-  great_circle: '2088.8'
+  great_circle: '2125.7'
   max_altitude: '11.8'
-  receiver_count: 46
+  receiver_count: 51
   receivers:
   - callsign: G4AIU
     data: {rxcount: 107}
@@ -56,6 +56,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '114.1'
       rxcount: 34
+  - callsign: BACKLOG
+    data: {rxcount: 31}
   - callsign: M0ION
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -72,6 +74,8 @@ flight:
     data: {rxcount: 24}
   - callsign: EA5RCK-10
     data: {rxcount: 19}
+  - callsign: 9H1XE-1
+    data: {rxcount: 18}
   - callsign: G6GZH
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -79,12 +83,16 @@ flight:
       rxcount: 17
   - callsign: EA5URD-10
     data: {rxcount: 11}
+  - callsign: IW9HOD-1
+    data: {rxcount: 11}
   - callsign: EA5AER-2
     data: {rxcount: 11}
   - callsign: EA5AHQ-12
     data: {rxcount: 10}
   - callsign: ED4ZAF-3
     data: {rxcount: 10}
+  - callsign: 9H1US-5
+    data: {rxcount: 6}
   - callsign: MB7USX
     data: {rxcount: 6}
   - callsign: G8KNN
@@ -92,8 +100,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '311.5'
       rxcount: 6
-  - callsign: IW9HOD-1
-    data: {rxcount: 5}
   - callsign: IW9FRA-10
     data: {rxcount: 5}
   - callsign: G1DYQ
@@ -119,6 +125,8 @@ flight:
     data: {rxcount: 3}
   - callsign: F4DBS-10
     data: {rxcount: 3}
+  - callsign: IW9GRL-12
+    data: {rxcount: 3}
   - callsign: F1ZNQ-3
     data: {rxcount: 2}
   - callsign: G6SQX
@@ -126,6 +134,8 @@ flight:
   - callsign: EA5AHQ-10
     data: {rxcount: 2}
   - callsign: ED1YCB-3
+    data: {rxcount: 2}
+  - callsign: IQ9PA-13
     data: {rxcount: 2}
   - callsign: F6CJP-10
     data: {rxcount: 2}
@@ -148,7 +158,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '2736.7'
+  total_distance: '3067.3'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
