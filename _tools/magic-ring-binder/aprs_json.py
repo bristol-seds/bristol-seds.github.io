@@ -25,34 +25,34 @@ def get_aprs_json(filename):
                 time = match.group(1)
                 packet = match.group(2)
 
-            # Process time
-            dt = datetime.strptime(time, '%Y-%m-%d %H:%M:%S')
+                # Process time
+                dt = datetime.strptime(time, '%Y-%m-%d %H:%M:%S')
 
-            # Process packet
-            pkt = aprslib.parse(packet)
+                # Process packet
+                pkt = aprslib.parse(packet)
 
-            # construct data
-            data = {
-                'date': dt.strftime("%y%m%d"),
-                'time': dt.strftime("%H:%M:%S"),
-                'latitude': pkt['latitude'],
-                'longitude': pkt['longitude'],
-                'altitude': pkt['altitude'],
-            }
+                # construct data
+                data = {
+                    'date': dt.strftime("%y%m%d"),
+                    'time': dt.strftime("%H:%M:%S"),
+                    'latitude': pkt['latitude'],
+                    'longitude': pkt['longitude'],
+                    'altitude': pkt['altitude'],
+                }
 
-            # construct receivers
-            receivers = {
-                pkt['via']: {}
-            }
+                # construct receivers
+                receivers = {
+                    pkt['via']: {}
+                }
 
-            # construct doc
-            doc = {
-                'data': data,
-                'receivers': receivers,
-            }
+                # construct doc
+                doc = {
+                    'data': data,
+                    'receivers': receivers,
+                }
 
-            aprs_json.append({
-                'doc': doc
-            })
+                aprs_json.append({
+                    'doc': doc
+                })
 
     return aprs_json
