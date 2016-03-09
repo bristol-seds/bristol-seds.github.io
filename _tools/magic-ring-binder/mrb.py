@@ -214,7 +214,16 @@ post_path = "../../_posts/{}-{}.markdown".format(launch_date, payload_name)
 
 # =-----------------------------------------------------------------------
 
+is_live = False
 
+if len(payload_data_sorted) > 0:
+    last_arrow = arrow.get(payload_data_sorted[-1]['date'])
+    utc_2daysago = arrow.utcnow().replace(days=-2)
+
+    if last_arrow < utc_2daysago: # live
+        print
+        print "Flight is less than 2 days old!! Setting the live flag..."
+        is_live = True
 
 # =-----------------------------------------------------------------------
 
@@ -232,6 +241,7 @@ post_yaml = {
     },
 #    "speed_plot": speed_plot,
     "plots": True,
+    "live": is_live,
     "flight": {
         "total_distance": "{:0.1f}".format(distance.total(payload_data_sorted)),
         "great_circle": "{:0.1f}".format(distance.great_circle(payload_data_sorted)),

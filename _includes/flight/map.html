@@ -1,5 +1,14 @@
 {% if page.flight_map %}
 ## Map
 
+<p class="text-align-center">
+
+{% if page.habhub.live and page.live %}
+This flight is still ongoing. Check the <a class="live-tracker" target="_blank" href="{{ page.habhub.live }}"><u>LIVE TRACKER</u></a> for the latest updates!
+{% endif %}
+
+</p>
+
 <div class="map-canvas" id="flight_map"></div>
+
 {% endif %}
