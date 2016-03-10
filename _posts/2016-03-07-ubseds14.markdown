@@ -15,9 +15,10 @@ flight:
   - {isocode: !!python/unicode 'bg', name: !!python/unicode 'Bulgaria'}
   - {isocode: !!python/unicode 'ro', name: !!python/unicode 'Romania'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
-  great_circle: '2467.9'
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  great_circle: '3353.3'
   max_altitude: '11.8'
-  receiver_count: 78
+  receiver_count: 84
   receivers:
   - callsign: G4AIU
     data: {rxcount: 107}
@@ -46,6 +47,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '147.7'
       rxcount: 70
+  - callsign: BACKLOG
+    data: {rxcount: 53}
   - callsign: F-80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -56,8 +59,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '257.2'
       rxcount: 49
-  - callsign: BACKLOG
-    data: {rxcount: 49}
   - callsign: g0hdi
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -85,6 +86,10 @@ flight:
     data: {rxcount: 20}
   - callsign: EA5RCK-10
     data: {rxcount: 19}
+  - callsign: RZ6HSP
+    data: {rxcount: 19}
+  - callsign: RW6HP-10
+    data: {rxcount: 18}
   - callsign: G6GZH
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -102,6 +107,8 @@ flight:
     data: {rxcount: 11}
   - callsign: EA5AER-2
     data: {rxcount: 11}
+  - callsign: YM7KK
+    data: {rxcount: 11}
   - callsign: EA5AHQ-12
     data: {rxcount: 10}
   - callsign: ED4ZAF-3
@@ -110,6 +117,8 @@ flight:
     data: {rxcount: 9}
   - callsign: UR5FSV-2
     data: {rxcount: 7}
+  - callsign: RA6LFJ-1
+    data: {rxcount: 6}
   - callsign: 9H1US-5
     data: {rxcount: 6}
   - callsign: MB7USX
@@ -142,6 +151,8 @@ flight:
     data: {rxcount: 4}
   - callsign: LZ0DAP-13
     data: {rxcount: 4}
+  - callsign: UA6LBJ-1
+    data: {rxcount: 4}
   - callsign: SV3AQO-10
     data: {rxcount: 4}
   - callsign: M0GQS
@@ -161,6 +172,8 @@ flight:
   - callsign: YO4ISC-10
     data: {rxcount: 3}
   - callsign: LZ1OI-4
+    data: {rxcount: 3}
+  - callsign: YM7KO
     data: {rxcount: 3}
   - callsign: SV1UY-5
     data: {rxcount: 3}
@@ -220,7 +233,7 @@ flight:
     data: {rxcount: 1}
   - callsign: SV1MNF-5
     data: {rxcount: 1}
-  total_distance: '4807.5'
+  total_distance: '5747.1'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
