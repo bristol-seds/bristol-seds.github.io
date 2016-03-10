@@ -268,7 +268,7 @@ The balloon transmitted once per minute during the ascent, and once every 4 minu
 
 It uses the error-correcting Contestia 16/1000 mode on 434.6MHz USB.
 
-The transmission power on this band was measured to be +5dBm on a similar board, which is well below the +10dBm limit for ISM band operation. Each packet was preceeded by 10 seconds of 1Hz pips for manual alignment and a RSID tone for automatic alignment with suitable software (dl-fldigi for example).
+The transmission power on this band was measured to be +5dBm on a similar board, which is well below the +10dBm limit for ISM band operation. Each packet was preceded by 10 seconds of 1Hz pips for manual alignment and a RSID tone for automatic alignment with suitable software (dl-fldigi for example).
 
 To save power UHF transmissions are only made **within** the red lines on the geofence below.
 
@@ -278,7 +278,7 @@ To save power UHF transmissions are only made **within** the red lines on the ge
 
 For many countries the balloon transmits APRS packets on local frequencies. In particular this is 144.8MHz in Europe, 144.66MHz in Japan and 144.39MHz in North America.
 
-Some countries do not allow aeronautical mobile operation, which limits the balloon from using the amateur bands. Therefore APRS is only tranmitted **outside** the red lines on the geofence below.
+Some countries do not allow aeronautical mobile operation, which limits the balloon from using the amateur bands. Therefore APRS is only transmitted **outside** the red lines on the geofence below.
 
 * [APRS Geofence image link](/assets/flights/14/ubseds14_no_aprs_world_miller_cylindrical.jpg)
 
