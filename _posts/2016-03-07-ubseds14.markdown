@@ -16,7 +16,7 @@ flight:
   - {isocode: !!python/unicode 'ro', name: !!python/unicode 'Romania'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  great_circle: '3353.3'
+  great_circle: '3725.2'
   max_altitude: '11.8'
   receiver_count: 84
   receivers:
@@ -59,6 +59,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '257.2'
       rxcount: 49
+  - callsign: RW6HP-10
+    data: {rxcount: 47}
   - callsign: g0hdi
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -76,6 +78,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '15.4'
       rxcount: 26
+  - callsign: RZ6HSP
+    data: {rxcount: 26}
   - callsign: F5OPV-10
     data: {rxcount: 25}
   - callsign: EA5HZZ
@@ -86,10 +90,6 @@ flight:
     data: {rxcount: 20}
   - callsign: EA5RCK-10
     data: {rxcount: 19}
-  - callsign: RZ6HSP
-    data: {rxcount: 19}
-  - callsign: RW6HP-10
-    data: {rxcount: 18}
   - callsign: G6GZH
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -233,7 +233,7 @@ flight:
     data: {rxcount: 1}
   - callsign: SV1MNF-5
     data: {rxcount: 1}
-  total_distance: '5747.1'
+  total_distance: '6126.8'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
