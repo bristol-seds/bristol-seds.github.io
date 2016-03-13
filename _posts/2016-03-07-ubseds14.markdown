@@ -16,10 +16,11 @@ flight:
   - {isocode: !!python/unicode 'ro', name: !!python/unicode 'Romania'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  - {isocode: !!python/unicode 'uz', name: !!python/unicode 'Uzbekistan'}
   - {isocode: !!python/unicode 'kz', name: !!python/unicode 'Kazakhstan'}
   - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
-  great_circle: '8768.7'
+  great_circle: '8790.0'
   max_altitude: '11.8'
   receiver_count: 87
   receivers:
@@ -51,7 +52,7 @@ flight:
       max_distance: '147.7'
       rxcount: 70
   - callsign: BACKLOG
-    data: {rxcount: 60}
+    data: {rxcount: 61}
   - callsign: F-80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -119,7 +120,7 @@ flight:
   - callsign: IQ9PA-13
     data: {rxcount: 9}
   - callsign: BI4JAQ-10
-    data: {rxcount: 8}
+    data: {rxcount: 9}
   - callsign: UR5FSV-2
     data: {rxcount: 7}
   - callsign: G8KNN
@@ -165,6 +166,8 @@ flight:
   - callsign: EA1FAQ
     data: {rxcount: 4}
   - callsign: YO8DHA-10
+    data: {rxcount: 3}
+  - callsign: BD4KM-10
     data: {rxcount: 3}
   - callsign: F4DBS-10
     data: {rxcount: 3}
@@ -217,8 +220,6 @@ flight:
     data: {rxcount: 1}
   - callsign: YO3DEX-10
     data: {rxcount: 1}
-  - callsign: BD4KM-10
-    data: {rxcount: 1}
   - callsign: G4BGQ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -242,7 +243,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '12595.7'
+  total_distance: '12701.0'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
