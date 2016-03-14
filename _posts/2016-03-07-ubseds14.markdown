@@ -24,33 +24,33 @@ flight:
   - {isocode: !!python/unicode 'kr', name: !!python/unicode 'S. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
   great_circle: '9078.9'
-  max_altitude: '11.8'
+  max_altitude: '11.5'
   receiver_count: 119
   receivers:
   - callsign: BACKLOG
     data: {rxcount: 133}
   - callsign: G4AIU
-    data: {rxcount: 107}
+    data: {rxcount: 106}
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '203.8'
-      rxcount: 102
+      rxcount: 101
   - callsign: G8DHE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '272.5'
-      rxcount: 83
+      rxcount: 82
   - callsign: G8FJG_V
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '366.8'
-      rxcount: 79
+      rxcount: 78
   - callsign: G8DXZ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '316.7'
-      rxcount: 78
+      rxcount: 77
   - callsign: M1ARI
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -60,19 +60,19 @@ flight:
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '281.4'
-      rxcount: 50
+      rxcount: 49
   - callsign: G8DJN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '257.2'
-      rxcount: 49
+      rxcount: 48
   - callsign: RW6HP-10
     data: {rxcount: 47}
   - callsign: g0hdi
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '114.1'
-      rxcount: 34
+      rxcount: 33
   - callsign: RZ6HSP
     data: {rxcount: 29}
   - callsign: M0ION
@@ -310,7 +310,7 @@ flight:
     data: {rxcount: 1}
   - callsign: JH6ETS-10
     data: {rxcount: 1}
-  total_distance: '15503.2'
+  total_distance: '15497.7'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
