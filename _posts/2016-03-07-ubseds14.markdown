@@ -23,12 +23,12 @@ flight:
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'kr', name: !!python/unicode 'S. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
-  great_circle: '9138.3'
+  great_circle: '9078.9'
   max_altitude: '11.8'
-  receiver_count: 114
+  receiver_count: 119
   receivers:
   - callsign: BACKLOG
-    data: {rxcount: 121}
+    data: {rxcount: 133}
   - callsign: G4AIU
     data: {rxcount: 107}
   - callsign: '0x17'
@@ -134,6 +134,10 @@ flight:
     data: {rxcount: 10}
   - callsign: IQ9PA-13
     data: {rxcount: 9}
+  - callsign: JL8SSD-10
+    data: {rxcount: 8}
+  - callsign: JR8IVS-10
+    data: {rxcount: 8}
   - callsign: UR5FSV-2
     data: {rxcount: 7}
   - callsign: G8KNN
@@ -188,9 +192,13 @@ flight:
     data: {rxcount: 4}
   - callsign: EA1FAQ
     data: {rxcount: 4}
+  - callsign: JJ8EMJ-3
+    data: {rxcount: 4}
   - callsign: YO8DHA-10
     data: {rxcount: 3}
   - callsign: JA5OJF
+    data: {rxcount: 3}
+  - callsign: JA8ZQT-10
     data: {rxcount: 3}
   - callsign: F4DBS-10
     data: {rxcount: 3}
@@ -233,6 +241,8 @@ flight:
     data: {rxcount: 2}
   - callsign: G6SQX
     data: {rxcount: 2}
+  - callsign: JM8ACU-10
+    data: {rxcount: 2}
   - callsign: ED1YCB-3
     data: {rxcount: 2}
   - callsign: 9H1FJ-5
@@ -252,6 +262,8 @@ flight:
   - callsign: YO7LMU-2
     data: {rxcount: 1}
   - callsign: JH7UAX-10
+    data: {rxcount: 1}
+  - callsign: JR8YJC-13
     data: {rxcount: 1}
   - callsign: F5ZZC-4
     data: {rxcount: 1}
@@ -292,15 +304,13 @@ flight:
     data: {rxcount: 1}
   - callsign: F5PHW-3
     data: {rxcount: 1}
-  - callsign: JJ8EMJ-3
-    data: {rxcount: 1}
   - callsign: JA7NR-10
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
   - callsign: JH6ETS-10
     data: {rxcount: 1}
-  total_distance: '15048.8'
+  total_distance: '15503.2'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
