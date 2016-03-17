@@ -23,12 +23,13 @@ flight:
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'kr', name: !!python/unicode 'S. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
-  great_circle: '9078.9'
-  max_altitude: '11.5'
-  receiver_count: 119
+  - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
+  great_circle: '8083.6'
+  max_altitude: '11.7'
+  receiver_count: 124
   receivers:
   - callsign: BACKLOG
-    data: {rxcount: 133}
+    data: {rxcount: 142}
   - callsign: G4AIU
     data: {rxcount: 106}
   - callsign: '0x17'
@@ -132,6 +133,8 @@ flight:
     data: {rxcount: 10}
   - callsign: JH7JLB
     data: {rxcount: 10}
+  - callsign: EUGENE
+    data: {rxcount: 9}
   - callsign: IQ9PA-13
     data: {rxcount: 9}
   - callsign: JL8SSD-10
@@ -154,6 +157,8 @@ flight:
   - callsign: 9H1US-5
     data: {rxcount: 6}
   - callsign: YO7GQZ-10
+    data: {rxcount: 6}
+  - callsign: KD7ZD-10
     data: {rxcount: 6}
   - callsign: LZ3SP
     data: {rxcount: 5}
@@ -198,6 +203,8 @@ flight:
     data: {rxcount: 3}
   - callsign: JA5OJF
     data: {rxcount: 3}
+  - callsign: WA6KHG
+    data: {rxcount: 3}
   - callsign: JA8ZQT-10
     data: {rxcount: 3}
   - callsign: F4DBS-10
@@ -226,6 +233,8 @@ flight:
       max_distance: '198.1'
       rxcount: 2
   - callsign: JG4WZP-10
+    data: {rxcount: 2}
+  - callsign: W6PKT-5
     data: {rxcount: 2}
   - callsign: EA5AHQ-10
     data: {rxcount: 2}
@@ -276,6 +285,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '199.5'
       rxcount: 1
+  - callsign: WB7ROB
+    data: {rxcount: 1}
   - callsign: SV2RCK-5
     data: {rxcount: 1}
   - callsign: EB7GYR-1
@@ -310,7 +321,7 @@ flight:
     data: {rxcount: 1}
   - callsign: JH6ETS-10
     data: {rxcount: 1}
-  total_distance: '15497.7'
+  total_distance: '23827.6'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
