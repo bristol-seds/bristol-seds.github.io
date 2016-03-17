@@ -10,7 +10,7 @@ d3.text("{{ page.altitude_plot }}", function(text) {
 
     var data = [];
     // Convert non-date values to numbers
-    for (var i = 0; i < rawData.length; i++) {
+    for (var i = 1; i < rawData.length; i++) { // ignore top line which is header
       data.push({"x": parsetime(rawData[i][0]), "y": Number(rawData[i][3])});
     }
     dataseries = [{"values": data, "key": "Altitude", "color": 'FireBrick'}];
