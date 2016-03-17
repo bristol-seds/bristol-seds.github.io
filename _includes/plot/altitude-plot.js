@@ -23,6 +23,7 @@ d3.text("{{ page.altitude_plot }}", function(text) {
       chart.xAxis.axisLabel('Time');
       chart.yAxis.axisLabel('Altitude (m)');
       chart.tooltips(false);
+      chart.useVoronoi(false);
 
       chart.showLegend(false);
       d3.select("#alt-time")
