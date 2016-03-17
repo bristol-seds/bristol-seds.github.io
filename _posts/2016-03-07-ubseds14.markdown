@@ -24,12 +24,12 @@ flight:
   - {isocode: !!python/unicode 'kr', name: !!python/unicode 'S. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  great_circle: '8083.6'
+  great_circle: '8094.2'
   max_altitude: '11.7'
-  receiver_count: 124
+  receiver_count: 129
   receivers:
   - callsign: BACKLOG
-    data: {rxcount: 142}
+    data: {rxcount: 149}
   - callsign: G4AIU
     data: {rxcount: 106}
   - callsign: '0x17'
@@ -94,6 +94,8 @@ flight:
     data: {rxcount: 25}
   - callsign: EA5HZZ
     data: {rxcount: 24}
+  - callsign: AL7BX
+    data: {rxcount: 23}
   - callsign: LZ1OCZ-1
     data: {rxcount: 20}
   - callsign: 9H1XE-1
@@ -142,6 +144,8 @@ flight:
   - callsign: JR8IVS-10
     data: {rxcount: 8}
   - callsign: UR5FSV-2
+    data: {rxcount: 7}
+  - callsign: K7YI-4
     data: {rxcount: 7}
   - callsign: G8KNN
     data:
@@ -299,6 +303,8 @@ flight:
     data: {rxcount: 1}
   - callsign: YO3KXL-10
     data: {rxcount: 1}
+  - callsign: IRONMT-2
+    data: {rxcount: 1}
   - callsign: JA5HWI-10
     data: {rxcount: 1}
   - callsign: JE8HLA-13
@@ -311,6 +317,8 @@ flight:
     data: {rxcount: 1}
   - callsign: SV1MNF-5
     data: {rxcount: 1}
+  - callsign: KY7K-10
+    data: {rxcount: 1}
   - callsign: JQ1ZRE-10
     data: {rxcount: 1}
   - callsign: F5PHW-3
@@ -319,9 +327,11 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
+  - callsign: ABAJO
+    data: {rxcount: 1}
   - callsign: JH6ETS-10
     data: {rxcount: 1}
-  total_distance: '23827.6'
+  total_distance: '25472.3'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
