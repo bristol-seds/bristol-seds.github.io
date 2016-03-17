@@ -31,28 +31,31 @@ def get_aprs_json(filename):
                 # Process packet
                 pkt = aprslib.parse(packet)
 
-                # construct data
-                data = {
-                    'date': dt.strftime("%y%m%d"),
-                    'time': dt.strftime("%H:%M:%S"),
-                    'latitude': pkt['latitude'],
-                    'longitude': pkt['longitude'],
-                    'altitude': pkt['altitude'],
-                }
+                if 'latitude' in pkt and 'longitude' in pkt and 'altitude' in pkt: # valid position packet
+                    # construct data
+                    data = {
+                        'date': dt.strftime("%y%m%d"),
+                        'time': dt.strftime("%H:%M:%S"),
+                        'latitude': pkt['latitude'],
+                        'longitude': pkt['longitude'],
+                        'altitude': pkt['altitude'],
+                    }
 
-                # construct receivers
-                receivers = {
-                    pkt['via']: {}
-                }
+                    # construct receivers
+                    receivers = {
+                        pkt['via']: {}
+                    }
 
-                # construct doc
-                doc = {
-                    'data': data,
-                    'receivers': receivers,
-                }
+                    # construct doc
+                    doc = {
+                        'data': data,
+                        'receivers': receivers,
+                    }
 
-                aprs_json.append({
-                    'doc': doc
-                })
+                    aprs_json.append({
+                        'doc': doc
+                    })
+                else:           # not a valid position packet. ignore for now
+                    False
 
     return aprs_json
