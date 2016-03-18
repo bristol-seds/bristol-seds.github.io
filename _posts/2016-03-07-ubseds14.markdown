@@ -24,12 +24,12 @@ flight:
   - {isocode: !!python/unicode 'kr', name: !!python/unicode 'S. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  great_circle: '6459.9'
+  great_circle: '5593.8'
   max_altitude: '11.7'
-  receiver_count: 170
+  receiver_count: 186
   receivers:
   - callsign: BACKLOG
-    data: {rxcount: 194}
+    data: {rxcount: 212}
   - callsign: G4AIU
     data: {rxcount: 106}
   - callsign: '0x17'
@@ -102,6 +102,8 @@ flight:
     data: {rxcount: 20}
   - callsign: 9H1XE-1
     data: {rxcount: 20}
+  - callsign: W4DEX
+    data: {rxcount: 19}
   - callsign: EA5RCK-10
     data: {rxcount: 19}
   - callsign: G6GZH
@@ -160,12 +162,21 @@ flight:
     data: {rxcount: 9}
   - callsign: IQ9PA-13
     data: {rxcount: 9}
+  - callsign: N4ACT-5
+    data: {rxcount: 9}
   - callsign: JL8SSD-10
     data: {rxcount: 8}
   - callsign: JR8IVS-10
     data: {rxcount: 8}
+  - callsign: N4YH-10
+    data: {rxcount: 8}
   - callsign: W5AOX-10
     data: {rxcount: 8}
+  - callsign: AL0I-05
+    data:
+      country: {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
+      max_distance: '86.0'
+      rxcount: 7
   - callsign: UR5FSV-2
     data: {rxcount: 7}
   - callsign: W5AMZ-1
@@ -193,6 +204,8 @@ flight:
     data: {rxcount: 6}
   - callsign: LZ3SP
     data: {rxcount: 5}
+  - callsign: N4ACT
+    data: {rxcount: 5}
   - callsign: SV6EXB-11
     data: {rxcount: 5}
   - callsign: IW9FRA-10
@@ -201,7 +214,7 @@ flight:
     data: {rxcount: 5}
   - callsign: LZ4NY-2
     data: {rxcount: 5}
-  - callsign: N4YH-10
+  - callsign: N1IEK-2
     data: {rxcount: 5}
   - callsign: G1DYQ
     data:
@@ -218,6 +231,8 @@ flight:
     data: {rxcount: 4}
   - callsign: SV3AQO-10
     data: {rxcount: 4}
+  - callsign: NE4W-10
+    data: {rxcount: 4}
   - callsign: JA4XO-1
     data: {rxcount: 4}
   - callsign: JA0QEV-10
@@ -230,19 +245,25 @@ flight:
     data: {rxcount: 4}
   - callsign: JA7LJQ-10
     data: {rxcount: 4}
+  - callsign: W4POX-5
+    data: {rxcount: 4}
+  - callsign: WR4AGC-5
+    data: {rxcount: 4}
   - callsign: EA1FAQ
     data: {rxcount: 4}
   - callsign: JJ8EMJ-3
     data: {rxcount: 4}
   - callsign: YO8DHA-10
     data: {rxcount: 3}
-  - callsign: JA5OJF
-    data: {rxcount: 3}
   - callsign: WA6KHG
+    data: {rxcount: 3}
+  - callsign: JA5OJF
     data: {rxcount: 3}
   - callsign: JA8ZQT-10
     data: {rxcount: 3}
   - callsign: F4DBS-10
+    data: {rxcount: 3}
+  - callsign: WA4BDS-10
     data: {rxcount: 3}
   - callsign: YM7KO
     data: {rxcount: 3}
@@ -279,6 +300,8 @@ flight:
     data: {rxcount: 2}
   - callsign: NM5AK-5
     data: {rxcount: 2}
+  - callsign: N2NXS
+    data: {rxcount: 2}
   - callsign: EA5AHQ-10
     data: {rxcount: 2}
   - callsign: SHEEP
@@ -287,13 +310,19 @@ flight:
     data: {rxcount: 2}
   - callsign: F1ZNQ-3
     data: {rxcount: 2}
+  - callsign: N9SIR-1
+    data: {rxcount: 2}
   - callsign: JA8EFI-10
     data: {rxcount: 2}
   - callsign: JE4YIB-10
     data: {rxcount: 2}
   - callsign: KM5VY-10
     data: {rxcount: 2}
+  - callsign: KJ4SNT
+    data: {rxcount: 2}
   - callsign: LZ0DAD
+    data: {rxcount: 2}
+  - callsign: BH4JPA-10
     data: {rxcount: 2}
   - callsign: JJ3CYE-1
     data: {rxcount: 2}
@@ -307,11 +336,11 @@ flight:
     data: {rxcount: 2}
   - callsign: ED1YCB-3
     data: {rxcount: 2}
+  - callsign: K4JH-1
+    data: {rxcount: 2}
   - callsign: 9H1FJ-5
     data: {rxcount: 2}
   - callsign: JH4YOP-10
-    data: {rxcount: 2}
-  - callsign: BH4JPA-10
     data: {rxcount: 2}
   - callsign: LZ0BGM
     data: {rxcount: 2}
@@ -323,7 +352,9 @@ flight:
     data: {rxcount: 1}
   - callsign: KD5ROK
     data: {rxcount: 1}
-  - callsign: W4DEX
+  - callsign: W4VU-2
+    data: {rxcount: 1}
+  - callsign: AE5NW-10
     data: {rxcount: 1}
   - callsign: EA2EEL-5
     data: {rxcount: 1}
@@ -335,15 +366,17 @@ flight:
     data: {rxcount: 1}
   - callsign: KF5ZKR-2
     data: {rxcount: 1}
-  - callsign: JH7UAX-10
-    data: {rxcount: 1}
   - callsign: JR8YJC-13
     data: {rxcount: 1}
   - callsign: F5ZZC-4
     data: {rxcount: 1}
   - callsign: YO3DEX-10
     data: {rxcount: 1}
+  - callsign: W8VFR-9
+    data: {rxcount: 1}
   - callsign: JA4YMC-10
+    data: {rxcount: 1}
+  - callsign: N4TVC
     data: {rxcount: 1}
   - callsign: G4BGQ
     data:
@@ -354,15 +387,13 @@ flight:
     data: {rxcount: 1}
   - callsign: WB7ROB
     data: {rxcount: 1}
-  - callsign: WA4BDS-10
-    data: {rxcount: 1}
   - callsign: SV2RCK-5
     data: {rxcount: 1}
   - callsign: EB7GYR-1
     data: {rxcount: 1}
   - callsign: CN8NY-10
     data: {rxcount: 1}
-  - callsign: AE5NW-10
+  - callsign: JH7UAX-10
     data: {rxcount: 1}
   - callsign: IT9AOO-2
     data: {rxcount: 1}
@@ -402,9 +433,13 @@ flight:
     data: {rxcount: 1}
   - callsign: JA7NR-10
     data: {rxcount: 1}
+  - callsign: KB4TYE-1
+    data: {rxcount: 1}
   - callsign: K2HAL-3
     data: {rxcount: 1}
   - callsign: N5RN-10
+    data: {rxcount: 1}
+  - callsign: KC4LU-2
     data: {rxcount: 1}
   - callsign: N8DEU-5
     data: {rxcount: 1}
@@ -416,7 +451,7 @@ flight:
     data: {rxcount: 1}
   - callsign: JH6ETS-10
     data: {rxcount: 1}
-  total_distance: '28071.9'
+  total_distance: '29116.3'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
