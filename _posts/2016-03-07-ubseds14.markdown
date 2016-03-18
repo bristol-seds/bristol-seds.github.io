@@ -457,7 +457,7 @@ To save power UHF transmissions are only made **within** the red lines on the ge
 
 * [UHF Geofence image link](/assets/flights/14/ubseds14_uhf_geofence_world_miller_cylindrical.jpg)
 
-### APRS M0SBU-11
+### APRS M0SBU-11 / AD6AM-11
 
 For many countries the balloon transmits APRS packets on local frequencies. In particular this is 144.8MHz in Europe, 144.66MHz in Japan and 144.39MHz in North America.
 
