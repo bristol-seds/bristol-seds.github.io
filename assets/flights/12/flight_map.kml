@@ -226,11 +226,10 @@
         </Folder>
         <name>UBSEDS12 Data Export</name>
         <Folder>
-            <name>Launch, Burst and Landing Points</name>
+            <name>Launch and Last Reported Points</name>
             <Placemark>
                 <name>Launch</name>
-                <description>temperature_internal: 15.4, battery: 1.48, altitude: 225, time: 08:50:21, _sentence: $$UBSEDS12,08:50:21,51.50106,-2.56317,225,6,1.48,15.4,-8*A7D2
-, longitude: -2.56317, _raw: JCRVQlNFRFMxMiwwODo1MDoyMSw1MS41MDEwNiwtMi41NjMxNywyMjUsNiwxLjQ4LDE1LjQsLTgqQTdEMgo=, satellites: 6, _protocol: UKHAS, _parsed: {u'payload_configuration': u'8ab25b0e838ccff1726b3b4f427110d6', u'time_parsed': u'2015-12-20T08:50:38Z', u'flight': u'8ab25b0e838ccff1726b3b4f4274ca64', u'configuration_sentence_index': 0}, latitude: 51.50106, payload: UBSEDS12, tcxo_drift: -8</description>
+                <description>20 December 2015 08:50:38: (51.5011, -2.5632) @ 225 m</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
@@ -239,20 +238,8 @@
                 </Point>
             </Placemark>
             <Placemark>
-                <name>Burst</name>
-                <description>temperature_internal: 12.1, battery: 1.49, altitude: 1078, _raw: JCRVQlNFRFMxMiwxMjo1MDoyMSw1Mi45NDkwNSwtMC45NDk1MiwxMDc4LDYsMS40OSwxMi4xLC04Kjk3RUMK, _sentence: $$UBSEDS12,12:50:21,52.94905,-0.94952,1078,6,1.49,12.1,-8*97EC
-, longitude: -0.94952, latitude: 52.94905, time: 12:50:21, _protocol: UKHAS, _parsed: {u'payload_configuration': u'8ab25b0e838ccff1726b3b4f427110d6', u'time_parsed': u'2015-12-20T12:50:38Z', u'flight': u'8ab25b0e838ccff1726b3b4f4274ca64', u'configuration_sentence_index': 0}, satellites: 6, payload: UBSEDS12, tcxo_drift: -8</description>
-                <Point>
-                    <extrude>0</extrude>
-                    <altitudeMode>absolute</altitudeMode>
-                    <coordinates>-0.94952,52.94905,1078
-</coordinates>
-                </Point>
-            </Placemark>
-            <Placemark>
-                <name>Landing</name>
-                <description>temperature_internal: 17.6, battery: 1.5, altitude: 243, time: 14:14:21, _sentence: $$UBSEDS12,14:14:21,53.60394,0.03163,243,8,1.50,17.6,-8*B979
-, longitude: 0.03163, _raw: JCRVQlNFRFMxMiwxNDoxNDoyMSw1My42MDM5NCwwLjAzMTYzLDI0Myw4LDEuNTAsMTcuNiwtOCpCOTc5Cg==, satellites: 8, _protocol: UKHAS, _parsed: {u'payload_configuration': u'8ab25b0e838ccff1726b3b4f427110d6', u'time_parsed': u'2015-12-20T14:14:38Z', u'flight': u'8ab25b0e838ccff1726b3b4f4274ca64', u'configuration_sentence_index': 0}, latitude: 53.60394, payload: UBSEDS12, tcxo_drift: -8</description>
+                <name>Last Reported</name>
+                <description>20 December 2015 14:14:38: (53.6039, 0.0316) @ 243 m</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>

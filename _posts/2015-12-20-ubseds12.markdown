@@ -6,8 +6,10 @@ description: Low Altitude Balloon
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  duration: 5 hours
   great_circle: '292.4'
   max_altitude: '1.1'
+  receiver_count: 6
   receivers:
   - callsign: M0UPU
     data:
@@ -44,6 +46,7 @@ flight_map: /assets/flights/12/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8ab25b0e838ccff1726b3b4f4274ca64',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS12'}
 layout: post
+live: false
 payload_title: UBSEDS12
 plots: true
 title: UBSEDS12
