@@ -24,12 +24,12 @@ flight:
   - {isocode: !!python/unicode 'kr', name: !!python/unicode 'S. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  great_circle: '5593.8'
-  max_altitude: '11.7'
-  receiver_count: 186
+  great_circle: '2636.3'
+  max_altitude: '12.0'
+  receiver_count: 187
   receivers:
   - callsign: BACKLOG
-    data: {rxcount: 212}
+    data: {rxcount: 214}
   - callsign: G4AIU
     data: {rxcount: 106}
   - callsign: '0x17'
@@ -226,6 +226,8 @@ flight:
   - callsign: LZ0DAP-13
     data: {rxcount: 4}
   - callsign: EA2RCH-14
+    data: {rxcount: 4}
+  - callsign: CU6NS
     data: {rxcount: 4}
   - callsign: KE5KUL
     data: {rxcount: 4}
@@ -451,7 +453,7 @@ flight:
     data: {rxcount: 1}
   - callsign: JH6ETS-10
     data: {rxcount: 1}
-  total_distance: '29116.3'
+  total_distance: '32761.4'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
