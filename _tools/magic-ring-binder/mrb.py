@@ -203,13 +203,29 @@ for r in receivers:
 
 # =-----------------------------------------------------------------------
 
+# Start and end
 if len(payload_data_sorted) > 0:
     launch_arrow = arrow.get(payload_data_sorted[0]['_parsed']['time_parsed'])
+    end_arrow = arrow.get(payload_data_sorted[-1]['_parsed']['time_parsed'])
 else:
     launch_arrow = arrow.utcnow() # Use current time for now
+    end_arrow = arrow.utcnow() # Use current time for now
 
 launch_date = launch_arrow.format('YYYY-MM-DD')
 launch_time = launch_arrow.format('YYYY-MM-DD hh:mm:ss')
+
+# Duration
+da = end_arrow - launch_arrow
+da_hours = da.seconds // 3600;
+if da.days > 0:
+    if da_hours > 0:
+        duration = "{} day{}, {} hour{}".format(da.days, "s" if da.days != 1 else "", da_hours, "s" if da_hours != 1 else "")
+    else:
+        duration = "{} day{}".format(da.days, "s" if da.days != 1 else "")
+else:
+    duration = "{} hour{}".format(da_hours, "s" if da_hours != 1 else "")
+
+print "Duration is {}".format(duration)
 
 post_path = "../../_posts/{}-{}.markdown".format(launch_date, payload_name)
 
@@ -246,6 +262,7 @@ post_yaml = {
     "flight": {
         "total_distance": "{:0.1f}".format(distance.total(payload_data_sorted)),
         "great_circle": "{:0.1f}".format(distance.great_circle(payload_data_sorted)),
+        "duration": duration,
         "countries": countries.flight_countries(payload_data_sorted),
         "max_altitude": "{:0.1f}".format(distance.max_altitude(payload_data_sorted)),
         "receiver_count": len(receivers),

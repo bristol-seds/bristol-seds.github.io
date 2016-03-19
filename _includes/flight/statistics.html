@@ -8,6 +8,9 @@
 {% if page.flight.great_circle %}
 <li> Great circle distance: <code>{{ page.flight.great_circle }}km</code></li>
 {% endif %}
+{% if page.flight.duration %}
+<li> Flight duration: <code>{{ page.flight.duration }}</code></li>
+{% endif %}
 {% if page.flight.max_altitude %}
 <li> Maximum altitude: <code>{{ page.flight.max_altitude }}km</code></li>
 {% endif %}

@@ -24,19 +24,29 @@ asset_path: /assets/
             </small>
           </h2>
           <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span>
+
           {% if post.flight.pico %}
           <code>pico</code>&nbsp;
           {% endif %}
+
           {% if post.flight.max_altitude %}
           <code><img src="/assets/famfamfam_mini_icons/arrow_up.gif", alt="Up">
             {{ post.flight.max_altitude }}km
           </code>&nbsp;
           {% endif %}
+
           {% if post.flight.total_distance %}
           <code><img src="/assets/famfamfam_mini_icons/arrow_right.gif", alt="Distance">
             {{ post.flight.total_distance }}km
           </code>&nbsp;
           {% endif %}
+
+          {% if post.flight.duration %}
+          <code><img src="/assets/famfamfam_mini_icons/icon_clock.gif", alt="Duration">
+            {{ post.flight.duration }}
+          </code>&nbsp;
+          {% endif %}
+
           {% if post.flight.countries %}
           <code>
             {% for flag in post.flight.countries %}
