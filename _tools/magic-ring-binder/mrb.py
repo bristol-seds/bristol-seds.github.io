@@ -195,6 +195,7 @@ speed_plot = asset_path+"speed_plot.csv"
 # =-----------------------------------------------------------------------
 
 receivers = receivers.receiver_info(payload_json)
+print
 # Format to sensible string
 for r in receivers:
     if 'max_distance' in r['data']:
@@ -217,13 +218,13 @@ post_path = "../../_posts/{}-{}.markdown".format(launch_date, payload_name)
 is_live = False
 
 if len(payload_data_sorted) > 0:
-    last_arrow = arrow.get(payload_data_sorted[-1]['date'])
+    last_arrow = arrow.get(payload_data_sorted[-1]['_parsed']['time_parsed'])
     utc_2daysago = arrow.utcnow().replace(days=-2)
 
-    if last_arrow < utc_2daysago: # live
-        print
+    if last_arrow > utc_2daysago: # live
         print "Flight is less than 2 days old!! Setting the live flag..."
         is_live = True
+print
 
 # =-----------------------------------------------------------------------
 

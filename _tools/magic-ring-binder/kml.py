@@ -8,7 +8,7 @@ import arrow
 #
 def description_text(datapoint):
     if datapoint:
-        time_arrow = arrow.get("{date} {time}".format(**datapoint), 'YYMMDD HH:mm:ss')
+        time_arrow = arrow.get(datapoint['_parsed']['time_parsed'])
         time_str = time_arrow.format('DD MMMM YYYY HH:mm:ss')
 
         return "{}: ({latitude:.4f}, {longitude:.4f}) @ {altitude:.0f} m".format(time_str, **datapoint)

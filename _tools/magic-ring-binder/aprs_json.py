@@ -39,6 +39,9 @@ def get_aprs_json(filename):
                         'latitude': pkt['latitude'],
                         'longitude': pkt['longitude'],
                         'altitude': pkt['altitude'],
+                        '_parsed': {
+                            'time_parsed': time
+                        },
                     }
 
                     # construct receivers
