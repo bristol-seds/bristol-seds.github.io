@@ -15,6 +15,7 @@ import countries
 import receivers
 import aprs_json
 import kml
+import laps
 
 import os, errno
 
@@ -244,6 +245,10 @@ print
 
 # =-----------------------------------------------------------------------
 
+laps = laps.laps_east(payload_data_sorted)
+
+# =-----------------------------------------------------------------------
+
 post_yaml = {
     "layout": "post",
     "title": payload_name.upper(),
@@ -267,10 +272,16 @@ post_yaml = {
         "max_altitude": "{:0.1f}".format(distance.max_altitude(payload_data_sorted)),
         "receiver_count": len(receivers),
         "receivers": receivers,
+        "laps": laps,
     },
 }
 
+# =-----------------------------------------------------------------------
 
+if laps > 0:
+    flight_data["laps"] = laps
+    print "That's {} laps!".format(laps)
+    print
 
 # =-----------------------------------------------------------------------
 
