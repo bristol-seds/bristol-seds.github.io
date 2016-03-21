@@ -147,6 +147,10 @@ else:
 # Only telemetry points above 200m are considered part of the flight
 payload_json = [t for t in payload_json if t['doc']['data']['altitude'] > 200]
 
+if payload_name == "ubseds14": # Filter out packet with altitude from UBSEDS14
+    payload_json = [t for t in payload_json if t['doc']['data']['altitude'] != 11808]
+
+
 # =-----------------------------------------------------------------------
 
 # Sort the payload data by date
@@ -173,16 +177,23 @@ payload_data_sorted = [t['doc']['data'] for t in payload_json_sorted]
 
 # =-----------------------------------------------------------------------
 
+if payload_name == "ubseds14": # Filter out bad backlog altitude packets from ubseds14
+    payload_data_filt = [t for t in payload_data_sorted if t['altitude'] > 10700 or t['date'] == "160307"]
+else:
+    payload_data_filt = payload_data_sorted
+
+
 flight_map = asset_path+"flight_map.kml"
 if flight_nr in [1,2,4,5]:      # Up/down
-    kml.output(payload_data_sorted, "../.."+flight_map, True, "Landing")
+    kml.output(payload_data_filt, "../.."+flight_map, True, "Landing")
 else:                           # Float
-    kml.output(payload_data_sorted, "../.."+flight_map, False, "Last Reported")
+    kml.output(payload_data_filt, "../.."+flight_map, False, "Last Reported")
 
 altitude_plot = asset_path+"altitude_plot.csv"
 with open("../.."+altitude_plot, 'w') as outfile:
     outfile.write('time,latitude,longitude,altitude\n')
-    for d in payload_data_sorted:
+
+    for d in payload_data_filt:
         if 'date' in d:
             date = d['date']
         else:
