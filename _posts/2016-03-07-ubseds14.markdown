@@ -24,13 +24,15 @@ flight:
   - {isocode: !!python/unicode 'kr', name: !!python/unicode 'S. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  duration: 12 days, 6 hours
-  great_circle: '2679.3'
+  - {isocode: !!python/unicode 'ma', name: !!python/unicode 'Morocco'}
+  duration: 14 days, 1 hour
+  great_circle: '2842.8'
+  laps: 0
   max_altitude: '12.0'
-  receiver_count: 187
+  receiver_count: 188
   receivers:
   - callsign: BACKLOG
-    data: {rxcount: 216}
+    data: {rxcount: 217}
   - callsign: G4AIU
     data: {rxcount: 106}
   - callsign: '0x17'
@@ -116,6 +118,8 @@ flight:
     data: {rxcount: 16}
   - callsign: IW9GRL-12
     data: {rxcount: 16}
+  - callsign: EA8AJY-9
+    data: {rxcount: 15}
   - callsign: WB8ELK
     data:
       country: {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
@@ -454,7 +458,7 @@ flight:
     data: {rxcount: 1}
   - callsign: JH6ETS-10
     data: {rxcount: 1}
-  total_distance: '32859.2'
+  total_distance: '35551.4'
 flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
