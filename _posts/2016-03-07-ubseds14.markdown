@@ -463,7 +463,7 @@ flight_map: /assets/flights/14/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=04da8e741c2e215b90efd5a22c7339cd',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS14'}
 layout: post
-live: true
+live: false
 payload_title: UBSEDS14
 photos: [/assets/flights/14/envelope_prestretch_2.jpg, /assets/flights/14/tracker.jpg,
   /assets/flights/14/tracker_packaged_arty.jpg, /assets/flights/14/payload_weight.jpg,
