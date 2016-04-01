@@ -23,19 +23,14 @@
 </script>
 
 <!-- Google Maps -->
-{% if page.flight_map %}
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-<script>
-function initialize() {
-  var map = new google.maps.Map(document.getElementById('flight_map'), {});
-
-  var ctaLayer = new google.maps.KmlLayer({
-    url: 'http://www.bristol-seds.co.uk{{ page.flight_map }}'
-  });
-  ctaLayer.setMap(map);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+{% if page.image_map %}
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDb8E7GNo0Nt1uS_jxE5T8i4BykbueyfR0"></script>
+<script>{% include image-map.js %}</script>
+{% elsif page.flight_map %}
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDb8E7GNo0Nt1uS_jxE5T8i4BykbueyfR0"></script>
+<script>{% include flight-map.js %}</script>
 {% endif %}
 
 <!-- nvd3 Graphs -->

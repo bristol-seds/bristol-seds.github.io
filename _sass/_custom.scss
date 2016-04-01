@@ -1,9 +1,19 @@
 /**
  * Basic styling
  */
+html,
 body {
     font-family: $base-font-family;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+#flex-box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
 a:hover, a:focus {
   text-decoration: none;
 }
@@ -63,13 +73,19 @@ a:hover, a:focus {
 }
 
 /**
-* Maps
-*/
+ * Maps
+ */
 .map-canvas {
   height: 400px;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+/**
+ * Full-page option
+ */
+.map-canvas-full {
+  flex: 1 1 auto;
 }
 
 /**
