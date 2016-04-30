@@ -8,16 +8,16 @@ flight:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
   duration: 5 hours
-  great_circle: '303.9'
+  great_circle: '315.2'
   laps: 0
   max_altitude: '11.5'
-  receiver_count: 25
+  receiver_count: 26
   receivers:
   - callsign: G8DXZ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '245.3'
-      rxcount: 162
+      max_distance: '255.5'
+      rxcount: 168
   - callsign: G1BLO
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -26,43 +26,43 @@ flight:
   - callsign: G8FJG_v
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '264.4'
-      rxcount: 134
+      max_distance: '273.1'
+      rxcount: 143
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '342.0'
-      rxcount: 132
+      max_distance: '351.0'
+      rxcount: 142
   - callsign: GK4BGQ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '324.8'
-      rxcount: 125
+      max_distance: '334.9'
+      rxcount: 135
   - callsign: F1OIL
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '276.3'
-      rxcount: 122
+      rxcount: 132
   - callsign: G8JNJ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '264.6'
-      rxcount: 117
+      max_distance: '275.9'
+      rxcount: 127
   - callsign: G1DYQ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '270.2'
       rxcount: 113
+  - callsign: F80106
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '174.2'
+      rxcount: 110
   - callsign: DEV88
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '235.3'
       rxcount: 106
-  - callsign: F80106
-    data:
-      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-      max_distance: '174.2'
-      rxcount: 101
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -72,9 +72,9 @@ flight:
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '272.7'
-      rxcount: 94
+      rxcount: 99
   - callsign: PE1ANS
-    data: {max_distance: '400.0', rxcount: 77}
+    data: {max_distance: '402.2', rxcount: 81}
   - callsign: F1IEE
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -95,44 +95,49 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '14.6'
       rxcount: 33
+  - callsign: G0RNU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '269.3'
+      rxcount: 29
   - callsign: G7SVI
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '50.4'
       rxcount: 26
-  - callsign: G0RNU
+  - callsign: THIERRY72
     data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '260.2'
-      rxcount: 21
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '120.6'
+      rxcount: 23
   - callsign: M0VPN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '51.6'
       rxcount: 20
-  - callsign: BSEDS_Mysterious_Tower
-    data: {rxcount: 18}
-  - callsign: THIERRY72
-    data:
-      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-      max_distance: '120.6'
-      rxcount: 14
   - callsign: F5MVO
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '191.0'
-      rxcount: 11
+      rxcount: 18
+  - callsign: BSEDS_Mysterious_Tower
+    data: {rxcount: 18}
+  - callsign: F1OIL/2
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '259.6'
+      rxcount: 16
   - callsign: G0LRD
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '237.8'
       rxcount: 9
-  - callsign: F1OIL/2
+  - callsign: F21061
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-      max_distance: '255.9'
-      rxcount: 7
-  total_distance: '307.4'
+      max_distance: '59.6'
+      rxcount: 3
+  total_distance: '318.8'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
