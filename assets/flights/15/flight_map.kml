@@ -251,6 +251,15 @@
 -0.3098,49.1741,11449
 -0.3005,49.1656,11459
 -0.2914,49.1568,11449
+-0.2826,49.1482,11464
+-0.2742,49.1398,11457
+-0.2658,49.1313,11453
+-0.2572,49.1228,11446
+-0.2485,49.1142,11472
+-0.2401,49.1057,11474
+-0.229,49.0951,11477
+-0.2212,49.0878,11463
+-0.2128,49.0801,11444
 
                     </coordinates>
                 </LineString>
@@ -272,11 +281,11 @@
             </Placemark>
             <Placemark>
                 <name>Last Reported</name>
-                <description>30 April 2016 13:18:31: (49.1568, -0.2914) @ 11449 m</description>
+                <description>30 April 2016 13:30:30: (49.0801, -0.2128) @ 11444 m</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>-0.2914,49.1568,11449
+                    <coordinates>-0.2128,49.0801,11444
 </coordinates>
                 </Point>
             </Placemark>

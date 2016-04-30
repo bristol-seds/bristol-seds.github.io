@@ -5,6 +5,7 @@ import urllib
 import wget
 from datetime import datetime
 import arrow
+import json
 import dateutil.parser
 import yaml
 import re
@@ -156,7 +157,11 @@ if payload_name == "ubseds14": # Filter out packet with altitude from UBSEDS14
 # Sort the payload data by date
 def data_timesort(datum):
 
-    telemetry_t = arrow.get(datum['doc']['data']['time'], "HH:mm:ss")
+    try:
+        telemetry_t = arrow.get(datum['doc']['data']['time'], "HH:mm:ss")
+    except:
+        telemetry_t = arrow.get(datum['doc']['data']['time'], "HH:mm").replace(minutes=+1)
+        datum['doc']['data']['time'] = telemetry_t.format("HH:mm:ss")
 
     if 'key' in datum: # From habitat
         received_mean_t = arrow.get(datum['key'][1])
@@ -172,16 +177,25 @@ def data_timesort(datum):
 
 payload_json_sorted = sorted(payload_json, key=data_timesort)
 
+# Extract just the documents
+payload_docs_sorted = [t['doc'] for t in payload_json_sorted]
 # Extract just the data
 payload_data_sorted = [t['doc']['data'] for t in payload_json_sorted]
 
 # =-----------------------------------------------------------------------
 
+# Write out the flight record
+with open('flight_record.json', 'w') as outfile:
+    json_data = json.dumps(payload_docs_sorted, indent=4, separators=(',', ': '))
+    outfile.write(json_data)
+
+# =-----------------------------------------------------------------------
+
+
 if payload_name == "ubseds14": # Filter out bad backlog altitude packets from ubseds14
     payload_data_filt = [t for t in payload_data_sorted if t['altitude'] > 10700 or t['date'] == "160307"]
 else:
     payload_data_filt = payload_data_sorted
-
 
 flight_map = asset_path+"flight_map.kml"
 if flight_nr in [1,2,4,5]:      # Up/down
