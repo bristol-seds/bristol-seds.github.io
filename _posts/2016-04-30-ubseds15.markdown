@@ -1,0 +1,180 @@
+---
+altitude_plot: /assets/flights/15/altitude_plot.csv
+categories: hab flight
+date: '2016-04-30 08:24:24'
+description: Custom Envelope with Solar Panels
+flight:
+  countries:
+  - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  duration: 3 hours
+  great_circle: '251.5'
+  laps: 0
+  max_altitude: '11.4'
+  receiver_count: 21
+  receivers:
+  - callsign: G1BLO
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '156.9'
+      rxcount: 134
+  - callsign: G8DXZ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '200.8'
+      rxcount: 121
+  - callsign: G1DYQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '270.2'
+      rxcount: 113
+  - callsign: DEV88
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '235.3'
+      rxcount: 106
+  - callsign: '0x17'
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '222.1'
+      rxcount: 100
+  - callsign: G8FJG_v
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '192.4'
+      rxcount: 92
+  - callsign: G8KNN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '303.5'
+      rxcount: 92
+  - callsign: GK4BGQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '279.5'
+      rxcount: 84
+  - callsign: F1OIL
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '276.3'
+      rxcount: 83
+  - callsign: G8JNJ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '213.2'
+      rxcount: 76
+  - callsign: F5APQ
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '272.7'
+      rxcount: 69
+  - callsign: F80106
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '174.2'
+      rxcount: 62
+  - callsign: F1IEE
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '110.3'
+      rxcount: 52
+  - callsign: G8IMN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '309.5'
+      rxcount: 50
+  - callsign: PE1ANS
+    data: {max_distance: '396.1', rxcount: 40}
+  - callsign: G4YHE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '193.2'
+      rxcount: 35
+  - callsign: M0SBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '14.6'
+      rxcount: 33
+  - callsign: G7SVI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '50.4'
+      rxcount: 26
+  - callsign: M0VPN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '51.6'
+      rxcount: 20
+  - callsign: BSEDS_Mysterious_Tower
+    data: {rxcount: 18}
+  - callsign: G0LRD
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '237.8'
+      rxcount: 9
+  total_distance: '265.4'
+flight_map: /assets/flights/15/flight_map.kml
+habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
+  live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
+layout: post
+live: true
+payload_title: UBSEDS15
+plots: true
+photos: [/assets/flights/15/flying_away_1.jpg,
+         /assets/flights/15/flying_away_2.jpg,
+         /assets/flights/15/tracker.jpg,
+         /assets/flights/15/free_lift.jpg,
+         /assets/flights/15/tracker_at_launch.jpg,
+         /assets/flights/15/tracker_at_launch_close.jpg]
+title: UBSEDS15
+---
+
+Like UBSEDS14, the UBSEDS15 balloon was built from 50 micron thick PA-EVOH-PE multilayer film and was 1.5 meters in diameter. The payload weight was 20 grams. We used slightly more helium than for UBSEDS14; combined with about 3 grams of deadweight (including the fill inlet) this resulted in 17.2 grams of free lift. This initial float altitude was 11.4km (37,000 ft).
+
+<!--more-->
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+# Tracker
+
+The tracker used was a new iteration of our pico-tracker design. Some parts of the board (particularly the SE880 GPS unit) have been re-worked and bodged.
+
+# Transmissions
+
+The balloon transmits approximately once per minute when in daylight.
+
+### UHF 434.6MHz
+
+It uses the error-correcting Contestia 16/1000 mode on 434.6MHz USB.
+
+The transmission power on this band was measured to be +6dBm, which is well below the +10dBm limit for ISM band operation. Each packet was preceded by 10 seconds of 1Hz pips for manual alignment and a RSID tone for automatic alignment with suitable software (dl-fldigi for example).
+
+To save power UHF transmissions are only made **within** the red lines on the geofence below.
+
+* [UHF Geofence image link](/assets/flights/15/ubseds15_uhf_geofence_world_miller_cylindrical.jpg)
+
+### APRS M0SBU-11 / AD6AM-11
+
+For many countries the balloon transmits APRS packets on local frequencies. In particular this is 144.8MHz in Europe, 144.66MHz in Japan and 144.39MHz in North America. The output power for this mode was measured at +14dBm.
+
+Some countries do not allow aeronautical mobile operation, which limits the balloon from using the amateur bands. Therefore APRS is only transmitted **outside** the red lines on the geofence below.
+
+* [APRS Geofence image link](/assets/flights/15/ubseds15_no_aprs_world_miller_cylindrical.jpg)
+
+{% include flight/map.html %}
+
+<br/>
+
+The map above is drawn using data received from UHF and from APRS backlog frames. APRS backlog is where the tracker inserts information about where it was in the past into the comment field of an APRS packet that also contains the current position. This backlog allows the map to be drawn ex post even where there are no receivers.
+
+Straight lines are visible where no data was recorded, usually because the battery voltage was too low.
+
+
+{% include flight/statistics.html %}
+
+{% include flight/plots.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}
