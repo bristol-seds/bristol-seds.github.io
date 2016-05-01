@@ -7,8 +7,8 @@ flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-  duration: 1 day, 11 hours
-  great_circle: '1383.7'
+  duration: 1 day, 12 hours
+  great_circle: '1391.4'
   laps: 0
   max_altitude: '11.6'
   receiver_count: 53
@@ -133,14 +133,14 @@ flight:
       max_distance: '191.0'
       rxcount: 52
   - callsign: F5LHI
-    data: {rxcount: 51}
+    data: {rxcount: 52}
   - callsign: G8IMN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '309.5'
       rxcount: 50
   - callsign: F6GLS-10
-    data: {rxcount: 41}
+    data: {rxcount: 45}
   - callsign: G4YHE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -182,6 +182,8 @@ flight:
       rxcount: 20
   - callsign: BSEDS_Mysterious_Tower
     data: {rxcount: 18}
+  - callsign: IR0AAI-12
+    data: {rxcount: 12}
   - callsign: G0LRD
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -189,16 +191,14 @@ flight:
       rxcount: 9
   - callsign: IR0EF-10
     data: {rxcount: 8}
-  - callsign: IR0AAI-12
-    data: {rxcount: 8}
   - callsign: F4AUY-13
     data: {rxcount: 8}
+  - callsign: IQ5BA-3
+    data: {rxcount: 7}
   - callsign: IR2UFW
     data: {rxcount: 7}
   - callsign: IR0AAA
     data: {rxcount: 5}
-  - callsign: IQ5BA-3
-    data: {rxcount: 4}
   - callsign: pepino81
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -218,7 +218,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '1404.4'
+  total_distance: '1412.4'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
