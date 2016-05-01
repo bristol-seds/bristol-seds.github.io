@@ -7,11 +7,11 @@ flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-  duration: 12 hours
-  great_circle: '684.7'
+  duration: 23 hours
+  great_circle: '1061.9'
   laps: 0
   max_altitude: '11.6'
-  receiver_count: 30
+  receiver_count: 33
   receivers:
   - callsign: F80106
     data:
@@ -130,6 +130,16 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '14.6'
       rxcount: 33
+  - callsign: F4FQN
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '271.8'
+      rxcount: 27
+  - callsign: F1ABL
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '67.1'
+      rxcount: 27
   - callsign: G7SVI
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -152,12 +162,17 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '237.8'
       rxcount: 9
+  - callsign: F4GRT
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '67.8'
+      rxcount: 9
   - callsign: pepino81
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '297.3'
       rxcount: 1
-  total_distance: '691.5'
+  total_distance: '1070.1'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
