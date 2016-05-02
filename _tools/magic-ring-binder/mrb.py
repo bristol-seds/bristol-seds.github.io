@@ -194,6 +194,8 @@ with open('flight_record.json', 'w') as outfile:
 
 if payload_name == "ubseds14": # Filter out bad backlog altitude packets from ubseds14
     payload_data_filt = [t for t in payload_data_sorted if t['altitude'] > 10700 or t['date'] == "160307"]
+elif payload_name == "ubseds15": # Filter out bad backlog packets again...
+    payload_data_filt = [t for t in payload_data_sorted if int(t['date'][:2]) > 10]
 else:
     payload_data_filt = payload_data_sorted
 
