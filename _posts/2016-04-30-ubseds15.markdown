@@ -9,7 +9,7 @@ flight:
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
   - {isocode: !!python/unicode 'it', name: !!python/unicode 'Italy'}
   duration: 2 days, 4 hours
-  great_circle: '260.5'
+  great_circle: '1820.2'
   laps: 0
   max_altitude: '14.2'
   receiver_count: 62
@@ -237,7 +237,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '3667.3'
+  total_distance: '2024.2'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
