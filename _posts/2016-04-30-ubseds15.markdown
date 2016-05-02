@@ -11,7 +11,7 @@ flight:
   duration: 2 days, 5 hours
   great_circle: '1836.3'
   laps: 0
-  max_altitude: '14.2'
+  max_altitude: '11.6'
   receiver_count: 66
   receivers:
   - callsign: F80106
@@ -128,8 +128,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '293.0'
       rxcount: 57
-  - callsign: IC8EPV
-    data: {rxcount: 52}
   - callsign: F5MVO
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -142,6 +140,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '309.5'
       rxcount: 50
+  - callsign: IC8EPV
+    data: {rxcount: 49}
   - callsign: F6GLS-10
     data: {rxcount: 45}
   - callsign: BACKLOG
@@ -189,11 +189,11 @@ flight:
       rxcount: 20
   - callsign: BSEDS_Mysterious_Tower
     data: {rxcount: 18}
-  - callsign: IQ9PA-13
-    data: {rxcount: 13}
   - callsign: IR0AAI-12
     data: {rxcount: 13}
   - callsign: IZ0PMP
+    data: {rxcount: 12}
+  - callsign: IQ9PA-13
     data: {rxcount: 12}
   - callsign: G0LRD
     data:
@@ -245,7 +245,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '2066.5'
+  total_distance: '2026.1'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
