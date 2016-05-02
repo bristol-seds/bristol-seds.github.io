@@ -7,8 +7,8 @@ flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-  duration: 1 day, 12 hours
-  great_circle: '1391.4'
+  duration: 1 day, 18 hours
+  great_circle: '1570.1'
   laps: 0
   max_altitude: '11.6'
   receiver_count: 53
@@ -183,7 +183,7 @@ flight:
   - callsign: BSEDS_Mysterious_Tower
     data: {rxcount: 18}
   - callsign: IR0AAI-12
-    data: {rxcount: 12}
+    data: {rxcount: 13}
   - callsign: G0LRD
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -218,7 +218,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '1412.4'
+  total_distance: '1599.6'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}

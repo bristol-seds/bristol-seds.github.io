@@ -1271,6 +1271,7 @@
 8.32680363115,41.4416395835,11332.7688
 8.3313819482,41.4381113392,11338.56
 8.33596026525,41.4339845534,11326.6728
+10.0617967794,40.3705969138,11364.7728
 
                     </coordinates>
                 </LineString>
@@ -1292,11 +1293,11 @@
             </Placemark>
             <Placemark>
                 <name>Last Reported</name>
-                <description>01 May 2016 20:21:17: (41.4340, 8.3360) @ 11327 m</description>
+                <description>02 May 2016 03:03:14: (40.3706, 10.0618) @ 11365 m</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>8.33596026525,41.4339845534,11326.6728
+                    <coordinates>10.0617967794,40.3705969138,11364.7728
 </coordinates>
                 </Point>
             </Placemark>
