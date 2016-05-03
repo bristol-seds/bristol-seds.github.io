@@ -10,11 +10,11 @@ flight:
   - {isocode: !!python/unicode 'it', name: !!python/unicode 'Italy'}
   - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
-  duration: 3 days, 1 hour
-  great_circle: '2203.1'
+  duration: 3 days, 3 hours
+  great_circle: '2255.5'
   laps: 0
   max_altitude: '11.6'
-  receiver_count: 71
+  receiver_count: 73
   receivers:
   - callsign: F80106
     data:
@@ -132,6 +132,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '293.0'
       rxcount: 57
+  - callsign: BACKLOG
+    data: {rxcount: 52}
   - callsign: F5MVO
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -139,8 +141,10 @@ flight:
       rxcount: 52
   - callsign: F5LHI
     data: {rxcount: 52}
-  - callsign: BACKLOG
-    data: {rxcount: 51}
+  - callsign: LZ0BGN
+    data: {rxcount: 52}
+  - callsign: SV2RCK-5
+    data: {rxcount: 50}
   - callsign: G8IMN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -191,12 +195,10 @@ flight:
       rxcount: 20
   - callsign: BSEDS_Mysterious_Tower
     data: {rxcount: 18}
-  - callsign: LZ0BGN
-    data: {rxcount: 16}
+  - callsign: SV2HNH-1
+    data: {rxcount: 14}
   - callsign: IR0AAI-12
     data: {rxcount: 13}
-  - callsign: SV2RCK-5
-    data: {rxcount: 12}
   - callsign: IZ0PMP
     data: {rxcount: 12}
   - callsign: IQ9PA-13
@@ -210,6 +212,8 @@ flight:
     data: {rxcount: 8}
   - callsign: F4AUY-13
     data: {rxcount: 8}
+  - callsign: SV2HRT-6
+    data: {rxcount: 8}
   - callsign: IQ9IL-10
     data: {rxcount: 7}
   - callsign: IQ5BA-3
@@ -222,7 +226,7 @@ flight:
     data: {rxcount: 5}
   - callsign: IQ9GD
     data: {rxcount: 5}
-  - callsign: SV2HNH-1
+  - callsign: SV4FFB-4
     data: {rxcount: 4}
   - callsign: IZ8IQN-11
     data: {rxcount: 4}
@@ -239,6 +243,8 @@ flight:
     data: {rxcount: 2}
   - callsign: IR5X
     data: {rxcount: 2}
+  - callsign: SV6EXB
+    data: {rxcount: 1}
   - callsign: IR0AAC-10
     data: {rxcount: 1}
   - callsign: IR0UDY-12
@@ -253,11 +259,9 @@ flight:
     data: {rxcount: 1}
   - callsign: IW5BFZ
     data: {rxcount: 1}
-  - callsign: SV2HRT-6
-    data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '2569.1'
+  total_distance: '2646.5'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
