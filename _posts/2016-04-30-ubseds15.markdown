@@ -11,11 +11,11 @@ flight:
   - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
-  duration: 3 days, 19 hours
-  great_circle: '2545.9'
+  duration: 3 days, 21 hours
+  great_circle: '2547.4'
   laps: 0
   max_altitude: '11.6'
-  receiver_count: 91
+  receiver_count: 92
   receivers:
   - callsign: F80106
     data:
@@ -55,7 +55,7 @@ flight:
       max_distance: '370.8'
       rxcount: 166
   - callsign: LZ0VRF-1
-    data: {rxcount: 158}
+    data: {rxcount: 160}
   - callsign: F1OIL/2
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -113,6 +113,8 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '272.7'
       rxcount: 105
+  - callsign: ''
+    data: {rxcount: 100}
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -132,10 +134,8 @@ flight:
     data: {rxcount: 84}
   - callsign: f4fqn
     data: {rxcount: 79}
-  - callsign: ''
-    data: {rxcount: 72}
   - callsign: BACKLOG
-    data: {rxcount: 65}
+    data: {rxcount: 67}
   - callsign: SV2HRT-6
     data: {rxcount: 63}
   - callsign: SV2RCK-5
@@ -163,6 +163,10 @@ flight:
     data: {rxcount: 49}
   - callsign: F6GLS-10
     data: {rxcount: 45}
+  - callsign: TA2AWO
+    data: {rxcount: 43}
+  - callsign: LZ2AB-4
+    data: {rxcount: 41}
   - callsign: G4YHE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -199,8 +203,6 @@ flight:
       country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
       max_distance: '1463.7'
       rxcount: 24
-  - callsign: TA2AWO
-    data: {rxcount: 23}
   - callsign: SV4FFB-4
     data: {rxcount: 23}
   - callsign: M0VPN
@@ -208,18 +210,18 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '51.6'
       rxcount: 20
+  - callsign: LZ2AB
+    data: {rxcount: 20}
   - callsign: BSEDS_Mysterious_Tower
     data: {rxcount: 18}
-  - callsign: LZ2AB-4
-    data: {rxcount: 15}
+  - callsign: TA1AST
+    data: {rxcount: 13}
   - callsign: IR0AAI-12
     data: {rxcount: 13}
   - callsign: IZ0PMP
     data: {rxcount: 12}
   - callsign: IQ9PA-13
     data: {rxcount: 12}
-  - callsign: TA1AST
-    data: {rxcount: 11}
   - callsign: SV6EXB
     data: {rxcount: 11}
   - callsign: G0LRD
@@ -235,8 +237,12 @@ flight:
     data: {rxcount: 7}
   - callsign: IQ5BA-3
     data: {rxcount: 7}
+  - callsign: YO4ISC-10
+    data: {rxcount: 7}
   - callsign: IR2UFW
     data: {rxcount: 7}
+  - callsign: TA1CR
+    data: {rxcount: 6}
   - callsign: LZ1PKZ
     data: {rxcount: 6}
   - callsign: IQ9GD
@@ -249,8 +255,6 @@ flight:
     data: {rxcount: 5}
   - callsign: LZ1OI-4
     data: {rxcount: 5}
-  - callsign: TA1CR
-    data: {rxcount: 4}
   - callsign: IZ8IQN-11
     data: {rxcount: 4}
   - callsign: IT9DLN-10
@@ -261,17 +265,15 @@ flight:
     data: {rxcount: 2}
   - callsign: SV2HRT-10
     data: {rxcount: 2}
+  - callsign: LZ2AB-1
+    data: {rxcount: 2}
   - callsign: F5RGH-10
     data: {rxcount: 2}
   - callsign: IR5X
     data: {rxcount: 2}
   - callsign: YO3KYD-10
     data: {rxcount: 2}
-  - callsign: YO4ISC-10
-    data: {rxcount: 2}
   - callsign: SV3RF-10
-    data: {rxcount: 2}
-  - callsign: LZ2AB
     data: {rxcount: 2}
   - callsign: pepino81
     data:
@@ -298,7 +300,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '3171.9'
+  total_distance: '3228.1'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
