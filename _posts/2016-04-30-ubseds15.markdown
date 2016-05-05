@@ -11,14 +11,14 @@ flight:
   - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
-  duration: 5 days, 12 hours
-  great_circle: '2659.9'
+  duration: 5 days, 14 hours
+  great_circle: '2670.0'
   laps: 0
   max_altitude: '11.7'
   receiver_count: 98
   receivers:
   - callsign: ''
-    data: {rxcount: 564}
+    data: {rxcount: 574}
   - callsign: F80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -41,15 +41,15 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '153.4'
       rxcount: 209
+  - callsign: YO4ISC-10
+    data: {rxcount: 200}
   - callsign: G8JNJ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '357.0'
       rxcount: 200
-  - callsign: YO4ISC-10
-    data: {rxcount: 196}
   - callsign: LZ2AB-4
-    data: {rxcount: 189}
+    data: {rxcount: 191}
   - callsign: G8DXZ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -85,7 +85,7 @@ flight:
       max_distance: '177.6'
       rxcount: 148
   - callsign: LZ1ASO
-    data: {rxcount: 141}
+    data: {rxcount: 143}
   - callsign: YO4RDJ-10
     data: {rxcount: 124}
   - callsign: F1BEK
@@ -136,7 +136,7 @@ flight:
   - callsign: TA2AWO
     data: {rxcount: 97}
   - callsign: BACKLOG
-    data: {rxcount: 95}
+    data: {rxcount: 96}
   - callsign: F4FQN
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -312,7 +312,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '3712.8'
+  total_distance: '3751.6'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
