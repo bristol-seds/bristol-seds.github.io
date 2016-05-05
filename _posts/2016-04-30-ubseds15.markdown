@@ -11,8 +11,8 @@ flight:
   - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
-  duration: 4 days, 14 hours
-  great_circle: '2645.8'
+  duration: 4 days, 18 hours
+  great_circle: '2661.3'
   laps: 0
   max_altitude: '17.7'
   receiver_count: 97
@@ -22,10 +22,10 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '355.5'
       rxcount: 417
+  - callsign: ''
+    data: {rxcount: 336}
   - callsign: LZ0BGN
     data: {rxcount: 322}
-  - callsign: ''
-    data: {rxcount: 320}
   - callsign: F1OIL
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -90,13 +90,13 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '124.4'
       rxcount: 124
+  - callsign: LZ2AB-4
+    data: {rxcount: 123}
   - callsign: THIERRY72
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '120.6'
       rxcount: 118
-  - callsign: LZ2AB-4
-    data: {rxcount: 117}
   - callsign: F1IEE
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -141,7 +141,7 @@ flight:
   - callsign: f4fqn
     data: {rxcount: 79}
   - callsign: YO4ISC-10
-    data: {rxcount: 67}
+    data: {rxcount: 71}
   - callsign: SV2HRT-6
     data: {rxcount: 63}
   - callsign: SV2RCK-5
@@ -224,14 +224,14 @@ flight:
       rxcount: 20
   - callsign: BSEDS_Mysterious_Tower
     data: {rxcount: 18}
+  - callsign: LZ2AB-1
+    data: {rxcount: 14}
   - callsign: YM2KA-5
     data: {rxcount: 14}
   - callsign: TA1AST
     data: {rxcount: 13}
   - callsign: IR0AAI-12
     data: {rxcount: 13}
-  - callsign: LZ2AB-1
-    data: {rxcount: 12}
   - callsign: IZ0PMP
     data: {rxcount: 12}
   - callsign: IQ9PA-13
@@ -310,7 +310,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '3530.7'
+  total_distance: '3558.8'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
