@@ -11,14 +11,14 @@ flight:
   - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
-  duration: 5 days, 2 hours
-  great_circle: '2621.6'
+  duration: 5 days, 4 hours
+  great_circle: '2637.2'
   laps: 0
-  max_altitude: '17.7'
+  max_altitude: '11.6'
   receiver_count: 98
   receivers:
   - callsign: ''
-    data: {rxcount: 417}
+    data: {rxcount: 433}
   - callsign: F80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -58,6 +58,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '370.8'
       rxcount: 166
+  - callsign: LZ2AB-4
+    data: {rxcount: 159}
   - callsign: F1OIL/2
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -75,15 +77,13 @@ flight:
       rxcount: 155
   - callsign: PE1ANS
     data: {max_distance: '426.6', rxcount: 153}
-  - callsign: LZ2AB-4
-    data: {rxcount: 150}
+  - callsign: YO4ISC-10
+    data: {rxcount: 153}
   - callsign: G1BLO
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '177.6'
       rxcount: 148
-  - callsign: YO4ISC-10
-    data: {rxcount: 129}
   - callsign: F1BEK
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -104,6 +104,8 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '331.1'
       rxcount: 116
+  - callsign: YO4RDJ-10
+    data: {rxcount: 113}
   - callsign: G1DYQ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -114,8 +116,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '235.3'
       rxcount: 106
-  - callsign: YO4RDJ-10
-    data: {rxcount: 106}
   - callsign: F5APQ
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -133,19 +133,19 @@ flight:
       rxcount: 99
   - callsign: TA2AWO
     data: {rxcount: 97}
+  - callsign: LZ1ASO
+    data: {rxcount: 95}
   - callsign: F4FQN
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '272.9'
       rxcount: 93
   - callsign: BACKLOG
-    data: {rxcount: 87}
+    data: {rxcount: 88}
   - callsign: SV2HNH-1
     data: {rxcount: 84}
   - callsign: f4fqn
     data: {rxcount: 79}
-  - callsign: LZ1ASO
-    data: {rxcount: 68}
   - callsign: SV2HRT-6
     data: {rxcount: 63}
   - callsign: SV2RCK-5
@@ -176,7 +176,7 @@ flight:
   - callsign: TA1CR
     data: {rxcount: 43}
   - callsign: LZ2AB
-    data: {rxcount: 41}
+    data: {rxcount: 40}
   - callsign: G4YHE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -243,6 +243,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '237.8'
       rxcount: 9
+  - callsign: YO8DHA-10
+    data: {rxcount: 8}
   - callsign: IR0EF-10
     data: {rxcount: 8}
   - callsign: F4AUY-13
@@ -255,8 +257,6 @@ flight:
     data: {rxcount: 7}
   - callsign: IR2UFW
     data: {rxcount: 7}
-  - callsign: YO8DHA-10
-    data: {rxcount: 6}
   - callsign: LZ1PKZ
     data: {rxcount: 6}
   - callsign: IQ9GD
@@ -312,7 +312,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '3659.6'
+  total_distance: '3652.8'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
