@@ -11,14 +11,14 @@ flight:
   - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
-  duration: 5 days, 23 hours
-  great_circle: '2753.8'
+  duration: 6 days, 1 hour
+  great_circle: '2762.2'
   laps: 0
   max_altitude: '11.7'
   receiver_count: 98
   receivers:
   - callsign: ''
-    data: {rxcount: 607}
+    data: {rxcount: 618}
   - callsign: F80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -37,7 +37,7 @@ flight:
       max_distance: '427.4'
       rxcount: 297
   - callsign: LZ2AB-4
-    data: {rxcount: 234}
+    data: {rxcount: 255}
   - callsign: YO4ISC-10
     data: {rxcount: 232}
   - callsign: F4GRT
@@ -79,13 +79,13 @@ flight:
       rxcount: 155
   - callsign: PE1ANS
     data: {max_distance: '426.6', rxcount: 153}
+  - callsign: LZ1ASO
+    data: {rxcount: 152}
   - callsign: G1BLO
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '177.6'
       rxcount: 148
-  - callsign: LZ1ASO
-    data: {rxcount: 147}
   - callsign: YO4RDJ-10
     data: {rxcount: 124}
   - callsign: F1BEK
@@ -123,6 +123,8 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '272.7'
       rxcount: 105
+  - callsign: BACKLOG
+    data: {rxcount: 100}
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -133,8 +135,6 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '441.9'
       rxcount: 99
-  - callsign: BACKLOG
-    data: {rxcount: 97}
   - callsign: TA2AWO
     data: {rxcount: 97}
   - callsign: F4FQN
@@ -171,6 +171,8 @@ flight:
       rxcount: 50
   - callsign: IC8EPV
     data: {rxcount: 49}
+  - callsign: YM2KA-5
+    data: {rxcount: 47}
   - callsign: F6GLS-10
     data: {rxcount: 45}
   - callsign: TA1CR
@@ -184,8 +186,6 @@ flight:
       rxcount: 35
   - callsign: SV7DMD
     data: {rxcount: 35}
-  - callsign: YM2KA-5
-    data: {rxcount: 34}
   - callsign: THIERRY 72
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -312,7 +312,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '3839.8'
+  total_distance: '3858.6'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
