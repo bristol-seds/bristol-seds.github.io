@@ -11,14 +11,14 @@ flight:
   - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
-  duration: 6 days, 1 hour
-  great_circle: '2762.2'
+  duration: 6 days, 2 hours
+  great_circle: '2773.7'
   laps: 0
   max_altitude: '11.7'
   receiver_count: 98
   receivers:
   - callsign: ''
-    data: {rxcount: 618}
+    data: {rxcount: 632}
   - callsign: F80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -37,7 +37,7 @@ flight:
       max_distance: '427.4'
       rxcount: 297
   - callsign: LZ2AB-4
-    data: {rxcount: 255}
+    data: {rxcount: 267}
   - callsign: YO4ISC-10
     data: {rxcount: 232}
   - callsign: F4GRT
@@ -312,7 +312,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '3858.6'
+  total_distance: '3891.5'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
