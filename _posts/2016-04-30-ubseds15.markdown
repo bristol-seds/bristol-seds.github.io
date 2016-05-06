@@ -11,14 +11,14 @@ flight:
   - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
-  duration: 6 days, 5 hours
-  great_circle: '2808.3'
+  duration: 6 days, 7 hours
+  great_circle: '2829.8'
   laps: 0
-  max_altitude: '11.7'
-  receiver_count: 98
+  max_altitude: '11.8'
+  receiver_count: 99
   receivers:
   - callsign: ''
-    data: {rxcount: 636}
+    data: {rxcount: 655}
   - callsign: F80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -124,7 +124,7 @@ flight:
       max_distance: '272.7'
       rxcount: 105
   - callsign: BACKLOG
-    data: {rxcount: 100}
+    data: {rxcount: 103}
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -240,6 +240,8 @@ flight:
     data: {rxcount: 12}
   - callsign: SV6EXB
     data: {rxcount: 11}
+  - callsign: LZ0SMN-1
+    data: {rxcount: 9}
   - callsign: G0LRD
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -247,11 +249,11 @@ flight:
       rxcount: 9
   - callsign: IR0EF-10
     data: {rxcount: 8}
-  - callsign: LZ0SMN-1
-    data: {rxcount: 8}
   - callsign: F4AUY-13
     data: {rxcount: 8}
   - callsign: IQ9IL-10
+    data: {rxcount: 7}
+  - callsign: YM7KA
     data: {rxcount: 7}
   - callsign: IQ5BA-3
     data: {rxcount: 7}
@@ -312,7 +314,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '3951.6'
+  total_distance: '3990.0'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
