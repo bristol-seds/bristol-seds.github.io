@@ -11,14 +11,14 @@ flight:
   - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
-  duration: 5 days, 21 hours
-  great_circle: '2729.3'
+  duration: 5 days, 23 hours
+  great_circle: '2753.8'
   laps: 0
   max_altitude: '11.7'
   receiver_count: 98
   receivers:
   - callsign: ''
-    data: {rxcount: 594}
+    data: {rxcount: 607}
   - callsign: F80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -37,14 +37,14 @@ flight:
       max_distance: '427.4'
       rxcount: 297
   - callsign: LZ2AB-4
-    data: {rxcount: 213}
+    data: {rxcount: 234}
+  - callsign: YO4ISC-10
+    data: {rxcount: 232}
   - callsign: F4GRT
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '153.4'
       rxcount: 209
-  - callsign: YO4ISC-10
-    data: {rxcount: 207}
   - callsign: G8JNJ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -184,6 +184,8 @@ flight:
       rxcount: 35
   - callsign: SV7DMD
     data: {rxcount: 35}
+  - callsign: YM2KA-5
+    data: {rxcount: 34}
   - callsign: THIERRY 72
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -203,8 +205,6 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '67.1'
       rxcount: 27
-  - callsign: YM2KA-5
-    data: {rxcount: 26}
   - callsign: G7SVI
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -312,7 +312,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '3814.5'
+  total_distance: '3839.8'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
