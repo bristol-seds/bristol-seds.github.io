@@ -11,8 +11,8 @@ flight:
   - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
-  duration: 6 days, 11 hours
-  great_circle: '2866.1'
+  duration: 6 days, 12 hours
+  great_circle: '2880.5'
   laps: 0
   max_altitude: '11.8'
   receiver_count: 99
@@ -124,7 +124,7 @@ flight:
       max_distance: '272.7'
       rxcount: 105
   - callsign: BACKLOG
-    data: {rxcount: 104}
+    data: {rxcount: 105}
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -146,6 +146,8 @@ flight:
     data: {rxcount: 84}
   - callsign: f4fqn
     data: {rxcount: 79}
+  - callsign: YM7KA
+    data: {rxcount: 66}
   - callsign: SV2HRT-6
     data: {rxcount: 63}
   - callsign: SV2RCK-5
@@ -196,8 +198,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '14.6'
       rxcount: 33
-  - callsign: YM7KA
-    data: {rxcount: 31}
   - callsign: TA1ICU
     data: {rxcount: 30}
   - callsign: F2VI
@@ -314,7 +314,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '4066.5'
+  total_distance: '4103.3'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
