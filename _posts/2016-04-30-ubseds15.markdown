@@ -37,9 +37,9 @@ flight:
       max_distance: '427.4'
       rxcount: 297
   - callsign: LZ2AB-4
-    data: {rxcount: 267}
+    data: {rxcount: 266}
   - callsign: YO4ISC-10
-    data: {rxcount: 236}
+    data: {rxcount: 235}
   - callsign: F4GRT
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -314,7 +314,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '3990.0'
+  total_distance: '3962.8'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
