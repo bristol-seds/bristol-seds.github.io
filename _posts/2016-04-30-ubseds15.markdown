@@ -12,14 +12,14 @@ flight:
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
-  duration: 8 days, 12 hours
-  great_circle: '2089.0'
+  duration: 8 days, 14 hours
+  great_circle: '2035.5'
   laps: 0
   max_altitude: '11.9'
-  receiver_count: 110
+  receiver_count: 116
   receivers:
   - callsign: ''
-    data: {rxcount: 740}
+    data: {rxcount: 754}
   - callsign: F80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -145,7 +145,7 @@ flight:
   - callsign: TA2AWO
     data: {rxcount: 97}
   - callsign: UR3UT-2
-    data: {rxcount: 95}
+    data: {rxcount: 96}
   - callsign: F4FQN
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -155,6 +155,11 @@ flight:
     data: {rxcount: 84}
   - callsign: f4fqn
     data: {rxcount: 79}
+  - callsign: UR3PAS
+    data:
+      country: {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
+      max_distance: '177.4'
+      rxcount: 74
   - callsign: YM7KA
     data: {rxcount: 70}
   - callsign: RA6LFJ-1
@@ -170,6 +175,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '293.0'
       rxcount: 57
+  - callsign: UR0UDS-1
+    data: {rxcount: 54}
   - callsign: F5LHI
     data: {rxcount: 52}
   - callsign: F5MVO
@@ -190,8 +197,6 @@ flight:
     data: {rxcount: 45}
   - callsign: TA1CR
     data: {rxcount: 43}
-  - callsign: UR0UDS-1
-    data: {rxcount: 42}
   - callsign: LZ2AB
     data: {rxcount: 40}
   - callsign: US9IGY
@@ -237,6 +242,11 @@ flight:
       country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
       max_distance: '1463.7'
       rxcount: 24
+  - callsign: SP5ULN
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '469.4'
+      rxcount: 24
   - callsign: SV4FFB-4
     data: {rxcount: 23}
   - callsign: YO8DHA-10
@@ -254,16 +264,13 @@ flight:
     data: {rxcount: 13}
   - callsign: IR0AAI-12
     data: {rxcount: 13}
-  - callsign: UR3PAS
-    data:
-      country: {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
-      max_distance: '177.4'
-      rxcount: 13
   - callsign: IZ0PMP
     data: {rxcount: 12}
   - callsign: IQ9PA-13
     data: {rxcount: 12}
   - callsign: SV6EXB
+    data: {rxcount: 11}
+  - callsign: YO8SCT-10
     data: {rxcount: 11}
   - callsign: UY0LL-1
     data: {rxcount: 10}
@@ -274,6 +281,11 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '237.8'
       rxcount: 9
+  - callsign: UR3PHP
+    data:
+      country: {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
+      max_distance: '115.8'
+      rxcount: 9
   - callsign: IR0EF-10
     data: {rxcount: 8}
   - callsign: F4AUY-13
@@ -281,6 +293,8 @@ flight:
   - callsign: IQ9IL-10
     data: {rxcount: 7}
   - callsign: IQ5BA-3
+    data: {rxcount: 7}
+  - callsign: SR7NST
     data: {rxcount: 7}
   - callsign: LZ1OI-4
     data: {rxcount: 7}
@@ -292,15 +306,17 @@ flight:
     data: {rxcount: 5}
   - callsign: IR0AAA
     data: {rxcount: 5}
+  - callsign: SR8NJL
+    data: {rxcount: 5}
   - callsign: IQ8AY
     data: {rxcount: 5}
   - callsign: SV6EXB-1
     data: {rxcount: 5}
-  - callsign: YO8SCT-10
-    data: {rxcount: 5}
   - callsign: IZ8IQN-11
     data: {rxcount: 4}
   - callsign: IT9DLN-10
+    data: {rxcount: 3}
+  - callsign: SR8NPG
     data: {rxcount: 3}
   - callsign: IK8CEP
     data: {rxcount: 2}
@@ -310,13 +326,15 @@ flight:
     data: {rxcount: 2}
   - callsign: F5RGH-10
     data: {rxcount: 2}
+  - callsign: SR7NRQ-10
+    data: {rxcount: 2}
   - callsign: IR5X
     data: {rxcount: 2}
   - callsign: YO3KYD-10
     data: {rxcount: 2}
-  - callsign: SV3RF-10
+  - callsign: SR5RZP-2
     data: {rxcount: 2}
-  - callsign: SR8NPG
+  - callsign: SV3RF-10
     data: {rxcount: 2}
   - callsign: pepino81
     data:
@@ -343,7 +361,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '5339.1'
+  total_distance: '5393.8'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
