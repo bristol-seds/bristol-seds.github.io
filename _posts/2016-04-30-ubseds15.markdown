@@ -12,8 +12,8 @@ flight:
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
-  duration: 7 days, 22 hours
-  great_circle: '2542.6'
+  duration: 8 days
+  great_circle: '2500.9'
   laps: 0
   max_altitude: '11.9'
   receiver_count: 105
@@ -41,6 +41,8 @@ flight:
     data: {rxcount: 286}
   - callsign: LZ2AB-4
     data: {rxcount: 266}
+  - callsign: UZ7HO-10
+    data: {rxcount: 246}
   - callsign: YO4ISC-10
     data: {rxcount: 235}
   - callsign: F4GRT
@@ -90,7 +92,7 @@ flight:
       max_distance: '177.6'
       rxcount: 148
   - callsign: BACKLOG
-    data: {rxcount: 137}
+    data: {rxcount: 139}
   - callsign: YO4RDJ-10
     data: {rxcount: 124}
   - callsign: F1BEK
@@ -138,8 +140,6 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '441.9'
       rxcount: 99
-  - callsign: UZ7HO-10
-    data: {rxcount: 99}
   - callsign: TA2AWO
     data: {rxcount: 97}
   - callsign: F4FQN
@@ -157,6 +157,8 @@ flight:
     data: {rxcount: 67}
   - callsign: SV2HRT-6
     data: {rxcount: 63}
+  - callsign: UR3UT-2
+    data: {rxcount: 60}
   - callsign: SV2RCK-5
     data: {rxcount: 59}
   - callsign: IZ7BOJ-11
@@ -166,8 +168,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '293.0'
       rxcount: 57
-  - callsign: UR3UT-2
-    data: {rxcount: 57}
   - callsign: F5LHI
     data: {rxcount: 52}
   - callsign: F5MVO
@@ -327,7 +327,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '4874.0'
+  total_distance: '4916.2'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
