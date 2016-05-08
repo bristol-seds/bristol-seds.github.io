@@ -12,11 +12,11 @@ flight:
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
-  duration: 7 days, 8 hours
-  great_circle: '2762.4'
+  duration: 7 days, 20 hours
+  great_circle: '2585.6'
   laps: 0
   max_altitude: '11.8'
-  receiver_count: 102
+  receiver_count: 104
   receivers:
   - callsign: ''
     data: {rxcount: 655}
@@ -90,7 +90,7 @@ flight:
       max_distance: '177.6'
       rxcount: 148
   - callsign: BACKLOG
-    data: {rxcount: 132}
+    data: {rxcount: 133}
   - callsign: YO4RDJ-10
     data: {rxcount: 124}
   - callsign: F1BEK
@@ -171,6 +171,8 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '191.0'
       rxcount: 52
+  - callsign: UR3UT-2
+    data: {rxcount: 52}
   - callsign: G8IMN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -282,6 +284,8 @@ flight:
     data: {rxcount: 4}
   - callsign: IT9DLN-10
     data: {rxcount: 3}
+  - callsign: UR0UDS-1
+    data: {rxcount: 2}
   - callsign: IK8CEP
     data: {rxcount: 2}
   - callsign: YO3KXL-10
@@ -321,7 +325,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '4649.4'
+  total_distance: '4829.5'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
