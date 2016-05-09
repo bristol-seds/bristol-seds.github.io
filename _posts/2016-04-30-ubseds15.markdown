@@ -14,11 +14,12 @@ flight:
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
   - {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
   - {isocode: !!python/unicode 'sk', name: !!python/unicode 'Slovakia'}
-  duration: 9 days, 10 hours
-  great_circle: '1640.2'
+  - {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
+  duration: 9 days, 12 hours
+  great_circle: '1701.8'
   laps: 0
   max_altitude: '11.9'
-  receiver_count: 163
+  receiver_count: 165
   receivers:
   - callsign: ''
     data: {rxcount: 816}
@@ -26,17 +27,17 @@ flight:
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
       max_distance: '266.7'
-      rxcount: 670
+      rxcount: 777
+  - callsign: SP5ULN
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '469.4'
+      rxcount: 492
   - callsign: SP5IZJ
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
       max_distance: '365.8'
       rxcount: 468
-  - callsign: SP5ULN
-    data:
-      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
-      max_distance: '469.4'
-      rxcount: 435
   - callsign: F80106
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -45,8 +46,13 @@ flight:
   - callsign: SP7THR-1
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
-      max_distance: '223.4'
-      rxcount: 373
+      max_distance: '226.9'
+      rxcount: 375
+  - callsign: 'SP5MG '
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '430.6'
+      rxcount: 372
   - callsign: UT4UKA-1
     data: {rxcount: 370}
   - callsign: UZ7HO-10
@@ -63,11 +69,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '427.4'
       rxcount: 297
-  - callsign: 'SP5MG '
-    data:
-      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
-      max_distance: '373.8'
-      rxcount: 287
   - callsign: US5ERV
     data: {rxcount: 286}
   - callsign: LZ2AB-4
@@ -127,11 +128,21 @@ flight:
     data: {max_distance: '426.6', rxcount: 153}
   - callsign: LZ1ASO
     data: {rxcount: 152}
+  - callsign: SP9VEY
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '193.4'
+      rxcount: 152
   - callsign: G1BLO
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '177.6'
       rxcount: 148
+  - callsign: OM5KV-1
+    data:
+      country: {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
+      max_distance: '214.5'
+      rxcount: 136
   - callsign: YO4RDJ-10
     data: {rxcount: 124}
   - callsign: F1BEK
@@ -179,6 +190,11 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '441.9'
       rxcount: 99
+  - callsign: OM1ATS
+    data:
+      country: {isocode: !!python/unicode 'sk', name: !!python/unicode 'Slovakia'}
+      max_distance: '261.8'
+      rxcount: 99
   - callsign: TA2AWO
     data: {rxcount: 97}
   - callsign: UR3UT-2
@@ -188,19 +204,24 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '272.9'
       rxcount: 93
+  - callsign: OM3WOR
+    data:
+      country: {isocode: !!python/unicode 'sk', name: !!python/unicode 'Slovakia'}
+      max_distance: '185.5'
+      rxcount: 86
   - callsign: SV2HNH-1
     data: {rxcount: 84}
   - callsign: SR7NDK-10
     data: {rxcount: 79}
   - callsign: f4fqn
     data: {rxcount: 79}
+  - callsign: HA6NN
+    data:
+      country: {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
+      max_distance: '117.6'
+      rxcount: 73
   - callsign: YM7KA
     data: {rxcount: 70}
-  - callsign: SP9VEY
-    data:
-      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
-      max_distance: '121.6'
-      rxcount: 67
   - callsign: RA6LFJ-1
     data: {rxcount: 67}
   - callsign: SV2HRT-6
@@ -238,11 +259,6 @@ flight:
     data: {rxcount: 45}
   - callsign: TA1CR
     data: {rxcount: 43}
-  - callsign: OM5KV-1
-    data:
-      country: {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
-      max_distance: '212.4'
-      rxcount: 42
   - callsign: LZ2AB
     data: {rxcount: 40}
   - callsign: SR5RZP-2
@@ -313,18 +329,8 @@ flight:
     data: {rxcount: 16}
   - callsign: LZ2AB-1
     data: {rxcount: 15}
-  - callsign: HA6NN
-    data:
-      country: {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
-      max_distance: '117.6'
-      rxcount: 15
   - callsign: OE1SSU-10
     data: {rxcount: 15}
-  - callsign: OM3WOR
-    data:
-      country: {isocode: !!python/unicode 'sk', name: !!python/unicode 'Slovakia'}
-      max_distance: '166.7'
-      rxcount: 14
   - callsign: TA1AST
     data: {rxcount: 13}
   - callsign: IR0AAI-12
@@ -346,6 +352,11 @@ flight:
     data: {rxcount: 11}
   - callsign: SP9UVG-13
     data: {rxcount: 10}
+  - callsign: SQ9CWT
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '239.7'
+      rxcount: 10
   - callsign: UY0LL-1
     data: {rxcount: 10}
   - callsign: SP3KWA-5
@@ -490,7 +501,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '6067.0'
+  total_distance: '6142.0'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
