@@ -16,8 +16,8 @@ flight:
   - {isocode: !!python/unicode 'sk', name: !!python/unicode 'Slovakia'}
   - {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
   - {isocode: !!python/unicode 'ro', name: !!python/unicode 'Romania'}
-  duration: 10 days, 9 hours
-  great_circle: '2950.8'
+  duration: 10 days, 11 hours
+  great_circle: '3057.0'
   laps: 0
   max_altitude: '11.9'
   receiver_count: 176
@@ -116,13 +116,13 @@ flight:
       country: {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
       max_distance: '288.2'
       rxcount: 193
+  - callsign: BACKLOG
+    data: {rxcount: 179}
   - callsign: G8DXZ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '264.1'
       rxcount: 175
-  - callsign: BACKLOG
-    data: {rxcount: 172}
   - callsign: LZ0VRF-1
     data: {rxcount: 168}
   - callsign: GK4BGQ
@@ -239,11 +239,11 @@ flight:
       rxcount: 67
   - callsign: SV2HRT-6
     data: {rxcount: 63}
+  - callsign: YM2KA-5
+    data: {rxcount: 62}
   - callsign: SV2RCK-5
     data: {rxcount: 59}
   - callsign: IZ7BOJ-11
-    data: {rxcount: 58}
-  - callsign: YM2KA-5
     data: {rxcount: 58}
   - callsign: G0RNU
     data:
@@ -268,6 +268,8 @@ flight:
       rxcount: 50
   - callsign: IC8EPV
     data: {rxcount: 49}
+  - callsign: YM6MER
+    data: {rxcount: 48}
   - callsign: SR8NJL
     data: {rxcount: 46}
   - callsign: OK0DSK-1
@@ -310,6 +312,8 @@ flight:
     data: {rxcount: 29}
   - callsign: LZ0SMN-1
     data: {rxcount: 27}
+  - callsign: YM7KO
+    data: {rxcount: 27}
   - callsign: F1ABL
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -340,6 +344,8 @@ flight:
       rxcount: 20
   - callsign: BSEDS_Mysterious_Tower
     data: {rxcount: 18}
+  - callsign: YM7KK
+    data: {rxcount: 17}
   - callsign: SR5DRK
     data: {rxcount: 17}
   - callsign: LZ0BOT-1
@@ -354,8 +360,6 @@ flight:
       max_distance: '438.8'
       rxcount: 16
   - callsign: OE1SSU-10
-    data: {rxcount: 15}
-  - callsign: YM6MER
     data: {rxcount: 15}
   - callsign: TA1AST
     data: {rxcount: 13}
@@ -442,8 +446,6 @@ flight:
     data: {rxcount: 4}
   - callsign: SP3N
     data: {rxcount: 4}
-  - callsign: YM7KO
-    data: {rxcount: 4}
   - callsign: IZ8IQN-11
     data: {rxcount: 4}
   - callsign: SR9NDJ
@@ -487,8 +489,6 @@ flight:
     data: {rxcount: 2}
   - callsign: YO3KYD-10
     data: {rxcount: 2}
-  - callsign: YM7KK
-    data: {rxcount: 2}
   - callsign: pepino81
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -530,7 +530,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '7435.5'
+  total_distance: '7560.7'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
