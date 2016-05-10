@@ -44,9 +44,15 @@ def get_aprs_json(filename):
                         },
                     }
 
+                    path_index = 1
+                    rx_call = pkt['path'][-path_index]
+                    while rx_call.startswith('T2'):
+                        path_index = path_index + 1
+                        rx_call = pkt['path'][-path_index]
+
                     # construct receivers
                     receivers = {
-                        pkt['via']: {}
+                        rx_call: {}
                     }
 
                     # construct doc
