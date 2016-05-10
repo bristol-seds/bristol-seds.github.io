@@ -17,7 +17,7 @@ flight:
   - {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
   - {isocode: !!python/unicode 'ro', name: !!python/unicode 'Romania'}
   duration: 10 days, 5 hours
-  great_circle: '2743.6'
+  great_circle: '2750.5'
   laps: 0
   max_altitude: '11.9'
   receiver_count: 173
@@ -83,7 +83,7 @@ flight:
   - callsign: US5ERV
     data: {rxcount: 286}
   - callsign: LZ2AB-4
-    data: {rxcount: 280}
+    data: {rxcount: 281}
   - callsign: SQ5TDW
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -267,7 +267,7 @@ flight:
   - callsign: IC8EPV
     data: {rxcount: 49}
   - callsign: YM2KA-5
-    data: {rxcount: 47}
+    data: {rxcount: 48}
   - callsign: SR8NJL
     data: {rxcount: 46}
   - callsign: OK0DSK-1
@@ -524,7 +524,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '7213.6'
+  total_distance: '7220.6'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
