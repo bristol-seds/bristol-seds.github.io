@@ -17,8 +17,8 @@ flight:
   - {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
   - {isocode: !!python/unicode 'ro', name: !!python/unicode 'Romania'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 11 days, 6 hours
-  great_circle: '3226.7'
+  duration: 11 days, 8 hours
+  great_circle: '3228.5'
   laps: 0
   max_altitude: '11.9'
   receiver_count: 178
@@ -102,6 +102,8 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '153.4'
       rxcount: 209
+  - callsign: RW6HP-10
+    data: {rxcount: 206}
   - callsign: OM3WOR
     data:
       country: {isocode: !!python/unicode 'sk', name: !!python/unicode 'Slovakia'}
@@ -112,13 +114,13 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '357.0'
       rxcount: 200
+  - callsign: BACKLOG
+    data: {rxcount: 194}
   - callsign: UR3PAS
     data:
       country: {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
       max_distance: '288.2'
       rxcount: 193
-  - callsign: BACKLOG
-    data: {rxcount: 192}
   - callsign: G8DXZ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -126,8 +128,6 @@ flight:
       rxcount: 175
   - callsign: LZ0VRF-1
     data: {rxcount: 168}
-  - callsign: RW6HP-10
-    data: {rxcount: 167}
   - callsign: GK4BGQ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -234,7 +234,7 @@ flight:
   - callsign: YM7KA
     data: {rxcount: 70}
   - callsign: RA6LFJ-1
-    data: {rxcount: 69}
+    data: {rxcount: 70}
   - callsign: OM3BC
     data:
       country: {isocode: !!python/unicode 'sk', name: !!python/unicode 'Slovakia'}
@@ -535,7 +535,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '8626.5'
+  total_distance: '8675.9'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
