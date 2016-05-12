@@ -18,7 +18,7 @@ flight:
   - {isocode: !!python/unicode 'ro', name: !!python/unicode 'Romania'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   duration: 12 days, 3 hours
-  great_circle: '3678.9'
+  great_circle: '3736.3'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 179
@@ -248,13 +248,13 @@ flight:
     data: {rxcount: 63}
   - callsign: YM7KO
     data: {rxcount: 63}
+  - callsign: RW4HIF-10
+    data: {rxcount: 62}
   - callsign: YM2KA-5
     data: {rxcount: 62}
   - callsign: SV2RCK-5
     data: {rxcount: 59}
   - callsign: IZ7BOJ-11
-    data: {rxcount: 58}
-  - callsign: RW4HIF-10
     data: {rxcount: 58}
   - callsign: G0RNU
     data:
@@ -537,7 +537,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '9556.8'
+  total_distance: '9625.2'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
