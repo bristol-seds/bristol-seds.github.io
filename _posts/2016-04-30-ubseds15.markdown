@@ -17,11 +17,11 @@ flight:
   - {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
   - {isocode: !!python/unicode 'ro', name: !!python/unicode 'Romania'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 11 days, 8 hours
-  great_circle: '3228.5'
+  duration: 11 days, 23 hours
+  great_circle: '3505.0'
   laps: 0
-  max_altitude: '11.9'
-  receiver_count: 178
+  max_altitude: '12.1'
+  receiver_count: 179
   receivers:
   - callsign: SP9UOB
     data:
@@ -115,7 +115,7 @@ flight:
       max_distance: '357.0'
       rxcount: 200
   - callsign: BACKLOG
-    data: {rxcount: 194}
+    data: {rxcount: 195}
   - callsign: UR3PAS
     data:
       country: {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
@@ -381,6 +381,8 @@ flight:
     data: {rxcount: 12}
   - callsign: IQ9PA-13
     data: {rxcount: 12}
+  - callsign: RW4HIF-10
+    data: {rxcount: 11}
   - callsign: SV6EXB
     data: {rxcount: 11}
   - callsign: YO8SCT-10
@@ -535,7 +537,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '8675.9'
+  total_distance: '9311.1'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
