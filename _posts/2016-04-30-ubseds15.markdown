@@ -21,8 +21,8 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
-  duration: 16 days
-  great_circle: '8266.1'
+  duration: 16 days, 2 hours
+  great_circle: '8302.3'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 182
@@ -89,6 +89,8 @@ flight:
     data: {rxcount: 286}
   - callsign: LZ2AB-4
     data: {rxcount: 281}
+  - callsign: BACKLOG
+    data: {rxcount: 273}
   - callsign: SQ5TDW
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -96,8 +98,6 @@ flight:
       rxcount: 260
   - callsign: YO4ISC-10
     data: {rxcount: 249}
-  - callsign: BACKLOG
-    data: {rxcount: 224}
   - callsign: SP9VEY
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -132,6 +132,8 @@ flight:
       rxcount: 175
   - callsign: LZ0VRF-1
     data: {rxcount: 168}
+  - callsign: BG2UHK-10
+    data: {rxcount: 167}
   - callsign: GK4BGQ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -310,7 +312,7 @@ flight:
   - callsign: SV7DMD
     data: {rxcount: 35}
   - callsign: BG1TXB-10
-    data: {rxcount: 34}
+    data: {rxcount: 35}
   - callsign: THIERRY 72
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -328,8 +330,6 @@ flight:
   - callsign: SP7PZS-2
     data: {rxcount: 29}
   - callsign: LZ0SMN-1
-    data: {rxcount: 27}
-  - callsign: BG2UHK-10
     data: {rxcount: 27}
   - callsign: F1ABL
     data:
@@ -547,7 +547,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '14657.7'
+  total_distance: '14751.6'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
