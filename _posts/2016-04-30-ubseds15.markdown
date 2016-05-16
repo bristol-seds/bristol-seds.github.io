@@ -21,8 +21,8 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
-  duration: 16 days, 8 hours
-  great_circle: '8488.8'
+  duration: 16 days, 9 hours
+  great_circle: '8520.5'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 183
@@ -405,6 +405,8 @@ flight:
     data: {rxcount: 10}
   - callsign: SP8NFE-3
     data: {rxcount: 10}
+  - callsign: BG2YF
+    data: {rxcount: 10}
   - callsign: G0LRD
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -440,8 +442,6 @@ flight:
   - callsign: SQ6ODL-1
     data: {rxcount: 6}
   - callsign: LZ1PKZ
-    data: {rxcount: 6}
-  - callsign: BG2YF
     data: {rxcount: 6}
   - callsign: IQ9GD
     data: {rxcount: 5}
@@ -549,7 +549,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '15030.3'
+  total_distance: '15072.3'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
