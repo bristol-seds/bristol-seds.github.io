@@ -22,13 +22,22 @@ def point_in_country(country, point):
 with open('countries_world.json') as data_file:
     countries = json.load(data_file)
 
+last_country = None
 def get_country(datapoint):
+    global last_country
+
     # Get the lon/lat point
     point = (datapoint["longitude"], datapoint["latitude"])
+
+    # Try the last one
+    if last_country:
+        if point_in_country(last_country, point):
+            return {"name": last_country["name"], "isocode": last_country["isocode"].lower()}
 
     # Search each country
     for country in countries:
         if point_in_country(country, point):
+            last_country = country
             return {"name": country["name"], "isocode": country["isocode"].lower()}
 
     return None
