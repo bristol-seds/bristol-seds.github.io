@@ -22,11 +22,11 @@ flight:
   - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'kp', name: !!python/unicode 'N. Korea'}
-  duration: 17 days, 8 hours
-  great_circle: '8861.1'
+  duration: 17 days, 9 hours
+  great_circle: '8839.1'
   laps: 0
   max_altitude: '12.1'
-  receiver_count: 187
+  receiver_count: 190
   receivers:
   - callsign: SP9UOB
     data:
@@ -73,13 +73,13 @@ flight:
     data: {rxcount: 330}
   - callsign: LZ0BGN
     data: {rxcount: 322}
+  - callsign: BACKLOG
+    data: {rxcount: 318}
   - callsign: F1OIL
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '386.0'
       rxcount: 315
-  - callsign: BACKLOG
-    data: {rxcount: 305}
   - callsign: G8FJG_v
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -272,6 +272,8 @@ flight:
     data: {rxcount: 56}
   - callsign: UR0UDS-1
     data: {rxcount: 54}
+  - callsign: JR8YMH-3
+    data: {rxcount: 53}
   - callsign: TA1CR
     data: {rxcount: 52}
   - callsign: F5LHI
@@ -360,10 +362,10 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '51.6'
       rxcount: 20
-  - callsign: JR8YMH-3
-    data: {rxcount: 18}
   - callsign: BSEDS_Mysterious_Tower
     data: {rxcount: 18}
+  - callsign: JR8YKS-10
+    data: {rxcount: 17}
   - callsign: SR5DRK
     data: {rxcount: 17}
   - callsign: LZ0BOT-1
@@ -371,6 +373,8 @@ flight:
   - callsign: LZ2AB-1
     data: {rxcount: 16}
   - callsign: SQ9JYE-1
+    data: {rxcount: 16}
+  - callsign: JR8YJC-13
     data: {rxcount: 16}
   - callsign: SQ5AAG-6M
     data:
@@ -410,6 +414,8 @@ flight:
     data: {rxcount: 10}
   - callsign: BG2YF
     data: {rxcount: 10}
+  - callsign: JF8AFA-10
+    data: {rxcount: 9}
   - callsign: G0LRD
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -430,7 +436,11 @@ flight:
     data: {rxcount: 8}
   - callsign: IQ9IL-10
     data: {rxcount: 7}
+  - callsign: JH8FWD-10
+    data: {rxcount: 7}
   - callsign: IQ5BA-3
+    data: {rxcount: 7}
+  - callsign: JJ8EMJ-3
     data: {rxcount: 7}
   - callsign: LZ1OI-4
     data: {rxcount: 7}
@@ -476,8 +486,6 @@ flight:
     data: {rxcount: 3}
   - callsign: IT9DLN-10
     data: {rxcount: 3}
-  - callsign: JR8YKS-10
-    data: {rxcount: 3}
   - callsign: SQ7PSU-2
     data: {rxcount: 3}
   - callsign: SP8EET-4
@@ -510,8 +518,6 @@ flight:
   - callsign: SQ3KNO
     data: {rxcount: 2}
   - callsign: OE1SSU-12
-    data: {rxcount: 2}
-  - callsign: JH8FWD-10
     data: {rxcount: 2}
   - callsign: YO3KYD-10
     data: {rxcount: 2}
@@ -558,7 +564,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '16329.2'
+  total_distance: '16448.6'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
