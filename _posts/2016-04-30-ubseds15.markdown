@@ -21,11 +21,12 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
-  duration: 17 days, 7 hours
-  great_circle: '8868.2'
+  - {isocode: !!python/unicode 'kp', name: !!python/unicode 'N. Korea'}
+  duration: 17 days, 8 hours
+  great_circle: '8861.1'
   laps: 0
   max_altitude: '12.1'
-  receiver_count: 186
+  receiver_count: 187
   receivers:
   - callsign: SP9UOB
     data:
@@ -78,7 +79,7 @@ flight:
       max_distance: '386.0'
       rxcount: 315
   - callsign: BACKLOG
-    data: {rxcount: 303}
+    data: {rxcount: 305}
   - callsign: G8FJG_v
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -359,6 +360,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '51.6'
       rxcount: 20
+  - callsign: JR8YMH-3
+    data: {rxcount: 18}
   - callsign: BSEDS_Mysterious_Tower
     data: {rxcount: 18}
   - callsign: SR5DRK
@@ -393,8 +396,6 @@ flight:
     data: {rxcount: 12}
   - callsign: IQ9PA-13
     data: {rxcount: 12}
-  - callsign: JR8YMH-3
-    data: {rxcount: 11}
   - callsign: SV6EXB
     data: {rxcount: 11}
   - callsign: YO8SCT-10
@@ -474,6 +475,8 @@ flight:
   - callsign: SQ5DAL-2
     data: {rxcount: 3}
   - callsign: IT9DLN-10
+    data: {rxcount: 3}
+  - callsign: JR8YKS-10
     data: {rxcount: 3}
   - callsign: SQ7PSU-2
     data: {rxcount: 3}
@@ -555,7 +558,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '16282.3'
+  total_distance: '16329.2'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
