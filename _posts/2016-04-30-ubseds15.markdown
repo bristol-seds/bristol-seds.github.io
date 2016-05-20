@@ -578,7 +578,7 @@ flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
 layout: post
-live: true
+live: false
 payload_title: UBSEDS15
 photos: [/assets/flights/15/flying_away_1.jpg, /assets/flights/15/flying_away_2.jpg,
   /assets/flights/15/tracker.jpg, /assets/flights/15/free_lift.jpg, /assets/flights/15/tracker_at_launch.jpg,
