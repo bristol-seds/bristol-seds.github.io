@@ -24,11 +24,12 @@ flight:
   - {isocode: !!python/unicode 'kp', name: !!python/unicode 'N. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 24 days, 6 hours
-  great_circle: '8673.2'
+  - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
+  duration: 24 days, 8 hours
+  great_circle: '8558.9'
   laps: 0
   max_altitude: '12.1'
-  receiver_count: 207
+  receiver_count: 209
   receivers:
   - callsign: SP9UOB
     data:
@@ -47,13 +48,13 @@ flight:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
       max_distance: '365.8'
       rxcount: 468
+  - callsign: BACKLOG
+    data: {rxcount: 455}
   - callsign: 'SP5MG '
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
       max_distance: '463.2'
       rxcount: 440
-  - callsign: BACKLOG
-    data: {rxcount: 435}
   - callsign: BG2UHK-10
     data: {rxcount: 429}
   - callsign: F80106
@@ -312,6 +313,8 @@ flight:
     data: {rxcount: 45}
   - callsign: LZ2AB
     data: {rxcount: 40}
+  - callsign: W6BHZ-5
+    data: {rxcount: 39}
   - callsign: SR5RZP-2
     data: {rxcount: 38}
   - callsign: SR9NRY
@@ -340,6 +343,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '14.6'
       rxcount: 33
+  - callsign: KR6ZY-15
+    data: {rxcount: 32}
   - callsign: TA1ICU
     data: {rxcount: 31}
   - callsign: F2VI
@@ -371,8 +376,8 @@ flight:
     data: {rxcount: 23}
   - callsign: YO8DHA-10
     data: {rxcount: 21}
-  - callsign: W6BHZ-5
-    data: {rxcount: 21}
+  - callsign: WB9VXY
+    data: {rxcount: 20}
   - callsign: JF8AFA-10
     data: {rxcount: 20}
   - callsign: M0VPN
@@ -380,12 +385,12 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '51.6'
       rxcount: 20
+  - callsign: K6MAR-10
+    data: {rxcount: 18}
   - callsign: JR8YJC-13
     data: {rxcount: 18}
   - callsign: BSEDS_Mysterious_Tower
     data: {rxcount: 18}
-  - callsign: WB9VXY
-    data: {rxcount: 17}
   - callsign: JR8YKS-10
     data: {rxcount: 17}
   - callsign: SR5DRK
@@ -403,7 +408,7 @@ flight:
       rxcount: 16
   - callsign: BG6CQ
     data: {rxcount: 16}
-  - callsign: KR6ZY-15
+  - callsign: N6DGM-10
     data: {rxcount: 15}
   - callsign: OE1SSU-10
     data: {rxcount: 15}
@@ -422,6 +427,8 @@ flight:
     data: {rxcount: 12}
   - callsign: IQ9PA-13
     data: {rxcount: 12}
+  - callsign: K6NLC-5
+    data: {rxcount: 12}
   - callsign: SV6EXB
     data: {rxcount: 11}
   - callsign: YO8SCT-10
@@ -435,6 +442,8 @@ flight:
   - callsign: SP8NFE-3
     data: {rxcount: 10}
   - callsign: BG2YF
+    data: {rxcount: 10}
+  - callsign: W6TZI-1
     data: {rxcount: 10}
   - callsign: G0LRD
     data:
@@ -480,8 +489,6 @@ flight:
     data: {rxcount: 6}
   - callsign: IQ9GD
     data: {rxcount: 5}
-  - callsign: K6MAR-10
-    data: {rxcount: 5}
   - callsign: SP9PDF-3
     data: {rxcount: 5}
   - callsign: SR7NRQ-10
@@ -502,6 +509,8 @@ flight:
     data: {rxcount: 4}
   - callsign: SP3N
     data: {rxcount: 4}
+  - callsign: SUNSET
+    data: {rxcount: 4}
   - callsign: GLNVW-1
     data: {rxcount: 4}
   - callsign: IZ8IQN-11
@@ -510,8 +519,6 @@ flight:
     data: {rxcount: 4}
   - callsign: SQ5DAL-2
     data: {rxcount: 3}
-  - callsign: SUNSET
-    data: {rxcount: 3}
   - callsign: IT9DLN-10
     data: {rxcount: 3}
   - callsign: SQ7PSU-2
@@ -519,8 +526,6 @@ flight:
   - callsign: K6SJC-1
     data: {rxcount: 3}
   - callsign: SP8EET-4
-    data: {rxcount: 3}
-  - callsign: W6TZI-1
     data: {rxcount: 3}
   - callsign: IK8CEP
     data: {rxcount: 2}
@@ -553,8 +558,6 @@ flight:
     data: {rxcount: 2}
   - callsign: YO3KYD-10
     data: {rxcount: 2}
-  - callsign: N6DGM-10
-    data: {rxcount: 2}
   - callsign: pepino81
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -571,6 +574,8 @@ flight:
   - callsign: IK2XDE-6
     data: {rxcount: 1}
   - callsign: N6VUD
+    data: {rxcount: 1}
+  - callsign: AA6I-1
     data: {rxcount: 1}
   - callsign: OE3VPA
     data: {rxcount: 1}
@@ -600,7 +605,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '27155.9'
+  total_distance: '27300.9'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
