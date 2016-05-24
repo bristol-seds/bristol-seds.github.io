@@ -24,11 +24,11 @@ flight:
   - {isocode: !!python/unicode 'kp', name: !!python/unicode 'N. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 24 days
-  great_circle: '8928.7'
+  duration: 24 days, 2 hours
+  great_circle: '8855.7'
   laps: 0
   max_altitude: '12.1'
-  receiver_count: 196
+  receiver_count: 199
   receivers:
   - callsign: SP9UOB
     data:
@@ -64,10 +64,10 @@ flight:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
       max_distance: '226.9'
       rxcount: 375
+  - callsign: BACKLOG
+    data: {rxcount: 373}
   - callsign: UT4UKA-1
     data: {rxcount: 370}
-  - callsign: BACKLOG
-    data: {rxcount: 341}
   - callsign: OM5KV-1
     data:
       country: {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
@@ -338,6 +338,8 @@ flight:
       rxcount: 33
   - callsign: TA1ICU
     data: {rxcount: 31}
+  - callsign: K6BJ-3
+    data: {rxcount: 29}
   - callsign: F2VI
     data: {rxcount: 29}
   - callsign: SP7PZS-2
@@ -361,6 +363,8 @@ flight:
       country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
       max_distance: '1463.7'
       rxcount: 24
+  - callsign: KE6AFE-2
+    data: {rxcount: 24}
   - callsign: SR9DOL
     data: {rxcount: 23}
   - callsign: SV4FFB-4
@@ -397,6 +401,8 @@ flight:
     data: {rxcount: 16}
   - callsign: OE1SSU-10
     data: {rxcount: 15}
+  - callsign: WB9VXY
+    data: {rxcount: 14}
   - callsign: TA1AST
     data: {rxcount: 13}
   - callsign: IR0AAI-12
@@ -484,6 +490,8 @@ flight:
     data: {rxcount: 5}
   - callsign: SR6NWS
     data: {rxcount: 5}
+  - callsign: WL7BA
+    data: {rxcount: 5}
   - callsign: SR5GK-2
     data: {rxcount: 4}
   - callsign: SP3N
@@ -500,8 +508,6 @@ flight:
     data: {rxcount: 3}
   - callsign: SP8EET-4
     data: {rxcount: 3}
-  - callsign: KE6AFE-2
-    data: {rxcount: 3}
   - callsign: IK8CEP
     data: {rxcount: 2}
   - callsign: YO3KXL-10
@@ -515,8 +521,6 @@ flight:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
       max_distance: '25.2'
       rxcount: 2
-  - callsign: K6BJ-3
-    data: {rxcount: 2}
   - callsign: SR9NRK
     data: {rxcount: 2}
   - callsign: UR5WGN-1
@@ -524,6 +528,8 @@ flight:
   - callsign: OK2KOJ-1
     data: {rxcount: 2}
   - callsign: F5RGH-10
+    data: {rxcount: 2}
+  - callsign: SUNSET
     data: {rxcount: 2}
   - callsign: LZ0DOE
     data: {rxcount: 2}
@@ -578,7 +584,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '25402.2'
+  total_distance: '26800.7'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
