@@ -24,11 +24,11 @@ flight:
   - {isocode: !!python/unicode 'kp', name: !!python/unicode 'N. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 24 days, 4 hours
-  great_circle: '8769.2'
+  duration: 24 days, 6 hours
+  great_circle: '8673.2'
   laps: 0
   max_altitude: '12.1'
-  receiver_count: 205
+  receiver_count: 207
   receivers:
   - callsign: SP9UOB
     data:
@@ -52,6 +52,8 @@ flight:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
       max_distance: '463.2'
       rxcount: 440
+  - callsign: BACKLOG
+    data: {rxcount: 435}
   - callsign: BG2UHK-10
     data: {rxcount: 429}
   - callsign: F80106
@@ -59,8 +61,6 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '355.5'
       rxcount: 417
-  - callsign: BACKLOG
-    data: {rxcount: 411}
   - callsign: SP7THR-1
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -208,6 +208,8 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '272.7'
       rxcount: 105
+  - callsign: K6BJ-3
+    data: {rxcount: 105}
   - callsign: UT2XQ
     data: {rxcount: 103}
   - callsign: '0x17'
@@ -244,8 +246,6 @@ flight:
     data: {rxcount: 79}
   - callsign: JH8YIN-10
     data: {rxcount: 78}
-  - callsign: K6BJ-3
-    data: {rxcount: 75}
   - callsign: YM7KA
     data: {rxcount: 70}
   - callsign: RA6LFJ-1
@@ -293,6 +293,8 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '191.0'
       rxcount: 52
+  - callsign: KE6AFE-2
+    data: {rxcount: 52}
   - callsign: JR8IVS-10
     data: {rxcount: 51}
   - callsign: G8IMN
@@ -313,8 +315,6 @@ flight:
   - callsign: SR5RZP-2
     data: {rxcount: 38}
   - callsign: SR9NRY
-    data: {rxcount: 36}
-  - callsign: KE6AFE-2
     data: {rxcount: 36}
   - callsign: US9IGY
     data:
@@ -371,6 +371,8 @@ flight:
     data: {rxcount: 23}
   - callsign: YO8DHA-10
     data: {rxcount: 21}
+  - callsign: W6BHZ-5
+    data: {rxcount: 21}
   - callsign: JF8AFA-10
     data: {rxcount: 20}
   - callsign: M0VPN
@@ -401,6 +403,8 @@ flight:
       rxcount: 16
   - callsign: BG6CQ
     data: {rxcount: 16}
+  - callsign: KR6ZY-15
+    data: {rxcount: 15}
   - callsign: OE1SSU-10
     data: {rxcount: 15}
   - callsign: TA1AST
@@ -476,6 +480,8 @@ flight:
     data: {rxcount: 6}
   - callsign: IQ9GD
     data: {rxcount: 5}
+  - callsign: K6MAR-10
+    data: {rxcount: 5}
   - callsign: SP9PDF-3
     data: {rxcount: 5}
   - callsign: SR7NRQ-10
@@ -494,8 +500,6 @@ flight:
     data: {rxcount: 5}
   - callsign: SR5GK-2
     data: {rxcount: 4}
-  - callsign: KR6ZY-15
-    data: {rxcount: 4}
   - callsign: SP3N
     data: {rxcount: 4}
   - callsign: GLNVW-1
@@ -506,9 +510,13 @@ flight:
     data: {rxcount: 4}
   - callsign: SQ5DAL-2
     data: {rxcount: 3}
+  - callsign: SUNSET
+    data: {rxcount: 3}
   - callsign: IT9DLN-10
     data: {rxcount: 3}
   - callsign: SQ7PSU-2
+    data: {rxcount: 3}
+  - callsign: K6SJC-1
     data: {rxcount: 3}
   - callsign: SP8EET-4
     data: {rxcount: 3}
@@ -535,8 +543,6 @@ flight:
     data: {rxcount: 2}
   - callsign: F5RGH-10
     data: {rxcount: 2}
-  - callsign: SUNSET
-    data: {rxcount: 2}
   - callsign: LZ0DOE
     data: {rxcount: 2}
   - callsign: IR5X
@@ -547,7 +553,7 @@ flight:
     data: {rxcount: 2}
   - callsign: YO3KYD-10
     data: {rxcount: 2}
-  - callsign: K6SJC-1
+  - callsign: N6DGM-10
     data: {rxcount: 2}
   - callsign: pepino81
     data:
@@ -557,8 +563,6 @@ flight:
   - callsign: IR0UDY-12
     data: {rxcount: 1}
   - callsign: IT9FDP-10
-    data: {rxcount: 1}
-  - callsign: K6MAR-10
     data: {rxcount: 1}
   - callsign: SQ5SCX-2
     data: {rxcount: 1}
@@ -596,7 +600,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '26991.1'
+  total_distance: '27155.9'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
