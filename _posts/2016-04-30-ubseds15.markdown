@@ -23,11 +23,12 @@ flight:
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'kp', name: !!python/unicode 'N. Korea'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
-  duration: 17 days, 16 hours
-  great_circle: '8721.4'
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  duration: 24 days
+  great_circle: '8928.7'
   laps: 0
   max_altitude: '12.1'
-  receiver_count: 194
+  receiver_count: 196
   receivers:
   - callsign: SP9UOB
     data:
@@ -66,7 +67,7 @@ flight:
   - callsign: UT4UKA-1
     data: {rxcount: 370}
   - callsign: BACKLOG
-    data: {rxcount: 339}
+    data: {rxcount: 341}
   - callsign: OM5KV-1
     data:
       country: {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
@@ -499,6 +500,8 @@ flight:
     data: {rxcount: 3}
   - callsign: SP8EET-4
     data: {rxcount: 3}
+  - callsign: KE6AFE-2
+    data: {rxcount: 3}
   - callsign: IK8CEP
     data: {rxcount: 2}
   - callsign: YO3KXL-10
@@ -512,6 +515,8 @@ flight:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
       max_distance: '25.2'
       rxcount: 2
+  - callsign: K6BJ-3
+    data: {rxcount: 2}
   - callsign: SR9NRK
     data: {rxcount: 2}
   - callsign: UR5WGN-1
@@ -573,12 +578,12 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '17107.1'
+  total_distance: '25402.2'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
 layout: post
-live: false
+live: true
 payload_title: UBSEDS15
 photos: [/assets/flights/15/flying_away_1.jpg, /assets/flights/15/flying_away_2.jpg,
   /assets/flights/15/tracker.jpg, /assets/flights/15/free_lift.jpg, /assets/flights/15/tracker_at_launch.jpg,

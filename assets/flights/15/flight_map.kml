@@ -8929,6 +8929,26 @@
 146.719289311,46.6219396943,11835.6888
 146.745541129,46.6348030851,11879.58
 146.770532859,46.6487112983,11779.6056
+159.072408,55.940658,11515
+157.609929,49.535369,11700
+233.714957761,35.1060730956,11928.6528
+
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Track Segment</name>
+                <styleUrl>#ept</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>
+    -126.285042239,35.1060730956,11928.6528
+-126.19797546,35.0761565238,11949.684
+-126.139292146,35.055422838,11942.6736
+-126.094186272,35.0398502596,11936.5776
+-125.719053044,34.9466405549,11868.6072
 
                     </coordinates>
                 </LineString>
@@ -8950,11 +8970,11 @@
             </Placemark>
             <Placemark>
                 <name>Last Reported</name>
-                <description>18 May 2016 01:01:35: (46.6487, 146.7705) @ 11780 m</description>
+                <description>24 May 2016 08:19:09: (34.9466, -125.7191) @ 11869 m</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>146.770532859,46.6487112983,11779.6056
+                    <coordinates>-125.719053044,34.9466405549,11868.6072
 </coordinates>
                 </Point>
             </Placemark>
