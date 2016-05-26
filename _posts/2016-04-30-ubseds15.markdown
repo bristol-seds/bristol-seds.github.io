@@ -25,8 +25,8 @@ flight:
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  duration: 25 days, 13 hours
-  great_circle: '6941.1'
+  duration: 25 days, 17 hours
+  great_circle: '6770.9'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 241
@@ -44,7 +44,7 @@ flight:
       max_distance: '469.4'
       rxcount: 492
   - callsign: BACKLOG
-    data: {rxcount: 485}
+    data: {rxcount: 490}
   - callsign: SP5IZJ
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -150,6 +150,8 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '351.4'
       rxcount: 158
+  - callsign: W7QQA-2
+    data: {rxcount: 155}
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -169,15 +171,15 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '177.6'
       rxcount: 148
+  - callsign: W7REA
+    data: {rxcount: 140}
   - callsign: HA6NN
     data:
       country: {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
       max_distance: '117.6'
       rxcount: 133
-  - callsign: W7QQA-2
+  - callsign: KB7FSC-1
     data: {rxcount: 130}
-  - callsign: W7REA
-    data: {rxcount: 124}
   - callsign: F1BEK
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -331,6 +333,8 @@ flight:
     data: {rxcount: 40}
   - callsign: W6BHZ-5
     data: {rxcount: 39}
+  - callsign: KA7O-15
+    data: {rxcount: 38}
   - callsign: KR6ZY-15
     data: {rxcount: 38}
   - callsign: SR5RZP-2
@@ -367,8 +371,6 @@ flight:
     data: {rxcount: 32}
   - callsign: TA1ICU
     data: {rxcount: 31}
-  - callsign: KA7O-15
-    data: {rxcount: 29}
   - callsign: WB9VXY
     data: {rxcount: 29}
   - callsign: F2VI
@@ -527,8 +529,6 @@ flight:
     data: {rxcount: 6}
   - callsign: SR8NZ
     data: {rxcount: 6}
-  - callsign: KB7FSC-1
-    data: {rxcount: 6}
   - callsign: SR3NRI
     data: {rxcount: 6}
   - callsign: SQ6ODL-1
@@ -552,6 +552,8 @@ flight:
   - callsign: SR8NPG
     data: {rxcount: 5}
   - callsign: SR6NWS
+    data: {rxcount: 5}
+  - callsign: WA0MFZ-5
     data: {rxcount: 5}
   - callsign: K7UHP-1
     data: {rxcount: 4}
@@ -665,11 +667,9 @@ flight:
     data: {rxcount: 1}
   - callsign: LZ0BGM
     data: {rxcount: 1}
-  - callsign: WA0MFZ-5
-    data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '28988.5'
+  total_distance: '29162.5'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
