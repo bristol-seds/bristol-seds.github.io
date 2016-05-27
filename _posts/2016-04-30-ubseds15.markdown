@@ -26,11 +26,11 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  duration: 27 days
-  great_circle: '5527.8'
+  duration: 27 days, 14 hours
+  great_circle: '4465.3'
   laps: 0
   max_altitude: '12.1'
-  receiver_count: 255
+  receiver_count: 256
   receivers:
   - callsign: SP9UOB
     data:
@@ -666,6 +666,8 @@ flight:
     data: {rxcount: 1}
   - callsign: N6VUD
     data: {rxcount: 1}
+  - callsign: VA2CMQ-3
+    data: {rxcount: 1}
   - callsign: OE3VPA
     data: {rxcount: 1}
   - callsign: JA7LJQ-10
@@ -698,7 +700,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '30483.3'
+  total_distance: '31795.4'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
