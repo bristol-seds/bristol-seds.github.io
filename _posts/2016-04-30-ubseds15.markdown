@@ -26,8 +26,8 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  duration: 28 days, 3 hours
-  great_circle: '3520.2'
+  duration: 28 days, 5 hours
+  great_circle: '3349.9'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 264
@@ -40,7 +40,7 @@ flight:
   - callsign: LZ0DAD
     data: {rxcount: 660}
   - callsign: BACKLOG
-    data: {rxcount: 542}
+    data: {rxcount: 544}
   - callsign: SP5ULN
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -171,6 +171,8 @@ flight:
     data: {rxcount: 154}
   - callsign: PE1ANS
     data: {max_distance: '426.6', rxcount: 153}
+  - callsign: VO1QU
+    data: {rxcount: 150}
   - callsign: G1BLO
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -180,13 +182,13 @@ flight:
     data: {rxcount: 145}
   - callsign: W7REA
     data: {rxcount: 141}
-  - callsign: VO1QU
-    data: {rxcount: 140}
   - callsign: HA6NN
     data:
       country: {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
       max_distance: '117.6'
       rxcount: 133
+  - callsign: VO1UM-2
+    data: {rxcount: 128}
   - callsign: F1BEK
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -228,6 +230,8 @@ flight:
       rxcount: 105
   - callsign: K6BJ-3
     data: {rxcount: 105}
+  - callsign: VO1UM-1
+    data: {rxcount: 104}
   - callsign: UT2XQ
     data: {rxcount: 103}
   - callsign: VA3EOD
@@ -258,10 +262,6 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '272.9'
       rxcount: 93
-  - callsign: VO1UM-2
-    data: {rxcount: 92}
-  - callsign: VO1UM-1
-    data: {rxcount: 90}
   - callsign: JR8YMH-3
     data: {rxcount: 84}
   - callsign: SV2HNH-1
@@ -534,6 +534,8 @@ flight:
       rxcount: 9
   - callsign: VO1BIL
     data: {rxcount: 9}
+  - callsign: VO1AWS
+    data: {rxcount: 8}
   - callsign: KB6RKS
     data: {rxcount: 8}
   - callsign: OM0OUX-1
@@ -628,8 +630,6 @@ flight:
     data: {rxcount: 3}
   - callsign: NG6B-2
     data: {rxcount: 3}
-  - callsign: VO1AWS
-    data: {rxcount: 2}
   - callsign: WT7T-6
     data: {rxcount: 2}
   - callsign: IK8CEP
@@ -716,7 +716,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '33167.2'
+  total_distance: '33404.1'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
