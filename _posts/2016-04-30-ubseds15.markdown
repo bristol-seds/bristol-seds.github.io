@@ -26,8 +26,9 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  duration: 31 days, 4 hours
-  great_circle: '1617.7'
+  - {isocode: !!python/unicode 'is', name: !!python/unicode 'Iceland'}
+  duration: 31 days, 7 hours
+  great_circle: '1646.4'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 265
@@ -270,6 +271,8 @@ flight:
     data: {rxcount: 82}
   - callsign: W7BEQ-2
     data: {rxcount: 80}
+  - callsign: TF3SUT-2
+    data: {rxcount: 80}
   - callsign: SR7NDK-10
     data: {rxcount: 79}
   - callsign: f4fqn
@@ -314,8 +317,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '293.0'
       rxcount: 57
-  - callsign: TF3SUT-2
-    data: {rxcount: 57}
   - callsign: YM7KK
     data: {rxcount: 56}
   - callsign: VE2RIN-10
@@ -718,7 +719,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '36452.6'
+  total_distance: '36586.3'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
