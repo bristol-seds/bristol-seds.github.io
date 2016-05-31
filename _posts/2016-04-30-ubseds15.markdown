@@ -26,8 +26,8 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  duration: 31 days
-  great_circle: '1567.4'
+  duration: 31 days, 4 hours
+  great_circle: '1617.7'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 265
@@ -40,7 +40,7 @@ flight:
   - callsign: LZ0DAD
     data: {rxcount: 660}
   - callsign: BACKLOG
-    data: {rxcount: 544}
+    data: {rxcount: 549}
   - callsign: SP5ULN
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -314,6 +314,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '293.0'
       rxcount: 57
+  - callsign: TF3SUT-2
+    data: {rxcount: 57}
   - callsign: YM7KK
     data: {rxcount: 56}
   - callsign: VE2RIN-10
@@ -580,8 +582,6 @@ flight:
     data: {rxcount: 6}
   - callsign: LZ1PKZ
     data: {rxcount: 6}
-  - callsign: TF3SUT-2
-    data: {rxcount: 6}
   - callsign: IQ9GD
     data: {rxcount: 5}
   - callsign: SP9PDF-3
@@ -718,7 +718,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '35869.0'
+  total_distance: '36452.6'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
