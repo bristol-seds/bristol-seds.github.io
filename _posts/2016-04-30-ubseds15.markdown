@@ -28,11 +28,12 @@ flight:
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'is', name: !!python/unicode 'Iceland'}
   - {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
-  duration: 33 days, 4 hours
-  great_circle: '2286.3'
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  duration: 33 days, 8 hours
+  great_circle: '2327.5'
   laps: 0
   max_altitude: '12.1'
-  receiver_count: 272
+  receiver_count: 278
   receivers:
   - callsign: SP9UOB
     data:
@@ -42,7 +43,7 @@ flight:
   - callsign: LZ0DAD
     data: {rxcount: 660}
   - callsign: BACKLOG
-    data: {rxcount: 563}
+    data: {rxcount: 567}
   - callsign: SP5ULN
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -104,6 +105,11 @@ flight:
     data: {rxcount: 286}
   - callsign: LZ2AB-4
     data: {rxcount: 281}
+  - callsign: OH8HHP
+    data:
+      country: {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
+      max_distance: '245.0'
+      rxcount: 277
   - callsign: SQ5TDW
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -150,11 +156,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '370.8'
       rxcount: 166
-  - callsign: OH8HHP
-    data:
-      country: {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
-      max_distance: '245.0'
-      rxcount: 163
   - callsign: YO4RDJ-10
     data: {rxcount: 162}
   - callsign: W7QQA-2
@@ -316,6 +317,11 @@ flight:
     data: {rxcount: 59}
   - callsign: IZ7BOJ-11
     data: {rxcount: 58}
+  - callsign: OH6UW
+    data:
+      country: {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
+      max_distance: '266.9'
+      rxcount: 57
   - callsign: JL8SSD-10
     data: {rxcount: 57}
   - callsign: G0RNU
@@ -442,9 +448,9 @@ flight:
       country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
       max_distance: '1463.7'
       rxcount: 24
-  - callsign: SR9DOL
-    data: {rxcount: 23}
   - callsign: LA7HAA-10
+    data: {rxcount: 23}
+  - callsign: SR9DOL
     data: {rxcount: 23}
   - callsign: SV4FFB-4
     data: {rxcount: 23}
@@ -521,6 +527,11 @@ flight:
     data: {rxcount: 10}
   - callsign: AK7ME
     data: {rxcount: 10}
+  - callsign: OH2FQV
+    data:
+      country: {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
+      max_distance: '389.5'
+      rxcount: 10
   - callsign: UY0LL-1
     data: {rxcount: 10}
   - callsign: KJ6IX-5
@@ -621,6 +632,8 @@ flight:
     data: {rxcount: 4}
   - callsign: SUNSET
     data: {rxcount: 4}
+  - callsign: OH7BD
+    data: {rxcount: 4}
   - callsign: GERLCH
     data: {rxcount: 4}
   - callsign: GLNVW-1
@@ -629,11 +642,15 @@ flight:
     data: {rxcount: 4}
   - callsign: IZ8IQN-11
     data: {rxcount: 4}
+  - callsign: OH5XB
+    data: {rxcount: 4}
   - callsign: SR9NDJ
     data: {rxcount: 4}
   - callsign: SQ5DAL-2
     data: {rxcount: 3}
   - callsign: IT9DLN-10
+    data: {rxcount: 3}
+  - callsign: OH5AA
     data: {rxcount: 3}
   - callsign: SQ7PSU-2
     data: {rxcount: 3}
@@ -644,6 +661,8 @@ flight:
   - callsign: NG6B-2
     data: {rxcount: 3}
   - callsign: WT7T-6
+    data: {rxcount: 2}
+  - callsign: UA1CCB-5
     data: {rxcount: 2}
   - callsign: IK8CEP
     data: {rxcount: 2}
@@ -691,11 +710,6 @@ flight:
     data: {rxcount: 1}
   - callsign: LA6GGA-10
     data: {rxcount: 1}
-  - callsign: OH6UW
-    data:
-      country: {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
-      max_distance: '242.4'
-      rxcount: 1
   - callsign: SQ5SCX-2
     data: {rxcount: 1}
   - callsign: IR2AO
@@ -724,6 +738,8 @@ flight:
     data: {rxcount: 1}
   - callsign: SV1UY-5
     data: {rxcount: 1}
+  - callsign: RA1AMW
+    data: {rxcount: 1}
   - callsign: KB0YNA-5
     data: {rxcount: 1}
   - callsign: IR0AAC-10
@@ -740,7 +756,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '38960.3'
+  total_distance: '39208.5'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
