@@ -27,11 +27,12 @@ flight:
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'is', name: !!python/unicode 'Iceland'}
-  duration: 32 days, 14 hours
-  great_circle: '2166.9'
+  - {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
+  duration: 33 days
+  great_circle: '2238.5'
   laps: 0
   max_altitude: '12.1'
-  receiver_count: 270
+  receiver_count: 271
   receivers:
   - callsign: SP9UOB
     data:
@@ -587,6 +588,11 @@ flight:
     data: {rxcount: 6}
   - callsign: LZ1PKZ
     data: {rxcount: 6}
+  - callsign: OH8HHP
+    data:
+      country: {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
+      max_distance: '245.0'
+      rxcount: 6
   - callsign: IQ9GD
     data: {rxcount: 5}
   - callsign: SP9PDF-3
@@ -729,7 +735,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '38103.9'
+  total_distance: '38709.3'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
