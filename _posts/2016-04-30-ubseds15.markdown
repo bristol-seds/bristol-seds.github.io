@@ -31,8 +31,8 @@ flight:
   - {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
   - {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 34 days, 5 hours
-  great_circle: '2561.9'
+  duration: 34 days, 9 hours
+  great_circle: '2644.0'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 291
@@ -45,7 +45,7 @@ flight:
   - callsign: LZ0DAD
     data: {rxcount: 660}
   - callsign: BACKLOG
-    data: {rxcount: 624}
+    data: {rxcount: 637}
   - callsign: SP5ULN
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -77,6 +77,8 @@ flight:
       rxcount: 375
   - callsign: UT4UKA-1
     data: {rxcount: 370}
+  - callsign: UY0LL-1
+    data: {rxcount: 351}
   - callsign: OM5KV-1
     data:
       country: {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
@@ -251,6 +253,8 @@ flight:
     data: {rxcount: 104}
   - callsign: UT2XQ
     data: {rxcount: 103}
+  - callsign: RW3DKE-1
+    data: {rxcount: 101}
   - callsign: VA3EOD
     data: {rxcount: 100}
   - callsign: '0x17'
@@ -263,8 +267,6 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '441.9'
       rxcount: 99
-  - callsign: RW3DKE-1
-    data: {rxcount: 99}
   - callsign: OH7BD
     data: {rxcount: 97}
   - callsign: TA2AWO
@@ -485,8 +487,6 @@ flight:
   - callsign: W6TZI-1
     data: {rxcount: 20}
   - callsign: LA9UI-2
-    data: {rxcount: 19}
-  - callsign: UY0LL-1
     data: {rxcount: 19}
   - callsign: JR8YJC-13
     data: {rxcount: 18}
@@ -784,7 +784,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '40200.6'
+  total_distance: '40348.8'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
