@@ -31,8 +31,8 @@ flight:
   - {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
   - {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 34 days, 22 hours
-  great_circle: '3080.1'
+  duration: 35 days, 9 hours
+  great_circle: '3502.0'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 291
@@ -47,7 +47,7 @@ flight:
   - callsign: LZ0DAD
     data: {rxcount: 660}
   - callsign: BACKLOG
-    data: {rxcount: 651}
+    data: {rxcount: 652}
   - callsign: SP5ULN
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -305,6 +305,8 @@ flight:
     data: {rxcount: 78}
   - callsign: N7GWT
     data: {rxcount: 77}
+  - callsign: RW4HIF-10
+    data: {rxcount: 70}
   - callsign: YM7KA
     data: {rxcount: 70}
   - callsign: RA6LFJ-1
@@ -326,8 +328,6 @@ flight:
     data: {rxcount: 63}
   - callsign: YM7KO
     data: {rxcount: 63}
-  - callsign: RW4HIF-10
-    data: {rxcount: 62}
   - callsign: YM2KA-5
     data: {rxcount: 62}
   - callsign: SV2RCK-5
@@ -784,7 +784,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '40816.5'
+  total_distance: '41297.5'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
