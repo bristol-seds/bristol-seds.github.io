@@ -17,6 +17,7 @@ import receivers
 import aprs_json
 import kml
 import laps
+import altitude_plot
 
 import os, errno
 
@@ -205,19 +206,11 @@ if flight_nr in [1,2,4,5]:      # Up/down
 else:                           # Float
     kml.output(payload_data_filt, "../.."+flight_map, False, "Last Reported")
 
-altitude_plot = asset_path+"altitude_plot.csv"
-with open("../.."+altitude_plot, 'w') as outfile:
-    outfile.write('time,latitude,longitude,altitude\n')
+# Altitude Plot
+altitude_filename = asset_path+"altitude_plot.csv"
+altitude_plot.output(altitude_filename, payload_data_filt)
 
-    for d in payload_data_filt:
-        if 'date' in d:
-            date = d['date']
-        else:
-            date = "000000"
-
-        outfile.write("{}-{},{:.6f},{:.6f},{}\n".format(
-            date, d['time'], d['latitude'], d['longitude'], d['altitude']))
-
+# Speed plot (TODO)
 speed_plot = asset_path+"speed_plot.csv"
 
 # =-----------------------------------------------------------------------
@@ -283,7 +276,7 @@ post_yaml = {
     "date": launch_time,
     "categories": "hab flight",
     "flight_map": flight_map,
-    "altitude_plot": altitude_plot,
+    "altitude_plot": altitude_filename,
     "habhub": {
         "live": "http://tracker.habhub.org/#!qm=All&q={}".format(payload["doc"]["name"]),
         "archive": "http://tracker.habhub.org/#!qm={}".format(fid)
