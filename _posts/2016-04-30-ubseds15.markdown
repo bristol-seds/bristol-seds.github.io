@@ -31,8 +31,10 @@ flight:
   - {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
   - {isocode: !!python/unicode 'fi', name: !!python/unicode 'Finland'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 35 days, 19 hours
-  great_circle: '3929.2'
+  - {isocode: !!python/unicode 'kz', name: !!python/unicode 'Kazakhstan'}
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  duration: 43 days, 13 hours
+  great_circle: '2483.7'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 291
@@ -44,10 +46,10 @@ flight:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
       max_distance: '341.1'
       rxcount: 879
+  - callsign: BACKLOG
+    data: {rxcount: 668}
   - callsign: LZ0DAD
     data: {rxcount: 660}
-  - callsign: BACKLOG
-    data: {rxcount: 656}
   - callsign: SP5ULN
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -477,6 +479,8 @@ flight:
     data: {rxcount: 23}
   - callsign: YO8DHA-10
     data: {rxcount: 21}
+  - callsign: LA9UI-2
+    data: {rxcount: 20}
   - callsign: JF8AFA-10
     data: {rxcount: 20}
   - callsign: M0VPN
@@ -486,8 +490,6 @@ flight:
       rxcount: 20
   - callsign: W6TZI-1
     data: {rxcount: 20}
-  - callsign: LA9UI-2
-    data: {rxcount: 19}
   - callsign: JR8YJC-13
     data: {rxcount: 18}
   - callsign: BSEDS_Mysterious_Tower
@@ -784,7 +786,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '41826.8'
+  total_distance: '48332.3'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
