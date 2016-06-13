@@ -33,8 +33,8 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'kz', name: !!python/unicode 'Kazakhstan'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 43 days, 17 hours
-  great_circle: '2469.5'
+  duration: 43 days, 21 hours
+  great_circle: '2457.0'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 291
@@ -47,7 +47,7 @@ flight:
       max_distance: '341.1'
       rxcount: 879
   - callsign: BACKLOG
-    data: {rxcount: 713}
+    data: {rxcount: 752}
   - callsign: LZ0DAD
     data: {rxcount: 660}
   - callsign: SP5ULN
@@ -217,6 +217,8 @@ flight:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '124.4'
       rxcount: 124
+  - callsign: LA9UI-2
+    data: {rxcount: 122}
   - callsign: RW4HIF-10
     data: {rxcount: 122}
   - callsign: THIERRY72
@@ -309,8 +311,6 @@ flight:
     data: {rxcount: 78}
   - callsign: N7GWT
     data: {rxcount: 77}
-  - callsign: LA9UI-2
-    data: {rxcount: 70}
   - callsign: YM7KA
     data: {rxcount: 70}
   - callsign: RA6LFJ-1
@@ -786,7 +786,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '48492.4'
+  total_distance: '48550.4'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS15'}
