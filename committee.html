@@ -1,6 +1,48 @@
 ---
 layout: default
 committees:
+  - name: Committee 2016-2017
+    show: true
+    people:
+      - image: richard.53640.jpg
+        name: Richard Meadows
+        link: richardeoin
+        bio: 4th Year Undergraduate Electrical and Electronic Engineering
+        role: President
+        github: richardeoin
+        twitter: richardeoin
+        linkedin: in/richardeoin
+        linkedin-name: Richard
+
+      - image: santeri.11164850.jpg
+        name: Santeri Hotakainen
+        link: santeri
+        bio: 4th Year Undergraduate Aerospace Engineering
+        role: Vice President
+        linkedin: profile/view?id=294098246
+        linkedin-name: Santeri
+
+      - image: valeriy.1.jpg
+        name: Valeriy Novikov
+        link: valeriy
+        bio: 2nd Year Undergraduate Electrical and Electronic Engineering
+        role: Social Secretary
+        github: novikovvm
+        linkedin: in/novikovvm
+        linkedin-name: Valeriy
+
+      - image: sofia.1.jpg
+        name: Sofia Medina
+        link: sofia
+        bio: 2nd Year Undergraduate Aerospace Engineering
+        role: Secretary
+
+      - image: mansur.1.jpg
+        name: Mansur Tisaev
+        link: mansur
+        bio: 2nd Year Undergraduate Aerospace Engineering
+        role: Treasurer
+
   - name: Committee 2015-2016
     show: true
     people:
@@ -149,6 +191,7 @@ committees:
       </a>
       {% endif %}
     </li>
+    {% cycle '', '', '<div class="clearfix"></div>' %}
     {% endfor %}
   </ul>
   <hr>
