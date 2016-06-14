@@ -278,7 +278,7 @@ post_yaml = {
     "flight_map": flight_map,
     "altitude_plot": altitude_filename,
     "habhub": {
-        "live": "http://tracker.habhub.org/#!qm=All&q={}".format(payload["doc"]["name"]),
+        "live": "http://tracker.habhub.org/#!qm=3_days&q={}".format(payload["doc"]["name"]),
         "archive": "http://tracker.habhub.org/#!qm={}".format(fid)
     },
 #    "speed_plot": speed_plot,
