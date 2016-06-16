@@ -33,8 +33,8 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'kz', name: !!python/unicode 'Kazakhstan'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 47 days, 9 hours
-  great_circle: '2458.8'
+  duration: 47 days, 10 hours
+  great_circle: '2524.3'
   laps: 0
   max_altitude: '12.1'
   receiver_count: 293
@@ -49,7 +49,7 @@ flight:
       max_distance: '341.1'
       rxcount: 879
   - callsign: LA9UI-2
-    data: {rxcount: 846}
+    data: {rxcount: 865}
   - callsign: LZ0DAD
     data: {rxcount: 660}
   - callsign: SP5ULN
@@ -790,7 +790,7 @@ flight:
     data: {rxcount: 1}
   - callsign: IZ2LRW
     data: {rxcount: 1}
-  total_distance: '50059.1'
+  total_distance: '50129.2'
 flight_map: /assets/flights/15/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=7e85103d0d40d9ec13ddc23b3e8dd812',
   live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS15'}
