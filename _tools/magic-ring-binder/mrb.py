@@ -20,6 +20,7 @@ import laps
 import altitude_plot
 
 import os, errno
+from shutil import copyfile
 
 def mkdir_p(path):
     try:
@@ -143,6 +144,13 @@ else:
 
     print "(added {} aprs data points)".format(len(aprs_json))
     print
+
+# Copy this aprs log to the assets directory
+if os.path.exists(aprs_rawfile):
+    copyfile(aprs_rawfile, "../.."+asset_path+"aprs.log")
+    aprs_log_available = True
+else:
+    aprs_log_available = False
 
 # =-----------------------------------------------------------------------
 
@@ -276,6 +284,7 @@ post_yaml = {
     "date": launch_time,
     "categories": "hab flight",
     "flight_map": flight_map,
+    "aprs_log": aprs_log_available,
     "altitude_plot": altitude_filename,
     "habhub": {
         "live": "http://tracker.habhub.org/#!qm=3_days&q={}".format(payload["doc"]["name"]),
