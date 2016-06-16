@@ -148,9 +148,9 @@ else:
 # Copy this aprs log to the assets directory
 if os.path.exists(aprs_rawfile):
     copyfile(aprs_rawfile, "../.."+asset_path+"aprs.log")
-    aprs_log_available = True
+    aprs_log = asset_path+"aprs.log"
 else:
-    aprs_log_available = False
+    aprs_log = False
 
 # =-----------------------------------------------------------------------
 
@@ -284,8 +284,8 @@ post_yaml = {
     "date": launch_time,
     "categories": "hab flight",
     "flight_map": flight_map,
-    "aprs_log": aprs_log_available,
     "altitude_plot": altitude_filename,
+    "aprs_log": aprs_log,
     "habhub": {
         "live": "http://tracker.habhub.org/#!qm=3_days&q={}".format(payload["doc"]["name"]),
         "archive": "http://tracker.habhub.org/#!qm={}".format(fid)

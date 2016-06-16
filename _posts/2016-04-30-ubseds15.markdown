@@ -1,6 +1,6 @@
 ---
 altitude_plot: /assets/flights/15/altitude_plot.csv
-aprs_log: true
+aprs_log: /assets/flights/15/aprs.log
 categories: hab flight
 date: '2016-04-30 08:16:42'
 description: Custom Envelope with Solar Panels
