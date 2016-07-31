@@ -102,12 +102,44 @@ habhub: {archive: 'http://tracker.habhub.org/#!qm=4bc411ca9288975bd638a091415b5a
   live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS16'}
 layout: post
 live: true
+photos: [/assets/flights/16/batteries_close_up.jpg,
+/assets/flights/16/free_lift.jpg,
+/assets/flights/16/insulation.jpg,
+/assets/flights/16/payload_on_balloon.jpg,
+/assets/flights/16/santeri_holding.jpg,
+/assets/flights/16/ubseds_16_pcb.jpg]
 payload_title: UBSEDS16
 plots: true
 title: UBSEDS16
 ---
 
+The UBSEDS16 balloon was built from 50 micron thick PA-EVOH-PE
+multilayer film and was 1.5 meters in diameter. The payload weight,
+including insulation, was 58 grams. We aimed for 25 grams of free lift
+to give a slightly higher ascent rate than usual, and the helium fill
+resulted in 26.5 grams of free lift. This initial float altitude was
+10.6km (35,000 ft).
+
+The flight was intended to test the superpressure balloon with a heavier payload.
+
 <!--more-->
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+# Tracker
+
+The tracker was build mostly from spares, and used a leftover PCB from
+UBSEDS10 and 11.
+
+# Transmissions
+
+The balloon transmits approximately once every 30 seconds.
+
+### UHF 434.6MHz
+
+It uses the error-correcting Contestia 16/1000 mode on 434.612.5MHz USB.
 
 {% include flight/map.html %}
 
