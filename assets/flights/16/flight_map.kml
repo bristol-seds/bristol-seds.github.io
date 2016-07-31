@@ -268,6 +268,12 @@
 -1.1023,50.809,10590
 -1.0936,50.8059,10586
 -1.0848,50.8027,10591
+-1.0632,50.795,10584
+-1.0544,50.7921,10617
+-1.0456,50.7887,10597
+-1.037,50.7855,10587
+-1.0283,50.7823,10572
+-1.0196,50.7791,10577
 
                     </coordinates>
                 </LineString>
@@ -289,11 +295,11 @@
             </Placemark>
             <Placemark>
                 <name>Last Reported</name>
-                <description>31 July 2016 10:34:20: (50.8027, -1.0848) @ 10591 m</description>
+                <description>31 July 2016 10:38:36: (50.7791, -1.0196) @ 10577 m</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>-1.0848,50.8027,10591
+                    <coordinates>-1.0196,50.7791,10577
 </coordinates>
                 </Point>
             </Placemark>
