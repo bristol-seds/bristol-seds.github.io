@@ -6,137 +6,182 @@ date: '2016-07-31 07:54:06'
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-  duration: 3 hours
-  great_circle: '186.0'
+  - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+  duration: 8 hours
+  great_circle: '526.0'
   laps: 0
   max_altitude: '10.6'
-  receiver_count: 26
+  receiver_count: 36
   receivers:
-  - callsign: '0x17'
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '270.7'
-      rxcount: 301
-  - callsign: M0CJM
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '96.6'
-      rxcount: 286
   - callsign: G8FJG_v
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '188.1'
-      rxcount: 269
-  - callsign: G1DYQ
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '234.3'
-      rxcount: 266
-  - callsign: G8IMN
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '246.4'
-      rxcount: 256
-  - callsign: g0nzo
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '113.5'
-      rxcount: 235
-  - callsign: G8KNN
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '193.3'
-      rxcount: 232
-  - callsign: G8ZBJ
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '254.5'
-      rxcount: 223
-  - callsign: G4YHE
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '153.9'
-      rxcount: 215
+      max_distance: '319.6'
+      rxcount: 566
   - callsign: F1OIL
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '292.8'
-      rxcount: 202
-  - callsign: M0MDB
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '201.0'
-      rxcount: 185
+      rxcount: 536
+  - callsign: PE1ANS
+    data: {max_distance: '394.8', rxcount: 514}
   - callsign: F5APQ
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '288.9'
-      rxcount: 175
+      rxcount: 493
+  - callsign: G8KNN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '335.2'
+      rxcount: 474
+  - callsign: g0nzo
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '339.3'
+      rxcount: 466
+  - callsign: M0MDB
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '336.2'
+      rxcount: 465
+  - callsign: M0CJM
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '278.4'
+      rxcount: 460
+  - callsign: ON6LS
+    data:
+      country: {isocode: !!python/unicode 'be', name: !!python/unicode 'Belgium'}
+      max_distance: '327.8'
+      rxcount: 413
+  - callsign: PE2BZ
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '410.5'
+      rxcount: 410
+  - callsign: G4YHE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '264.7'
+      rxcount: 407
+  - callsign: G8IMN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '375.3'
+      rxcount: 402
+  - callsign: G8ZBJ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '396.5'
+      rxcount: 400
+  - callsign: PA0RPA
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '406.7'
+      rxcount: 389
+  - callsign: PB0AHX
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '420.0'
+      rxcount: 373
+  - callsign: M6DRS
+    data: {rxcount: 344}
+  - callsign: G0TDJ
+    data: {max_distance: '287.3', rxcount: 340}
+  - callsign: G0WXI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '332.1'
+      rxcount: 336
+  - callsign: G1DYQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '305.3'
+      rxcount: 332
+  - callsign: '0x17'
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '280.2'
+      rxcount: 306
+  - callsign: M1BXF-SDR
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '320.6'
+      rxcount: 292
   - callsign: G6SUQ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '166.5'
-      rxcount: 149
-  - callsign: M6DRS
-    data: {rxcount: 144}
+      max_distance: '173.9'
+      rxcount: 285
+  - callsign: M1BXF-910
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '301.2'
+      rxcount: 285
+  - callsign: PE1BIA
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '320.7'
+      rxcount: 275
+  - callsign: PD3T
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '336.5'
+      rxcount: 191
   - callsign: M0SBU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '57.4'
       rxcount: 131
-  - callsign: PE1ANS
-    data: {max_distance: '394.8', rxcount: 130}
+  - callsign: PE1CME
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '406.7'
+      rxcount: 107
   - callsign: M1BXF
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '200.4'
       rxcount: 95
-  - callsign: G0WXI
+  - callsign: F59665
     data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '194.1'
-      rxcount: 90
-  - callsign: PE2BZ
-    data:
-      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
-      max_distance: '410.5'
-      rxcount: 76
-  - callsign: M1BXF-SDR
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '190.6'
-      rxcount: 74
-  - callsign: M1BXF-910
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '190.7'
-      rxcount: 74
-  - callsign: PB0AHX
-    data:
-      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
-      max_distance: '420.0'
-      rxcount: 44
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '280.7'
+      rxcount: 94
   - callsign: PD5TON
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
       max_distance: '387.3'
-      rxcount: 38
-  - callsign: ON6LS
+      rxcount: 50
+  - callsign: F21061
     data:
-      country: {isocode: !!python/unicode 'be', name: !!python/unicode 'Belgium'}
-      max_distance: '327.8'
-      rxcount: 35
-  - callsign: PA0RPA
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '207.4'
+      rxcount: 26
+  - callsign: G4AIU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '228.9'
+      rxcount: 10
+  - callsign: jijdaar
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
-      max_distance: '406.7'
-      rxcount: 30
+      max_distance: '309.1'
+      rxcount: 7
+  - callsign: M0NRD
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '358.5'
+      rxcount: 5
+  - callsign: G0TDJ-SUWS
+    data: {max_distance: '67.6', rxcount: 3}
   - callsign: SA6BSS
     data:
       country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
       max_distance: '1260.6'
       rxcount: 1
-  total_distance: '187.9'
+  total_distance: '546.4'
 flight_map: /assets/flights/16/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=4bc411ca9288975bd638a091415b5ad2',
   live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS16'}
