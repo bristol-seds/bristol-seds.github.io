@@ -7,7 +7,7 @@ flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   duration: 3 hours
-  great_circle: '164.3'
+  great_circle: '186.0'
   laps: 0
   max_altitude: '10.6'
   receiver_count: 26
@@ -15,77 +15,77 @@ flight:
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '249.4'
-      rxcount: 275
+      max_distance: '270.7'
+      rxcount: 301
   - callsign: M0CJM
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '96.6'
-      rxcount: 260
+      rxcount: 286
   - callsign: G8FJG_v
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '188.1'
-      rxcount: 245
+      rxcount: 269
   - callsign: G1DYQ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '213.7'
-      rxcount: 244
+      max_distance: '234.3'
+      rxcount: 266
   - callsign: G8IMN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '230.0'
-      rxcount: 230
+      max_distance: '246.4'
+      rxcount: 256
   - callsign: g0nzo
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '92.6'
-      rxcount: 209
+      max_distance: '113.5'
+      rxcount: 235
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '193.3'
-      rxcount: 207
+      rxcount: 232
   - callsign: G8ZBJ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '237.3'
-      rxcount: 197
+      max_distance: '254.5'
+      rxcount: 223
   - callsign: G4YHE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '153.9'
-      rxcount: 192
+      rxcount: 215
   - callsign: F1OIL
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '292.8'
-      rxcount: 176
+      rxcount: 202
   - callsign: M0MDB
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '201.0'
-      rxcount: 160
+      rxcount: 185
   - callsign: F5APQ
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '288.9'
-      rxcount: 152
+      rxcount: 175
+  - callsign: G6SUQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '166.5'
+      rxcount: 149
+  - callsign: M6DRS
+    data: {rxcount: 144}
   - callsign: M0SBU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '57.4'
       rxcount: 131
-  - callsign: G6SUQ
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '166.5'
-      rxcount: 127
-  - callsign: M6DRS
-    data: {rxcount: 127}
   - callsign: PE1ANS
-    data: {max_distance: '394.8', rxcount: 104}
+    data: {max_distance: '394.8', rxcount: 130}
   - callsign: M1BXF
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -94,49 +94,49 @@ flight:
   - callsign: G0WXI
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '189.3'
-      rxcount: 64
-  - callsign: M1BXF-910
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '189.2'
-      rxcount: 52
-  - callsign: M1BXF-SDR
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '189.2'
-      rxcount: 50
+      max_distance: '194.1'
+      rxcount: 90
   - callsign: PE2BZ
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
       max_distance: '410.5'
-      rxcount: 50
+      rxcount: 76
+  - callsign: M1BXF-SDR
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '190.6'
+      rxcount: 74
+  - callsign: M1BXF-910
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '190.7'
+      rxcount: 74
+  - callsign: PB0AHX
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '420.0'
+      rxcount: 44
+  - callsign: PD5TON
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '387.3'
+      rxcount: 38
+  - callsign: ON6LS
+    data:
+      country: {isocode: !!python/unicode 'be', name: !!python/unicode 'Belgium'}
+      max_distance: '327.8'
+      rxcount: 35
   - callsign: PA0RPA
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
       max_distance: '406.7'
       rxcount: 30
-  - callsign: PD5TON
-    data:
-      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
-      max_distance: '387.3'
-      rxcount: 26
-  - callsign: PB0AHX
-    data:
-      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
-      max_distance: '420.0'
-      rxcount: 24
-  - callsign: ON6LS
-    data:
-      country: {isocode: !!python/unicode 'be', name: !!python/unicode 'Belgium'}
-      max_distance: '327.8'
-      rxcount: 10
   - callsign: SA6BSS
     data:
       country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
       max_distance: '1260.6'
       rxcount: 1
-  total_distance: '165.9'
+  total_distance: '187.9'
 flight_map: /assets/flights/16/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=4bc411ca9288975bd638a091415b5ad2',
   live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS16'}
