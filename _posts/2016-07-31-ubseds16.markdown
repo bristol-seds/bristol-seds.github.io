@@ -192,6 +192,7 @@ photos: [/assets/flights/16/batteries_close_up.jpg, /assets/flights/16/free_lift
   /assets/flights/16/insulation.jpg, /assets/flights/16/payload_on_balloon.jpg, /assets/flights/16/santeri_holding.jpg,
   /assets/flights/16/ubseds_16_pcb.jpg]
 plots: true
+description: Test with 58g payload
 resources: {}
 title: UBSEDS16
 ---
