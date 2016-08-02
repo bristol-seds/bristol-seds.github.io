@@ -186,7 +186,7 @@ flight_map: /assets/flights/16/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=4bc411ca9288975bd638a091415b5ad2',
   live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS16'}
 layout: post
-live: true
+live: false
 payload_title: UBSEDS16
 photos: [/assets/flights/16/batteries_close_up.jpg, /assets/flights/16/free_lift.jpg,
   /assets/flights/16/insulation.jpg, /assets/flights/16/payload_on_balloon.jpg, /assets/flights/16/santeri_holding.jpg,
