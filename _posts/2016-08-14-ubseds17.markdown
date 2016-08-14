@@ -1,0 +1,176 @@
+---
+altitude_plot: /assets/flights/17/altitude_plot.csv
+aprs_log: false
+categories: hab flight
+date: '2016-08-14 04:23:57'
+flight:
+  countries:
+  - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  duration: 4 hours
+  great_circle: '229.0'
+  laps: 0
+  max_altitude: '11.5'
+  receiver_count: 23
+  receivers:
+  - callsign: PB0AHX-websdr
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '482.2'
+      rxcount: 373
+  - callsign: '0x17'
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '305.0'
+      rxcount: 338
+  - callsign: G8KNN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '186.8'
+      rxcount: 294
+  - callsign: G4YHE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '142.3'
+      rxcount: 259
+  - callsign: G8FJG_v
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '131.8'
+      rxcount: 226
+  - callsign: F5APQ
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '270.7'
+      rxcount: 223
+  - callsign: G1DYQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '222.8'
+      rxcount: 193
+  - callsign: G0WXI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '153.8'
+      rxcount: 174
+  - callsign: NLincs
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '286.0'
+      rxcount: 132
+  - callsign: M0UPU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '324.8'
+      rxcount: 121
+  - callsign: G8DHE-1
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '78.9'
+      rxcount: 112
+  - callsign: M0SBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '40.7'
+      rxcount: 112
+  - callsign: G1BLO
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '140.7'
+      rxcount: 98
+  - callsign: PE2BZ
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '371.8'
+      rxcount: 94
+  - callsign: G8DHE-2
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '77.1'
+      rxcount: 26
+  - callsign: g0hdi
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '77.0'
+      rxcount: 14
+  - callsign: M0ZBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '75.6'
+      rxcount: 13
+  - callsign: G8FJG_h
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '54.5'
+      rxcount: 10
+  - callsign: M1BXF
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '117.7'
+      rxcount: 6
+  - callsign: SA6BSS
+    data:
+      country: {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
+      max_distance: '1131.4'
+      rxcount: 3
+  - callsign: G4ERR
+    data: {rxcount: 3}
+  - callsign: PB0AHX
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '483.6'
+      rxcount: 2
+  - callsign: PD5TON
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '326.1'
+      rxcount: 1
+  total_distance: '241.5'
+flight_map: /assets/flights/17/flight_map.kml
+habhub: {archive: 'http://tracker.habhub.org/#!qm=3ae923900f3d84ddf922aeb8cd197a1f',
+  live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS17'}
+layout: post
+live: false
+payload_title: UBSEDS17
+plots: true
+title: UBSEDS17
+description: Test of larger 1.9m envelope
+resources: {}
+---
+
+The UBSEDS17 balloon was built from 50 micron thick PA-EVOH-PE
+multilayer film and was 1.9 meters in diameter. This is 0.4m more than
+the usual 1.5m diameter. The larger size meant the longest axis of the
+balloon and payload combined was more than 2 meters, and so a NOTAM
+was required and obtained for the launch.
+
+The payload weight was 25 grams, and the free lift was 15.8 grams.
+
+The flight reached 11.4km before the envelope burst, and it landed in
+Kent.
+
+<!--more-->
+
+# Tracker
+
+The tracker was similar to that used for UBSEDS15, but with an
+additional 400mW amplifier section for APRS on 145.825 MHz. This was
+never used in flight becuase the balloon did not leave the UK (where
+airbourne AR is not permitted).
+
+# Transmissions
+
+The balloon transmits approximately once every 30 seconds.
+
+### UHF 434.6MHz
+
+It uses the error-correcting Contestia 16/1000 mode on 434.612.5MHz USB.
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/plots.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}
