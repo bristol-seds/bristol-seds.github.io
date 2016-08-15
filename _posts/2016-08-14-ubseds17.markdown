@@ -135,6 +135,10 @@ plots: true
 title: UBSEDS17
 description: Test of larger 1.9m envelope
 resources: {}
+photos: [/assets/flights/17/ubseds17_tracker.jpg,
+  /assets/flights/17/thermistor_shield.jpg,
+  /assets/flights/17/waiting_to_launch_2.jpg,
+  /assets/flights/17/flying_away.jpg]
 ---
 
 The UBSEDS17 balloon was built from 50 micron thick PA-EVOH-PE
@@ -149,6 +153,10 @@ The flight reached 11.4km before the envelope burst, and it landed in
 Kent.
 
 <!--more-->
+
+<br/>
+{% include carousel.html %}
+<br/>
 
 # Tracker
 
