@@ -172,7 +172,7 @@ The flight initially floated at 13.1km altitude (43,000 ft).
 # Tracker
 
 The tracker was built using a leftover PCB from UBSEDS10 and 11. It is
-mostly power from solar panels, so it only operates during daylight hours.
+mostly powered from solar panels, so it only operates during daylight hours.
 
 As well as two solar panels, the tracker also has a
 [LIC1235R](http://www.mouser.com/ds/2/396/taiyoyuden_capacitor03_e-890446.pdf)
