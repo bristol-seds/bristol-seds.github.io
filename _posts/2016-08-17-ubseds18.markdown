@@ -1,0 +1,199 @@
+---
+altitude_plot: /assets/flights/18/altitude_plot.csv
+aprs_log: false
+categories: hab flight
+date: '2016-08-17 07:09:26'
+description: Solar tracker
+flight:
+  countries:
+  - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  duration: 12 hours
+  great_circle: '281.6'
+  laps: 0
+  max_altitude: '13.1'
+  receiver_count: 27
+  receivers:
+  - callsign: G8FJG_v
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '279.3'
+      rxcount: 621
+  - callsign: G6GZH
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '229.6'
+      rxcount: 612
+  - callsign: G8KNN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '208.0'
+      rxcount: 609
+  - callsign: G8IMN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '148.0'
+      rxcount: 574
+  - callsign: G0WXI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '206.3'
+      rxcount: 551
+  - callsign: M0JCU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '218.6'
+      rxcount: 543
+  - callsign: '0x17'
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '349.0'
+      rxcount: 531
+  - callsign: F1OIL
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      max_distance: '390.7'
+      rxcount: 481
+  - callsign: PE1ANS
+    data: {max_distance: '457.0', rxcount: 442}
+  - callsign: G4ERR
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '178.3'
+      rxcount: 389
+  - callsign: PE2BZ
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '444.2'
+      rxcount: 308
+  - callsign: g0nzo
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '224.5'
+      rxcount: 190
+  - callsign: G4AIU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '312.9'
+      rxcount: 168
+  - callsign: G7SVI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '254.2'
+      rxcount: 151
+  - callsign: M1BXF (Remote RX at home while in QRL)
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '204.2'
+      rxcount: 123
+  - callsign: G1BLO
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '197.3'
+      rxcount: 122
+  - callsign: GI7UGV
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '311.9'
+      rxcount: 121
+  - callsign: G8OTE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '62.2'
+      rxcount: 90
+  - callsign: M0SBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '7.5'
+      rxcount: 84
+  - callsign: G8DHE-1
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '243.9'
+      rxcount: 79
+  - callsign: PB0AHX
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '417.9'
+      rxcount: 60
+  - callsign: G4YHE
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '198.8'
+      rxcount: 59
+  - callsign: SQ3MQD
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '1114.3'
+      rxcount: 41
+  - callsign: M1BXF-SDR
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '216.8'
+      rxcount: 16
+  - callsign: M1BXF-910
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '216.8'
+      rxcount: 13
+  - callsign: M6DRS
+    data: {rxcount: 12}
+  - callsign: PB0AHX-websdr
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '486.1'
+      rxcount: 9
+  total_distance: '321.2'
+flight_map: /assets/flights/18/flight_map.kml
+habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
+  live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS18'}
+layout: post
+live: true
+payload_title: UBSEDS18
+photos: [/assets/flights/18/flying_away_close.jpg, /assets/flights/18/payload_front.jpg,
+  /assets/flights/18/payload_reverse.jpg, /assets/flights/18/payload_desk.jpg]
+plots: true
+resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS18_20160817/index.php?ind=5'}
+title: UBSEDS18
+---
+
+The UBSEDS18 balloon was built from 50 micron thick PA-EVOH-PE
+multilayer film and was 1.5 meters in diameter. The payload weight was
+18 grams, and the free lift was 15.4 grams. The balloon was pre-stretched more
+than previous flights.
+
+The flight initially floated at 13.1km altitude (43,000 ft).
+
+<!--more-->
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+# Tracker
+
+The tracker was built using a leftover PCB from UBSEDS10 and 11. It is
+mostly power from solar panels, so it only operates during daylight hours.
+
+As well as two solar panels, the tracker also has a
+[LIC1235R](http://www.mouser.com/ds/2/396/taiyoyuden_capacitor03_e-890446.pdf)
+40F li-ion supercapacitor. The tracker isn't particularly power
+efficient, so this supercapacitor only provides about an extra hour of
+runtime in the evening.
+
+# Transmissions
+
+The balloon transmits approximately once per minute.
+
+### UHF 434.6MHz
+
+It uses the error-correcting Contestia 16/1000 mode on 434.612.5MHz USB.
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/plots.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}
