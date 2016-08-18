@@ -7,37 +7,37 @@ description: Solar tracker
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-  duration: 12 hours
-  great_circle: '281.6'
+  duration: 1 day, 1 hour
+  great_circle: '432.1'
   laps: 0
   max_altitude: '13.1'
-  receiver_count: 27
+  receiver_count: 28
   receivers:
   - callsign: G8FJG_v
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '279.3'
-      rxcount: 621
-  - callsign: G6GZH
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '229.6'
-      rxcount: 612
+      max_distance: '422.4'
+      rxcount: 711
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '208.0'
-      rxcount: 609
+      max_distance: '344.1'
+      rxcount: 710
+  - callsign: G6GZH
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '312.4'
+      rxcount: 701
+  - callsign: G0WXI
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '340.2'
+      rxcount: 652
   - callsign: G8IMN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '148.0'
       rxcount: 574
-  - callsign: G0WXI
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '206.3'
-      rxcount: 551
   - callsign: M0JCU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -70,6 +70,11 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '224.5'
       rxcount: 190
+  - callsign: GI7UGV
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '311.9'
+      rxcount: 184
   - callsign: G4AIU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -90,11 +95,11 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '197.3'
       rxcount: 122
-  - callsign: GI7UGV
+  - callsign: M0UPU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '311.9'
-      rxcount: 121
+      max_distance: '173.0'
+      rxcount: 93
   - callsign: G8OTE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -142,7 +147,7 @@ flight:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
       max_distance: '486.1'
       rxcount: 9
-  total_distance: '321.2'
+  total_distance: '479.2'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS18'}
