@@ -8,11 +8,12 @@ flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'de', name: !!python/unicode 'Germany'}
-  duration: 2 days, 1 hour
-  great_circle: '850.3'
+  - {isocode: !!python/unicode 'cz', name: !!python/unicode 'Czech Rep.'}
+  duration: 2 days, 10 hours
+  great_circle: '1374.6'
   laps: 0
   max_altitude: '13.1'
-  receiver_count: 88
+  receiver_count: 123
   receivers:
   - callsign: G8KNN
     data:
@@ -35,7 +36,7 @@ flight:
       max_distance: '433.0'
       rxcount: 972
   - callsign: PE1ANS
-    data: {max_distance: '519.1', rxcount: 710}
+    data: {max_distance: '519.1', rxcount: 770}
   - callsign: M0UPU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -65,12 +66,22 @@ flight:
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
       max_distance: '449.1'
-      rxcount: 461
+      rxcount: 481
   - callsign: G4ERR
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '178.3'
       rxcount: 389
+  - callsign: SQ3MQD
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '1120.2'
+      rxcount: 368
+  - callsign: SP3MCY
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '215.3'
+      rxcount: 278
   - callsign: MB7UVU
     data: {rxcount: 225}
   - callsign: GI7UGV
@@ -83,6 +94,11 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '224.5'
       rxcount: 190
+  - callsign: PB0AHX
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '452.1'
+      rxcount: 180
   - callsign: G4AIU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -93,11 +109,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '254.2'
       rxcount: 151
-  - callsign: PB0AHX
-    data:
-      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
-      max_distance: '430.5'
-      rxcount: 147
   - callsign: M1BXF (Remote RX at home while in QRL)
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -108,6 +119,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '197.3'
       rxcount: 122
+  - callsign: ROS
+    data: {rxcount: 120}
   - callsign: MB7UMC
     data: {rxcount: 119}
   - callsign: G8OTE
@@ -122,16 +135,31 @@ flight:
       rxcount: 84
   - callsign: MB7UXX
     data: {rxcount: 81}
+  - callsign: SP1TMN
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '391.7'
+      rxcount: 80
   - callsign: G8DHE-1
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '243.9'
       rxcount: 79
+  - callsign: SP6RYD
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '143.2'
+      rxcount: 71
   - callsign: G4YHE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '198.8'
       rxcount: 59
+  - callsign: SP5ULN
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '410.3'
+      rxcount: 49
   - callsign: PA0RPA
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
@@ -142,28 +170,36 @@ flight:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
       max_distance: '338.8'
       rxcount: 44
-  - callsign: SQ3MQD
+  - callsign: BACKLOG
+    data: {rxcount: 36}
+  - callsign: Zaltbommel
     data:
-      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
-      max_distance: '1120.2'
-      rxcount: 43
-  - callsign: ROS
-    data: {rxcount: 33}
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '411.0'
+      rxcount: 35
+  - callsign: Tom
+    data:
+      country: {isocode: !!python/unicode 'de', name: !!python/unicode 'Germany'}
+      max_distance: '416.5'
+      rxcount: 35
   - callsign: G1BRB-1
     data: {rxcount: 33}
   - callsign: PE1OYS-2
     data: {rxcount: 27}
   - callsign: MB7VB
     data: {rxcount: 24}
+  - callsign: DB0ZEH
+    data: {rxcount: 24}
+  - callsign: DB0HDF
+    data: {rxcount: 22}
+  - callsign: OM3WOR
+    data: {rxcount: 22}
+  - callsign: OK1LOL-1
+    data: {rxcount: 21}
   - callsign: MB7UEI
     data: {rxcount: 20}
   - callsign: DB0XIT
     data: {rxcount: 20}
-  - callsign: SP1TMN
-    data:
-      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
-      max_distance: '391.7'
-      rxcount: 18
   - callsign: DB0OSN
     data: {rxcount: 17}
   - callsign: MB7UAH
@@ -184,8 +220,18 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '216.8'
       rxcount: 13
+  - callsign: DL5ARG
+    data:
+      country: {isocode: !!python/unicode 'de', name: !!python/unicode 'Germany'}
+      max_distance: '156.3'
+      rxcount: 13
   - callsign: M6DRS
     data: {rxcount: 12}
+  - callsign: PE1CME
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      max_distance: '416.0'
+      rxcount: 11
   - callsign: DM2HB
     data: {rxcount: 9}
   - callsign: PB0AHX-websdr
@@ -193,7 +239,7 @@ flight:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
       max_distance: '486.1'
       rxcount: 9
-  - callsign: DB0ZEH
+  - callsign: SP2GG-4
     data: {rxcount: 8}
   - callsign: DB0DOS-10
     data: {rxcount: 8}
@@ -203,14 +249,27 @@ flight:
     data: {rxcount: 7}
   - callsign: PA3EKI-10
     data: {rxcount: 6}
+  - callsign: SP3KWA-5
+    data: {rxcount: 6}
   - callsign: G8YLX
     data: {rxcount: 6}
   - callsign: DO1AA-10
     data: {rxcount: 5}
   - callsign: DB5RRH-10
     data: {rxcount: 5}
+  - callsign: OK1KID
+    data: {rxcount: 5}
+  - callsign: SR3NDG
+    data: {rxcount: 5}
+  - callsign: DB0ZWI-10
+    data: {rxcount: 5}
   - callsign: DB0NOS
     data: {rxcount: 5}
+  - callsign: SQ5AAG-TS
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '388.3'
+      rxcount: 5
   - callsign: DB0RNG
     data: {rxcount: 4}
   - callsign: MB7UDY
@@ -223,9 +282,17 @@ flight:
     data: {rxcount: 4}
   - callsign: DL9OBM-10
     data: {rxcount: 4}
-  - callsign: DB0HDF
-    data: {rxcount: 4}
+  - callsign: SR3NPB
+    data: {rxcount: 3}
+  - callsign: DB0RVB-10
+    data: {rxcount: 3}
   - callsign: DB5WY-13
+    data: {rxcount: 3}
+  - callsign: OK0BCA-1
+    data: {rxcount: 3}
+  - callsign: OK9TVR-1
+    data: {rxcount: 3}
+  - callsign: SP7PZS-2
     data: {rxcount: 3}
   - callsign: DB0WOA-10
     data: {rxcount: 3}
@@ -233,6 +300,11 @@ flight:
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
       max_distance: '320.8'
+      rxcount: 3
+  - callsign: 'SP5MG '
+    data:
+      country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
+      max_distance: '397.4'
       rxcount: 3
   - callsign: LX0APS-2
     data: {rxcount: 2}
@@ -242,19 +314,41 @@ flight:
     data: {rxcount: 2}
   - callsign: DB0FHO-3
     data: {rxcount: 2}
+  - callsign: DG1JLA-3
+    data: {rxcount: 2}
+  - callsign: OE1SSU-10
+    data: {rxcount: 2}
   - callsign: LA2VSA-1
+    data: {rxcount: 2}
+  - callsign: DD3UTS-4
     data: {rxcount: 2}
   - callsign: GM8HBY
     data: {rxcount: 2}
+  - callsign: DM0ET-10
+    data: {rxcount: 2}
+  - callsign: OE3REC-11
+    data: {rxcount: 2}
   - callsign: DL8KZ
     data: {rxcount: 2}
+  - callsign: OK5TVR-10
+    data: {rxcount: 2}
+  - callsign: DJ9ZZZ-10
+    data: {rxcount: 2}
+  - callsign: S59DTB-10
+    data: {rxcount: 2}
+  - callsign: DL2BWO-13
+    data: {rxcount: 1}
   - callsign: DJ8KL-10
     data: {rxcount: 1}
   - callsign: PA3HV
     data: {rxcount: 1}
   - callsign: DB0KH
     data: {rxcount: 1}
-  - callsign: DB0ZWI-10
+  - callsign: SQ9CIE-4
+    data: {rxcount: 1}
+  - callsign: OK0BAF-1
+    data: {rxcount: 1}
+  - callsign: DG3VU-10
     data: {rxcount: 1}
   - callsign: MB7USD
     data: {rxcount: 1}
@@ -270,17 +364,21 @@ flight:
     data: {rxcount: 1}
   - callsign: OZ6REC-1
     data: {rxcount: 1}
+  - callsign: HG1PNY-1
+    data: {rxcount: 1}
   - callsign: OV7B-1
     data: {rxcount: 1}
   - callsign: DK1SR
     data: {rxcount: 1}
   - callsign: PI1UTR-10
     data: {rxcount: 1}
+  - callsign: DB0FFL-10
+    data: {rxcount: 1}
   - callsign: DC4AT
     data: {rxcount: 1}
   - callsign: PI1SGM-2
     data: {rxcount: 1}
-  total_distance: '1369.3'
+  total_distance: '1972.0'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS18'}
