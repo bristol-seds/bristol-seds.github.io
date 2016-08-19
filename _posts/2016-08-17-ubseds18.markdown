@@ -7,37 +7,44 @@ description: Solar tracker
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-  duration: 1 day, 9 hours
-  great_circle: '461.1'
+  duration: 1 day, 12 hours
+  great_circle: '482.4'
   laps: 0
   max_altitude: '13.1'
-  receiver_count: 43
+  receiver_count: 47
   receivers:
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '354.2'
-      rxcount: 1161
+      rxcount: 1298
   - callsign: G0WXI
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '350.0'
-      rxcount: 1104
+      rxcount: 1240
   - callsign: G6GZH
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '321.7'
-      rxcount: 1097
+      rxcount: 1212
   - callsign: G8FJG_v
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '433.0'
       rxcount: 972
+  - callsign: M0UPU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '242.7'
+      rxcount: 609
   - callsign: G8IMN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '148.0'
       rxcount: 574
+  - callsign: PE1ANS
+    data: {max_distance: '519.1', rxcount: 569}
   - callsign: M0JCU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -48,18 +55,11 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '349.0'
       rxcount: 531
-  - callsign: M0UPU
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      max_distance: '209.9'
-      rxcount: 495
   - callsign: F1OIL
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       max_distance: '390.7'
       rxcount: 481
-  - callsign: PE1ANS
-    data: {max_distance: '519.1', rxcount: 469}
   - callsign: G4ERR
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -68,8 +68,10 @@ flight:
   - callsign: PE2BZ
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
-      max_distance: '444.2'
-      rxcount: 308
+      max_distance: '449.1'
+      rxcount: 358
+  - callsign: MB7UVU
+    data: {rxcount: 225}
   - callsign: GI7UGV
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -80,8 +82,6 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '224.5'
       rxcount: 190
-  - callsign: MB7UVU
-    data: {rxcount: 174}
   - callsign: G4AIU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -103,7 +103,7 @@ flight:
       max_distance: '197.3'
       rxcount: 122
   - callsign: MB7UMC
-    data: {rxcount: 113}
+    data: {rxcount: 119}
   - callsign: G8OTE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -114,6 +114,8 @@ flight:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '7.5'
       rxcount: 84
+  - callsign: MB7UXX
+    data: {rxcount: 81}
   - callsign: G8DHE-1
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -122,10 +124,8 @@ flight:
   - callsign: PB0AHX
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
-      max_distance: '417.9'
-      rxcount: 60
-  - callsign: MB7UXX
-    data: {rxcount: 59}
+      max_distance: '430.5'
+      rxcount: 61
   - callsign: G4YHE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -136,20 +136,24 @@ flight:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
       max_distance: '1120.2'
       rxcount: 43
-  - callsign: MB7UEI
-    data: {rxcount: 19}
+  - callsign: G1BRB-1
+    data: {rxcount: 33}
   - callsign: MB7VB
-    data: {rxcount: 17}
+    data: {rxcount: 24}
+  - callsign: MB7UEI
+    data: {rxcount: 20}
   - callsign: MB7UAH
+    data: {rxcount: 17}
+  - callsign: MB7UTG
     data: {rxcount: 16}
   - callsign: M1BXF-SDR
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       max_distance: '216.8'
       rxcount: 16
-  - callsign: G1BRB-1
-    data: {rxcount: 16}
   - callsign: G4HDS
+    data: {rxcount: 16}
+  - callsign: G6GZH-1
     data: {rxcount: 15}
   - callsign: M1BXF-910
     data:
@@ -158,8 +162,6 @@ flight:
       rxcount: 13
   - callsign: M6DRS
     data: {rxcount: 12}
-  - callsign: G6GZH-1
-    data: {rxcount: 10}
   - callsign: PB0AHX-websdr
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
@@ -169,15 +171,21 @@ flight:
     data: {rxcount: 8}
   - callsign: MB7UCW
     data: {rxcount: 7}
-  - callsign: MB7UTG
-    data: {rxcount: 4}
+  - callsign: G8YLX
+    data: {rxcount: 6}
   - callsign: MB7UDY
     data: {rxcount: 4}
+  - callsign: GM8HBY
+    data: {rxcount: 2}
+  - callsign: LA2VSA-1
+    data: {rxcount: 2}
   - callsign: PI1APV-2
+    data: {rxcount: 1}
+  - callsign: MB7USD
     data: {rxcount: 1}
   - callsign: MB7UCC
     data: {rxcount: 1}
-  total_distance: '566.7'
+  total_distance: '619.9'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS18'}
