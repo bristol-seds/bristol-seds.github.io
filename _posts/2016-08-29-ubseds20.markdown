@@ -295,9 +295,19 @@ minutes otherwise.
 The board is the same design as UBSEDS13 and UBSEDS14 - except
 configured for a faster update rate and using a AAA battery.
 
+## Images
+
+The Raspbery Pi Camera
+([Sony IMX219](https://uk.farnell.com/raspberry-pi/rpi-8mp-camera-board/raspberry-pi-camera-board-v2/dp/2510728))
+captured imaes of the envelope during flight.
+
+<img src="/assets/flights/20/UBSEDL_2016-08-29T10-24-37_3.png" class="center-block">
+
 ## Envelope
 
-![annoted image of UBSEDS20](/assets/flights/20/UBSEDL_2016-08-29T09-25-47_1_annotated.png)
+Annotated image of envelope
+
+<img src="/assets/flights/20/UBSEDL_2016-08-29T09-25-47_1_annotated.png" class="center-block">
 
 {% include flight/map.html %}
 
