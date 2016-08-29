@@ -1,0 +1,75 @@
+---
+altitude_plot: /assets/flights/19/altitude_plot.csv
+aprs_log: false
+categories: hab flight
+date: '2016-08-29 04:19:10'
+flight:
+  countries:
+  - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  duration: 1 hour
+  great_circle: '28.8'
+  laps: 0
+  max_altitude: '3.8'
+  receiver_count: 6
+  receivers:
+  - callsign: M0SBU
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '30.6'
+      rxcount: 70
+  - callsign: '0x17'
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '130.0'
+      rxcount: 61
+  - callsign: G1DYQ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '91.0'
+      rxcount: 48
+  - callsign: G8DHE-2
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '155.4'
+      rxcount: 26
+  - callsign: G8ZBJ
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '147.9'
+      rxcount: 21
+  - callsign: G8KNN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      max_distance: '200.8'
+      rxcount: 12
+  total_distance: '31.6'
+flight_map: /assets/flights/19/flight_map.kml
+habhub: {archive: 'http://tracker.habhub.org/#!qm=f6b24d5e51d9171bb0c380ef78d3303d',
+  live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS19'}
+layout: post
+live: true
+payload_title: UBSEDS19
+plots: true
+title: UBSEDS19
+description: UBSEDS20 backup tracker
+---
+
+UBSEDS19 backup tracker was powered from a single AAA Lithium
+Energiser battery. It transmitted Contestia 16/1000 with pips and RSID
+on 434.615 MHz USB, once per minute below 8km altitude and every two
+minutes otherwise.
+
+THe board is the smae design as UBSEDS13 and UBSEDS14 - except
+configured for a faster update rate and using a AAA battery.
+
+<!--more-->
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/plots.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}
