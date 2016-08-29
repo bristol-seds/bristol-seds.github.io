@@ -1,6 +1,6 @@
 ---
 categories: hab flight
-description: Raspberry pi Zero
+description: Raspberry Pi Zero
 layout: post
 payload_title: UBSEDS20
 photos: [
@@ -13,9 +13,33 @@ plots: true
 title: UBSEDS20
 ---
 
+The UBSEDS20 balloon was built from 50 micron thick PA-EVOH-PE
+multilayer film and was 1.9 meters in diameter. This is 0.4m more than
+the usual 1.5m diameter. The larger size meant the longest axis of the
+balloon and payload combined was more than 2 meters, and so a NOTAM
+was required and obtained for the launch.
+
+The balloon carried two payloads. UBSEDS19 was the backup tracker
+(mass 13 grams), and UBSEDS20 was the main Raspberry Pi Zero payload
+(mass 62 grams). The free lift was about 25 grams.
+
+The initial float altiude was 12.5km. Given the total payload weight
+of 75 grams, we believe this is easily the heaviest amateur
+superpressure float to date.
+
+<!--more-->
+
 <br/>
 {% include carousel.html %}
 <br/>
+
+## Tracker
+
+This was the first test of our [pico-pi board](https://github.com/bristol-seds/pico-pi-rel).
+
+## Envelope
+
+![annoted image of UBSEDS20](/assets/flights/20/UBSEDL_2016-08-29T09-25-47_1_annotated.png)
 
 {% include flight/map.html %}
 
