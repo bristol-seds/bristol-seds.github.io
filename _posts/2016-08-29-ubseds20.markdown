@@ -4,6 +4,7 @@ description: Raspberry Pi Zero
 layout: post
 payload_title: UBSEDS20
 photos: [
+/assets/flights/20/pico-pi-top-side.jpg,
 /assets/flights/20/nearly_assembled_overhead.jpg,
 /assets/flights/20/nearly_assembled_testing.jpg,
 /assets/flights/20/camera_mounting_foamm.jpg,
