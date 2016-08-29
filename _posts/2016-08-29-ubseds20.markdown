@@ -1,0 +1,28 @@
+---
+categories: hab flight
+description: Raspberry pi Zero
+layout: post
+payload_title: UBSEDS20
+photos: [
+/assets/flights/20/nearly_assembled_overhead.jpg,
+/assets/flights/20/nearly_assembled_testing.jpg,
+/assets/flights/20/camera_mounting_foamm.jpg,
+/assets/flights/20/camera_with_baffle.jpg,
+/assets/flights/20/camera_pi_superglue.jpg]
+plots: true
+title: UBSEDS20
+---
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/plots.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}
