@@ -299,8 +299,12 @@ configured for a faster update rate and using a AAA battery.
 
 The Raspbery Pi Camera
 ([Sony IMX219](https://uk.farnell.com/raspberry-pi/rpi-8mp-camera-board/raspberry-pi-camera-board-v2/dp/2510728))
-captured imaes of the envelope during flight.
+captured images of the envelope during flight.
 
+* [High Resolution Images (LoRa)](http://ssdv.bristol-seds.co.uk/2016/08/09/ubsedl.html)
+* [Lower Resolution Images (RTTY)](http://ssdv.bristol-seds.co.uk/2016/08/08/ubseds.html)
+
+<br/>
 <img src="/assets/flights/20/UBSEDL_2016-08-29T10-24-37_3.png" class="center-block">
 
 ## Envelope
