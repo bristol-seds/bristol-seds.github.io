@@ -4,6 +4,7 @@ aprs_log: /assets/flights/20/aprs.log
 categories: hab flight
 date: '2016-08-29 04:19:10'
 description: Raspberry Pi Zero
+resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS19-20_20160829/'}
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
