@@ -92,7 +92,7 @@ flight_list = db.view("flight/end_start_including_payloads",
                        include_docs=False)
 
 flights_payload_list = [f for f in flight_list if (f['key'][3] == 0)]
-flights_with_pid     = [f for f in flights_payload_list if f['value'][0] == pid]
+flights_with_pid     = [f for f in flights_payload_list if pid in f['value']]
 
 if len(flights_with_pid) < 1:
     print "Note: No flights with containing this payload found. Continuing..."
@@ -112,20 +112,30 @@ if len(flights_with_pid) > 1:
 else:
     n = 1
 
+# Print information about the flight
 flight = flights_with_pid[n-1]
 fid = flight["id"]
-print "Using {}...".format(fid)
+print "Flight {} with {} payloads".format(fid, len(flight['value']))
+
+# For each payload on the flight
+for pid in flight['value']:
+    payload = [p for p in payload_list if p["id"] == pid][0]
+    print "{_id}: {name}".format(**payload["doc"])
+
 print
 
 # =-----------------------------------------------------------------------
 
-print "Loading view payload_telemetry/payload_time..."
-print
-payload_json_raw = db.view("payload_telemetry/payload_time",
-                          include_docs = True,
-                          startkey = [pid], endkey = [pid,[]])
+payload_json = []
 
-payload_json = [t for t in payload_json_raw]
+for pid in flight['value']:
+    print "Loading view payload_telemetry/payload_time..."
+    print
+    payload_json_raw = db.view("payload_telemetry/payload_time",
+                               include_docs = True,
+                               startkey = [pid], endkey = [pid,[]])
+
+    payload_json.extend([t for t in payload_json_raw])
 
 # =-----------------------------------------------------------------------
 
