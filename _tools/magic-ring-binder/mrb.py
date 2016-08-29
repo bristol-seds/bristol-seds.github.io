@@ -139,20 +139,28 @@ for pid in flight['value']:
 
 # =-----------------------------------------------------------------------
 
-aprs_rawfile = payload_name + "-rawdata.txt"
+aprs = []
 
-print "Loading aprs data from {}...".format(aprs_rawfile)
+# For each payload on the flight
+for pid in flight['value']:
+    payload = [p for p in payload_list if p["id"] == pid][0]
+    payload_name = payload["doc"]["name"].lower()
+    aprs_rawfile = payload_name + "-rawdata.txt"
 
-aprs_json = aprs_json.get_aprs_json(aprs_rawfile)
+    print "Loading aprs data from {}...".format(aprs_rawfile)
 
-if aprs_json is None:
+    a_data = aprs_json.get_aprs_json(aprs_rawfile)
+    if a_data:
+        aprs.extend(a_data)
+
+if len(aprs) == 0:
     print "(raw aprs data file not found)"
     print
 else:
     # Add on aprs json
-    payload_json.extend(aprs_json)
+    payload_json.extend(aprs)
 
-    print "(added {} aprs data points)".format(len(aprs_json))
+    print "(added {} aprs data points)".format(len(aprs))
     print
 
 # Copy this aprs log to the assets directory
