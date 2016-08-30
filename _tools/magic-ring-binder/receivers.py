@@ -33,7 +33,11 @@ def receiver_info(payload_json):
 
             # Listener telemetry?
             if 'latest_listener_telemetry' in info:
-                ltelem = db.get(info['latest_listener_telemetry'])
+                if not 'ltelem' in receivers[callsign]:
+                    receivers[callsign]['ltelem'] = db.get(
+                        info['latest_listener_telemetry'])
+
+                ltelem = receivers[callsign]['ltelem']
 
                 # Lookup country?
                 if not 'country' in receivers[callsign]:
