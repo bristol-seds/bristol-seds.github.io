@@ -225,8 +225,18 @@ elif payload_name == "ubseds15": # Filter out bad backlog packets again...
     payload_data_filt = [t for t in payload_data_sorted if t['date'] != "010102" and t['time'] != "06:24:28" and t['time'] != "12:40:56"]
 elif payload_name == "ubseds18": # Filter out bad backlog packets again...
     payload_data_filt = payload_data_sorted[1:]
+elif payload_name == "ubseds20": # Filter out bad backlog packets again...
+    payload_data_filt = [t for t in payload_data_sorted
+                         if t['longitude'] != -19.217675 and (t['longitude'] > 8.229
+                                                              or t['longitude'] < 8.228)]
 else:
     payload_data_filt = payload_data_sorted
+
+
+
+
+
+# Map
 
 flight_map = asset_path+"flight_map.kml"
 if flight_nr in [1,2,4,5]:      # Up/down
