@@ -761,6 +761,9 @@ the usual 1.5m diameter. The larger size meant the longest axis of the
 balloon and payload combined was more than 2 meters, and so a NOTAM
 was required and obtained for the launch.
 
+<!--more-->
+
+
 The balloon carried two payloads. UBSEDS19 was the backup tracker
 (mass 13 grams), and UBSEDS20 was the main Raspberry Pi Zero payload
 (mass 62 grams). The free lift was about 25 grams.
@@ -768,8 +771,6 @@ The balloon carried two payloads. UBSEDS19 was the backup tracker
 The initial float altiude was 12.5km. Given the total payload weight
 of 75 grams, we believe this is easily the heaviest amateur
 superpressure float to date!
-
-<!--more-->
 
 <br/>
 {% include carousel.html %}
