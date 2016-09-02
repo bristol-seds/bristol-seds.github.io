@@ -15,8 +15,8 @@ flight:
   - {isocode: !!python/unicode 'md', name: !!python/unicode 'Moldova'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 3 days
-  great_circle: '3434.1'
+  duration: 4 days, 6 hours
+  great_circle: '4113.5'
   laps: 0
   max_altitude: '12.9'
   receiver_count: 73
@@ -153,7 +153,7 @@ flight:
       max_distance: '432.7'
       rxcount: 554
   - callsign: BACKLOG
-    data: {rxcount: 535}
+    data: {rxcount: 536}
   - callsign: PA0RPA
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
@@ -746,7 +746,7 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '134.2'
       rxcount: 1
-  total_distance: '3792.1'
+  total_distance: '5529.3'
 flight_map: /assets/flights/20/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=f6b24d5e51d9171bb0c380ef78d3303d',
   live: 'http://tracker.habhub.org/#!qm=3_days&q=UBSEDS20'}
