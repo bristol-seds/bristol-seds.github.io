@@ -29,8 +29,16 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'ge', name: !!python/unicode 'Georgia'}
   - {isocode: !!python/unicode 'am', name: !!python/unicode 'Armenia'}
-  duration: 22 days, 1 hour
-  great_circle: '3776.9'
+  - {isocode: !!python/unicode 'az', name: !!python/unicode 'Azerbaijan'}
+  - {isocode: !!python/unicode 'tm', name: !!python/unicode 'Turkmenistan'}
+  - {isocode: !!python/unicode 'uz', name: !!python/unicode 'Uzbekistan'}
+  - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
+  - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
+  - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
+  duration: 30 days, 15 hours
+  great_circle: '7730.5'
   laps: 0
   max_altitude: '13.4'
   receiver_count: 255
@@ -218,6 +226,8 @@ flight:
       rxcount: 368
   - callsign: KB7FSC-1
     data: {rxcount: 352}
+  - callsign: BACKLOG
+    data: {rxcount: 300}
   - callsign: SP3MCY
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -261,8 +271,6 @@ flight:
       rxcount: 218
   - callsign: K6SJC-1
     data: {rxcount: 218}
-  - callsign: BACKLOG
-    data: {rxcount: 214}
   - callsign: UY0LL
     data:
       country: {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
@@ -1051,7 +1059,7 @@ flight:
     data: {rxcount: 1}
   - callsign: K6ETA-7
     data: {rxcount: 1}
-  total_distance: '38366.9'
+  total_distance: '55941.4'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
