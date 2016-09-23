@@ -3,14 +3,14 @@ layout: default
 asset_path: /assets/
 stories:
 
+  - id: /rocketry/ukseds/2016/06/05/rocket-launch
+    image: posts/rocket-launch-2016/rocket-launch-2016.jpg
+
   - id: /hab/flight/2016/08/29/ubseds20
     image: flights/20/UBSEDL_2016-08-29T10-24-37_3.png
 
   - id: /hab/flight/2016/04/30/ubseds15
     image: flights/15/ubseds15_maps_05_06_2016.png
-
-  - id: /rocketry/ukseds/2015/09/09/lil-blackbird
-    image: posts/lil-blackbird/lil-blackbird.png
 
   - id: /hab/2014/06/15/buseds1
     image: hab.jpg
@@ -22,7 +22,7 @@ stories:
 <div class="container">
   <h1>We send stuff into the stratosphere <small>and sometimes get it back again</small></h1>
   <p class="lead">We are the Bristol branch of UKSEDS (UK Students for the Exploration and
-  Development of Space). Here are some projects that we've done.</p>
+  Development of Space). Here are some of our projects.</p>
 
   {% for story in page.stories %}
     {% capture image %}{% cycle 'odd', 'even' %}{% endcapture %}
