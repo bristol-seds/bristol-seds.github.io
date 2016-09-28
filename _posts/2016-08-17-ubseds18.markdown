@@ -42,8 +42,10 @@ flight:
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
-  duration: 36 days, 8 hours
-  great_circle: '2998.9'
+  - {isocode: !!python/unicode 'kz', name: !!python/unicode 'Kazakhstan'}
+  - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
+  duration: 41 days, 21 hours
+  great_circle: '8125.4'
   laps: 0
   max_altitude: '13.4'
   receiver_count: 430
@@ -232,7 +234,7 @@ flight:
   - callsign: KB7FSC-1
     data: {rxcount: 352}
   - callsign: BACKLOG
-    data: {rxcount: 350}
+    data: {rxcount: 351}
   - callsign: SP3MCY
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -815,6 +817,8 @@ flight:
     data: {rxcount: 15}
   - callsign: SP2GG-4
     data: {rxcount: 15}
+  - callsign: BG2KCG-10
+    data: {rxcount: 14}
   - callsign: VE7WGN
     data: {rxcount: 14}
   - callsign: W7BEQ-2
@@ -863,8 +867,6 @@ flight:
     data: {rxcount: 13}
   - callsign: SV2HNC-2
     data: {rxcount: 13}
-  - callsign: BG2KCG-10
-    data: {rxcount: 12}
   - callsign: KC2WBX
     data: {rxcount: 12}
   - callsign: M6DRS
@@ -1414,7 +1416,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '69055.0'
+  total_distance: '76134.4'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
