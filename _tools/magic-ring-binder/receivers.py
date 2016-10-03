@@ -32,20 +32,19 @@ def receiver_info(payload_json):
                 }
 
             # Listener telemetry?
-            if 'latest_listener_telemetry' in info:
-                if not 'ltelem' in receivers[callsign]:
+            if not 'ltelem' in receivers[callsign]:
+                if 'latest_listener_telemetry' in info:
                     receivers[callsign]['ltelem'] = db.get(
                         info['latest_listener_telemetry'])
+                    ltelem = receivers[callsign]['ltelem']
 
-                ltelem = receivers[callsign]['ltelem']
-
-                # Lookup country?
-                if not 'country' in receivers[callsign]:
                     c = countries.get_country(ltelem['data'])
                     if c:
                         print "Found {} in {}".format(callsign, c['name'])
                         receivers[callsign]['country'] = c
 
+            if 'ltelem' in receivers[callsign]:
+                ltelem = receivers[callsign]['ltelem']
                 # Calculate great circle distance
                 dist = distance.gc(ltelem['data'], t['doc']['data'])
 
