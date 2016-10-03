@@ -144,7 +144,7 @@ flight:
         !!python/unicode 'time_created': !!python/unicode '2016-08-17T07:49:32+01:00'
         !!python/unicode 'time_uploaded': !!python/unicode '2016-08-17T07:49:32+01:00'
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '349.0'
+      max_distance: '518.4'
       rxcount: 601
   - callsign: G8IMN
     data:
