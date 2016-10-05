@@ -22,29 +22,36 @@ stories:
 <div class="container">
   <h1>We send stuff into the stratosphere <small>and sometimes get it back again</small></h1>
   <p class="lead">We are the Bristol branch of UKSEDS (UK Students for the Exploration and
-  Development of Space). Here are some of our projects.</p>
+    Development of Space). Here are some of our projects.</p>
 
   {% for story in page.stories %}
-    {% capture image %}{% cycle 'odd', 'even' %}{% endcapture %}
+  {% capture image %}{% cycle 'odd', 'even' %}{% endcapture %}
 
-    <div class="row">
-      <div class="col-md-4 {% if image == 'even' %}col-md-push-8{% endif %}">
-          <img src="{{ story.image | prepend: page.asset_path }}"
-          class="img-responsive img-rounded">
-        </div>
-      <div class="col-md-8 {% if image == 'even' %}col-md-pull-4{% endif %}">
-        {% for post in site.posts %}
-        {% if post.id == story.id %}
-        <h2>{{ post.title }}</h2>
-        <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-	<p><a class="btn btn-default btn-primary" href="{{ post.url }}">Read more...</a></p>
-        {% endif %}
-        {% endfor %}
-      </div>
+  <div class="row">
+    <div class="col-md-4 {% if image == 'even' %}col-md-push-8{% endif %}">
+      <img src="{{ story.image | prepend: page.asset_path }}"
+           class="img-responsive img-rounded">
     </div>
-    <hr>
+    <div class="col-md-8 {% if image == 'even' %}col-md-pull-4{% endif %}">
+      {% for post in site.posts %}
+      {% if post.id == story.id %}
+      <h2>{{ post.title }}</h2>
+      <p class="lead">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+      <p><a class="btn btn-default btn-primary" href="{{ post.url }}">Read more...</a></p>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <hr>
   {% endfor %}
-<img src="/assets/Surrey_Nanosystems.jpg" height="200" width="708"/>
-<hr>
+
+  <h2>Sponsors</h2>
+  <br/>
+
+  <a href="https://www.surreynanosystems.com" onclick="trackOutboundLink('https://www.surreynanosystems.com'); return false;">
+    <img src="/assets/Surrey_Nanosystems.jpg" title="Surrey NanoSystems" height="200" width="708"/>
+  </a>
+
+  <hr>
 
 </div>
