@@ -56,11 +56,12 @@ flight:
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  duration: 60 days, 18 hours
-  great_circle: '8113.7'
+  - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
+  duration: 61 days, 13 hours
+  great_circle: '6153.7'
   laps: 0
   max_altitude: '13.4'
-  receiver_count: 461
+  receiver_count: 462
   receivers:
   - callsign: G8KNN
     data:
@@ -179,7 +180,7 @@ flight:
       max_distance: '387.6'
       rxcount: 546
   - callsign: BACKLOG
-    data: {rxcount: 485}
+    data: {rxcount: 509}
   - callsign: F1OIL
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -384,6 +385,8 @@ flight:
     data: {rxcount: 149}
   - callsign: VE7SST-9
     data: {rxcount: 146}
+  - callsign: VE4GLS
+    data: {rxcount: 143}
   - callsign: UR3UT-2
     data: {rxcount: 136}
   - callsign: UR4LRH-2
@@ -557,6 +560,8 @@ flight:
     data: {rxcount: 63}
   - callsign: UR5FSV-2
     data: {rxcount: 62}
+  - callsign: VE5HFR
+    data: {rxcount: 60}
   - callsign: YM2KA
     data: {rxcount: 59}
   - callsign: G4YHE
@@ -580,8 +585,6 @@ flight:
     data: {rxcount: 58}
   - callsign: VA7ZAT-2
     data: {rxcount: 57}
-  - callsign: VE4GLS
-    data: {rxcount: 56}
   - callsign: TOK
     data: {rxcount: 55}
   - callsign: 2RIVRS
@@ -590,6 +593,8 @@ flight:
     data: {rxcount: 54}
   - callsign: N7TAU-1
     data: {rxcount: 54}
+  - callsign: KC0ISW
+    data: {rxcount: 52}
   - callsign: UT2XQ
     data: {rxcount: 51}
   - callsign: KB7STN-3
@@ -664,8 +669,6 @@ flight:
   - callsign: YO4RDJ-10
     data: {rxcount: 37}
   - callsign: KD0OXW-10
-    data: {rxcount: 36}
-  - callsign: KC0ISW
     data: {rxcount: 36}
   - callsign: VE1NWC
     data: {rxcount: 35}
@@ -775,6 +778,8 @@ flight:
   - callsign: VA6KRK-10
     data: {rxcount: 23}
   - callsign: AUBURN
+    data: {rxcount: 23}
+  - callsign: VE5BBZ-1
     data: {rxcount: 23}
   - callsign: N7JYS-4
     data: {rxcount: 23}
@@ -1021,13 +1026,13 @@ flight:
     data: {rxcount: 7}
   - callsign: VE7GDH
     data: {rxcount: 7}
-  - callsign: VE5HFR
-    data: {rxcount: 7}
   - callsign: MB7UCW
     data: {rxcount: 7}
   - callsign: LA6MNA-1
     data: {rxcount: 7}
   - callsign: WLTRVL
+    data: {rxcount: 6}
+  - callsign: KG0AL
     data: {rxcount: 6}
   - callsign: PA3EKI-10
     data: {rxcount: 6}
@@ -1044,6 +1049,8 @@ flight:
   - callsign: G8YLX
     data: {rxcount: 6}
   - callsign: VE2RUH-3
+    data: {rxcount: 6}
+  - callsign: VE4DPR
     data: {rxcount: 6}
   - callsign: GLNVW-1
     data: {rxcount: 6}
@@ -1214,8 +1221,6 @@ flight:
     data: {rxcount: 3}
   - callsign: YM7KA
     data: {rxcount: 3}
-  - callsign: VE4DPR
-    data: {rxcount: 3}
   - callsign: OK9TVR-1
     data: {rxcount: 3}
   - callsign: VE2DBE-2
@@ -1287,8 +1292,6 @@ flight:
   - callsign: OE1SSU-10
     data: {rxcount: 2}
   - callsign: KE0BIU
-    data: {rxcount: 2}
-  - callsign: VE5BBZ-1
     data: {rxcount: 2}
   - callsign: IR2Y
     data: {rxcount: 2}
@@ -1490,7 +1493,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '112207.5'
+  total_distance: '114503.4'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
