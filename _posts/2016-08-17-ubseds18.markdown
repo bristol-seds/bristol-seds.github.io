@@ -1542,6 +1542,24 @@ The balloon transmits approximately once per minute.
 
 It uses the error-correcting Contestia 16/1000 mode on 434.612.5MHz USB.
 
+Some countries do not allow UHF ISM band operation. Therefore UHF is
+only transmitted **outside** the red lines on the geofence below.
+
+* [UHF Geofence image link](/assets/flights/18/ubseds18_no_uhf_world_miller_cylindrical.png)
+
+### APRS M0SBU-12 / AD6AM-12
+
+For many countries the balloon transmits APRS packets on local
+frequencies. In particular this is 144.8MHz in Europe, 144.66MHz in
+Japan and 144.39MHz in North America. The output power for this mode
+was measured at +14dBm.
+
+Some countries do not allow aeronautical mobile operation, which
+limits the balloon from using the amateur bands. Therefore APRS is
+only transmitted **outside** the red lines on the geofence below.
+
+* [APRS Geofence image link](/assets/flights/18/ubseds18_no_aprs_world_miller_cylindrical.png)
+
 {% include flight/map.html %}
 
 {% include flight/statistics.html %}
