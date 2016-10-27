@@ -59,11 +59,11 @@ flight:
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'gl', name: !!python/unicode 'Greenland'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 68 days, 6 hours
-  great_circle: '2419.5'
+  duration: 70 days, 21 hours
+  great_circle: '5271.2'
   laps: 1
   max_altitude: '13.4'
-  receiver_count: 467
+  receiver_count: 468
   receivers:
   - callsign: G8KNN
     data:
@@ -1117,6 +1117,8 @@ flight:
     data: {rxcount: 5}
   - callsign: ABAJO
     data: {rxcount: 5}
+  - callsign: UH9OAM
+    data: {rxcount: 4}
   - callsign: VA3JTR
     data: {rxcount: 4}
   - callsign: N7YET
@@ -1505,7 +1507,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '123386.9'
+  total_distance: '126244.8'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
