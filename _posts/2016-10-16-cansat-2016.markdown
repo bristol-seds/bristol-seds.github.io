@@ -1,0 +1,81 @@
+---
+layout: post
+title: "CanSat Competition"
+categories: cansat
+asset_path: /assets/posts/cansat-2016/
+photos: [/assets/posts/cansat-2016/group_photo.jpg, /assets/posts/cansat-2016/receiving_on_laptop.jpg, /assets/posts/cansat-2016/field_drone_waiting.jpg]
+---
+
+Bristol SEDS started off the new academic year with the University of Bristol's first ever CanSat competition
+
+<!--more-->
+
+The primary objective for the five competing teams was to log the temperature and pressure data during the cansat's descent using the qbcan kits provided, transmit it to a ground station over radio and present the altitude/time and temperature/altitude graphs.
+The teams were free to choose the secondary payload and there was a variety of ideas: from a camera to an onboard wind turbine.
+Despite a tight schedule - the teams had only one week to build their cansats - everybody managed to achieve great results.
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+# Results
+
+## 1st place: 
+
+<style>
+    div.imgContainer {
+      display:inline-block;
+    }
+</style>
+
+<div class="image123">
+    <div class="imgContainer">
+        <img src="/assets/posts/cansat-2016/team_bnoc.jpg" width="300"/>
+    </div>
+    <div class="imgContainer">
+        <img src="/assets/posts/cansat-2016/team_bnoc_camera.jpg" width="300"/>
+    </div>
+</div>
+
+## 2nd place:
+
+<div class="image123">
+    <div class="imgContainer">
+        <img src="/assets/posts/cansat-2016/can_pellegrino.jpg" width="300"/>
+    </div>
+    <div class="imgContainer">
+        <img src="/assets/posts/cansat-2016/can_pellegrino_can.jpg" width="300"/>
+    </div>
+</div>
+
+## 3rd place:
+
+<div class="image123">
+    <div class="imgContainer">
+        <img src="/assets/posts/cansat-2016/yes_we_fan.jpg" width="300"/>
+    </div>
+    <div class="imgContainer">
+        <img src="/assets/posts/cansat-2016/yes_we_fan_can.jpg" width="300"/>
+    </div>
+</div>
+
+## 4th place: CRAM Sat
+
+Lawrence Jones, Valeriy Novikov, Mansur Tisaev, Sofia Medina, Andrey Miroshnikov
+
+<div class="image123">
+    <div class="imgContainer">
+        <img src="/assets/posts/cansat-2016/cram_sat.jpg" width="300"/>
+    </div>
+    <div class="imgContainer">
+        <img src="/assets/posts/cansat-2016/cram_sat_can.jpg" width="300"/>
+    </div>
+</div>
+
+## 5th place:
+
+<div class="image123">
+    <div class="imgContainer">
+        <img src="/assets/posts/cansat-2016/A_team.jpg" width="300"/>
+    </div>
+</div>
