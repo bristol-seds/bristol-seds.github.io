@@ -20,6 +20,10 @@ variety of ideas: from a camera to an onboard wind turbine.  Despite a
 tight schedule - the teams had only one week to build their CanSats -
 everybody managed to achieve great results.
 
+The event was organised with help from the University's
+[Aerospace Engineering Department](http://www.bristol.ac.uk/engineering/departments/aerospace/)
+and the Avionics Group.
+
 <br/>
 {% include carousel.html %}
 <br/>
