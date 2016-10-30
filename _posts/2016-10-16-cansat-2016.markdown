@@ -1,0 +1,99 @@
+---
+layout: post
+title: "CanSat Competition"
+categories: cansat
+asset_path: /assets/posts/cansat-2016/
+photos: [/assets/posts/cansat-2016/group_photo.JPG, /assets/posts/cansat-2016/receiving_on_laptop.JPG, /assets/posts/cansat-2016/field_drone_waiting.JPG]
+---
+
+Bristol SEDS started off the new academic year with the University of
+Bristol's first ever CanSat competition!
+
+<!--more-->
+
+The primary objective for the five teams competing was to log the
+temperature and pressure data during the CanSat's descent using the
+qbcan kits provided, and transmit it to a ground station over radio
+and present the altitude/time and temperature/altitude graphs. The
+teams were free to choose the secondary payload and there was a
+variety of ideas: from a camera to an onboard wind turbine.  Despite a
+tight schedule - the teams had only one week to build their CanSats -
+everybody managed to achieve great results.
+
+The event was organised with help from the University's
+[Aerospace Engineering Department](http://www.bristol.ac.uk/engineering/departments/aerospace/)
+and the Avionics Group.
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+# Data Collected
+
+The teams presented plots of the data collected from their
+[BMP180 temperature and pressure sensor](https://www.bosch-sensortec.com/bst/products/all_products/bmp180). The
+altitude was calculated from the pressure values.
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/a_team_altitude.png" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/a_team_temperature.png" style='width:100%;'/>
+    </div>
+</div>
+
+
+# Competition Results
+
+## 1st place: Jason DonnerCan
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/team_bnoc.JPG" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/team_bnoc_camera.JPG" style='width:100%;'/>
+    </div>
+</div>
+
+## 2nd place: Can Pellegrino
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/can_pellegrino.JPG" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/can_pellegrino_can.JPG" style='width:100%;'/>
+    </div>
+</div>
+
+## 3rd place: Yes we Fan
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/Yes_we_fan.JPG" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/Yes_we_fan_can.JPG" style='width:100%;'/>
+    </div>
+</div>
+
+## 4th place: CRAM Sat
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/cram_sat.JPG" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/cram_sat_can.JPG" style='width:100%;'/>
+    </div>
+</div>
+
+## 5th place: A-Team
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/cansat-2016/A_team.JPG" style='width:100%;'/>
+    </div>
+</div>
