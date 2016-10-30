@@ -59,11 +59,13 @@ flight:
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'gl', name: !!python/unicode 'Greenland'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 70 days, 21 hours
-  great_circle: '5271.2'
+  - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  duration: 72 days, 19 hours
+  great_circle: '8561.8'
   laps: 1
   max_altitude: '13.4'
-  receiver_count: 468
+  receiver_count: 469
   receivers:
   - callsign: G8KNN
     data:
@@ -182,7 +184,7 @@ flight:
       max_distance: '387.6'
       rxcount: 546
   - callsign: BACKLOG
-    data: {rxcount: 527}
+    data: {rxcount: 532}
   - callsign: F1OIL
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -597,6 +599,8 @@ flight:
     data: {rxcount: 54}
   - callsign: N7TAU-1
     data: {rxcount: 54}
+  - callsign: JR8IVS-10
+    data: {rxcount: 53}
   - callsign: KC0ISW
     data: {rxcount: 52}
   - callsign: UT2XQ
@@ -1507,7 +1511,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '126244.8'
+  total_distance: '131284.3'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
