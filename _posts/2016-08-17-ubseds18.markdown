@@ -66,11 +66,11 @@ flight:
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  duration: 77 days, 13 hours
-  great_circle: '4069.1'
+  duration: 79 days, 9 hours
+  great_circle: '699.3'
   laps: 1
   max_altitude: '13.4'
-  receiver_count: 494
+  receiver_count: 496
   receivers:
   - callsign: G8KNN
     data:
@@ -163,7 +163,7 @@ flight:
       max_distance: '518.4'
       rxcount: 601
   - callsign: BACKLOG
-    data: {rxcount: 586}
+    data: {rxcount: 589}
   - callsign: G8IMN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -545,7 +545,7 @@ flight:
   - callsign: UT4UKA-1
     data: {rxcount: 78}
   - callsign: ED1ZAR-3
-    data: {rxcount: 75}
+    data: {rxcount: 77}
   - callsign: YM9KM
     data: {rxcount: 72}
   - callsign: W7BOZ
@@ -609,6 +609,8 @@ flight:
   - callsign: VE4DPR
     data: {rxcount: 58}
   - callsign: VA7ZAT-2
+    data: {rxcount: 57}
+  - callsign: EA1WS
     data: {rxcount: 57}
   - callsign: KC0ISW
     data: {rxcount: 57}
@@ -735,6 +737,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '411.0'
       rxcount: 35
+  - callsign: EI5HBB
+    data: {rxcount: 35}
   - callsign: F5RGH-10
     data: {rxcount: 35}
   - callsign: TA1AFT
@@ -744,8 +748,6 @@ flight:
   - callsign: G1BRB-1
     data: {rxcount: 33}
   - callsign: W0ARP
-    data: {rxcount: 32}
-  - callsign: EA1WS
     data: {rxcount: 32}
   - callsign: LA7LKA-10
     data: {rxcount: 32}
@@ -1103,6 +1105,8 @@ flight:
     data: {rxcount: 6}
   - callsign: N0AGX-12
     data: {rxcount: 6}
+  - callsign: ED2ZAD-5
+    data: {rxcount: 6}
   - callsign: GLNVW-1
     data: {rxcount: 6}
   - callsign: SUNSET
@@ -1336,6 +1340,8 @@ flight:
     data: {rxcount: 2}
   - callsign: VE7DID
     data: {rxcount: 2}
+  - callsign: ED1YAP-3
+    data: {rxcount: 2}
   - callsign: DM0ET-10
     data: {rxcount: 2}
   - callsign: LZ0BGM
@@ -1381,8 +1387,6 @@ flight:
   - callsign: SR9NKO
     data: {rxcount: 2}
   - callsign: N0NB-10
-    data: {rxcount: 2}
-  - callsign: ED2ZAD-5
     data: {rxcount: 2}
   - callsign: SV6EXB-11
     data: {rxcount: 2}
@@ -1566,7 +1570,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '143406.2'
+  total_distance: '147377.2'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
