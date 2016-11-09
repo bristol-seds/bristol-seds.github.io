@@ -70,11 +70,12 @@ flight:
   - {isocode: !!python/unicode 'de', name: !!python/unicode 'Germany'}
   - {isocode: !!python/unicode 'cz', name: !!python/unicode 'Czech Rep.'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
-  duration: 81 days, 6 hours
-  great_circle: '3299.1'
+  - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
+  duration: 84 days, 1 hour
+  great_circle: '8093.1'
   laps: 1
   max_altitude: '13.4'
-  receiver_count: 533
+  receiver_count: 535
   receivers:
   - callsign: G8KNN
     data:
@@ -154,7 +155,7 @@ flight:
       max_distance: '242.7'
       rxcount: 609
   - callsign: BACKLOG
-    data: {rxcount: 604}
+    data: {rxcount: 605}
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -662,6 +663,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '377.8'
       rxcount: 46
+  - callsign: YM7KA
+    data: {rxcount: 45}
   - callsign: PE1BIA
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
@@ -676,8 +679,6 @@ flight:
       max_distance: '338.8'
       rxcount: 44
   - callsign: BG2UHK-10
-    data: {rxcount: 44}
-  - callsign: YM7KA
     data: {rxcount: 44}
   - callsign: VE9GM-10
     data: {rxcount: 43}
@@ -1219,6 +1220,8 @@ flight:
     data: {rxcount: 5}
   - callsign: DL8RDL-10
     data: {rxcount: 5}
+  - callsign: BY1CRA-10
+    data: {rxcount: 5}
   - callsign: W7DEM-6
     data: {rxcount: 5}
   - callsign: KA2FNK
@@ -1629,6 +1632,8 @@ flight:
     data: {rxcount: 1}
   - callsign: F5ZZ-3
     data: {rxcount: 1}
+  - callsign: BG3MUF-10
+    data: {rxcount: 1}
   - callsign: W7IG
     data: {rxcount: 1}
   - callsign: YM7KO
@@ -1659,7 +1664,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '151246.0'
+  total_distance: '157506.3'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
