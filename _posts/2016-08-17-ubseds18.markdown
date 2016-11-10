@@ -71,11 +71,11 @@ flight:
   - {isocode: !!python/unicode 'cz', name: !!python/unicode 'Czech Rep.'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
-  duration: 84 days, 1 hour
-  great_circle: '8093.1'
+  duration: 84 days, 16 hours
+  great_circle: '9276.0'
   laps: 1
   max_altitude: '13.4'
-  receiver_count: 535
+  receiver_count: 536
   receivers:
   - callsign: G8KNN
     data:
@@ -155,7 +155,7 @@ flight:
       max_distance: '242.7'
       rxcount: 609
   - callsign: BACKLOG
-    data: {rxcount: 605}
+    data: {rxcount: 606}
   - callsign: '0x17'
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -876,6 +876,8 @@ flight:
   - callsign: VE1AIC-2
     data: {rxcount: 18}
   - callsign: MB7UAH
+    data: {rxcount: 17}
+  - callsign: JE8FXJ-10
     data: {rxcount: 17}
   - callsign: K6QXY-7
     data: {rxcount: 17}
@@ -1664,7 +1666,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '157506.3'
+  total_distance: '160178.3'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
