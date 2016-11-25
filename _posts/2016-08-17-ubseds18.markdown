@@ -75,8 +75,9 @@ flight:
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  duration: 92 days, 14 hours
-  great_circle: '6236.2'
+  - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
+  duration: 98 days, 22 hours
+  great_circle: '8186.1'
   laps: 1
   max_altitude: '13.4'
   receiver_count: 554
@@ -146,7 +147,7 @@ flight:
       max_distance: '519.1'
       rxcount: 770
   - callsign: BACKLOG
-    data: {rxcount: 643}
+    data: {rxcount: 644}
   - callsign: M0UPU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -407,10 +408,10 @@ flight:
     data: {rxcount: 149}
   - callsign: VE7SST-9
     data: {rxcount: 146}
+  - callsign: VE5HFR
+    data: {rxcount: 137}
   - callsign: UR3UT-2
     data: {rxcount: 136}
-  - callsign: VE5HFR
-    data: {rxcount: 131}
   - callsign: UR4LRH-2
     data: {rxcount: 130}
   - callsign: VE9DKS-10
@@ -867,6 +868,8 @@ flight:
     data: {rxcount: 20}
   - callsign: VE6CWS
     data: {rxcount: 20}
+  - callsign: BG2KCG-10
+    data: {rxcount: 20}
   - callsign: MB7UEI
     data: {rxcount: 20}
   - callsign: F3KT-4
@@ -953,8 +956,6 @@ flight:
   - callsign: DM0FFL-10
     data: {rxcount: 14}
   - callsign: N0VKI
-    data: {rxcount: 14}
-  - callsign: BG2KCG-10
     data: {rxcount: 14}
   - callsign: W7BEQ-2
     data: {rxcount: 14}
@@ -1706,7 +1707,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '170132.1'
+  total_distance: '178411.2'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
