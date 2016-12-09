@@ -82,11 +82,12 @@ flight:
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
   - {isocode: !!python/unicode 'am', name: !!python/unicode 'Armenia'}
   - {isocode: !!python/unicode 'az', name: !!python/unicode 'Azerbaijan'}
-  duration: 112 days, 3 hours
-  great_circle: '3826.2'
+  - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
+  duration: 114 days, 1 hour
+  great_circle: '8012.6'
   laps: 1
   max_altitude: '13.4'
-  receiver_count: 579
+  receiver_count: 580
   receivers:
   - callsign: G8KNN
     data:
@@ -1519,6 +1520,8 @@ flight:
     data: {rxcount: 2}
   - callsign: DM0ET-10
     data: {rxcount: 2}
+  - callsign: BG1TXB-10
+    data: {rxcount: 2}
   - callsign: LZ0BGM
     data: {rxcount: 2}
   - callsign: F1ZIA
@@ -1763,7 +1766,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '199060.3'
+  total_distance: '204714.1'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
