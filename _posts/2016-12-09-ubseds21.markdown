@@ -1,0 +1,35 @@
+---
+altitude_plot: /assets/flights/21/altitude_plot.csv
+aprs_log: false
+categories: hab flight
+date: '2016-12-09 08:32:25'
+flight:
+  countries: []
+  duration: 0 hours
+  great_circle: '0.0'
+  laps: 0
+  max_altitude: '0.0'
+  receiver_count: 0
+  receivers: []
+  total_distance: '0.0'
+flight_map: /assets/flights/21/flight_map.kml
+habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
+  live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
+layout: post
+live: false
+payload_title: !!python/unicode 'UBSEDS21'
+plots: true
+title: !!python/unicode 'UBSEDS21'
+---
+
+<!--more-->
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/plots.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}

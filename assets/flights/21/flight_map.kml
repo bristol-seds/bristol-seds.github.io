@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <kml xmlns="http://earth.google.com/kml/2.0">
+    <Document>
+        <Style id="ept">
+            <PolyStyle>
+                <color>33ffffff</color>
+            </PolyStyle>
+        </Style>
+        <Folder>
+            <Placemark>
+                <name>Track Segment</name>
+                <styleUrl>#ept</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>
+    
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <name>Flight Path</name>
+        </Folder>
+        <name>None Data Export</name>
+        <Folder>
+            <name>Launch and Last Reported Points</name>
+            <Placemark>
+                <name>Launch</name>
+                <description></description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates></coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Last Reported</name>
+                <description></description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates></coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+    </kml>
