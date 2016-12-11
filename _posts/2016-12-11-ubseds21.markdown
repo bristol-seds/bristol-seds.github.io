@@ -436,12 +436,51 @@ habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
 layout: post
 live: true
-payload_title: !!python/unicode 'UBSEDS21'
+payload_title: UBSEDS21
 plots: true
-title: !!python/unicode 'UBSEDS21'
+title: UBSEDS21
+resources: {}
+photos: [/assets/flights/21/board_front.jpg,
+		/assets/flights/21/tracker_assembled.jpg,
+		/assets/flights/21/mass_with_insulation.jpg,
+		/assets/flights/21/back_with_crossbar.JPG,
+		/assets/flights/21/envelope_stretch.JPG]
 ---
 
+The UBSEDS21 balloon was built from 50 micron thick PA-EVOH-PE
+multilayer film and was 1.9 meters in diameter. This is 0.4m more than
+the usual 1.5m diameter. The larger size meant the longest axis of the
+balloon and payload combined was more than 2 meters, and so a NOTAM
+was required and obtained for the launch.
+
+The payload weight was 34.2 grams, and the free lift was 20.2 grams.
+
+The balloon achieved a stable altitude of 15.2 km 4.5 hours into the flight.
+
 <!--more-->
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+# Mission
+
+The initial plan was to use UBSEDS21 to contact the International Space Station via APRS on 145.825 MHz.
+However, the VHF radio on the ISS is out of order (according to some sources, until mid 2018), 
+so this flight is used to test the amplifier and hopefully talk to any APRS enabled satellites.
+
+# Solar Panels
+
+A winter launch meant the payload would need to deal with the sun staying low above the horizon during the day.
+For this reason, sideways facing solar panels were used.
+
+# Transmissions
+
+The balloon transmits approximately once every 30 seconds during the day, and once every 2 minutes at night.
+
+### UHF 434.6MHz
+
+It uses the error-correcting Contestia 16/1000 mode on 434.612.5MHz USB.
 
 {% include flight/map.html %}
 
