@@ -6,11 +6,12 @@ date: '2016-12-11 05:26:29'
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-  duration: 2 hours
-  great_circle: '184.7'
+  - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+  duration: 8 hours
+  great_circle: '636.2'
   laps: 0
-  max_altitude: '7.3'
-  receiver_count: 13
+  max_altitude: '15.2'
+  receiver_count: 33
   receivers:
   - callsign: G8FJG_v
     data:
@@ -23,8 +24,8 @@ flight:
         !!python/unicode 'time_created': !!python/unicode '2016-12-11T05:21:01+00:00'
         !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T05:21:01+00:00'
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '165.0'
-      rxcount: 228
+      max_distance: '471.8'
+      rxcount: 807
   - callsign: G8FJG_v1
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -36,21 +37,46 @@ flight:
         !!python/unicode 'time_created': !!python/unicode '2016-12-11T05:21:23+00:00'
         !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T05:21:23+00:00'
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '162.4'
-      rxcount: 214
-  - callsign: hyde00001
+      max_distance: '475.2'
+      rxcount: 777
+  - callsign: PE1ANS
+    data:
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '008889c64bfaa45a73492e4092f15626'
+        !!python/unicode '_rev': !!python/unicode '1-278dbd83db0aad5354978d58a09189bc'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 10.0, !!python/unicode 'callsign': !!python/unicode 'PE1ANS',
+          !!python/unicode 'latitude': 51.59759, !!python/unicode 'longitude': 3.852692}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T08:59:06+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T08:59:06+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '334.9'
+      rxcount: 635
+  - callsign: F1OIL
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '0fb113a31844a8a80d86f1da20e2531a'
+        !!python/unicode '_rev': !!python/unicode '1-915cec38842b4adece380339585ae750'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 15.0, !!python/unicode 'callsign': !!python/unicode 'F1OIL',
+          !!python/unicode 'latitude': 50.947072, !!python/unicode 'longitude': 1.958754}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T08:20:14+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T08:20:14+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '341.8'
+      rxcount: 613
+  - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
       ltelem:
-        !!python/unicode '_id': !!python/unicode '06b3a5ce7193b033b31c13ca8686d523'
-        !!python/unicode '_rev': !!python/unicode '1-5cad99b96377ba78d09e8510ae908d87'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 60.0, !!python/unicode 'callsign': !!python/unicode 'hyde00001',
-          !!python/unicode 'latitude': 51.77121, !!python/unicode 'longitude': -1.234001}
-        !!python/unicode 'time_created': !!python/unicode '2016-12-11T02:16:00+00:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T02:16:00+00:00'
+        !!python/unicode '_id': !!python/unicode 'e6c3d651cc613c2b02bd0ca40749c296'
+        !!python/unicode '_rev': !!python/unicode '1-2def3bc06716fa327dec3de59a7e1a02'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 20.0, !!python/unicode 'callsign': !!python/unicode 'G8KNN',
+          !!python/unicode 'latitude': 52.2211, !!python/unicode 'longitude': 0.1176}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-10T22:53:05+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-10T22:53:05+00:00'
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '141.6'
-      rxcount: 170
+      max_distance: '458.1'
+      rxcount: 611
   - callsign: G8DHE-1
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -62,8 +88,270 @@ flight:
         !!python/unicode 'time_created': !!python/unicode '2016-12-10T16:12:44+00:00'
         !!python/unicode 'time_uploaded': !!python/unicode '2016-12-10T16:12:44+00:00'
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '115.0'
-      rxcount: 157
+      max_distance: '416.2'
+      rxcount: 584
+  - callsign: PE2BZ
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '13121c7c2f53f473180d967bd96404a5'
+        !!python/unicode '_rev': !!python/unicode '1-a6edcededf5e9257c3427415b04065cf'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 13.0, !!python/unicode 'callsign': !!python/unicode 'PE2BZ',
+          !!python/unicode 'latitude': 52.0, !!python/unicode 'longitude': 4.198}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-10T14:23:55+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-10T14:23:55+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '370.2'
+      rxcount: 551
+  - callsign: F5APQ
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '008889c64bfaa45a73492e4092b04ebb'
+        !!python/unicode '_rev': !!python/unicode '1-ef1151f2e5d69c4aee3792bb37c455e0'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 8.0, !!python/unicode 'callsign': !!python/unicode 'F5APQ',
+          !!python/unicode 'latitude': 50.93983, !!python/unicode 'longitude': 1.801688}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T08:50:06+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T08:50:06+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '324.4'
+      rxcount: 547
+  - callsign: F80106
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'f6c86fa5bc9414ebdb5104dfb0096358'
+        !!python/unicode '_rev': !!python/unicode '1-3ffecc4bea2acc89b6c02c65a1290366'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 109.0, !!python/unicode 'callsign': !!python/unicode 'F80106',
+          !!python/unicode 'latitude': 48.9, !!python/unicode 'longitude': -0.2}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T09:38:28+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T09:38:28+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '401.8'
+      rxcount: 542
+  - callsign: ON5LT
+    data:
+      country: {isocode: !!python/unicode 'be', name: !!python/unicode 'Belgium'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '4dff353728c9d4dfb792942a91e559a0'
+        !!python/unicode '_rev': !!python/unicode '1-407127f5124eaa3189b2222f07b4698c'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 30.0, !!python/unicode 'callsign': !!python/unicode 'ON5LT',
+          !!python/unicode 'latitude': 50.86, !!python/unicode 'longitude': 3.12}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T09:33:34+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T09:33:34+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '281.9'
+      rxcount: 539
+  - callsign: G6GZH
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '645a238c28a43dc80555c9d837f4a480'
+        !!python/unicode '_rev': !!python/unicode '1-3473e129881caba7dc1323d5281fba89'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 4.0, !!python/unicode 'callsign': !!python/unicode 'G6GZH',
+          !!python/unicode 'latitude': 52.52879697, !!python/unicode 'longitude': 0.2207458}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-10T21:48:06+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-10T21:48:06+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '479.7'
+      rxcount: 511
+  - callsign: PA0RPA
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'f6c86fa5bc9414ebdb5104dfb07c87ca'
+        !!python/unicode '_rev': !!python/unicode '1-73d208cb7e605b1d0264ea0017b97853'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 15.0, !!python/unicode 'callsign': !!python/unicode 'PA0RPA',
+          !!python/unicode 'latitude': 51.489437, !!python/unicode 'longitude': 4.286491}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T09:54:59+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T09:54:59+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '318.8'
+      rxcount: 508
+  - callsign: PB0AHX
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'c80126122a15d23ecfb822d43036eece'
+        !!python/unicode '_rev': !!python/unicode '1-92dea9fa9b76187b96ff1f02c0be7de8'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 15.0, !!python/unicode 'callsign': !!python/unicode 'PB0AHX',
+          !!python/unicode 'latitude': 52.0237, !!python/unicode 'longitude': 4.3562}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T10:16:49+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T10:16:49+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '370.7'
+      rxcount: 482
+  - callsign: PE2G
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'c80126122a15d23ecfb822d4304648c3'
+        !!python/unicode '_rev': !!python/unicode '1-fd3471d051ae3dd8a8f4b6a744fe0bc4'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 50.0, !!python/unicode 'callsign': !!python/unicode 'PE2G',
+          !!python/unicode 'latitude': 52.359702, !!python/unicode 'longitude': 6.635589}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T10:17:41+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T10:17:41+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '478.1'
+      rxcount: 458
+  - callsign: F4GUK
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '0dc876c27cbc40ce47e2e0aeeaa9f71c'
+        !!python/unicode '_rev': !!python/unicode '1-231047a8e378d3ca53a3d1b2dff085f9'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 100.0, !!python/unicode 'callsign': !!python/unicode 'F4GUK',
+          !!python/unicode 'latitude': 48.8169, !!python/unicode 'longitude': 2.5513}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T10:58:18+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T10:58:18+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '200.3'
+      rxcount: 399
+  - callsign: PE1BIA
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'e32d9e9dff327feecdc582ed2edcfe45'
+        !!python/unicode '_rev': !!python/unicode '1-ea5b9252c5c96e677af10073cfce944e'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 20.0, !!python/unicode 'callsign': !!python/unicode 'PE1BIA',
+          !!python/unicode 'latitude': 51.50501, !!python/unicode 'longitude': 4.279838}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T09:16:03+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T09:16:03+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '318.2'
+      rxcount: 399
+  - callsign: DutchMillbt
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '1d569b45a8a0c5b75befff55058b0dc7'
+        !!python/unicode '_rev': !!python/unicode '1-7730c1e7527543216ec9d4d32dcb9d7c'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 10.0, !!python/unicode 'callsign': !!python/unicode 'DutchMillbt',
+          !!python/unicode 'latitude': 51.994674, !!python/unicode 'longitude': 4.16944}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T11:24:12+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T11:24:12+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '370.1'
+      rxcount: 373
+  - callsign: PE0SAT
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '2dd5b0dcd78b58e45cddaea5875a3194'
+        !!python/unicode '_rev': !!python/unicode '1-b5e6a17b94f2b4033f52f266037532b3'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 15.0, !!python/unicode 'callsign': !!python/unicode 'PE0SAT',
+          !!python/unicode 'latitude': 51.5905, !!python/unicode 'longitude': 4.6528}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T11:44:42+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T11:44:42+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '319.8'
+      rxcount: 317
+  - callsign: F4FKB
+    data: {rxcount: 315}
+  - callsign: g0nzo
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'c80126122a15d23ecfb822d430afa5cb'
+        !!python/unicode '_rev': !!python/unicode '1-5d9b8cc6dc7cc3711ce4e06a223721ca'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 40.0, !!python/unicode 'callsign': !!python/unicode 'g0nzo',
+          !!python/unicode 'latitude': 50.736, !!python/unicode 'longitude': -1.935}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T09:28:56+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T09:28:56+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '446.6'
+      rxcount: 306
+  - callsign: G8IMN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'f6c86fa5bc9414ebdb5104dfb0cbd22f'
+        !!python/unicode '_rev': !!python/unicode '1-c9fb7377993bb498be68e3ff467e0953'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 143.0, !!python/unicode 'callsign': !!python/unicode 'G8IMN',
+          !!python/unicode 'latitude': 52.57589, !!python/unicode 'longitude': -1.80656}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T09:03:56+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T09:03:56+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '477.5'
+      rxcount: 230
+  - callsign: PD0PNQ
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'd3af7bd594c476780074888261881983'
+        !!python/unicode '_rev': !!python/unicode '1-85ce13bfbfd21ed48817b3955e029a30'
+        !!python/unicode 'data': {!!python/unicode 'callsign': !!python/unicode 'PD0PNQ',
+          !!python/unicode 'latitude': 51.58654, !!python/unicode 'longitude': 4.45999}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T06:35:00+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T06:35:00+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '318.0'
+      rxcount: 214
+  - callsign: G1BLO
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '0fb113a31844a8a80d86f1da20f0d407'
+        !!python/unicode '_rev': !!python/unicode '1-77e6b27059327d5d51bafd7ee6b2082d'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 25.0, !!python/unicode 'callsign': !!python/unicode 'G1BLO',
+          !!python/unicode 'latitude': 50.7841, !!python/unicode 'longitude': -1.7362}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T07:22:04+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T07:22:04+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '234.0'
+      rxcount: 206
+  - callsign: hyde00001
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '06b3a5ce7193b033b31c13ca8686d523'
+        !!python/unicode '_rev': !!python/unicode '1-5cad99b96377ba78d09e8510ae908d87'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 60.0, !!python/unicode 'callsign': !!python/unicode 'hyde00001',
+          !!python/unicode 'latitude': 51.77121, !!python/unicode 'longitude': -1.234001}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T02:16:00+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T02:16:00+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '266.2'
+      rxcount: 187
+  - callsign: G6SSN
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'c80126122a15d23ecfb822d430736da2'
+        !!python/unicode '_rev': !!python/unicode '1-7182b6ecf32ce59007e6408f8c33f0d4'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 80.0, !!python/unicode 'callsign': !!python/unicode 'G6SSN',
+          !!python/unicode 'latitude': 52.83, !!python/unicode 'longitude': -0.405}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T09:23:11+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T09:23:11+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '404.5'
+      rxcount: 181
+  - callsign: F0ERP
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '0952ab319a7dd067e5126c94de70ec30'
+        !!python/unicode '_rev': !!python/unicode '1-1a707d4aba94cac5db3ca108bd824668'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 214.0, !!python/unicode 'callsign': !!python/unicode 'F0ERP',
+          !!python/unicode 'latitude': 48.27, !!python/unicode 'longitude': 4.08342}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T12:45:33+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T12:45:33+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '164.7'
+      rxcount: 178
+  - callsign: DEV88
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '911e282cf44a0f7711ac793921a78169'
+        !!python/unicode '_rev': !!python/unicode '1-d5b716e919b3e04380d117248b54d32c'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 71.0, !!python/unicode 'callsign': !!python/unicode 'DEV88',
+          !!python/unicode 'latitude': 50.488, !!python/unicode 'longitude': -3.64}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T04:54:06+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T04:54:06+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '324.1'
+      rxcount: 141
   - callsign: M0SBU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -77,96 +365,19 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '77.0'
       rxcount: 127
-  - callsign: G8KNN
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      ltelem:
-        !!python/unicode '_id': !!python/unicode 'e6c3d651cc613c2b02bd0ca40749c296'
-        !!python/unicode '_rev': !!python/unicode '1-2def3bc06716fa327dec3de59a7e1a02'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 20.0, !!python/unicode 'callsign': !!python/unicode 'G8KNN',
-          !!python/unicode 'latitude': 52.2211, !!python/unicode 'longitude': 0.1176}
-        !!python/unicode 'time_created': !!python/unicode '2016-12-10T22:53:05+00:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-10T22:53:05+00:00'
-        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '187.5'
-      rxcount: 121
-  - callsign: F1OIL
+  - callsign: swl72
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       ltelem:
-        !!python/unicode '_id': !!python/unicode '0fb113a31844a8a80d86f1da20e2531a'
-        !!python/unicode '_rev': !!python/unicode '1-915cec38842b4adece380339585ae750'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 15.0, !!python/unicode 'callsign': !!python/unicode 'F1OIL',
-          !!python/unicode 'latitude': 50.947072, !!python/unicode 'longitude': 1.958754}
-        !!python/unicode 'time_created': !!python/unicode '2016-12-11T08:20:14+01:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T08:20:14+01:00'
+        !!python/unicode '_id': !!python/unicode '5f88f0e015f0cdcd2f029cc4b9f92b44'
+        !!python/unicode '_rev': !!python/unicode '1-08cb08d55fc116bd66cf5a85f89d4d65'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 160.0, !!python/unicode 'callsign': !!python/unicode 'swl72',
+          !!python/unicode 'latitude': 48.183086, !!python/unicode 'longitude': -0.129438}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T14:40:53+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T14:40:53+01:00'
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '237.3'
-      rxcount: 102
-  - callsign: G6GZH
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      ltelem:
-        !!python/unicode '_id': !!python/unicode '645a238c28a43dc80555c9d837f4a480'
-        !!python/unicode '_rev': !!python/unicode '1-3473e129881caba7dc1323d5281fba89'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 4.0, !!python/unicode 'callsign': !!python/unicode 'G6GZH',
-          !!python/unicode 'latitude': 52.52879697, !!python/unicode 'longitude': 0.2207458}
-        !!python/unicode 'time_created': !!python/unicode '2016-12-10T21:48:06+00:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-10T21:48:06+00:00'
-        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '222.4'
-      rxcount: 100
-  - callsign: DEV88
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      ltelem:
-        !!python/unicode '_id': !!python/unicode '911e282cf44a0f7711ac793921a78169'
-        !!python/unicode '_rev': !!python/unicode '1-d5b716e919b3e04380d117248b54d32c'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 71.0, !!python/unicode 'callsign': !!python/unicode 'DEV88',
-          !!python/unicode 'latitude': 50.488, !!python/unicode 'longitude': -3.64}
-        !!python/unicode 'time_created': !!python/unicode '2016-12-11T04:54:06+00:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T04:54:06+00:00'
-        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '231.0'
-      rxcount: 98
-  - callsign: G1BLO
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      ltelem:
-        !!python/unicode '_id': !!python/unicode '0fb113a31844a8a80d86f1da20f0d407'
-        !!python/unicode '_rev': !!python/unicode '1-77e6b27059327d5d51bafd7ee6b2082d'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 25.0, !!python/unicode 'callsign': !!python/unicode 'G1BLO',
-          !!python/unicode 'latitude': 50.7841, !!python/unicode 'longitude': -1.7362}
-        !!python/unicode 'time_created': !!python/unicode '2016-12-11T07:22:04+00:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T07:22:04+00:00'
-        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '100.4'
-      rxcount: 87
-  - callsign: PE1ANS
-    data:
-      ltelem:
-        !!python/unicode '_id': !!python/unicode '008889c64bfaa45a73492e4092f15626'
-        !!python/unicode '_rev': !!python/unicode '1-278dbd83db0aad5354978d58a09189bc'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 10.0, !!python/unicode 'callsign': !!python/unicode 'PE1ANS',
-          !!python/unicode 'latitude': 51.59759, !!python/unicode 'longitude': 3.852692}
-        !!python/unicode 'time_created': !!python/unicode '2016-12-11T08:59:06+01:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T08:59:06+01:00'
-        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '334.9'
-      rxcount: 35
-  - callsign: F5APQ
-    data:
-      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-      ltelem:
-        !!python/unicode '_id': !!python/unicode '008889c64bfaa45a73492e4092b04ebb'
-        !!python/unicode '_rev': !!python/unicode '1-ef1151f2e5d69c4aee3792bb37c455e0'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 8.0, !!python/unicode 'callsign': !!python/unicode 'F5APQ',
-          !!python/unicode 'latitude': 50.93983, !!python/unicode 'longitude': 1.801688}
-        !!python/unicode 'time_created': !!python/unicode '2016-12-11T08:50:06+01:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T08:50:06+01:00'
-        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '189.0'
-      rxcount: 31
+      max_distance: '403.9'
+      rxcount: 68
   - callsign: M0NRD
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -178,9 +389,48 @@ flight:
         !!python/unicode 'time_created': !!python/unicode '2016-12-10T10:45:57+00:00'
         !!python/unicode 'time_uploaded': !!python/unicode '2016-12-10T10:45:57+00:00'
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '271.5'
-      rxcount: 1
-  total_distance: '186.4'
+      max_distance: '406.9'
+      rxcount: 61
+  - callsign: PD5TON
+    data:
+      country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'c80126122a15d23ecfb822d43021f05e'
+        !!python/unicode '_rev': !!python/unicode '1-dbad06b3dd1bd8ff16dfbe0d8de87f11'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 5.0, !!python/unicode 'callsign': !!python/unicode 'PD5TON',
+          !!python/unicode 'latitude': 51.51, !!python/unicode 'longitude': 4.2955}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T10:14:25+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T10:14:25+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '308.2'
+      rxcount: 52
+  - callsign: F6AIU
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '2dd5b0dcd78b58e45cddaea587064a9e'
+        !!python/unicode '_rev': !!python/unicode '1-255bd4ef532d08657df4a1a70a858d28'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 230.0, !!python/unicode 'callsign': !!python/unicode 'F6AIU',
+          !!python/unicode 'latitude': 47.67494, !!python/unicode 'longitude': 5.76139}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T11:36:26+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T11:36:26+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '152.6'
+      rxcount: 45
+  - callsign: F4CQA
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '4bcb42740859df7818dda253eb2c57d7'
+        !!python/unicode '_rev': !!python/unicode '1-734203d20a229f422142fdd4e2283e56'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 170.0, !!python/unicode 'callsign': !!python/unicode 'F4CQA',
+          !!python/unicode 'latitude': 47.01, !!python/unicode 'longitude': 2.35}
+        !!python/unicode 'time_created': !!python/unicode '2016-12-11T14:51:49+01:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2016-12-11T14:51:49+01:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '291.6'
+      rxcount: 33
+  total_distance: '644.9'
 flight_map: /assets/flights/21/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
