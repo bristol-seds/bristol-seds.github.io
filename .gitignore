@@ -4,3 +4,8 @@ _site
 
 # raw images
 assets/flights/*/images/*
+assets/flights/*/ignore/*
+assets/flights/*/*/ignore/*
+
+# random stuff
+_tools/responses-pdf

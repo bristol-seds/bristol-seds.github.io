@@ -338,7 +338,7 @@ post_yaml = {
 # =-----------------------------------------------------------------------
 
 if laps > 0:
-    flight_data["laps"] = laps
+    #flight_data["laps"] = laps
     print "That's {} laps!".format(laps)
     print
 
