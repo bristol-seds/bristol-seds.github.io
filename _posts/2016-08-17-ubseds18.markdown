@@ -89,10 +89,10 @@ flight:
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   duration: 118 days, 10 hours
-  great_circle: '4867.4'
+  great_circle: '4855.6'
   laps: 1
   max_altitude: '13.4'
-  receiver_count: 611
+  receiver_count: 612
   receivers:
   - callsign: G8KNN
     data:
@@ -819,6 +819,8 @@ flight:
     data: {rxcount: 30}
   - callsign: WA9TT-10
     data: {rxcount: 30}
+  - callsign: KB1CHU
+    data: {rxcount: 30}
   - callsign: SP8CGR
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -833,8 +835,6 @@ flight:
       max_distance: '349.2'
       rxcount: 29
   - callsign: KD0EZQ-7
-    data: {rxcount: 29}
-  - callsign: KB1CHU
     data: {rxcount: 29}
   - callsign: KB7DZR-10
     data: {rxcount: 29}
@@ -854,6 +854,8 @@ flight:
     data: {rxcount: 27}
   - callsign: KI0AU-1
     data: {rxcount: 27}
+  - callsign: W1TG-1
+    data: {rxcount: 26}
   - callsign: VE7WGN
     data: {rxcount: 26}
   - callsign: UR4LRH-7
@@ -862,8 +864,6 @@ flight:
     data: {rxcount: 26}
   - callsign: VE2PCQ-3
     data: {rxcount: 26}
-  - callsign: W1TG-1
-    data: {rxcount: 25}
   - callsign: N7OKG-1
     data: {rxcount: 25}
   - callsign: US5ERV
@@ -1175,6 +1175,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '486.1'
       rxcount: 9
+  - callsign: VE9CRM-10
+    data: {rxcount: 9}
   - callsign: KC1BUR-5
     data: {rxcount: 8}
   - callsign: LX0WX-13
@@ -1198,8 +1200,6 @@ flight:
   - callsign: DM0ESS
     data: {rxcount: 8}
   - callsign: DB0DOS-10
-    data: {rxcount: 8}
-  - callsign: VE9CRM-10
     data: {rxcount: 8}
   - callsign: LZ0DAP-13
     data: {rxcount: 7}
@@ -1751,6 +1751,8 @@ flight:
     data: {rxcount: 1}
   - callsign: OK2KOJ-1
     data: {rxcount: 1}
+  - callsign: W1RVY-5
+    data: {rxcount: 1}
   - callsign: JH7JDC
     data: {rxcount: 1}
   - callsign: PI1APV-2
@@ -1833,7 +1835,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '219424.8'
+  total_distance: '219437.8'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
