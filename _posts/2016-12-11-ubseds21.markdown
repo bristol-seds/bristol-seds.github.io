@@ -443,15 +443,13 @@ resources: {}
 photos: [/assets/flights/21/board_front.jpg,
 		/assets/flights/21/tracker_assembled.jpg,
 		/assets/flights/21/mass_with_insulation.jpg,
-		/assets/flights/21/back_with_crossbar.JPG,
-		/assets/flights/21/envelope_stretch.JPG]
+		/assets/flights/21/back_with_crossbar.jpg]
 ---
 
 The UBSEDS21 balloon was built from 50 micron thick PA-EVOH-PE
-multilayer film and was 1.9 meters in diameter. This is 0.4m more than
-the usual 1.5m diameter. The larger size meant the longest axis of the
-balloon and payload combined was more than 2 meters, and so a NOTAM
-was required and obtained for the launch.
+multilayer film and was 1.9 meters in diameter. This size means the
+longest axis of the balloon and payload combined is more than 2
+meters, and so a NOTAM was required and obtained for the launch.
 
 The payload weight was 34.2 grams, and the free lift was 20.2 grams.
 
@@ -465,22 +463,59 @@ The balloon achieved a stable altitude of 15.2 km 4.5 hours into the flight.
 
 # Mission
 
-The initial plan was to use UBSEDS21 to contact the International Space Station via APRS on 145.825 MHz.
-However, the VHF radio on the ISS is out of order (according to some sources, until mid 2018), 
-so this flight is used to test the amplifier and hopefully talk to any APRS enabled satellites.
+The initial plan was to use UBSEDS21 to contact the International
+Space Station via APRS on 145.825 MHz. However, the VHF radio on the
+ISS is out of order (according to some sources, until mid 2018), so
+this flight is used to test the amplifier and hopefully talk to any
+APRS enabled satellites.
 
 # Solar Panels
 
-A winter launch meant the payload would need to deal with the sun staying low above the horizon during the day.
-For this reason, sideways facing solar panels were used.
+A winter launch meant the payload would need to deal with the sun
+staying low above the horizon during the day.  For this reason,
+sideways facing solar panels were used.
+
+# Envelope
+
+A drawing of the envelope used can be found
+[here](https://github.com/richardeoin/a-quick-guide/blob/master/bristol_seds_balloon_1_9m.pdf). The
+envelope was pre-stretched, from
+[this calculator](https://richardeoin.github.io/sp/) it appears the
+resulting envelope had a gamma ratio of almost 2.2.
 
 # Transmissions
 
-The balloon transmits approximately once every 30 seconds during the day, and once every 2 minutes at night.
+The balloon transmits approximately once every 30 seconds during the
+day, and once every 2 minutes at night. The tracker is able to operate
+at night when the air temperature is warm enough.
 
 ### UHF 434.6MHz
 
-It uses the error-correcting Contestia 16/1000 mode on 434.612.5MHz USB.
+It uses the error-correcting Contestia 16/1000 mode on 434.610MHz USB.
+
+Some countries do not allow UHF ISM band operation. Therefore UHF is
+only transmitted **outside** the red lines on the geofence below.
+
+* [UHF Geofence image link](/assets/flights/21/ubseds21_no_uhf_world_miller_cylindrical.png)
+
+### APRS M0SBU-13 / AD6AM-13
+
+For many countries the balloon transmits APRS packets on local
+frequencies. In particular this is 144.8MHz in Europe, 144.66MHz in
+Japan and 144.39MHz in North America. The output power for this mode
+is usually +14dBm.
+
+The balloon also transmits on 145.825MHz for APRS satellites. The
+output power is +26dBm (400mW). For this mode, one packet is
+transmitted every two minutes during the day, and once every 8 minutes
+at night.
+
+Some countries do not allow aeronautical mobile operation, which
+limits the balloon from using the amateur bands. Therefore APRS is
+only transmitted **outside** the red lines on the geofence below.
+
+* [APRS Geofence image link](/assets/flights/21/ubseds21_no_aprs_world_miller_cylindrical.png)
+
 
 {% include flight/map.html %}
 
