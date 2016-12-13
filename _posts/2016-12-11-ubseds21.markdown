@@ -1,6 +1,7 @@
 ---
 altitude_plot: /assets/flights/21/altitude_plot.csv
 aprs_log: false
+description: Satellite APRS test
 categories: hab flight
 date: '2016-12-11 05:26:29'
 flight:
@@ -463,7 +464,7 @@ live: true
 payload_title: UBSEDS21
 plots: true
 title: UBSEDS21
-resources: {}
+resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS21_20161211/'}
 photos: [/assets/flights/21/board_front.jpg,
 		/assets/flights/21/tracker_assembled.jpg,
 		/assets/flights/21/mass_with_insulation.jpg,
@@ -539,7 +540,6 @@ limits the balloon from using the amateur bands. Therefore APRS is
 only transmitted **outside** the red lines on the geofence below.
 
 * [APRS Geofence image link](/assets/flights/21/ubseds21_no_aprs_world_miller_cylindrical.png)
-
 
 {% include flight/map.html %}
 
