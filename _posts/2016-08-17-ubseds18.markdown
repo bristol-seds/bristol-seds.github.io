@@ -78,6 +78,7 @@ flight:
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
+  - {isocode: !!python/unicode 'hu', name: !!python/unicode 'Hungary'}
   - {isocode: !!python/unicode 'ro', name: !!python/unicode 'Romania'}
   - {isocode: !!python/unicode 'tr', name: !!python/unicode 'Turkey'}
   - {isocode: !!python/unicode 'am', name: !!python/unicode 'Armenia'}
@@ -88,8 +89,8 @@ flight:
   - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  duration: 118 days, 10 hours
-  great_circle: '4855.6'
+  duration: 118 days, 13 hours
+  great_circle: '4433.5'
   laps: 1
   max_altitude: '13.4'
   receiver_count: 612
@@ -159,7 +160,7 @@ flight:
       max_distance: '519.1'
       rxcount: 770
   - callsign: BACKLOG
-    data: {rxcount: 694}
+    data: {rxcount: 698}
   - callsign: M0UPU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -640,6 +641,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '198.8'
       rxcount: 59
+  - callsign: VE1WN
+    data: {rxcount: 58}
   - callsign: DRMT39
     data: {rxcount: 58}
   - callsign: VE7QMR-2
@@ -665,6 +668,8 @@ flight:
   - callsign: VE2USL-1
     data: {rxcount: 54}
   - callsign: N7TAU-1
+    data: {rxcount: 54}
+  - callsign: VE1AIC-2
     data: {rxcount: 54}
   - callsign: JR8IVS-10
     data: {rxcount: 53}
@@ -736,7 +741,7 @@ flight:
   - callsign: F5LRQ-3
     data: {rxcount: 42}
   - callsign: VE1NWC
-    data: {rxcount: 40}
+    data: {rxcount: 41}
   - callsign: JE8FXJ-10
     data: {rxcount: 40}
   - callsign: K7KEZ
@@ -757,11 +762,11 @@ flight:
     data: {rxcount: 37}
   - callsign: YO4RDJ-10
     data: {rxcount: 37}
-  - callsign: VE1AIC-2
-    data: {rxcount: 37}
   - callsign: BALLPT
     data: {rxcount: 36}
   - callsign: KD0OXW-10
+    data: {rxcount: 36}
+  - callsign: VE1GX-1
     data: {rxcount: 36}
   - callsign: Tom
     data:
@@ -791,6 +796,8 @@ flight:
       rxcount: 35
   - callsign: EI5HBB
     data: {rxcount: 35}
+  - callsign: KB1CHU
+    data: {rxcount: 35}
   - callsign: F5RGH-10
     data: {rxcount: 35}
   - callsign: TA1AFT
@@ -805,9 +812,13 @@ flight:
     data: {rxcount: 32}
   - callsign: W0ARP
     data: {rxcount: 32}
+  - callsign: W1TG-1
+    data: {rxcount: 32}
   - callsign: LA7LKA-10
     data: {rxcount: 32}
   - callsign: VE1GV
+    data: {rxcount: 32}
+  - callsign: VA1ALW
     data: {rxcount: 32}
   - callsign: MB7UZE
     data: {rxcount: 32}
@@ -818,8 +829,6 @@ flight:
   - callsign: OK1LOL-1
     data: {rxcount: 30}
   - callsign: WA9TT-10
-    data: {rxcount: 30}
-  - callsign: KB1CHU
     data: {rxcount: 30}
   - callsign: SP8CGR
     data:
@@ -834,6 +843,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '349.2'
       rxcount: 29
+  - callsign: KD1KE
+    data: {rxcount: 29}
   - callsign: KD0EZQ-7
     data: {rxcount: 29}
   - callsign: KB7DZR-10
@@ -854,8 +865,6 @@ flight:
     data: {rxcount: 27}
   - callsign: KI0AU-1
     data: {rxcount: 27}
-  - callsign: W1TG-1
-    data: {rxcount: 26}
   - callsign: VE7WGN
     data: {rxcount: 26}
   - callsign: UR4LRH-7
@@ -914,8 +923,6 @@ flight:
     data: {rxcount: 20}
   - callsign: DB0XIT
     data: {rxcount: 20}
-  - callsign: KD1KE
-    data: {rxcount: 20}
   - callsign: VE6CWS
     data: {rxcount: 20}
   - callsign: BG2KCG-10
@@ -932,13 +939,13 @@ flight:
     data: {rxcount: 19}
   - callsign: LZ0BGN
     data: {rxcount: 19}
-  - callsign: VE1GX-1
-    data: {rxcount: 19}
   - callsign: VE2MYC
     data: {rxcount: 19}
   - callsign: IR0DA
     data: {rxcount: 19}
   - callsign: VE3VBA-1
+    data: {rxcount: 18}
+  - callsign: KB1TSO
     data: {rxcount: 18}
   - callsign: LZ0DAD
     data: {rxcount: 18}
@@ -951,8 +958,6 @@ flight:
   - callsign: UR0UDS-1
     data: {rxcount: 17}
   - callsign: KA0NWV
-    data: {rxcount: 17}
-  - callsign: VA1ALW
     data: {rxcount: 17}
   - callsign: DB0OSN
     data: {rxcount: 17}
@@ -998,8 +1003,6 @@ flight:
   - callsign: N0QVC-1
     data: {rxcount: 15}
   - callsign: KQ1L
-    data: {rxcount: 15}
-  - callsign: KB1TSO
     data: {rxcount: 15}
   - callsign: SP2GG-4
     data: {rxcount: 15}
@@ -1048,8 +1051,6 @@ flight:
       rxcount: 13
   - callsign: VE6ARC-9
     data: {rxcount: 13}
-  - callsign: VE1WN
-    data: {rxcount: 13}
   - callsign: F6KSO
     data: {rxcount: 13}
   - callsign: W7QQA-2
@@ -1090,6 +1091,8 @@ flight:
   - callsign: KC2WBX
     data: {rxcount: 12}
   - callsign: M6DRS
+    data: {rxcount: 12}
+  - callsign: N3LLO-2
     data: {rxcount: 12}
   - callsign: TA4AZT-10
     data: {rxcount: 12}
@@ -1195,13 +1198,15 @@ flight:
     data: {rxcount: 8}
   - callsign: DB0SWR-10
     data: {rxcount: 8}
-  - callsign: N3LLO-2
+  - callsign: N3LLO-3
     data: {rxcount: 8}
   - callsign: DM0ESS
     data: {rxcount: 8}
   - callsign: DB0DOS-10
     data: {rxcount: 8}
   - callsign: LZ0DAP-13
+    data: {rxcount: 7}
+  - callsign: KB1NYT
     data: {rxcount: 7}
   - callsign: OE3MZC-2
     data: {rxcount: 7}
@@ -1236,8 +1241,6 @@ flight:
     data: {rxcount: 7}
   - callsign: LA6MNA-1
     data: {rxcount: 7}
-  - callsign: KB1NYT
-    data: {rxcount: 6}
   - callsign: WLTRVL
     data: {rxcount: 6}
   - callsign: JR7YOW-10
@@ -1311,6 +1314,8 @@ flight:
     data: {rxcount: 5}
   - callsign: DB0NOS
     data: {rxcount: 5}
+  - callsign: N3LLO-4
+    data: {rxcount: 5}
   - callsign: KO6TH
     data: {rxcount: 5}
   - callsign: VE5BNC-3
@@ -1376,8 +1381,6 @@ flight:
   - callsign: DB0HFT-10
     data: {rxcount: 4}
   - callsign: AE5E-7
-    data: {rxcount: 4}
-  - callsign: N3LLO-4
     data: {rxcount: 4}
   - callsign: KE0EJS-1
     data: {rxcount: 4}
@@ -1466,8 +1469,6 @@ flight:
   - callsign: VE7OTD
     data: {rxcount: 3}
   - callsign: WB2ZII-15
-    data: {rxcount: 3}
-  - callsign: N3LLO-3
     data: {rxcount: 3}
   - callsign: SV3AQO-10
     data: {rxcount: 3}
@@ -1602,6 +1603,8 @@ flight:
   - callsign: IR2S
     data: {rxcount: 2}
   - callsign: VE2ONR-10
+    data: {rxcount: 2}
+  - callsign: N1RCW-2
     data: {rxcount: 2}
   - callsign: JF7AMK
     data: {rxcount: 2}
@@ -1783,8 +1786,6 @@ flight:
     data: {rxcount: 1}
   - callsign: VA7OBD
     data: {rxcount: 1}
-  - callsign: N1RCW-2
-    data: {rxcount: 1}
   - callsign: KA1PXZ-1
     data: {rxcount: 1}
   - callsign: DC4AT
@@ -1835,7 +1836,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '219437.8'
+  total_distance: '219897.3'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
