@@ -15,11 +15,11 @@ flight:
   - {isocode: !!python/unicode 'rs', name: !!python/unicode 'Serbia'}
   - {isocode: !!python/unicode 'bg', name: !!python/unicode 'Bulgaria'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 2 days, 3 hours
-  great_circle: '3856.3'
+  duration: 2 days, 22 hours
+  great_circle: '5436.9'
   laps: 0
   max_altitude: '15.2'
-  receiver_count: 78
+  receiver_count: 80
   receivers:
   - callsign: G8FJG_v
     data:
@@ -472,6 +472,8 @@ flight:
       rxcount: 52
   - callsign: LZ0IOS-10
     data: {rxcount: 22}
+  - callsign: BACKLOG
+    data: {rxcount: 20}
   - callsign: LZ2AB-4
     data: {rxcount: 20}
   - callsign: YU0XUE
@@ -532,13 +534,13 @@ flight:
     data: {rxcount: 1}
   - callsign: OE1XTK
     data: {rxcount: 1}
-  - callsign: LZ3GH-2
-    data: {rxcount: 1}
   - callsign: IW1DTU
     data: {rxcount: 1}
   - callsign: S53XX-10
     data: {rxcount: 1}
   - callsign: M0REM
+    data: {rxcount: 1}
+  - callsign: LZ3GH-2
     data: {rxcount: 1}
   - callsign: MB7UHA
     data: {rxcount: 1}
@@ -546,11 +548,13 @@ flight:
     data: {rxcount: 1}
   - callsign: ON7SD-5
     data: {rxcount: 1}
+  - callsign: UH9OAM
+    data: {rxcount: 1}
   - callsign: LZ1PKZ
     data: {rxcount: 1}
   - callsign: S59DTB-10
     data: {rxcount: 1}
-  total_distance: '4422.4'
+  total_distance: '6776.2'
 flight_map: /assets/flights/21/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
