@@ -652,6 +652,14 @@ only transmitted **outside** the red lines on the geofence below.
 
 * [APRS Geofence image link](/assets/flights/21/ubseds21_no_aprs_world_miller_cylindrical.png)
 
+# Results
+
+### 16th December 2016
+
+The 145.825MHz beacon was received by JA0CAW during a NO-44 / PCSAT
+pass. However it appears the digipeater on NO-44 was not active at the
+time. [JA0CAW blog](http://blog.goo.ne.jp/ja0caw-je0mzi/e/3a6b2390c5a466d73a94fdbc5f67f701).
+
 {% include flight/map.html %}
 
 {% include flight/statistics.html %}
