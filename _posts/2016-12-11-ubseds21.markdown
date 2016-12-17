@@ -20,11 +20,11 @@ flight:
   - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'jp', name: !!python/unicode 'Japan'}
-  duration: 5 days, 1 hour
-  great_circle: '9228.7'
+  duration: 6 days, 14 hours
+  great_circle: '7705.5'
   laps: 0
   max_altitude: '15.2'
-  receiver_count: 107
+  receiver_count: 108
   receivers:
   - callsign: G8FJG_v
     data:
@@ -485,10 +485,10 @@ flight:
     data: {rxcount: 39}
   - callsign: JA7LJQ-10
     data: {rxcount: 37}
+  - callsign: BACKLOG
+    data: {rxcount: 35}
   - callsign: JJ7KRA-10
     data: {rxcount: 34}
-  - callsign: BACKLOG
-    data: {rxcount: 33}
   - callsign: JF7AMK
     data: {rxcount: 30}
   - callsign: LZ0IOS-10
@@ -571,6 +571,8 @@ flight:
     data: {rxcount: 3}
   - callsign: IZ6RDB
     data: {rxcount: 2}
+  - callsign: KL3MO-2
+    data: {rxcount: 2}
   - callsign: BG3MUF-10
     data: {rxcount: 2}
   - callsign: LZ0SMN-1
@@ -613,7 +615,7 @@ flight:
     data: {rxcount: 1}
   - callsign: S59DTB-10
     data: {rxcount: 1}
-  total_distance: '12490.0'
+  total_distance: '16460.4'
 flight_map: /assets/flights/21/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}

@@ -1717,6 +1717,7 @@
 85.1797776996,52.1777379334,14829.7392
 86.3366008096,52.31595638,14813.5848
 86.667857,52.348732,14811
+88.756262,52.513076,14781
 89.6359922925,52.5580322687,14862.6576
 89.905356946,52.5664564771,14863.572
 90.2142883395,52.5785244378,14784.6288
@@ -2128,6 +2129,22 @@
 148.69964245,42.2667237206,14530.7304
 148.728708463,42.2764421436,14541.7032
 148.928306285,42.3479048424,14512.7472
+176.940844,52.497624,14345
+200.412641825,57.588043347,14427.708
+
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Track Segment</name>
+                <styleUrl>#ept</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>
+    -159.587358175,57.588043347,14427.708
+-159.414762972,57.6177210272,14471.5992
 
                     </coordinates>
                 </LineString>
@@ -2149,11 +2166,11 @@
             </Placemark>
             <Placemark>
                 <name>Last Reported</name>
-                <description>16 December 2016 06:28:02: (42.3479, 148.9283) @ 14513 m</description>
+                <description>17 December 2016 19:57:53: (57.6177, -159.4148) @ 14472 m</description>
                 <Point>
                     <extrude>0</extrude>
                     <altitudeMode>absolute</altitudeMode>
-                    <coordinates>148.928306285,42.3479048424,14512.7472
+                    <coordinates>-159.414762972,57.6177210272,14471.5992
 </coordinates>
                 </Point>
             </Placemark>
