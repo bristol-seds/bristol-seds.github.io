@@ -89,8 +89,8 @@ flight:
   - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  duration: 118 days, 13 hours
-  great_circle: '4433.5'
+  duration: 128 days, 12 hours
+  great_circle: '8427.1'
   laps: 1
   max_altitude: '13.4'
   receiver_count: 612
@@ -720,11 +720,11 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '338.8'
       rxcount: 44
+  - callsign: KE6SLS
+    data: {rxcount: 44}
   - callsign: BG2UHK-10
     data: {rxcount: 44}
   - callsign: VE9GM-10
-    data: {rxcount: 43}
-  - callsign: KE6SLS
     data: {rxcount: 43}
   - callsign: LA2VSA-1
     data: {rxcount: 43}
@@ -1836,12 +1836,12 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '219897.3'
+  total_distance: '225253.8'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
 layout: post
-live: false
+live: true
 payload_title: !!python/unicode 'UBSEDS18'
 photos: [/assets/flights/18/flying_away_close.jpg, /assets/flights/18/payload_front.jpg,
   /assets/flights/18/payload_reverse.jpg, /assets/flights/18/payload_desk.jpg]
