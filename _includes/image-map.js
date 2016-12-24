@@ -35,7 +35,7 @@ function initialize() {
 
     // function scope for adding listener
     function add_listener(i) {
-      markers[i].addListener('click', function() {
+      markers[i].addListener('mouseover', function() {
         if (open_infowindow) {  // close old
           open_infowindow.close();
         }
