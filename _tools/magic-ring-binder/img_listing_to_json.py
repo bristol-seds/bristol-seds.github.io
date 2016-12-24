@@ -8,6 +8,10 @@ import arrow
 import yaml
 import re
 import json
+from tzwhere import tzwhere
+
+# takes some time to initialise
+tz = tzwhere.tzwhere(shapely=True, forceTZ=True)
 
 #
 # Reads yaml from markdown file
@@ -37,11 +41,17 @@ def parse_exif_gps(GPSPosition, GPSAltitude):
     lat = dms_to_ddeg(matches.group(1),
                       matches.group(2),
                       matches.group(3))
+    if lat >= 90:
+        raise ValueError('latitude out of range!')
     if matches.group(4) == 'S':
         lat = -lat
+
+
     lon = dms_to_ddeg(matches.group(5),
                       matches.group(6),
                       matches.group(7))
+    if lon >= 180:
+        raise ValueError('longitude out of range!')
     if matches.group(8) == 'W':
         lon = -lon
 
@@ -57,13 +67,22 @@ def parse_exif_gps(GPSPosition, GPSAltitude):
         'altitude': altitude
     }
 
+
 #
 # Formats datetime to human readable
 #
-def format_datetime(ModifyDate):
+def parse_datetime(ModifyDate, tz, location):
     if ModifyDate != None:
-        arw = arrow.get(ModifyDate)
-        return arw.format('D MMMM') + ' at ' + arw.format('h:mm A')
+        arw = arrow.get(ModifyDate).replace(months=-1)
+
+        timezone_str = tz.tzNameAt(location["latitude"],
+                                   location["longitude"],
+                                   forceTZ=True)
+
+        arw = arw.to(timezone_str)
+
+        return arw.format('D MMMM') + ' at ' + arw.format('h:mm A') + \
+        ' local ' + timezone_str
     else:
         raise ValueError('Bad date')
 
@@ -82,15 +101,24 @@ def listing_to_json(flight_nr, asset_path):
 
     js_obj = []
 
+    # takes some time to initialise
+    print("Initialising timezones...")
+    tz = tzwhere.tzwhere(shapely=True, forceTZ=True)
+
     for img in images:
         try:
+            location = parse_exif_gps(img["GPSPosition"], img["GPSAltitude"])
+            human_time = parse_datetime(img["ModifyDate"], tz, location)
+
             js_obj.append({
                 'name': img['name'],
-                'location': parse_exif_gps(img["GPSPosition"], img["GPSAltitude"]),
-                'human_time': format_datetime(img["ModifyDate"])
+                'location': location,
+                'human_time': human_time
             })
         except:
             None                # uhh just ignore bad images
+
+
 
     # write json
     json_filename = "../.." + asset_path + "img.json"
@@ -98,3 +126,9 @@ def listing_to_json(flight_nr, asset_path):
         json.dump(js_obj, outfile, indent=2)
 
     return asset_path + "img.json"
+
+#
+# main
+#
+if __name__ == "__main__":
+    listing_to_json(20, '/_tools/magic-ring-binder/img_listings/')

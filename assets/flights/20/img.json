@@ -1,6 +1,6 @@
 [
   {
-    "human_time": "29 September at 11:14 AM", 
+    "human_time": "29 August at 1:14 PM local Europe/Paris", 
     "name": "UBSEDL_2016-08-29T11-21-11_17", 
     "location": {
       "latitude": 50.05383333333333, 
@@ -9,7 +9,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 11:09 AM", 
+    "human_time": "29 August at 1:09 PM local Europe/Paris", 
     "name": "UBSEDL_2016-08-29T11-17-26_16", 
     "location": {
       "latitude": 50.0735, 
@@ -18,7 +18,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 11:08 AM", 
+    "human_time": "29 August at 1:08 PM local Europe/Paris", 
     "name": "UBSEDL_2016-08-29T11-12-36_15", 
     "location": {
       "latitude": 50.078, 
@@ -27,7 +27,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 11:04 AM", 
+    "human_time": "29 August at 1:04 PM local Europe/Paris", 
     "name": "UBSEDL_2016-08-29T11-08-11_14", 
     "location": {
       "latitude": 50.097166666666666, 
@@ -36,7 +36,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:58 AM", 
+    "human_time": "29 August at 12:58 PM local Europe/Paris", 
     "name": "UBSEDL_2016-08-29T11-04-17_13", 
     "location": {
       "latitude": 50.122166666666665, 
@@ -45,7 +45,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:57 AM", 
+    "human_time": "29 August at 12:57 PM local Europe/Paris", 
     "name": "UBSEDL_2016-08-29T11-00-45_12", 
     "location": {
       "latitude": 50.1265, 
@@ -54,7 +54,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:53 AM", 
+    "human_time": "29 August at 12:53 PM local Europe/Paris", 
     "name": "UBSEDL_2016-08-29T10-57-25_11", 
     "location": {
       "latitude": 50.142833333333336, 
@@ -63,7 +63,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:49 AM", 
+    "human_time": "29 August at 12:49 PM local Europe/Paris", 
     "name": "UBSEDL_2016-08-29T10-53-10_10", 
     "location": {
       "latitude": 50.158166666666666, 
@@ -72,7 +72,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:45 AM", 
+    "human_time": "29 August at 12:45 PM local Europe/Paris", 
     "name": "UBSEDL_2016-08-29T10-49-38_9", 
     "location": {
       "latitude": 50.171166666666664, 
@@ -81,7 +81,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:38 AM", 
+    "human_time": "29 August at 11:38 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T10-45-48_8", 
     "location": {
       "latitude": 50.19933333333333, 
@@ -90,7 +90,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:34 AM", 
+    "human_time": "29 August at 11:34 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T10-41-07_7", 
     "location": {
       "latitude": 50.213166666666666, 
@@ -99,7 +99,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:29 AM", 
+    "human_time": "29 August at 11:29 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T10-36-50_6", 
     "location": {
       "latitude": 50.23416666666667, 
@@ -108,7 +108,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:28 AM", 
+    "human_time": "29 August at 11:28 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T10-32-23_5", 
     "location": {
       "latitude": 50.24033333333333, 
@@ -117,7 +117,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:22 AM", 
+    "human_time": "29 August at 11:22 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T10-28-05_4", 
     "location": {
       "latitude": 50.26533333333333, 
@@ -126,7 +126,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:20 AM", 
+    "human_time": "29 August at 11:20 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T10-24-37_3", 
     "location": {
       "latitude": 50.27133333333333, 
@@ -135,7 +135,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:14 AM", 
+    "human_time": "29 August at 11:14 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T10-21-14_2", 
     "location": {
       "latitude": 50.29633333333333, 
@@ -144,7 +144,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:05 AM", 
+    "human_time": "29 August at 11:05 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T10-10-53_4", 
     "location": {
       "latitude": 50.33583333333333, 
@@ -153,7 +153,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 10:01 AM", 
+    "human_time": "29 August at 11:01 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T10-07-34_3", 
     "location": {
       "latitude": 50.352333333333334, 
@@ -162,7 +162,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 9:26 AM", 
+    "human_time": "29 August at 10:26 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T09-30-17_2", 
     "location": {
       "latitude": 50.50666666666667, 
@@ -171,7 +171,7 @@
     }
   }, 
   {
-    "human_time": "29 September at 8:06 AM", 
+    "human_time": "29 August at 9:06 AM local Europe/London", 
     "name": "UBSEDL_2016-08-29T08-08-00_1", 
     "location": {
       "latitude": 50.86416666666667, 
@@ -180,7 +180,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:45 PM", 
+    "human_time": "24 July at 7:45 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T20-40-35_50", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -189,7 +189,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 7:52 PM", 
+    "human_time": "24 July at 8:52 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T20-38-11_49", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -198,7 +198,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 5:41 PM", 
+    "human_time": "24 July at 6:41 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T20-33-13_48", 
     "location": {
       "latitude": 51.467, 
@@ -207,7 +207,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 7:01 PM", 
+    "human_time": "24 July at 8:01 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T20-30-23_47", 
     "location": {
       "latitude": 51.467, 
@@ -216,7 +216,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 8:07 PM", 
+    "human_time": "24 July at 9:07 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T20-29-01_46", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -225,7 +225,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 5:58 PM", 
+    "human_time": "24 July at 6:58 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T20-24-31_45", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -234,7 +234,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:33 PM", 
+    "human_time": "24 July at 7:33 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T20-20-53_44", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -243,7 +243,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 7:35 PM", 
+    "human_time": "24 July at 8:35 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T20-14-32_43", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -252,7 +252,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:10 PM", 
+    "human_time": "24 July at 7:10 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T20-04-15_40", 
     "location": {
       "latitude": 51.467, 
@@ -261,7 +261,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 7:42 PM", 
+    "human_time": "24 July at 8:42 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-57-49_38", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -270,7 +270,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 5:33 PM", 
+    "human_time": "24 July at 6:33 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-53-28_37", 
     "location": {
       "latitude": 51.467, 
@@ -279,7 +279,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:56 PM", 
+    "human_time": "24 July at 7:56 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-49-57_36", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -288,7 +288,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:26 PM", 
+    "human_time": "24 July at 7:26 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-40-55_34", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -297,7 +297,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 7:25 PM", 
+    "human_time": "24 July at 8:25 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-34-07_33", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -306,7 +306,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:13 PM", 
+    "human_time": "24 July at 7:13 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-27-16_31", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -315,7 +315,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:44 PM", 
+    "human_time": "24 July at 7:44 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-24-33_30", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -324,7 +324,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 5:37 PM", 
+    "human_time": "24 July at 6:37 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-19-39_29", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -333,7 +333,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:57 PM", 
+    "human_time": "24 July at 7:57 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-16-13_28", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -342,7 +342,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 5:55 PM", 
+    "human_time": "24 July at 6:55 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-11-19_27", 
     "location": {
       "latitude": 51.46716666666667, 
@@ -351,7 +351,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:27 PM", 
+    "human_time": "24 July at 7:27 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T19-07-28_26", 
     "location": {
       "latitude": 51.467, 
@@ -360,7 +360,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:06 PM", 
+    "human_time": "24 July at 7:06 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-59-41_24", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -369,7 +369,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:35 PM", 
+    "human_time": "24 July at 7:35 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-56-43_23", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -378,7 +378,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 5:26 PM", 
+    "human_time": "24 July at 6:26 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-52-47_22", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -387,7 +387,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 5:45 PM", 
+    "human_time": "24 July at 6:45 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-48-00_21", 
     "location": {
       "latitude": 51.46666666666667, 
@@ -396,7 +396,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:21 PM", 
+    "human_time": "24 July at 7:21 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-44-04_20", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -405,7 +405,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:35 PM", 
+    "human_time": "24 July at 7:35 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-41-05_19", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -414,7 +414,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:33 PM", 
+    "human_time": "24 July at 7:33 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-37-27_18", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -423,7 +423,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:27 PM", 
+    "human_time": "24 July at 7:27 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-33-34_17", 
     "location": {
       "latitude": 51.467, 
@@ -432,7 +432,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:26 PM", 
+    "human_time": "24 July at 7:26 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-29-32_16", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -441,7 +441,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:21 PM", 
+    "human_time": "24 July at 7:21 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-25-36_15", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -450,7 +450,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:15 PM", 
+    "human_time": "24 July at 7:15 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-21-50_14", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -459,7 +459,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:13 PM", 
+    "human_time": "24 July at 7:13 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-17-54_13", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -468,7 +468,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:10 PM", 
+    "human_time": "24 July at 7:10 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-13-56_12", 
     "location": {
       "latitude": 51.467, 
@@ -477,7 +477,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 6:06 PM", 
+    "human_time": "24 July at 7:06 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-09-52_11", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -486,7 +486,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 5:58 PM", 
+    "human_time": "24 July at 6:58 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-05-26_10", 
     "location": {
       "latitude": 51.466833333333334, 
@@ -495,7 +495,7 @@
     }
   }, 
   {
-    "human_time": "24 August at 5:55 PM", 
+    "human_time": "24 July at 6:55 PM local Europe/London", 
     "name": "UBSEDL_2016-08-24T18-00-33_9", 
     "location": {
       "latitude": 51.46716666666667, 
