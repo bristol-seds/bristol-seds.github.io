@@ -89,9 +89,9 @@ flight:
   - {isocode: !!python/unicode 'mn', name: !!python/unicode 'Mongolia'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
-  duration: 128 days, 12 hours
-  great_circle: '8427.1'
-  laps: 1
+  duration: 128 days, 17 hours
+  great_circle: '8365.8'
+  laps: 2
   max_altitude: '13.4'
   receiver_count: 612
   receivers:
@@ -160,7 +160,7 @@ flight:
       max_distance: '519.1'
       rxcount: 770
   - callsign: BACKLOG
-    data: {rxcount: 698}
+    data: {rxcount: 701}
   - callsign: M0UPU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -491,6 +491,8 @@ flight:
     data: {rxcount: 119}
   - callsign: PIGEON
     data: {rxcount: 119}
+  - callsign: EUGENE
+    data: {rxcount: 116}
   - callsign: VE2DMA-3
     data: {rxcount: 115}
   - callsign: UD6L-1
@@ -505,16 +507,14 @@ flight:
     data: {rxcount: 102}
   - callsign: VA2CMQ-3
     data: {rxcount: 102}
-  - callsign: EUGENE
-    data: {rxcount: 101}
   - callsign: NW7RG-1
+    data: {rxcount: 98}
+  - callsign: STUKEL
     data: {rxcount: 98}
   - callsign: WB7FHC-3
     data: {rxcount: 96}
   - callsign: N0MEQ
     data: {rxcount: 94}
-  - callsign: STUKEL
-    data: {rxcount: 92}
   - callsign: G8OTE
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -551,6 +551,8 @@ flight:
     data: {rxcount: 84}
   - callsign: K6MLA-10
     data: {rxcount: 82}
+  - callsign: KE6SLS
+    data: {rxcount: 81}
   - callsign: MB7UXX
     data: {rxcount: 81}
   - callsign: SP1TMN
@@ -720,8 +722,6 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '338.8'
       rxcount: 44
-  - callsign: KE6SLS
-    data: {rxcount: 44}
   - callsign: BG2UHK-10
     data: {rxcount: 44}
   - callsign: VE9GM-10
@@ -1328,6 +1328,8 @@ flight:
     data: {rxcount: 5}
   - callsign: DL8RDL-10
     data: {rxcount: 5}
+  - callsign: WA6KHG
+    data: {rxcount: 5}
   - callsign: BY1CRA-10
     data: {rxcount: 5}
   - callsign: W7DEM-6
@@ -1622,8 +1624,6 @@ flight:
     data: {rxcount: 2}
   - callsign: DK3AP-10
     data: {rxcount: 2}
-  - callsign: WA6KHG
-    data: {rxcount: 2}
   - callsign: W9ZBD
     data: {rxcount: 2}
   - callsign: BD4KM-10
@@ -1836,7 +1836,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '225253.8'
+  total_distance: '233579.2'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}

@@ -26,5 +26,19 @@ function initialize() {
     url: '{{ site.url }}{{ page.flight_map }}'
   });
   ctaLayer.setMap(map);
+
+
+  // markers
+  // need to create json file with an entry for each image
+  // then thumbnail sized copies for each image
+  // then a patchwork of marker thumbnails
+  // where should this come from?
+  var myLatLng = {lat: -25.363, lng: 131.044};
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
