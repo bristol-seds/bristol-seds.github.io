@@ -351,7 +351,7 @@ try:
 
     print "Reading {}...".format(post_path)
 
-    # Read the yaml the already exists at the top of the file
+    # Read the yaml that already exists at the top of the file
     template_yaml_str = re.search("---\n(.*)---\n", template, re.S).group(1)
     template_yaml = yaml.load(template_yaml_str)
 
