@@ -1,0 +1,506 @@
+[
+  {
+    "human_time": "29 September at 11:14 AM", 
+    "name": "UBSEDL_2016-08-29T11-21-11_17", 
+    "location": {
+      "latitude": 50.05383333333333, 
+      "altitude": 12488, 
+      "longitude": 1.8418333333333334
+    }
+  }, 
+  {
+    "human_time": "29 September at 11:09 AM", 
+    "name": "UBSEDL_2016-08-29T11-17-26_16", 
+    "location": {
+      "latitude": 50.0735, 
+      "altitude": 12503, 
+      "longitude": 1.785
+    }
+  }, 
+  {
+    "human_time": "29 September at 11:08 AM", 
+    "name": "UBSEDL_2016-08-29T11-12-36_15", 
+    "location": {
+      "latitude": 50.078, 
+      "altitude": 12512, 
+      "longitude": 1.7725
+    }
+  }, 
+  {
+    "human_time": "29 September at 11:04 AM", 
+    "name": "UBSEDL_2016-08-29T11-08-11_14", 
+    "location": {
+      "latitude": 50.097166666666666, 
+      "altitude": 12494, 
+      "longitude": 1.7155
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:58 AM", 
+    "name": "UBSEDL_2016-08-29T11-04-17_13", 
+    "location": {
+      "latitude": 50.122166666666665, 
+      "altitude": 12490, 
+      "longitude": 1.6408333333333334
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:57 AM", 
+    "name": "UBSEDL_2016-08-29T11-00-45_12", 
+    "location": {
+      "latitude": 50.1265, 
+      "altitude": 12492, 
+      "longitude": 1.6286666666666667
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:53 AM", 
+    "name": "UBSEDL_2016-08-29T10-57-25_11", 
+    "location": {
+      "latitude": 50.142833333333336, 
+      "altitude": 12489, 
+      "longitude": 1.5803333333333334
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:49 AM", 
+    "name": "UBSEDL_2016-08-29T10-53-10_10", 
+    "location": {
+      "latitude": 50.158166666666666, 
+      "altitude": 12489, 
+      "longitude": 1.5313333333333332
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:45 AM", 
+    "name": "UBSEDL_2016-08-29T10-49-38_9", 
+    "location": {
+      "latitude": 50.171166666666664, 
+      "altitude": 12476, 
+      "longitude": 1.4888333333333335
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:38 AM", 
+    "name": "UBSEDL_2016-08-29T10-45-48_8", 
+    "location": {
+      "latitude": 50.19933333333333, 
+      "altitude": 12496, 
+      "longitude": 1.397
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:34 AM", 
+    "name": "UBSEDL_2016-08-29T10-41-07_7", 
+    "location": {
+      "latitude": 50.213166666666666, 
+      "altitude": 12488, 
+      "longitude": 1.3543333333333334
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:29 AM", 
+    "name": "UBSEDL_2016-08-29T10-36-50_6", 
+    "location": {
+      "latitude": 50.23416666666667, 
+      "altitude": 12505, 
+      "longitude": 1.2923333333333331
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:28 AM", 
+    "name": "UBSEDL_2016-08-29T10-32-23_5", 
+    "location": {
+      "latitude": 50.24033333333333, 
+      "altitude": 12494, 
+      "longitude": 1.2734999999999999
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:22 AM", 
+    "name": "UBSEDL_2016-08-29T10-28-05_4", 
+    "location": {
+      "latitude": 50.26533333333333, 
+      "altitude": 12503, 
+      "longitude": 1.1993333333333334
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:20 AM", 
+    "name": "UBSEDL_2016-08-29T10-24-37_3", 
+    "location": {
+      "latitude": 50.27133333333333, 
+      "altitude": 12497, 
+      "longitude": 1.1815
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:14 AM", 
+    "name": "UBSEDL_2016-08-29T10-21-14_2", 
+    "location": {
+      "latitude": 50.29633333333333, 
+      "altitude": 12494, 
+      "longitude": 1.1091666666666669
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:05 AM", 
+    "name": "UBSEDL_2016-08-29T10-10-53_4", 
+    "location": {
+      "latitude": 50.33583333333333, 
+      "altitude": 12498, 
+      "longitude": 0.9923333333333333
+    }
+  }, 
+  {
+    "human_time": "29 September at 10:01 AM", 
+    "name": "UBSEDL_2016-08-29T10-07-34_3", 
+    "location": {
+      "latitude": 50.352333333333334, 
+      "altitude": 12487, 
+      "longitude": 0.9428333333333333
+    }
+  }, 
+  {
+    "human_time": "29 September at 9:26 AM", 
+    "name": "UBSEDL_2016-08-29T09-30-17_2", 
+    "location": {
+      "latitude": 50.50666666666667, 
+      "altitude": 12495, 
+      "longitude": 0.493
+    }
+  }, 
+  {
+    "human_time": "29 September at 8:06 AM", 
+    "name": "UBSEDL_2016-08-29T08-08-00_1", 
+    "location": {
+      "latitude": 50.86416666666667, 
+      "altitude": 12507, 
+      "longitude": -0.61
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:45 PM", 
+    "name": "UBSEDL_2016-08-24T20-40-35_50", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 28, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 7:52 PM", 
+    "name": "UBSEDL_2016-08-24T20-38-11_49", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 22, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 5:41 PM", 
+    "name": "UBSEDL_2016-08-24T20-33-13_48", 
+    "location": {
+      "latitude": 51.467, 
+      "altitude": 39, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 7:01 PM", 
+    "name": "UBSEDL_2016-08-24T20-30-23_47", 
+    "location": {
+      "latitude": 51.467, 
+      "altitude": 47, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 8:07 PM", 
+    "name": "UBSEDL_2016-08-24T20-29-01_46", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 11, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 5:58 PM", 
+    "name": "UBSEDL_2016-08-24T20-24-31_45", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 24, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:33 PM", 
+    "name": "UBSEDL_2016-08-24T20-20-53_44", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 2, 
+      "longitude": -2.580333333333333
+    }
+  }, 
+  {
+    "human_time": "24 August at 7:35 PM", 
+    "name": "UBSEDL_2016-08-24T20-14-32_43", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 16, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:10 PM", 
+    "name": "UBSEDL_2016-08-24T20-04-15_40", 
+    "location": {
+      "latitude": 51.467, 
+      "altitude": 36, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 7:42 PM", 
+    "name": "UBSEDL_2016-08-24T19-57-49_38", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 19, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 5:33 PM", 
+    "name": "UBSEDL_2016-08-24T19-53-28_37", 
+    "location": {
+      "latitude": 51.467, 
+      "altitude": 11, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:56 PM", 
+    "name": "UBSEDL_2016-08-24T19-49-57_36", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 7, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:26 PM", 
+    "name": "UBSEDL_2016-08-24T19-40-55_34", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 13, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 7:25 PM", 
+    "name": "UBSEDL_2016-08-24T19-34-07_33", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 13, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:13 PM", 
+    "name": "UBSEDL_2016-08-24T19-27-16_31", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 15, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:44 PM", 
+    "name": "UBSEDL_2016-08-24T19-24-33_30", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 17, 
+      "longitude": -2.580333333333333
+    }
+  }, 
+  {
+    "human_time": "24 August at 5:37 PM", 
+    "name": "UBSEDL_2016-08-24T19-19-39_29", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 24, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:57 PM", 
+    "name": "UBSEDL_2016-08-24T19-16-13_28", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 29, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 5:55 PM", 
+    "name": "UBSEDL_2016-08-24T19-11-19_27", 
+    "location": {
+      "latitude": 51.46716666666667, 
+      "altitude": 65, 
+      "longitude": -2.580333333333333
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:27 PM", 
+    "name": "UBSEDL_2016-08-24T19-07-28_26", 
+    "location": {
+      "latitude": 51.467, 
+      "altitude": 44, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:06 PM", 
+    "name": "UBSEDL_2016-08-24T18-59-41_24", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 15, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:35 PM", 
+    "name": "UBSEDL_2016-08-24T18-56-43_23", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 0, 
+      "longitude": -2.580333333333333
+    }
+  }, 
+  {
+    "human_time": "24 August at 5:26 PM", 
+    "name": "UBSEDL_2016-08-24T18-52-47_22", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 13, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 5:45 PM", 
+    "name": "UBSEDL_2016-08-24T18-48-00_21", 
+    "location": {
+      "latitude": 51.46666666666667, 
+      "altitude": 13, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:21 PM", 
+    "name": "UBSEDL_2016-08-24T18-44-04_20", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 35, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:35 PM", 
+    "name": "UBSEDL_2016-08-24T18-41-05_19", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 0, 
+      "longitude": -2.580333333333333
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:33 PM", 
+    "name": "UBSEDL_2016-08-24T18-37-27_18", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 2, 
+      "longitude": -2.580333333333333
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:27 PM", 
+    "name": "UBSEDL_2016-08-24T18-33-34_17", 
+    "location": {
+      "latitude": 51.467, 
+      "altitude": 44, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:26 PM", 
+    "name": "UBSEDL_2016-08-24T18-29-32_16", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 13, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:21 PM", 
+    "name": "UBSEDL_2016-08-24T18-25-36_15", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 35, 
+      "longitude": -2.5799999999999996
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:15 PM", 
+    "name": "UBSEDL_2016-08-24T18-21-50_14", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 24, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:13 PM", 
+    "name": "UBSEDL_2016-08-24T18-17-54_13", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 15, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:10 PM", 
+    "name": "UBSEDL_2016-08-24T18-13-56_12", 
+    "location": {
+      "latitude": 51.467, 
+      "altitude": 36, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 6:06 PM", 
+    "name": "UBSEDL_2016-08-24T18-09-52_11", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 15, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 5:58 PM", 
+    "name": "UBSEDL_2016-08-24T18-05-26_10", 
+    "location": {
+      "latitude": 51.466833333333334, 
+      "altitude": 24, 
+      "longitude": -2.5801666666666665
+    }
+  }, 
+  {
+    "human_time": "24 August at 5:55 PM", 
+    "name": "UBSEDL_2016-08-24T18-00-33_9", 
+    "location": {
+      "latitude": 51.46716666666667, 
+      "altitude": 65, 
+      "longitude": -2.580333333333333
+    }
+  }
+]
