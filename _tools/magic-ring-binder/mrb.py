@@ -18,6 +18,8 @@ import aprs_json
 import kml
 import laps
 import altitude_plot
+import img_listing_to_json
+import image_map
 
 import os, errno
 from shutil import copyfile
@@ -307,6 +309,22 @@ laps = laps.laps_east(payload_data_sorted)
 
 # =-----------------------------------------------------------------------
 
+# attempt to generate image map
+image_map_link = None
+image_json = img_listing_to_json.listing_to_json(flight_nr, asset_path)
+
+if image_json:
+    image_map_path = "../../_posts/{}-{}-image-map.markdown".format(
+        launch_date, payload_name)
+
+    image_map.write_image_map(flight_map, payload_name.upper(),
+                              image_json, image_map_path)
+
+    image_map_link = "/hab/image-map/{}/{}-image-map.html".format(
+        launch_arrow.format('YYYY/MM/DD'), payload_name)
+
+# =-----------------------------------------------------------------------
+
 post_yaml = {
     "layout": "post",
     "title": payload_name.upper(),
@@ -341,6 +359,9 @@ if laps > 0:
     #flight_data["laps"] = laps
     print "That's {} laps!".format(laps)
     print
+
+if image_map_link:
+    post_yaml["image_map"] = image_map_link
 
 # =-----------------------------------------------------------------------
 

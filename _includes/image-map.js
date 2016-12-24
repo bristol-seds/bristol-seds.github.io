@@ -31,11 +31,17 @@ function initialize() {
   function init_markers(image_json) {
     markers = []
     infowindows = []
+    open_infowindow = null
 
     // function scope for adding listener
     function add_listener(i) {
       markers[i].addListener('click', function() {
+        if (open_infowindow) {  // close old
+          open_infowindow.close();
+        }
+        // open new
         infowindows[i].open(map, markers[i]);
+        open_infowindow = infowindows[i];
       });
     }
 
@@ -46,7 +52,14 @@ function initialize() {
       var latLng = {lat: this_image["location"]["latitude"],
                     lng: this_image["location"]["longitude"]};
 
-      var contentString = this_image["name"];
+      var contentString = '<p>Taken '+ this_image["human_time"] + '</p>' +
+        '<p>' + this_image["location"]["altitude"] + 'm altitude. ' +
+        '<a href="{{ page.image_map.page }}#'+this_image["name"]+'">' +
+        'View Full Size' +
+        '</a></p>' +
+        '<a href="{{ page.image_map.page }}#'+this_image["name"]+'">' +
+        '<img src="{{ page.image_map.root }}/png_small/'+this_image["name"]+'.png"/>' +
+        '</a>';
 
       infowindows[img] = new google.maps.InfoWindow({
         content: contentString
@@ -60,12 +73,6 @@ function initialize() {
     }
   }
 
-  $.getJSON("{{ page.image_json }}", init_markers);
-
-  // markers
-  // need to create json file with an entry for each image
-  // then thumbnail sized copies for each image
-  // then a patchwork of marker thumbnails
-  // where should this come from?
+  $.getJSON("{{ page.image_map.json }}", init_markers);
 }
 google.maps.event.addDomListener(window, 'load', initialize);
