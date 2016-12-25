@@ -16,13 +16,56 @@ def description_text(datapoint):
         return ""
 
 #
+# Outputs image placemark
+#
+def image_placemark(outfile, img, config):
+
+    img.update(config)
+    img.update(img["location"])
+
+    outfile.write("""
+            <Placemark>
+                <name>{name}</name>
+                <description>
+                    <p>Taken {human_time}</p>
+                    <p>{altitude}m altitude.
+                        <a href="{page}#{name}">
+                            View Full Size
+                        </a>
+                    </p>
+                    <a href="{page}#{name}">
+                        <img src="{root}/png_small/{name}.png"/>
+                    </a>
+                </description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>{longitude},{latitude},{altitude}</coordinates>
+                </Point>
+            </Placemark>""".format(**img))
+
+# <Placemark>
+#     <name>Eiffel Tower</name>
+#     <description>
+#         Located in Paris, France.
+
+#         This description balloon opens
+#         when the Placemark is loaded.
+#     </description>
+#     <gx:balloonVisibility>1</gx:balloonVisibility>
+#     <Point>
+#       <coordinates>2.294785,48.858093,0</coordinates>
+#     </Point>
+#   </Placemark>
+
+#
 # Somewhat from habitat:
 #   https://github.com/ukhas/habitat-export-payload-telemetry/blob/master/habitat_export_payload_telemetry/lists.py
 #   Export Payload Telemetry
 #   Adam Greig, Nov 2012
 #   CouchDB List Functions
 #
-def output(payload_data, kml_path, does_burst, ending_name):
+def output(payload_data, kml_path, does_burst, ending_name, images):
 
     new_linestring = """
                     </coordinates>
@@ -144,7 +187,6 @@ def output(payload_data, kml_path, does_burst, ending_name):
                 </Point>
             </Placemark>""".format(**locals()))
 
-
         outfile.write("""
             <Placemark>
                 <name>{ending_name}</name>
@@ -154,7 +196,15 @@ def output(payload_data, kml_path, does_burst, ending_name):
                     <altitudeMode>absolute</altitudeMode>
                     <coordinates>{ending_coords}</coordinates>
                 </Point>
-            </Placemark>
+            </Placemark>""".format(**locals()))
+
+        # images
+        if images:
+            for img in images['images']:
+                image_placemark(outfile, img, images['config'])
+
+        # end
+        outfile.write("""
         </Folder>
     </Document>
-    </kml>""".format(**locals()))
+    </kml>""")

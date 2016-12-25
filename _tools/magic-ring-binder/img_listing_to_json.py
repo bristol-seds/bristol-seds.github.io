@@ -14,6 +14,15 @@ from tzwhere import tzwhere
 tz = tzwhere.tzwhere(shapely=True, forceTZ=True)
 
 #
+# Reads yaml
+#
+def read_yaml(yaml_file):
+    with open(yaml_file, 'r') as f:
+        yml = f.read()
+
+    return yaml.load(yml)
+
+#
 # Reads yaml from markdown file
 #
 def read_yaml_from_markdown(markdown_file):
@@ -95,6 +104,9 @@ def listing_to_json(flight_nr, asset_path):
     try:
         filename = "img_listings/ubseds{}.markdown".format(flight_nr)
         images = read_yaml_from_markdown(filename)["images"]
+
+        config_filename = "img_listings/ubseds{}_config.yaml".format(flight_nr)
+        config = read_yaml(config_filename)
     except:
         # failed to read listing
         return None
@@ -119,13 +131,17 @@ def listing_to_json(flight_nr, asset_path):
             None                # uhh just ignore bad images
 
 
-
     # write json
+    config["json"] = asset_path + "img.json"
     json_filename = "../.." + asset_path + "img.json"
+
     with open(json_filename, "w") as outfile:
         json.dump(js_obj, outfile, indent=2)
 
-    return asset_path + "img.json"
+    return {
+        'config': config,
+        'images': js_obj
+    }
 
 #
 # main

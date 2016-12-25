@@ -890,6 +890,7 @@ flight:
     data: {rxcount: 1}
   total_distance: '6421.6'
 flight_map: /assets/flights/20/flight_map.kml
+flight_map_with_images: /assets/flights/20/flight_map_with_images.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=f6b24d5e51d9171bb0c380ef78d3303d',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS20'}
 image_map: /hab/image-map/2016/08/29/ubseds20-image-map.html

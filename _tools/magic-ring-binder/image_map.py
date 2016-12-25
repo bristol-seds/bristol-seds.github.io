@@ -8,7 +8,7 @@ import yaml
 #
 # generates yaml front matter if it doesn't exist
 #
-def write_image_map(flight_map, payload_title, json, image_map_path):
+def write_image_map(flight_map, payload_title, config, image_map_path):
 
     try:
         open(image_map_path, 'r')
@@ -19,11 +19,7 @@ def write_image_map(flight_map, payload_title, json, image_map_path):
             "payload_title": payload_title,
             "title": payload_title + " Image Map",
             "categories": "hab image-map",
-            "image_map": {
-                "json": json,
-                "root": "[set me]",
-                "page": "[set me]"
-            }
+            "image_map": config
         }
 
         yaml_str = yaml.dump(post_yaml, default_flow_style=False)

@@ -220,7 +220,6 @@ with open('flight_record.json', 'w') as outfile:
 
 # =-----------------------------------------------------------------------
 
-
 if payload_name == "ubseds14": # Filter out bad backlog altitude packets from ubseds14
     payload_data_filt = [t for t in payload_data_sorted if t['altitude'] > 10700 or t['date'] == "160307"]
 elif payload_name == "ubseds15": # Filter out bad backlog packets again...
@@ -233,25 +232,6 @@ elif payload_name == "ubseds20": # Filter out bad backlog packets again...
                                                               or t['longitude'] < 8.228)]
 else:
     payload_data_filt = payload_data_sorted
-
-
-
-
-
-# Map
-
-flight_map = asset_path+"flight_map.kml"
-if flight_nr in [1,2,4,5]:      # Up/down
-    kml.output(payload_data_filt, "../.."+flight_map, True, "Landing")
-else:                           # Float
-    kml.output(payload_data_filt, "../.."+flight_map, False, "Last Reported")
-
-# Altitude Plot
-altitude_filename = asset_path+"altitude_plot.csv"
-altitude_plot.output(altitude_filename, payload_data_filt)
-
-# Speed plot (TODO)
-speed_plot = asset_path+"speed_plot.csv"
 
 # =-----------------------------------------------------------------------
 
@@ -309,19 +289,45 @@ laps = laps.laps_east(payload_data_sorted)
 
 # =-----------------------------------------------------------------------
 
+flight_map = asset_path+"flight_map.kml"
+flight_map_with_images = asset_path+"flight_map_with_images.kml"
+
 # attempt to generate image map
 image_map_link = None
-image_json = img_listing_to_json.listing_to_json(flight_nr, asset_path)
+images = img_listing_to_json.listing_to_json(flight_nr, asset_path)
 
-if image_json:
+if images:
     image_map_path = "../../_posts/{}-{}-image-map.markdown".format(
         launch_date, payload_name)
 
     image_map.write_image_map(flight_map, payload_name.upper(),
-                              image_json, image_map_path)
+                              images['config'], image_map_path)
 
     image_map_link = "/hab/image-map/{}/{}-image-map.html".format(
         launch_arrow.format('YYYY/MM/DD'), payload_name)
+
+# =-----------------------------------------------------------------------
+
+# KML Map
+if flight_nr in [1,2,4,5]:      # Up/down
+    burst = True
+    ending_name = "Landing"
+else:
+    burst = False
+    ending_name = "Last Reported"
+
+
+kml.output(payload_data_filt, "../.."+flight_map, burst, ending_name, None)
+
+if images:
+    kml.output(payload_data_filt, "../.."+flight_map_with_images, burst, ending_name, images)
+
+# Altitude Plot
+altitude_filename = asset_path+"altitude_plot.csv"
+altitude_plot.output(altitude_filename, payload_data_filt)
+
+# Speed plot (TODO)
+speed_plot = asset_path+"speed_plot.csv"
 
 # =-----------------------------------------------------------------------
 
@@ -360,8 +366,9 @@ if laps > 0:
     print "That's {} laps!".format(laps)
     print
 
-if image_map_link:
+if images:
     post_yaml["image_map"] = image_map_link
+    post_yaml["flight_map_with_images"] = flight_map_with_images
 
 # =-----------------------------------------------------------------------
 
