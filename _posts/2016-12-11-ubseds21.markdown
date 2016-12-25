@@ -26,11 +26,11 @@ flight:
   - {isocode: !!python/unicode 'es', name: !!python/unicode 'Spain'}
   - {isocode: !!python/unicode 'pt', name: !!python/unicode 'Portugal'}
   - {isocode: !!python/unicode 'es', name: !!python/unicode 'Spain'}
-  duration: 13 days, 10 hours
-  great_circle: '1604.5'
+  duration: 13 days, 11 hours
+  great_circle: '1623.7'
   laps: 0
   max_altitude: '15.6'
-  receiver_count: 295
+  receiver_count: 296
   receivers:
   - callsign: G8FJG_v
     data:
@@ -343,6 +343,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '497.3'
       rxcount: 209
+  - callsign: EA5URJ-10
+    data: {rxcount: 208}
   - callsign: G1BLO
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -369,8 +371,6 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '152.6'
       rxcount: 199
-  - callsign: EA5URJ-10
-    data: {rxcount: 192}
   - callsign: hyde00001
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -529,6 +529,8 @@ flight:
     data: {rxcount: 34}
   - callsign: VE7RHD-10
     data: {rxcount: 32}
+  - callsign: EA6VQ-15
+    data: {rxcount: 32}
   - callsign: ED1ZAX-3
     data: {rxcount: 32}
   - callsign: VE7CHW
@@ -543,8 +545,6 @@ flight:
     data: {rxcount: 30}
   - callsign: EA5AHQ-10
     data: {rxcount: 29}
-  - callsign: EA6VQ-15
-    data: {rxcount: 27}
   - callsign: CT2GNC-3
     data: {rxcount: 27}
   - callsign: CT1ALX
@@ -679,6 +679,8 @@ flight:
     data: {rxcount: 7}
   - callsign: W2GSA-10
     data: {rxcount: 7}
+  - callsign: EB3EHJ-10
+    data: {rxcount: 7}
   - callsign: KD8KTS-10
     data: {rxcount: 7}
   - callsign: LZ3SP
@@ -687,8 +689,6 @@ flight:
     data: {rxcount: 7}
   - callsign: EA5AER-2
     data: {rxcount: 7}
-  - callsign: EB3EHJ-10
-    data: {rxcount: 6}
   - callsign: WB7FHC-3
     data: {rxcount: 6}
   - callsign: W8HF
@@ -903,6 +903,8 @@ flight:
     data: {rxcount: 1}
   - callsign: OE1XTK
     data: {rxcount: 1}
+  - callsign: EA2PY-15
+    data: {rxcount: 1}
   - callsign: WA4USN-5
     data: {rxcount: 1}
   - callsign: JR4ENY-10
@@ -995,7 +997,7 @@ flight:
     data: {rxcount: 1}
   - callsign: S59DTB-10
     data: {rxcount: 1}
-  total_distance: '30313.4'
+  total_distance: '30344.1'
 flight_map: /assets/flights/21/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
