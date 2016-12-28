@@ -90,11 +90,11 @@ flight:
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  duration: 133 days, 4 hours
-  great_circle: '2092.9'
+  duration: 133 days, 8 hours
+  great_circle: '2409.4'
   laps: 2
   max_altitude: '13.4'
-  receiver_count: 619
+  receiver_count: 620
   receivers:
   - callsign: G8KNN
     data:
@@ -161,7 +161,7 @@ flight:
       max_distance: '519.1'
       rxcount: 770
   - callsign: BACKLOG
-    data: {rxcount: 709}
+    data: {rxcount: 711}
   - callsign: M0UPU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -586,6 +586,8 @@ flight:
     data: {rxcount: 78}
   - callsign: UT4UKA-1
     data: {rxcount: 78}
+  - callsign: 9H1XE-1
+    data: {rxcount: 78}
   - callsign: KK7JX-10
     data: {rxcount: 78}
   - callsign: VE6CWS
@@ -614,6 +616,8 @@ flight:
   - callsign: W0FX
     data: {rxcount: 68}
   - callsign: RV1CJ-12
+    data: {rxcount: 67}
+  - callsign: 9H1US-5
     data: {rxcount: 67}
   - callsign: JM8CGZ
     data: {rxcount: 66}
@@ -1282,6 +1286,8 @@ flight:
     data: {rxcount: 5}
   - callsign: SR3NDG
     data: {rxcount: 5}
+  - callsign: IQ9PA-12
+    data: {rxcount: 5}
   - callsign: N7YET
     data: {rxcount: 5}
   - callsign: W6BML-1
@@ -1569,8 +1575,6 @@ flight:
     data: {rxcount: 2}
   - callsign: WB7GR-10
     data: {rxcount: 2}
-  - callsign: 9H1XE-1
-    data: {rxcount: 2}
   - callsign: KC0OOO-10
     data: {rxcount: 2}
   - callsign: KD9FUR
@@ -1656,8 +1660,6 @@ flight:
   - callsign: DB0OAL
     data: {rxcount: 2}
   - callsign: VE7RXD-9
-    data: {rxcount: 2}
-  - callsign: 9H1US-5
     data: {rxcount: 2}
   - callsign: SM2VTS-1
     data: {rxcount: 1}
@@ -1851,7 +1853,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '247929.0'
+  total_distance: '248312.4'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
