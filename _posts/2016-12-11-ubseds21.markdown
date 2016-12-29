@@ -34,7 +34,7 @@ flight:
   - {isocode: !!python/unicode 'kg', name: !!python/unicode 'Kyrgyzstan'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   duration: 18 days, 2 hours
-  great_circle: '8596.0'
+  great_circle: '8610.9'
   laps: 0
   max_altitude: '15.6'
   receiver_count: 308
@@ -516,11 +516,11 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '308.2'
       rxcount: 52
+  - callsign: BG2UHK-10
+    data: {rxcount: 49}
   - callsign: CT1AKV
     data: {rxcount: 48}
   - callsign: EA1JL-8
-    data: {rxcount: 48}
-  - callsign: BG2UHK-10
     data: {rxcount: 48}
   - callsign: JR7YOW-10
     data: {rxcount: 47}
@@ -1028,7 +1028,7 @@ flight:
     data: {rxcount: 1}
   - callsign: S59DTB-10
     data: {rxcount: 1}
-  total_distance: '41369.8'
+  total_distance: '41397.7'
 flight_map: /assets/flights/21/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
