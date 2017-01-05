@@ -1153,7 +1153,7 @@ flight_map: /assets/flights/21/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
 layout: post
-live: true
+live: false
 payload_title: !!python/unicode 'UBSEDS21'
 photos: [/assets/flights/21/board_front.jpg, /assets/flights/21/tracker_assembled.jpg,
   /assets/flights/21/mass_with_insulation.jpg, /assets/flights/21/back_with_crossbar.jpg]
