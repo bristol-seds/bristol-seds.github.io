@@ -43,8 +43,8 @@ flight:
   - {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 28 days, 4 hours
-  great_circle: '3505.4'
+  duration: 28 days, 6 hours
+  great_circle: '3700.3'
   laps: 0
   max_altitude: '15.6'
   receiver_count: 449
@@ -571,7 +571,7 @@ flight:
       max_distance: '348.4'
       rxcount: 228
   - callsign: BACKLOG
-    data: {rxcount: 224}
+    data: {rxcount: 226}
   - callsign: PD0PNQ
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
@@ -851,6 +851,8 @@ flight:
     data: {rxcount: 51}
   - callsign: N0BSC
     data: {rxcount: 50}
+  - callsign: RW4HIF-10
+    data: {rxcount: 49}
   - callsign: BG2UHK-10
     data: {rxcount: 49}
   - callsign: CT1AKV
@@ -1001,8 +1003,6 @@ flight:
   - callsign: EA5CB-10
     data: {rxcount: 16}
   - callsign: JH7UAX-10
-    data: {rxcount: 16}
-  - callsign: RW4HIF-10
     data: {rxcount: 16}
   - callsign: KC0HH
     data: {rxcount: 16}
@@ -1595,7 +1595,7 @@ flight:
     data: {rxcount: 1}
   - callsign: MB7UHA
     data: {rxcount: 1}
-  total_distance: '63547.5'
+  total_distance: '63763.3'
 flight_map: /assets/flights/21/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
