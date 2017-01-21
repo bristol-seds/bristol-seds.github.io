@@ -52,8 +52,8 @@ flight:
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'kz', name: !!python/unicode 'Kazakhstan'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 41 days, 2 hours
-  great_circle: '5062.7'
+  duration: 41 days, 5 hours
+  great_circle: '5279.7'
   laps: 0
   max_altitude: '15.6'
   receiver_count: 475
@@ -487,7 +487,7 @@ flight:
       max_distance: '303.1'
       rxcount: 316
   - callsign: BACKLOG
-    data: {rxcount: 312}
+    data: {rxcount: 315}
   - callsign: g0nzo
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -851,6 +851,8 @@ flight:
     data: {rxcount: 59}
   - callsign: SP7RB-10
     data: {rxcount: 58}
+  - callsign: UH9OAM
+    data: {rxcount: 54}
   - callsign: RW4HIF-10
     data: {rxcount: 54}
   - callsign: PD5TON
@@ -925,6 +927,8 @@ flight:
   - callsign: VE7RHD-10
     data: {rxcount: 32}
   - callsign: RA4FHE-1
+    data: {rxcount: 32}
+  - callsign: SA6BSS
     data: {rxcount: 32}
   - callsign: ED1ZAX-3
     data: {rxcount: 32}
@@ -1083,8 +1087,6 @@ flight:
     data: {rxcount: 12}
   - callsign: EA1URO-10
     data: {rxcount: 12}
-  - callsign: UH9OAM
-    data: {rxcount: 11}
   - callsign: VE7RLE
     data: {rxcount: 11}
   - callsign: N2MH-15
@@ -1132,8 +1134,6 @@ flight:
   - callsign: K9VD
     data: {rxcount: 8}
   - callsign: W1TG-1
-    data: {rxcount: 8}
-  - callsign: SA6BSS
     data: {rxcount: 8}
   - callsign: ED1YAN-3
     data: {rxcount: 8}
@@ -1656,7 +1656,7 @@ flight:
     data: {rxcount: 1}
   - callsign: MB7UHA
     data: {rxcount: 1}
-  total_distance: '92396.4'
+  total_distance: '92727.9'
 flight_map: /assets/flights/21/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
