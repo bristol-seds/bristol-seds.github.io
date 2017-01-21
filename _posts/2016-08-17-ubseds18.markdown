@@ -92,11 +92,12 @@ flight:
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'it', name: !!python/unicode 'Italy'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 134 days, 5 hours
-  great_circle: '3467.8'
+  - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
+  duration: 157 days, 1 hour
+  great_circle: '8535.2'
   laps: 2
   max_altitude: '13.4'
-  receiver_count: 622
+  receiver_count: 623
   receivers:
   - callsign: G8KNN
     data:
@@ -163,7 +164,7 @@ flight:
       max_distance: '519.1'
       rxcount: 770
   - callsign: BACKLOG
-    data: {rxcount: 717}
+    data: {rxcount: 722}
   - callsign: M0UPU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -629,6 +630,8 @@ flight:
     data: {rxcount: 66}
   - callsign: N0RNB-5
     data: {rxcount: 66}
+  - callsign: BD2OS-10
+    data: {rxcount: 65}
   - callsign: YO8DHA-10
     data: {rxcount: 64}
   - callsign: VE6RFM-1
@@ -688,6 +691,8 @@ flight:
     data: {rxcount: 53}
   - callsign: VO1AW
     data: {rxcount: 52}
+  - callsign: BG2UHK-10
+    data: {rxcount: 51}
   - callsign: UT2XQ
     data: {rxcount: 51}
   - callsign: SP5ULN
@@ -734,8 +739,6 @@ flight:
       max_distance: '338.8'
       rxcount: 44
   - callsign: W7XY-10
-    data: {rxcount: 44}
-  - callsign: BG2UHK-10
     data: {rxcount: 44}
   - callsign: VE9GM-10
     data: {rxcount: 43}
@@ -934,6 +937,8 @@ flight:
     data: {rxcount: 22}
   - callsign: DB0FFL-10
     data: {rxcount: 21}
+  - callsign: BG2KCG-10
+    data: {rxcount: 21}
   - callsign: VE3PHC-10
     data: {rxcount: 21}
   - callsign: VA3EOD
@@ -941,8 +946,6 @@ flight:
   - callsign: VE7CHW
     data: {rxcount: 20}
   - callsign: DB0XIT
-    data: {rxcount: 20}
-  - callsign: BG2KCG-10
     data: {rxcount: 20}
   - callsign: MB7UEI
     data: {rxcount: 20}
@@ -1859,12 +1862,12 @@ flight:
     data: {rxcount: 1}
   - callsign: ED2ZAE-5
     data: {rxcount: 1}
-  total_distance: '250886.2'
+  total_distance: '266165.7'
 flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
 layout: post
-live: false
+live: true
 payload_title: !!python/unicode 'UBSEDS18'
 photos: [/assets/flights/18/flying_away_close.jpg, /assets/flights/18/payload_front.jpg,
   /assets/flights/18/payload_reverse.jpg, /assets/flights/18/payload_desk.jpg]
