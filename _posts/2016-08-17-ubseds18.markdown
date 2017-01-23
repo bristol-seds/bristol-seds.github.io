@@ -1867,7 +1867,7 @@ flight_map: /assets/flights/18/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=2a90017671d5b44338cd1117a57c64a5',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS18'}
 layout: post
-live: true
+live: false
 payload_title: !!python/unicode 'UBSEDS18'
 photos: [/assets/flights/18/flying_away_close.jpg, /assets/flights/18/payload_front.jpg,
   /assets/flights/18/payload_reverse.jpg, /assets/flights/18/payload_desk.jpg]
