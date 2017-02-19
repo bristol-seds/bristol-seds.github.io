@@ -58,11 +58,11 @@ flight:
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  duration: 61 days, 12 hours
-  great_circle: '4122.9'
+  duration: 69 days, 7 hours
+  great_circle: '2899.4'
   laps: 1
   max_altitude: '15.6'
-  receiver_count: 481
+  receiver_count: 482
   receivers:
   - callsign: SP9UOB
     data:
@@ -802,6 +802,8 @@ flight:
     data: {rxcount: 103}
   - callsign: LZ1PRO
     data: {rxcount: 101}
+  - callsign: LA6GGA-10
+    data: {rxcount: 100}
   - callsign: VE4GLS
     data: {rxcount: 97}
   - callsign: VE4ZIM
@@ -1674,12 +1676,12 @@ flight:
     data: {rxcount: 1}
   - callsign: MB7UHA
     data: {rxcount: 1}
-  total_distance: '146055.7'
+  total_distance: '150858.5'
 flight_map: /assets/flights/21/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
 layout: post
-live: false
+live: true
 payload_title: !!python/unicode 'UBSEDS21'
 photos: [/assets/flights/21/board_front.jpg, /assets/flights/21/tracker_assembled.jpg,
   /assets/flights/21/mass_with_insulation.jpg, /assets/flights/21/back_with_crossbar.jpg]
