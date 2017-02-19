@@ -56,8 +56,6 @@ flight:
   - {isocode: !!python/unicode 'gl', name: !!python/unicode 'Greenland'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  - {isocode: !!python/unicode 'cn', name: !!python/unicode 'China'}
-  - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
   - {isocode: !!python/unicode 'gl', name: !!python/unicode 'Greenland'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
@@ -458,7 +456,7 @@ flight:
       max_distance: '318.2'
       rxcount: 399
   - callsign: BACKLOG
-    data: {rxcount: 399}
+    data: {rxcount: 398}
   - callsign: SQ6KIS
     data:
       country: {isocode: !!python/unicode 'pl', name: !!python/unicode 'Poland'}
@@ -1680,7 +1678,7 @@ flight:
     data: {rxcount: 1}
   - callsign: MB7UHA
     data: {rxcount: 1}
-  total_distance: '256887.5'
+  total_distance: '239615.1'
 flight_map: /assets/flights/21/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=8b85fd0b1956a212958fee3f628c2e88',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS21'}
