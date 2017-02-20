@@ -195,6 +195,12 @@ def data_timesort(datum):
     if 'key' in datum: # From habitat
         received_mean_t = arrow.get(datum['key'][1])
 
+        if str(received_mean_t) == '2017-02-19T17:54:31+00:00':
+            # messed up at this time for UBSEDS21, need to extract from telem
+            ts = datum['doc']['data']['_sentence']
+            telemetry_t = arrow.get(ts[11:19], "HH:mm:ss")
+            received_mean_t = arrow.get(ts[20:26], "YYMMDD")
+
         # Correction for packets that get received the next day
         if telemetry_t.hour == 23 and received_mean_t.hour == 0:
             received_mean_t = received_mean_t.replace(hours=-1)
