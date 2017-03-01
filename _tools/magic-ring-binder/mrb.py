@@ -146,8 +146,8 @@ aprs = []
 # For each payload on the flight
 for pid in flight['value']:
     payload = [p for p in payload_list if p["id"] == pid][0]
-    payload_name = payload["doc"]["name"].lower()
-    aprs_rawfile = payload_name + "-rawdata.txt"
+    payload_name_a = payload["doc"]["name"].lower()
+    aprs_rawfile = payload_name_a + "-rawdata.txt"
 
     print "Loading aprs data from {}...".format(aprs_rawfile)
 
