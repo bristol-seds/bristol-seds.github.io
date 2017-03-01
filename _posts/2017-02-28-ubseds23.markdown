@@ -314,7 +314,9 @@ photos: [
 /assets/flights/23/payload_top_panels.JPG,
 /assets/flights/23/envelope_filled.JPG
 ]
+description: Test Flight to Germany
 title: UBSEDS23
+resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2017_Flights/UBSEDS23_20170228/'}
 ---
 
 The UBSEDS23 balloon was built from 50 micron thick PA-EVOH-PE
@@ -349,6 +351,11 @@ only transmitted **outside** the red lines on the geofence below.
 For many countries the balloon transmits APRS packets on local
 frequencies. In particular this is 144.8MHz in Europe, 144.66MHz in
 Japan and 144.39MHz in North America.
+
+The balloon also transmits APRS packets on 145.825 MHz for amateur
+satellite operation, and uses a higher power amplifer for this
+(approximately +26dBm output). The high power amplifier is also used
+on every 5th terrestrial APRS packet.
 
 Some countries do not allow aeronautical mobile operation, which
 limits the balloon from using the amateur bands. Therefore APRS is
