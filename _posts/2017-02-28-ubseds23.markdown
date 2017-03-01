@@ -300,7 +300,7 @@ flight_map: /assets/flights/23/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=17a0fe1a7111611f2ad3d7935e39a5e3',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS23G'}
 layout: post
-live: true
+live: false
 payload_title: UBSEDS23
 plots: true
 photos: [
@@ -326,6 +326,9 @@ pre-stretched even more than usual.
 
 The flight floated at 12.2km altitude (40,000 ft) for about 5 hours,
 before decending into Germany.
+
+This flight also tested a GMSK data mode using AX5043 radios and the
+callsign UBSEDS23G.
 
 <!--more-->
 
