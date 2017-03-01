@@ -236,6 +236,8 @@ elif payload_name == "ubseds20": # Filter out bad backlog packets again...
     payload_data_filt = [t for t in payload_data_sorted
                          if t['longitude'] != -19.217675 and (t['longitude'] > 8.229
                                                               or t['longitude'] < 8.228)]
+elif payload_name == "ubseds23": # Filter out bad altitude...
+    payload_data_filt = [t for t in payload_data_sorted if t['altitude'] < 20000]
 else:
     payload_data_filt = payload_data_sorted
 
