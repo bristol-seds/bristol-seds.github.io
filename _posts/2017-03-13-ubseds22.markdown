@@ -1,0 +1,242 @@
+---
+altitude_plot: /assets/flights/22/altitude_plot.csv
+aprs_log: false
+categories: hab flight
+date: '2017-03-13 05:28:13'
+description: Iridium Beacon
+flight:
+  countries:
+  - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+  - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+  - {isocode: !!python/unicode 'ma', name: !!python/unicode 'Morocco'}
+  duration: 2 days, 9 hours
+  great_circle: '1660.9'
+  laps: 0
+  max_altitude: '12.7'
+  receiver_count: 27
+  receivers:
+  - callsign: F5PHW-3
+    data: {rxcount: 73}
+  - callsign: DEV88
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '29db47e0427fdad2dba81abd958bb685'
+        !!python/unicode '_rev': !!python/unicode '1-b208220d88476d1079b45b016f3e75c3'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 71.0, !!python/unicode 'callsign': !!python/unicode 'DEV88',
+          !!python/unicode 'latitude': 50.488, !!python/unicode 'longitude': -3.64}
+        !!python/unicode 'time_created': !!python/unicode '2017-03-12T22:25:46+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-03-12T22:25:46+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '203.7'
+      rxcount: 67
+  - callsign: F4GKQ-3
+    data: {rxcount: 39}
+  - callsign: G8FJG_v
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'a1d467c7c0ef3d3e33172fa16c206ac9'
+        !!python/unicode '_rev': !!python/unicode '1-ade9b9c62a43c8e888042b5ae79ecce9'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 5.0, !!python/unicode 'callsign': !!python/unicode 'G8FJG_v',
+          !!python/unicode 'latitude': 51.5132, !!python/unicode 'longitude': 0.2038}
+        !!python/unicode 'time_created': !!python/unicode '2017-03-12T19:08:45+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-03-12T19:08:45+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '383.6'
+      rxcount: 36
+  - callsign: G8FJG_v1
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'a1d467c7c0ef3d3e33172fa16c1c9335'
+        !!python/unicode '_rev': !!python/unicode '1-8925b677b933751858add14d4264c18e'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 5.0, !!python/unicode 'callsign': !!python/unicode 'G8FJG_v1',
+          !!python/unicode 'latitude': 51.5132, !!python/unicode 'longitude': 0.2038}
+        !!python/unicode 'time_created': !!python/unicode '2017-03-12T19:08:03+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-03-12T19:08:03+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '383.6'
+      rxcount: 35
+  - callsign: '0x17'
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '3a7ac85e6d41213ab706f449bd09c168'
+        !!python/unicode '_rev': !!python/unicode '1-a2e5f9e576b537e4e3d80e6d946703d4'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 69.0, !!python/unicode 'callsign': !!python/unicode '0x17',
+          !!python/unicode 'latitude': 51.06, !!python/unicode 'longitude': -4.11}
+        !!python/unicode 'time_created': !!python/unicode '2017-03-13T04:18:48+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-03-13T04:18:48+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '185.9'
+      rxcount: 29
+  - callsign: EA5AHQ-10
+    data: {rxcount: 28}
+  - callsign: EB1TK-5
+    data: {rxcount: 25}
+  - callsign: F5LRQ-3
+    data: {rxcount: 17}
+  - callsign: GW8VFQ-1
+    data: {rxcount: 14}
+  - callsign: G1BLO
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '3b4abfb3c84e63511dfca7b5f1c32017'
+        !!python/unicode '_rev': !!python/unicode '1-7528d6a1edd9f03cda8eeda2a2922a6d'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 25.0, !!python/unicode 'callsign': !!python/unicode 'G1BLO',
+          !!python/unicode 'latitude': 50.7841, !!python/unicode 'longitude': -1.7362}
+        !!python/unicode 'time_created': !!python/unicode '2017-03-13T07:33:28+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-03-13T07:33:28+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '168.0'
+      rxcount: 12
+  - callsign: BACKLOG
+    data: {rxcount: 11}
+  - callsign: ED2ZAD-5
+    data: {rxcount: 9}
+  - callsign: G0MAS
+    data: {rxcount: 8}
+  - callsign: F5RJM-10
+    data: {rxcount: 7}
+  - callsign: EB7GYR-1
+    data: {rxcount: 4}
+  - callsign: EA5URV-10
+    data: {rxcount: 4}
+  - callsign: JDL
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '540c424de361c771052b4c6e267e2039'
+        !!python/unicode '_rev': !!python/unicode '1-47130b99e6b84773fa87d16f76a4e112'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 90.0, !!python/unicode 'callsign': !!python/unicode 'JDL',
+          !!python/unicode 'latitude': 51.828398, !!python/unicode 'longitude': -2.276496}
+        !!python/unicode 'time_created': !!python/unicode '2017-03-12T10:48:09+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-03-12T10:48:09+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '197.8'
+      rxcount: 3
+  - callsign: ED1YAP-3
+    data: {rxcount: 3}
+  - callsign: G6SQX
+    data: {rxcount: 2}
+  - callsign: F6DZR-3
+    data: {rxcount: 2}
+  - callsign: EA5GPC-11
+    data: {rxcount: 2}
+  - callsign: F4BEA-4
+    data: {rxcount: 2}
+  - callsign: F5ZIX-4
+    data: {rxcount: 1}
+  - callsign: F4FAP
+    data: {rxcount: 1}
+  - callsign: ED1ZAR-3
+    data: {rxcount: 1}
+  - callsign: MB7UST
+    data: {rxcount: 1}
+  total_distance: '2361.8'
+flight_map: /assets/flights/22/flight_map.kml
+habhub: {archive: 'http://tracker.habhub.org/#!qm=62d6317daeb202aed60adef7d527ae52',
+  live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS22*'}
+layout: post
+live: true
+payload_title: UBSEDS22
+photos: [
+/assets/flights/22/iridium_front.jpg,
+/assets/flights/22/iridium_reverse.jpg,
+/assets/flights/22/iridium_string_test.jpg,
+/assets/flights/22/tracker_built_front.jpg,
+/assets/flights/22/tracker_built_reverse.jpg,
+/assets/flights/22/total_lift.jpg,
+/assets/flights/22/envelope_payload.jpg,
+]
+plots: true
+title: UBSEDS22
+---
+
+The UBSEDS22 balloon was built from 50 micron thick PA-EVOH-PE
+multilayer film and was 1.9 meters in diameter. This size means the
+longest axis of the balloon and payload combined is more than 2
+meters, and so a NOTAM was required and obtained for the launch.
+
+The primary payload is a Iridium Beacon built by Paul Clark from
+Durham University. There's more details about this on
+[his github](https://github.com/PaulZC/Iridium_9603_Beacon) and in
+[this hackaday article](http://hackaday.com/2016/12/19/a-beacon-suitable-for-tracking-santas-sleigh/).
+
+<!--more-->
+
+The secondary payload is a UBSEDS tracker that uses solar power only,
+and hence only operates during daylight.
+
+<div class="row">
+<div class="col-md-4">
+<table class="table table-bordered"><thead>
+<tr>
+<td></td>
+<td>Mass</td>
+</tr>
+</thead><tbody>
+<tr>
+<td>Iridium Beacon</td>
+<td>76g</td>
+</tr>
+<tr>
+<td>UBSEDS Tracker</td>
+<td>15g</td>
+</tr>
+<tr>
+<td>Free Lift</td>
+<td>19g</td>
+</tr>
+<tr class="active">
+<td>Total Lift</td>
+<td>110g</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+The balloon achieved a stable altitude of 12.5 km 3.5 hours into the
+flight. Given the total payload weight of 91 grams, we believe this is
+the heaviest amatuer superpressure float to date!
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+# Transmissions
+
+The balloon transmits approximately once every two minutess.
+
+### UHF 434.6MHz
+
+It uses the error-correcting Contestia 16/1000 mode on 434.637.5MHz USB.
+
+Some countries do not allow UHF ISM band operation. Therefore UHF is
+only transmitted **outside** the red lines on the geofence below.
+
+* [UHF Geofence image link](/assets/flights/22/ubseds22_no_uhf_world_miller_cylindrical.png)
+
+### APRS M0SBU-2 / AD6AM-2
+
+For many countries the balloon transmits APRS packets on local
+frequencies. In particular this is 144.8MHz in Europe, 144.66MHz in
+Japan and 144.39MHz in North America.
+
+Some countries do not allow aeronautical mobile operation, which
+limits the balloon from using the amateur bands. Therefore APRS is
+only transmitted **outside** the red lines on the geofence below.
+
+* [APRS Geofence image link](/assets/flights/22/ubseds22_no_aprs_world_miller_cylindrical.png)
+
+{% include flight/map.html %}
+
+{% include flight/statistics.html %}
+
+{% include flight/plots.html %}
+
+{% include flight/resources.html %}
+
+{% include flight/receivers.html %}
