@@ -137,7 +137,8 @@ for pid in flight['value']:
                                include_docs = True,
                                startkey = [pid], endkey = [pid,[]])
 
-    payload_json.extend([t for t in payload_json_raw])
+    if len(payload_json_raw):
+        payload_json.extend([t for t in payload_json_raw])
 
 # =-----------------------------------------------------------------------
 
