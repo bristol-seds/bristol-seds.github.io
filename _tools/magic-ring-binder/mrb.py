@@ -350,7 +350,7 @@ post_yaml = {
     "altitude_plot": altitude_filename,
     "aprs_log": aprs_log,
     "habhub": {
-        "live": "http://tracker.habhub.org/#!qm=All&q={}".format(payload["doc"]["name"]),
+        "live": "http://tracker.habhub.org/#!qm=All&q={}*".format(payload_name.upper()),
         "archive": "http://tracker.habhub.org/#!qm={}".format(fid)
     },
 #    "speed_plot": speed_plot,
