@@ -918,9 +918,8 @@ The balloon carried two payloads. UBSEDS19 was the backup tracker
 (mass 13 grams), and UBSEDS20 was the main Raspberry Pi Zero payload
 (mass 62 grams). The free lift was about 25 grams.
 
-The initial float altiude was 12.5km. Given the total payload weight
-of 75 grams, we believe this is easily the heaviest amateur
-superpressure float to date!
+The initial float altiude was 12.5km. The total payload weight was
+of 75 grams.
 
 <br/>
 {% include carousel.html %}
