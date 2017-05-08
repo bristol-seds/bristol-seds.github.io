@@ -368,6 +368,11 @@ society. It carries a microcontroller and Raspberry Pi Zero to record
 telemetry and take pictures. These are then transmitted using
 license-free and Amateur radio.
 
+The superpressure balloon is capable of floating at a steady altitude
+several thousand feet above the highest commercial aircraft. Some
+[previous flights](/flights.html) have lasted several months at this
+altitude.
+
 The UBSEDS24 balloon was built from 50 micron thick PA-EVOH-PE
 multilayer film and was 1.9 meters in diameter. This size means the
 longest axis of the balloon and payload combined is more than 2
@@ -380,6 +385,10 @@ meters, and so a NOTAM was required and obtained for the launch.
 <!--more-->
 
 ## Mass Table
+
+The mass that can be carried by the balloon is limited. For more
+detail about the balloon design see
+[Richard's talk at the UKHAS Conference 2016](https://github.com/richardeoin/a-quick-guide).
 
 <div class="row">
 <div class="col-md-4">
@@ -434,7 +443,8 @@ downdrafts than previous flights.
 ## Transmissions
 
 The tracker transmits once per minute during launch and when solar
-power is available. Otherwise it transmits every two minutes.
+power is available. Otherwise it transmits every two minutes, if power
+is available. At night it may be too cold even for battery operation.
 
 ### UHF 434.6MHz
 
@@ -477,10 +487,27 @@ the tracker free from the balloon, so that the Raspberry Pi and SD
 card can be recovered. The cutdown controller cuts through the 1mm
 nylon cord by heating a short length of thin steel wire.
 
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/flights/24/cutdown_assembled_front.jpg" style='width:100%;'/>
+    </div>
+</div>
+
+Cutdown controller
+
 The cutdown is commanded using a 400 baud FSK signal on the 434MHz ISM band.
 
 This was tested as it moved away from Bristol. The maximum range was
 59 km at 05:58 GMT.
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/flights/24/uplink_test.jpg" style='width:100%;'/>
+    </div>
+</div>
+
+
+Testing at Brandom Hill, Bristol
 
 ## Streamer
 
