@@ -16,17 +16,24 @@ flight:
   - {isocode: !!python/unicode 'se', name: !!python/unicode 'Sweden'}
   - {isocode: !!python/unicode 'ee', name: !!python/unicode 'Estonia'}
   - {isocode: !!python/unicode 'lv', name: !!python/unicode 'Latvia'}
+  - {isocode: !!python/unicode 'kz', name: !!python/unicode 'Kazakhstan'}
   - {isocode: !!python/unicode 'ca', name: !!python/unicode 'Canada'}
-  duration: 42 days, 16 hours
-  great_circle: '4511.5'
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  - {isocode: !!python/unicode 'us', name: !!python/unicode 'United States'}
+  duration: 56 days, 1 hour
+  great_circle: '7298.7'
   laps: 0
   max_altitude: '12.7'
-  receiver_count: 109
+  receiver_count: 111
   receivers:
+  - callsign: VE6NH
+    data: {rxcount: 239}
+  - callsign: BACKLOG
+    data: {rxcount: 174}
   - callsign: SK0BJ-10
     data: {rxcount: 126}
-  - callsign: BACKLOG
-    data: {rxcount: 83}
+  - callsign: KL3MM
+    data: {rxcount: 75}
   - callsign: F5PHW-3
     data: {rxcount: 73}
   - callsign: DEV88
@@ -113,6 +120,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '383.6'
       rxcount: 35
+  - callsign: VE2MYC
+    data: {rxcount: 34}
   - callsign: N7GWT
     data: {rxcount: 32}
   - callsign: KA7O-15
@@ -244,8 +253,6 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '301.3'
       rxcount: 9
-  - callsign: VE2MYC
-    data: {rxcount: 9}
   - callsign: W7BOZ
     data: {rxcount: 9}
   - callsign: ED2ZAD-5
@@ -394,7 +401,7 @@ flight:
     data: {rxcount: 1}
   - callsign: W5EVH-11
     data: {rxcount: 1}
-  total_distance: '53391.0'
+  total_distance: '74722.0'
 flight_map: /assets/flights/22/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=62d6317daeb202aed60adef7d527ae52',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS22*'}
