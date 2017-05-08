@@ -450,7 +450,7 @@ only transmitted **outside** the red lines on the geofence below.
 The cutdown is commanded using a FSK signal on the 434MHz ISM band.
 
 This was tested as it moved away from Bristol. The maximum range was
-xx km as xx:xx GMT.
+59 km at 05:58 GMT.
 
 # Streamer
 
