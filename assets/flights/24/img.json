@@ -1,0 +1,47 @@
+[
+  {
+    "human_time": "8 May at 1:45 PM local Europe/Paris", 
+    "name": "UBSE24_2017-05-08T12-57-42_41", 
+    "location": {
+      "latitude": 49.030166666666666, 
+      "altitude": 13541, 
+      "longitude": -0.10966666666666668
+    }
+  }, 
+  {
+    "human_time": "8 May at 12:36 PM local Europe/Paris", 
+    "name": "UBSE24_2017-05-08T11-47-24_40", 
+    "location": {
+      "latitude": 49.3235, 
+      "altitude": 13565, 
+      "longitude": -0.7555
+    }
+  }, 
+  {
+    "human_time": "8 May at 11:07 AM local Europe/London", 
+    "name": "UBSE24_2017-05-08T10-48-26_39", 
+    "location": {
+      "latitude": 49.43666666666666, 
+      "altitude": 13582, 
+      "longitude": -0.9913333333333333
+    }
+  }, 
+  {
+    "human_time": "8 May at 8:22 AM local Europe/London", 
+    "name": "UBSE24_2017-05-08T07-24-00_1", 
+    "location": {
+      "latitude": 50.37266666666667, 
+      "altitude": 13557, 
+      "longitude": -2.0131666666666668
+    }
+  }, 
+  {
+    "human_time": "8 May at 8:04 AM local Europe/London", 
+    "name": "UBSE24_2017-05-08T07-11-57_15", 
+    "location": {
+      "latitude": 50.48066666666667, 
+      "altitude": 13535, 
+      "longitude": -2.135
+    }
+  }
+]
