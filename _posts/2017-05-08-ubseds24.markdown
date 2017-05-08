@@ -290,6 +290,7 @@ photos: [/assets/flights/24/tracker.jpg, /assets/flights/24/tracker_reverse.jpg,
 plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2017_Flights/UBSEDS24_20170508/'}
 title: UBSEDS24
+description: Raspberry Pi Zero
 ---
 
 The UBSEDS24 balloon was built from 50 micron thick PA-EVOH-PE
