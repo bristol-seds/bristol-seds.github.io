@@ -58,7 +58,7 @@ function initialize() {
         'View Full Size' +
         '</a></p>' +
         '<a href="{{ page.image_map.page }}#'+this_image["name"]+'">' +
-        '<img src="{{ page.image_map.root }}/png_small/'+this_image["name"]+'.png"/>' +
+        '<img src="{{ page.image_map.root }}/png_thumb/'+this_image["name"]+'.png"/>' +
         '</a>';
 
       infowindows[img] = new google.maps.InfoWindow({
