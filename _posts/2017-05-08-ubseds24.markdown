@@ -8,12 +8,25 @@ flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-  duration: 12 hours
-  great_circle: '625.1'
+  duration: 15 hours
+  great_circle: '853.3'
   laps: 0
   max_altitude: '13.6'
-  receiver_count: 24
+  receiver_count: 27
   receivers:
+  - callsign: F80106
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '0be9a4acc9fb097bc538411d688fc81f'
+        !!python/unicode '_rev': !!python/unicode '1-9cb2d957ec68e3e318e43cd9af98e228'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 109.0, !!python/unicode 'callsign': !!python/unicode 'F80106',
+          !!python/unicode 'latitude': 48.9, !!python/unicode 'longitude': -0.2}
+        !!python/unicode 'time_created': !!python/unicode '2017-05-08T09:47:30+02:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T09:47:30+02:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '420.2'
+      rxcount: 473
   - callsign: G8FJG_v
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -27,19 +40,6 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '444.5'
       rxcount: 459
-  - callsign: F80106
-    data:
-      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-      ltelem:
-        !!python/unicode '_id': !!python/unicode '0be9a4acc9fb097bc538411d688fc81f'
-        !!python/unicode '_rev': !!python/unicode '1-9cb2d957ec68e3e318e43cd9af98e228'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 109.0, !!python/unicode 'callsign': !!python/unicode 'F80106',
-          !!python/unicode 'latitude': 48.9, !!python/unicode 'longitude': -0.2}
-        !!python/unicode 'time_created': !!python/unicode '2017-05-08T09:47:30+02:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T09:47:30+02:00'
-        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '300.6'
-      rxcount: 388
   - callsign: F5APQ
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -53,6 +53,19 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '376.8'
       rxcount: 381
+  - callsign: F4CQA
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '167abae977389b56a097efe61972c909'
+        !!python/unicode '_rev': !!python/unicode '1-996914d9ded1e4e9e083a35daf0219b5'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 170.0, !!python/unicode 'callsign': !!python/unicode 'F4CQA',
+          !!python/unicode 'latitude': 47.011778, !!python/unicode 'longitude': 2.354904}
+        !!python/unicode 'time_created': !!python/unicode '2017-05-08T14:20:22+02:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T14:20:22+02:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '246.0'
+      rxcount: 320
   - callsign: F1OIL
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -90,21 +103,8 @@ flight:
         !!python/unicode 'time_created': !!python/unicode '2017-05-08T12:58:40+02:00'
         !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T12:58:40+02:00'
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '418.5'
-      rxcount: 252
-  - callsign: F4CQA
-    data:
-      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-      ltelem:
-        !!python/unicode '_id': !!python/unicode '167abae977389b56a097efe61972c909'
-        !!python/unicode '_rev': !!python/unicode '1-996914d9ded1e4e9e083a35daf0219b5'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 170.0, !!python/unicode 'callsign': !!python/unicode 'F4CQA',
-          !!python/unicode 'latitude': 47.011778, !!python/unicode 'longitude': 2.354904}
-        !!python/unicode 'time_created': !!python/unicode '2017-05-08T14:20:22+02:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T14:20:22+02:00'
-        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '246.0'
-      rxcount: 240
+      max_distance: '421.8'
+      rxcount: 253
   - callsign: DEV88
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -144,6 +144,19 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '250.1'
       rxcount: 165
+  - callsign: F4GUK
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'fcb1070f331aa3466cbd901781733be6'
+        !!python/unicode '_rev': !!python/unicode '1-5321cd2ca52b4744ab1f039873c25703'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 100.0, !!python/unicode 'callsign': !!python/unicode 'F4GUK',
+          !!python/unicode 'latitude': 48.8169, !!python/unicode 'longitude': 2.5513}
+        !!python/unicode 'time_created': !!python/unicode '2017-05-08T17:13:54+02:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T17:13:54+02:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '393.6'
+      rxcount: 161
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -210,19 +223,19 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '344.5'
       rxcount: 75
-  - callsign: F4GUK
+  - callsign: F4FKB
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       ltelem:
-        !!python/unicode '_id': !!python/unicode 'fcb1070f331aa3466cbd901781733be6'
-        !!python/unicode '_rev': !!python/unicode '1-5321cd2ca52b4744ab1f039873c25703'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 100.0, !!python/unicode 'callsign': !!python/unicode 'F4GUK',
-          !!python/unicode 'latitude': 48.8169, !!python/unicode 'longitude': 2.5513}
-        !!python/unicode 'time_created': !!python/unicode '2017-05-08T17:13:54+02:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T17:13:54+02:00'
+        !!python/unicode '_id': !!python/unicode 'fcb1070f331aa3466cbd901781a7fb77'
+        !!python/unicode '_rev': !!python/unicode '1-65eb577b1e73c737d6f2562264f7dd7f'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 174.0, !!python/unicode 'callsign': !!python/unicode 'F4FKB',
+          !!python/unicode 'latitude': 46.990813, !!python/unicode 'longitude': 3.179813}
+        !!python/unicode 'time_created': !!python/unicode '2017-05-08T17:50:59+02:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T17:50:59+02:00'
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '192.1'
-      rxcount: 73
+      max_distance: '160.9'
+      rxcount: 74
   - callsign: G1BLO-2
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -236,19 +249,21 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '61.7'
       rxcount: 41
-  - callsign: F4FKB
+  - callsign: F5SN
+    data: {rxcount: 37}
+  - callsign: F6HTJ
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
       ltelem:
-        !!python/unicode '_id': !!python/unicode 'fcb1070f331aa3466cbd901781a7fb77'
-        !!python/unicode '_rev': !!python/unicode '1-65eb577b1e73c737d6f2562264f7dd7f'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 174.0, !!python/unicode 'callsign': !!python/unicode 'F4FKB',
-          !!python/unicode 'latitude': 46.990813, !!python/unicode 'longitude': 3.179813}
-        !!python/unicode 'time_created': !!python/unicode '2017-05-08T17:50:59+02:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T17:50:59+02:00'
+        !!python/unicode '_id': !!python/unicode '66ed2b0de160f4006b7a98a9e153459a'
+        !!python/unicode '_rev': !!python/unicode '1-d2d0682ec54aac7768e0ebded109cdc5'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 50.0, !!python/unicode 'callsign': !!python/unicode 'F6HTJ',
+          !!python/unicode 'latitude': 42.66, !!python/unicode 'longitude': 2.94}
+        !!python/unicode 'time_created': !!python/unicode '2017-05-08T20:44:52+02:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T20:44:52+02:00'
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '83.0'
-      rxcount: 41
+      max_distance: '402.9'
+      rxcount: 33
   - callsign: M0SBU-ax
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -263,6 +278,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '67.0'
       rxcount: 19
+  - callsign: F5AFY
+    data: {rxcount: 17}
   - callsign: M0SBU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -328,7 +345,7 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '256.5'
       rxcount: 3
-  total_distance: '648.1'
+  total_distance: '878.9'
 flight_map: /assets/flights/24/flight_map.kml
 flight_map_with_images: /assets/flights/24/flight_map_with_images.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=9ed0eb552bee8757eaa91884d73c2536',
@@ -346,15 +363,23 @@ resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2017_Flights/UBSEDS24_20170
 title: UBSEDS24
 ---
 
+UBSEDS24 is a superpressure balloon launched by our student
+society. It carries a microcontroller and Raspberry Pi Zero to record
+telemetry and take pictures. These are then transmitted using
+license-free and Amateur radio.
+
 The UBSEDS24 balloon was built from 50 micron thick PA-EVOH-PE
 multilayer film and was 1.9 meters in diameter. This size means the
 longest axis of the balloon and payload combined is more than 2
 meters, and so a NOTAM was required and obtained for the launch.
 
-[View Images Here.](http://ssdv.bristol-seds.co.uk/2017/04/02/ubseds24.html).
-[Instructions for 300 baud RTTY.](http://ssdv.bristol-seds.co.uk).
+[View Images Here](http://ssdv.bristol-seds.co.uk/2017/04/02/ubseds24.html)
+
+[Instructions for 300 baud RTTY](http://ssdv.bristol-seds.co.uk)
 
 <!--more-->
+
+## Mass Table
 
 <div class="row">
 <div class="col-md-4">
@@ -406,10 +431,10 @@ downdrafts than previous flights.
 {% include carousel.html %}
 <br/>
 
-# Transmissions
+## Transmissions
 
 The tracker transmits once per minute during launch and when solar
-power is available.
+power is available. Otherwise it transmits every two minutes.
 
 ### UHF 434.6MHz
 
@@ -445,22 +470,35 @@ only transmitted **outside** the red lines on the geofence below.
 
 * [APRS Geofence image link](/assets/flights/24/ubseds24_no_aprs_world_miller_cylindrical.png)
 
-# Cutdown
+## Cutdown
 
-The cutdown is commanded using a FSK signal on the 434MHz ISM band.
+If the balloon returns close to the launch site, it is possible to cut
+the tracker free from the balloon, so that the Raspberry Pi and SD
+card can be recovered. The cutdown controller cuts through the 1mm
+nylon cord by heating a short length of thin steel wire.
+
+The cutdown is commanded using a 400 baud FSK signal on the 434MHz ISM band.
 
 This was tested as it moved away from Bristol. The maximum range was
 59 km at 05:58 GMT.
 
-# Streamer
+## Streamer
 
-The streamer is mounted between the cutdown and the tracker. It is 1m
-x 0.05m of bright pink ripstop nylon, and is intended to give a
-sea-level descent rate of 5m/s. Designed based on results from *On
-the Aerodynamic Drag of Streamers and Flags*, A. Carruthers and
-A. Filippone. See Figure 11.
+The streamer is mounted between the cutdown and the tracker, and is
+intended to slow the decent of the tracker. It is 1m x 0.05m of bright
+pink ripstop nylon, and is intended to give a sea-level descent rate
+of 5m/s. It was designed based on results from *On the Aerodynamic Drag of
+Streamers and Flags*, A. Carruthers and A. Filippone. See Figure 11.
 
-{% include flight/map.html %}
+## Habhub tracker
+
+<p class="text-align-center">
+
+{% if page.habhub.live and page.live %}
+This flight is still ongoing. Check the <a class="live-tracker" target="_blank" href="{{ page.habhub.live }}"><u>LIVE TRACKER</u></a> for the latest updates!
+{% endif %}
+
+</p>
 
 {% include flight/statistics.html %}
 
