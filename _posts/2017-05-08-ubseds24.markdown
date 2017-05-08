@@ -365,13 +365,12 @@ title: UBSEDS24
 
 UBSEDS24 is a superpressure balloon launched by our student
 society. It carries a microcontroller and Raspberry Pi Zero to record
-telemetry and take pictures. These are then transmitted using
-license-free and Amateur radio.
+telemetry and take pictures. These are then transmitted using ISM band
+and Amateur radio.
 
-The superpressure balloon is capable of floating at a steady altitude
-several thousand feet above the highest commercial aircraft. Some
-[previous flights](/flights.html) have lasted several months at this
-altitude.
+The superpressure balloon aims to float at a steady altitude of about
+13km. [Previous flights](/flights.html) have lasted several months at
+this altitude.
 
 The UBSEDS24 balloon was built from 50 micron thick PA-EVOH-PE
 multilayer film and was 1.9 meters in diameter. This size means the
