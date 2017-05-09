@@ -8,11 +8,12 @@ flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-  duration: 15 hours
-  great_circle: '853.3'
+  - {isocode: !!python/unicode 'it', name: !!python/unicode 'Italy'}
+  duration: 1 day, 4 hours
+  great_circle: '1762.1'
   laps: 0
   max_altitude: '13.6'
-  receiver_count: 27
+  receiver_count: 29
   receivers:
   - callsign: F80106
     data:
@@ -236,6 +237,19 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '160.9'
       rxcount: 74
+  - callsign: TK4LS
+    data:
+      country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '6414552eb6e06fde98daef49e9c0df7d'
+        !!python/unicode '_rev': !!python/unicode '1-3c3f4a643329c1a12a59ebb7d60a09bb'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 30.0, !!python/unicode 'callsign': !!python/unicode 'TK4LS',
+          !!python/unicode 'latitude': 42.0, !!python/unicode 'longitude': 9.3}
+        !!python/unicode 'time_created': !!python/unicode '2017-05-08T22:07:14+02:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T22:07:14+02:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '509.5'
+      rxcount: 69
   - callsign: G1BLO-2
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -293,6 +307,19 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '18.7'
       rxcount: 16
+  - callsign: IW1DTU
+    data:
+      country: {isocode: !!python/unicode 'it', name: !!python/unicode 'Italy'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode 'dd2f95d7180fcfc4662e796198b43b7e'
+        !!python/unicode '_rev': !!python/unicode '1-3e5d30d3d561db020e7941411477dfac'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 200.0, !!python/unicode 'callsign': !!python/unicode 'IW1DTU',
+          !!python/unicode 'latitude': 45.3, !!python/unicode 'longitude': 7.7}
+        !!python/unicode 'time_created': !!python/unicode '2017-05-08T21:52:57+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-05-08T21:52:57+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '499.7'
+      rxcount: 9
   - callsign: G8FJG_v1
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -345,7 +372,7 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '256.5'
       rxcount: 3
-  total_distance: '878.9'
+  total_distance: '1843.5'
 flight_map: /assets/flights/24/flight_map.kml
 flight_map_with_images: /assets/flights/24/flight_map_with_images.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=9ed0eb552bee8757eaa91884d73c2536',
