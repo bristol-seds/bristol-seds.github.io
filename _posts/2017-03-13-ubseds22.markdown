@@ -475,7 +475,7 @@ becaon ceased operation after 7 days of flight.
 
 # Transmissions
 
-The balloon transmits approximately once every two minutess.
+The balloon transmits approximately once every two minutes.
 
 ### UHF 434.6MHz
 
