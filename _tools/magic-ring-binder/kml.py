@@ -34,7 +34,7 @@ def image_placemark(outfile, img, config):
                         </a>
                     </p>
                     <a href="{page}#{name}">
-                        <img src="{root}/png_small/{name}.png"/>
+                        <img src="{root}/png_thumb/{name}.png"/>
                     </a>
                 </description>
                 <Point>
