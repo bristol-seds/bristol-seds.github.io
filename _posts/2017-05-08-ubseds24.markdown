@@ -1,6 +1,6 @@
 ---
 altitude_plot: /assets/flights/24/altitude_plot.csv
-aprs_log: false
+aprs_log: /assets/flights/24/aprs.log
 categories: hab flight
 date: '2017-05-08 04:27:13'
 description: Raspberry Pi Zero
@@ -9,11 +9,12 @@ flight:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
   - {isocode: !!python/unicode 'it', name: !!python/unicode 'Italy'}
-  duration: 1 day, 4 hours
-  great_circle: '1762.1'
+  - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
+  duration: 1 day, 14 hours
+  great_circle: '2331.5'
   laps: 0
   max_altitude: '13.6'
-  receiver_count: 29
+  receiver_count: 50
   receivers:
   - callsign: F80106
     data:
@@ -250,6 +251,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '509.5'
       rxcount: 69
+  - callsign: IQ7NK-11
+    data: {rxcount: 50}
   - callsign: G1BLO-2
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -265,6 +268,8 @@ flight:
       rxcount: 41
   - callsign: F5SN
     data: {rxcount: 37}
+  - callsign: SV2HNH-1
+    data: {rxcount: 33}
   - callsign: F6HTJ
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -307,6 +312,12 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '18.7'
       rxcount: 16
+  - callsign: LZ0BGN
+    data: {rxcount: 13}
+  - callsign: MB7UMS
+    data: {rxcount: 10}
+  - callsign: 9A0KG-10
+    data: {rxcount: 10}
   - callsign: IW1DTU
     data:
       country: {isocode: !!python/unicode 'it', name: !!python/unicode 'Italy'}
@@ -333,6 +344,14 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '444.5'
       rxcount: 8
+  - callsign: LZ0DAP-13
+    data: {rxcount: 7}
+  - callsign: G6SQX
+    data: {rxcount: 7}
+  - callsign: MB7UNE-10
+    data: {rxcount: 7}
+  - callsign: LZ1OI-4
+    data: {rxcount: 6}
   - callsign: M0XIN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -346,6 +365,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '175.6'
       rxcount: 5
+  - callsign: M0GQS
+    data: {rxcount: 5}
   - callsign: PB0AHX
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
@@ -359,6 +380,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '472.3'
       rxcount: 4
+  - callsign: IR6AC
+    data: {rxcount: 4}
   - callsign: G8FJG_rtlazel
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -372,7 +395,27 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '256.5'
       rxcount: 3
-  total_distance: '1843.5'
+  - callsign: F4FAP
+    data: {rxcount: 3}
+  - callsign: SV2HRT-6
+    data: {rxcount: 3}
+  - callsign: YU0XPI
+    data: {rxcount: 3}
+  - callsign: LZ0DOE
+    data: {rxcount: 2}
+  - callsign: F8KII-2
+    data: {rxcount: 2}
+  - callsign: SV6EXB
+    data: {rxcount: 1}
+  - callsign: MB7USO
+    data: {rxcount: 1}
+  - callsign: IC8EPV
+    data: {rxcount: 1}
+  - callsign: LZ0IOS-10
+    data: {rxcount: 1}
+  - callsign: F4DBS-10
+    data: {rxcount: 1}
+  total_distance: '2599.6'
 flight_map: /assets/flights/24/flight_map.kml
 flight_map_with_images: /assets/flights/24/flight_map_with_images.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=9ed0eb552bee8757eaa91884d73c2536',
