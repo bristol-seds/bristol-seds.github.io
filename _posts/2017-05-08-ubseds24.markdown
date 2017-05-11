@@ -9,12 +9,16 @@ flight:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
   - {isocode: !!python/unicode 'it', name: !!python/unicode 'Italy'}
+  - {isocode: !!python/unicode 'al', name: !!python/unicode 'Albania'}
+  - {isocode: !!python/unicode 'mk', name: !!python/unicode 'Macedonia'}
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
-  duration: 1 day, 14 hours
-  great_circle: '2331.5'
+  - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
+  - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
+  duration: 2 days, 11 hours
+  great_circle: '3291.3'
   laps: 0
   max_altitude: '13.6'
-  receiver_count: 50
+  receiver_count: 57
   receivers:
   - callsign: F80106
     data:
@@ -198,6 +202,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '241.6'
       rxcount: 112
+  - callsign: RA6LFJ-10
+    data: {rxcount: 86}
   - callsign: M0DNY-ax
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -251,6 +257,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '509.5'
       rxcount: 69
+  - callsign: UD6L-1
+    data: {rxcount: 59}
   - callsign: IQ7NK-11
     data: {rxcount: 50}
   - callsign: G1BLO-2
@@ -283,6 +291,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '402.9'
       rxcount: 33
+  - callsign: BACKLOG
+    data: {rxcount: 32}
   - callsign: M0SBU-ax
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -318,6 +328,8 @@ flight:
     data: {rxcount: 10}
   - callsign: 9A0KG-10
     data: {rxcount: 10}
+  - callsign: YM7KK
+    data: {rxcount: 9}
   - callsign: IW1DTU
     data:
       country: {isocode: !!python/unicode 'it', name: !!python/unicode 'Italy'}
@@ -367,6 +379,8 @@ flight:
       rxcount: 5
   - callsign: M0GQS
     data: {rxcount: 5}
+  - callsign: TA2AOB-10
+    data: {rxcount: 4}
   - callsign: PB0AHX
     data:
       country: {isocode: !!python/unicode 'nl', name: !!python/unicode 'Netherlands'}
@@ -405,9 +419,13 @@ flight:
     data: {rxcount: 2}
   - callsign: F8KII-2
     data: {rxcount: 2}
+  - callsign: RA4FHE-1
+    data: {rxcount: 2}
   - callsign: SV6EXB
     data: {rxcount: 1}
   - callsign: MB7USO
+    data: {rxcount: 1}
+  - callsign: RN6LJF-1
     data: {rxcount: 1}
   - callsign: IC8EPV
     data: {rxcount: 1}
@@ -415,7 +433,7 @@ flight:
     data: {rxcount: 1}
   - callsign: F4DBS-10
     data: {rxcount: 1}
-  total_distance: '2599.6'
+  total_distance: '4483.3'
 flight_map: /assets/flights/24/flight_map.kml
 flight_map_with_images: /assets/flights/24/flight_map_with_images.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=9ed0eb552bee8757eaa91884d73c2536',
