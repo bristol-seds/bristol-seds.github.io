@@ -14,8 +14,8 @@ flight:
   - {isocode: !!python/unicode 'gr', name: !!python/unicode 'Greece'}
   - {isocode: !!python/unicode 'ua', name: !!python/unicode 'Ukraine'}
   - {isocode: !!python/unicode 'ru', name: !!python/unicode 'Russia'}
-  duration: 4 days, 21 hours
-  great_circle: '6046.0'
+  duration: 5 days, 2 hours
+  great_circle: '6305.3'
   laps: 0
   max_altitude: '13.6'
   receiver_count: 59
@@ -59,6 +59,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '376.8'
       rxcount: 381
+  - callsign: UA0SNV-1
+    data: {rxcount: 348}
   - callsign: F4CQA
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -163,8 +165,6 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '393.6'
       rxcount: 161
-  - callsign: UA0SNV-1
-    data: {rxcount: 141}
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -260,7 +260,7 @@ flight:
       max_distance: '509.5'
       rxcount: 69
   - callsign: BACKLOG
-    data: {rxcount: 63}
+    data: {rxcount: 66}
   - callsign: UD6L-1
     data: {rxcount: 59}
   - callsign: IQ7NK-11
@@ -437,7 +437,7 @@ flight:
     data: {rxcount: 1}
   - callsign: F4DBS-10
     data: {rxcount: 1}
-  total_distance: '8315.8'
+  total_distance: '8606.5'
 flight_map: /assets/flights/24/flight_map.kml
 flight_map_with_images: /assets/flights/24/flight_map_with_images.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=9ed0eb552bee8757eaa91884d73c2536',
