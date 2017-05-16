@@ -445,6 +445,7 @@ habhub: {archive: 'http://tracker.habhub.org/#!qm=9ed0eb552bee8757eaa91884d73c25
 image_map: /hab/image-map/2017/05/08/ubseds24-image-map.html
 layout: post
 live: false
+sp_hash: '#!major=1.9&midsection=0.28&pm=91.1&fl=41'
 payload_title: UBSEDS24
 photos: [/assets/flights/24/tracker.jpg, /assets/flights/24/tracker_reverse.jpg, /assets/flights/24/cutdown_assembled_front.jpg,
   /assets/flights/24/cutdown_wire.jpg, /assets/flights/24/envelope_arty.jpg, /assets/flights/24/envelope_night_lift.jpg,

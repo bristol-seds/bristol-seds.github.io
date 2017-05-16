@@ -317,6 +317,7 @@ photos: [
 description: Test Flight to Germany
 title: UBSEDS23
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2017_Flights/UBSEDS23_20170228/'}
+sp_hash: '#!major=1.5&pm=27.0&fl=15.1'
 ---
 
 The UBSEDS23 balloon was built from 50 micron thick PA-EVOH-PE

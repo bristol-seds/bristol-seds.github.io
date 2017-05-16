@@ -18,6 +18,9 @@
 {% if page.resources.pngmap %}
 <li><a href="{{ page.resources.pngmap }}">PNG Map Image</a></li>
 {% endif %}
+{% if page.sp_hash %}
+<li><a href="https://richardeoin.github.io/sp/{{ page.sp_hash }}">Superpressure parameters for this flight</a></li>
+{% endif %}
 {% if page.aprs_log %}
 <li><a href="{{ page.aprs_log }}">APRS log file</a></li>
 {% endif %}

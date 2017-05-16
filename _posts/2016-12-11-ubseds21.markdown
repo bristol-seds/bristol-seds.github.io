@@ -1950,6 +1950,7 @@ photos: [/assets/flights/21/board_front.jpg, /assets/flights/21/tracker_assemble
 plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS21_20161211/'}
 title: UBSEDS21
+sp_hash: '#!major=1.9&pm=34.2&fl=20.2'
 ---
 
 The UBSEDS21 balloon was built from 50 micron thick PA-EVOH-PE
