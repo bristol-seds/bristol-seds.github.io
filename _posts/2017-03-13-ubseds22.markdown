@@ -533,7 +533,8 @@ photos: [/assets/flights/22/iridium_front.jpg, /assets/flights/22/iridium_revers
   /assets/flights/22/envelope_payload.jpg]
 plots: true
 title: UBSEDS22
-sp_hash: '#!major=1.9&pm=91&fl=19'
+resources: true
+sp_hash: '#!ft=50&major=1.9&pm=91&fl=19'
 ---
 
 The UBSEDS22 balloon was built from 50 micron thick PA-EVOH-PE
