@@ -1874,6 +1874,7 @@ photos: [/assets/flights/18/flying_away_close.jpg, /assets/flights/18/payload_fr
 plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS18_20160817/index.php?ind=5'}
 title: !!python/unicode 'UBSEDS18'
+sp_hash: #!ft=50&major=1.5&pm=18&fl=15.4
 ---
 
 The UBSEDS18 balloon was built from 50 micron thick PA-EVOH-PE

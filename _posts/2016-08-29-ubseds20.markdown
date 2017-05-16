@@ -903,6 +903,7 @@ photos: [/assets/flights/20/pico-pi-top-side.jpg, /assets/flights/20/nearly_asse
 plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS19-20_20160829/'}
 title: !!python/unicode 'UBSEDS20'
+sp_hash: '#!ft=50&major=1.9&pm=75&fl=25'
 ---
 
 The UBSEDS20 balloon was built from 50 micron thick PA-EVOH-PE

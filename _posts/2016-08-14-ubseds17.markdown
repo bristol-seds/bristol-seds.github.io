@@ -139,6 +139,7 @@ photos: [/assets/flights/17/ubseds17_tracker.jpg,
   /assets/flights/17/thermistor_shield.jpg,
   /assets/flights/17/waiting_to_launch_2.jpg,
   /assets/flights/17/flying_away.jpg]
+sp_hash: '#!ft=50&major=1.9&pm=25&fl=15.8'
 ---
 
 The UBSEDS17 balloon was built from 50 micron thick PA-EVOH-PE
