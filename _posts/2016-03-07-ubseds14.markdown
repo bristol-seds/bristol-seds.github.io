@@ -471,6 +471,7 @@ photos: [/assets/flights/14/envelope_prestretch_2.jpg, /assets/flights/14/tracke
 plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS14_20160307/'}
 title: UBSEDS14
+sp_hash: #!ft=50&major=1.5&pm=21.3&fl=13.0
 ---
 
 Like UBSEDS13, the UBSEDS14 balloon was built from 50 micron thick PA-EVOH-PE multilayer film. It was built to 1.5 meters diameter (0.1m more than UBSEDS13) and flown with 21.3 grams of payload. It was filled with Helium to 13.0 grams of free lift and floated at an altitude of about 11km (36,000 ft).

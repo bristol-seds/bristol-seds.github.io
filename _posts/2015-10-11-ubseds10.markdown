@@ -106,6 +106,7 @@ payload_title: UBSEDS10
 plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS10-11_20151011/index.php?ind=3'}
 title: UBSEDS10
+sp_hash: #!ft=30&major=0.914&pm=15&fl=2
 ---
 
 <!--more-->

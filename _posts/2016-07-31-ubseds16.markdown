@@ -195,6 +195,7 @@ plots: true
 description: Test with 58 gram payload
 resources: {}
 title: UBSEDS16
+sp_hash: #!ft=50&major=1.5&pm=58&fl=26.5
 ---
 
 The UBSEDS16 balloon was built from 50 micron thick PA-EVOH-PE

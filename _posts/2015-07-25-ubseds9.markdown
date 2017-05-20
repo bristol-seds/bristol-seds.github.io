@@ -163,6 +163,7 @@ photos: [/assets/flights/9/ubseds9_assembled_vase.jpg, /assets/flights/9/ubseds9
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS9_20150725/index.php?ind=9'}
 speed_plot: /assets/flights/9/speed_plot.csv
 title: UBSEDS9
+sp_hash: #!ft=30&major=0.914&pm=12&fl=2
 ---
 
 UBSEDS9 was our first superpressure HAB to use solar panels for recharging the battery during daylight hours. It floated at an altitude of 10.3 km (34,000 ft) and was tracked for 6,800 km. The flight used a v0.98.0 [pico tracker](/pico-tracker).

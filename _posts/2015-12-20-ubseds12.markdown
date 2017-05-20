@@ -50,6 +50,7 @@ live: false
 payload_title: UBSEDS12
 plots: true
 title: UBSEDS12
+sp_hash: #!ft=50&major=1.4&pm=20&fl=3
 ---
 
 <!--more-->

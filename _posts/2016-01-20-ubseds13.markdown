@@ -285,6 +285,7 @@ plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2016_Flights/UBSEDS13_20160120/index.php?ind=7',
   pngmap: /assets/flights/13/map.png}
 title: UBSEDS13
+sp_hash: #!ft=50&major=1.4&pm=21.3&fl=11.3
 ---
 
 UBSEDS13 was our first float with a custom envelope heat sealed together by hand. The multilayer film used was 50 micron thick PA-EVOH-PE. The envelope was built to 1.4 meters diameter and flown with 21.3 grams of payload. It was filled with Helium to 11.3 grams of free lift and floated at an altitude of about 10km (33,000 ft).

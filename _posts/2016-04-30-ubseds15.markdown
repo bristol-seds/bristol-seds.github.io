@@ -804,6 +804,7 @@ photos: [/assets/flights/15/flying_away_1.jpg, /assets/flights/15/flying_away_2.
 plots: true
 resources: {}
 title: UBSEDS15
+sp_hash: #!ft=50&major=1.5&pm=20&fl=17.2
 ---
 
 Like UBSEDS14, the UBSEDS15 balloon was built from 50 micron thick PA-EVOH-PE multilayer film and was 1.5 meters in diameter. The payload weight was 20 grams. We used slightly more helium than for UBSEDS14; combined with about 3 grams of deadweight (including the fill inlet) this resulted in 17.2 grams of free lift. This initial float altitude was 11.4km (37,000 ft).

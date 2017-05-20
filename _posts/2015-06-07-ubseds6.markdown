@@ -240,6 +240,7 @@ plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2015_Flights/UBSEDS6_20150607/'}
 speed_plot: /assets/flights/6/speed_plot.csv
 title: UBSEDS6
+sp_hash: #!ft=30&major=0.914&pm=12&fl=1.9
 ---
 
 UBSEDS6 was our first launch using a [36" Qualatex Balloon](http://randomsolutions.co.uk/Random_Aerospace/Balloons.html). Despite
