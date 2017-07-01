@@ -4,32 +4,32 @@ var h = 300;
 
 // Import data
 d3.text("{{ page.altitude_plot }}", function(text) {
-    var rawData = d3.csv.parseRows(text);
+  var rawData = d3.csv.parseRows(text);
 
-    parsetime = d3.time.format("%y%m%d-%H:%M:%S").parse;
+  parsetime = d3.time.format("%y%m%d-%H:%M:%S").parse;
 
-    var data = [];
-    // Convert non-date values to numbers
-    for (var i = 1; i < rawData.length; i++) { // ignore top line which is header
-      data.push({"x": parsetime(rawData[i][0]), "y": Number(rawData[i][3])});
-    }
-    dataseries = [{"values": data, "key": "Altitude", "color": 'FireBrick'}];
+  var data = [];
+  // Convert non-date values to numbers
+  for (var i = 1; i < rawData.length; i++) { // ignore top line which is header
+    data.push({"x": parsetime(rawData[i][0]), "y": Number(rawData[i][3])});
+  }
+  dataseries = [{"values": data, "key": "Altitude", "color": 'FireBrick'}];
 
-    nv.addGraph(function() {
-      var chart = nv.models.lineChart().margin({left: 80, right: 40});
-      chart.xAxis.tickFormat(function (d) {
-	return d3.time.format("%H:%M:%S")(new Date(d));
-      });
-      chart.xAxis.axisLabel('Time');
-      chart.yAxis.axisLabel('Altitude (m)');
-      chart.tooltips(false);
-      chart.useVoronoi(false);
+  nv.addGraph(function() {
+    var chart = nv.models.lineChart().margin({left: 80, right: 40});
+    chart.xAxis.tickFormat(function (d) {
+	  return d3.time.format("%H:%M:%S")(new Date(d));
+    });
+    chart.xAxis.axisLabel('Time');
+    chart.yAxis.axisLabel('Altitude (m)');
+    chart.tooltips(false);
+    chart.useVoronoi(false);
 
-      chart.showLegend(false);
-      d3.select("#alt-time")
+    chart.showLegend(false);
+    d3.select("#alt-time")
       .attr("width", w).attr("height", h)
       .datum(dataseries).call(chart);
     nv.utils.windowResize(function() { chart.update() });
     return chart;
-    });
+  });
 });

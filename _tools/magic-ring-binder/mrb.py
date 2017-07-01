@@ -11,6 +11,7 @@ import yaml
 import re
 import sys
 
+import datum_time
 import distance
 import countries
 import receivers
@@ -185,33 +186,7 @@ if payload_name == "ubseds14": # Filter out packet with altitude from UBSEDS14
 # =-----------------------------------------------------------------------
 
 # Sort the payload data by date
-def data_timesort(datum):
-
-    try:
-        telemetry_t = arrow.get(datum['doc']['data']['time'], "HH:mm:ss")
-    except:
-        telemetry_t = arrow.get(datum['doc']['data']['time'], "HH:mm").replace(minutes=+1)
-        datum['doc']['data']['time'] = telemetry_t.format("HH:mm:ss")
-
-    if 'key' in datum: # From habitat
-        received_mean_t = arrow.get(datum['key'][1])
-
-        if str(received_mean_t) == '2017-02-19T17:54:31+00:00':
-            # messed up at this time for UBSEDS21, need to extract from telem
-            ts = datum['doc']['data']['_sentence']
-            telemetry_t = arrow.get(ts[11:19], "HH:mm:ss")
-            received_mean_t = arrow.get(ts[20:26], "YYMMDD")
-
-        # Correction for packets that get received the next day
-        if telemetry_t.hour == 23 and received_mean_t.hour == 0:
-            received_mean_t = received_mean_t.replace(hours=-1)
-
-    else: # From some other source
-        received_mean_t = arrow.get(datum['doc']['data']['date'], "YYMMDD")
-
-    return [received_mean_t.date(), telemetry_t.timestamp]
-
-payload_json_sorted = sorted(payload_json, key=data_timesort)
+payload_json_sorted = sorted(payload_json, key=datum_time.timestamp)
 
 # Extract just the documents
 payload_docs_sorted = [t['doc'] for t in payload_json_sorted]
@@ -335,7 +310,8 @@ if images:
 
 # Altitude Plot
 altitude_filename = asset_path+"altitude_plot.csv"
-altitude_plot.output(altitude_filename, payload_data_filt)
+speed_filename = asset_path+"speed_plot.csv"
+altitude_plot.output(altitude_filename, speed_filename, payload_data_filt)
 
 # Speed plot (TODO)
 speed_plot = asset_path+"speed_plot.csv"
