@@ -1,17 +1,19 @@
 ---
 altitude_plot: /assets/flights/25/altitude_plot.csv
-aprs_log: false
+aprs_log: /assets/flights/25/aprs.log
 categories: hab flight
 date: '2017-07-01 04:26:05'
+description: Raspberry Pi Zero
 flight:
   countries:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
-  duration: 4 hours
-  great_circle: '384.0'
+  - {isocode: !!python/unicode 'es', name: !!python/unicode 'Spain'}
+  duration: 13 hours
+  great_circle: '1055.1'
   laps: 0
-  max_altitude: '12.9'
-  receiver_count: 15
+  max_altitude: '13.1'
+  receiver_count: 31
   receivers:
   - callsign: G8FJG_v
     data:
@@ -39,6 +41,19 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '271.2'
       rxcount: 133
+  - callsign: G1BLO
+    data:
+      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '20c8567ad13133ef3ffeb55e222f6dd0'
+        !!python/unicode '_rev': !!python/unicode '1-8b4a900bb22eb125c491cd5d9cbbc83a'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 25.0, !!python/unicode 'callsign': !!python/unicode 'G1BLO',
+          !!python/unicode 'latitude': 50.7841, !!python/unicode 'longitude': -1.7362}
+        !!python/unicode 'time_created': !!python/unicode '2017-07-01T05:58:02+00:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-07-01T05:58:02+00:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '396.3'
+      rxcount: 81
   - callsign: G8FJG_rtl_azel
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -52,19 +67,6 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '260.3'
       rxcount: 76
-  - callsign: G1BLO
-    data:
-      country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
-      ltelem:
-        !!python/unicode '_id': !!python/unicode '20c8567ad13133ef3ffeb55e222f6dd0'
-        !!python/unicode '_rev': !!python/unicode '1-8b4a900bb22eb125c491cd5d9cbbc83a'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 25.0, !!python/unicode 'callsign': !!python/unicode 'G1BLO',
-          !!python/unicode 'latitude': 50.7841, !!python/unicode 'longitude': -1.7362}
-        !!python/unicode 'time_created': !!python/unicode '2017-07-01T05:58:02+00:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2017-07-01T05:58:02+00:00'
-        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '333.3'
-      rxcount: 70
   - callsign: G8KNN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -104,6 +106,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '349.5'
       rxcount: 37
+  - callsign: EB1TK-5
+    data: {rxcount: 28}
   - callsign: M0SBU-ax/p
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -118,6 +122,10 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '23.5'
       rxcount: 27
+  - callsign: F6DZR-3
+    data: {rxcount: 25}
+  - callsign: EA1WS
+    data: {rxcount: 25}
   - callsign: M0SBU
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -144,6 +152,18 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '328.2'
       rxcount: 19
+  - callsign: SV3CIX
+    data:
+      ltelem:
+        !!python/unicode '_id': !!python/unicode '20c8567ad13133ef3ffeb55e224576ef'
+        !!python/unicode '_rev': !!python/unicode '1-7b182cb04beee0e8b76ccaed48a9e936'
+        !!python/unicode 'data': {!!python/unicode 'altitude': 32.0, !!python/unicode 'callsign': !!python/unicode 'SV3CIX',
+          !!python/unicode 'latitude': 37.526, !!python/unicode 'longitude': 22.8614}
+        !!python/unicode 'time_created': !!python/unicode '2017-07-01T09:18:46+03:00'
+        !!python/unicode 'time_uploaded': !!python/unicode '2017-07-01T09:18:46+03:00'
+        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
+      max_distance: '2455.3'
+      rxcount: 18
   - callsign: F4GUK
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -157,18 +177,12 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '445.6'
       rxcount: 15
-  - callsign: SV3CIX
-    data:
-      ltelem:
-        !!python/unicode '_id': !!python/unicode '20c8567ad13133ef3ffeb55e224576ef'
-        !!python/unicode '_rev': !!python/unicode '1-7b182cb04beee0e8b76ccaed48a9e936'
-        !!python/unicode 'data': {!!python/unicode 'altitude': 32.0, !!python/unicode 'callsign': !!python/unicode 'SV3CIX',
-          !!python/unicode 'latitude': 37.526, !!python/unicode 'longitude': 22.8614}
-        !!python/unicode 'time_created': !!python/unicode '2017-07-01T09:18:46+03:00'
-        !!python/unicode 'time_uploaded': !!python/unicode '2017-07-01T09:18:46+03:00'
-        !!python/unicode 'type': !!python/unicode 'listener_telemetry'
-      max_distance: '2454.1'
-      rxcount: 15
+  - callsign: F5PHW-3
+    data: {rxcount: 14}
+  - callsign: F5OPV-10
+    data: {rxcount: 14}
+  - callsign: ED1ZAR-3
+    data: {rxcount: 13}
   - callsign: G1DYQ
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -182,6 +196,14 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '295.6'
       rxcount: 12
+  - callsign: F1ZGE-3
+    data: {rxcount: 11}
+  - callsign: ED2ZAD-5
+    data: {rxcount: 9}
+  - callsign: ED2ZAE-5
+    data: {rxcount: 7}
+  - callsign: EA1FAQ-3
+    data: {rxcount: 6}
   - callsign: M0ZOS
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -195,6 +217,10 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '90.9'
       rxcount: 4
+  - callsign: F5LRQ-3
+    data: {rxcount: 3}
+  - callsign: ED1YAP-3
+    data: {rxcount: 3}
   - callsign: G8IMN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -208,7 +234,15 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '420.3'
       rxcount: 2
-  total_distance: '391.2'
+  - callsign: F4FAP
+    data: {rxcount: 2}
+  - callsign: F6FDN-3
+    data: {rxcount: 1}
+  - callsign: ED4ZAF-3
+    data: {rxcount: 1}
+  - callsign: F5ZZC-4
+    data: {rxcount: 1}
+  total_distance: '1066.2'
 flight_map: /assets/flights/25/flight_map.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=dd1abfe8ccb89b250675ace3f0a060bc',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS25*'}
@@ -217,7 +251,6 @@ live: true
 payload_title: UBSEDS25
 plots: true
 title: UBSEDS25
-description: Raspberry Pi Zero
 ---
 
 UBSEDS25 is a superpressure balloon launched by our student
