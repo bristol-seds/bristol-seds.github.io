@@ -9,11 +9,11 @@ flight:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
   - {isocode: !!python/unicode 'es', name: !!python/unicode 'Spain'}
-  duration: 13 hours
-  great_circle: '1055.1'
+  duration: 16 hours
+  great_circle: '1303.5'
   laps: 0
   max_altitude: '13.1'
-  receiver_count: 31
+  receiver_count: 35
   receivers:
   - callsign: G8FJG_v
     data:
@@ -106,6 +106,10 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '349.5'
       rxcount: 37
+  - callsign: EA1FAQ-3
+    data: {rxcount: 37}
+  - callsign: EA1WS
+    data: {rxcount: 33}
   - callsign: EB1TK-5
     data: {rxcount: 28}
   - callsign: M0SBU-ax/p
@@ -123,8 +127,6 @@ flight:
       max_distance: '23.5'
       rxcount: 27
   - callsign: F6DZR-3
-    data: {rxcount: 25}
-  - callsign: EA1WS
     data: {rxcount: 25}
   - callsign: M0SBU
     data:
@@ -164,6 +166,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '2455.3'
       rxcount: 18
+  - callsign: ED2ZAE-5
+    data: {rxcount: 17}
   - callsign: F4GUK
     data:
       country: {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
@@ -181,6 +185,8 @@ flight:
     data: {rxcount: 14}
   - callsign: F5OPV-10
     data: {rxcount: 14}
+  - callsign: ED4ZAC-3
+    data: {rxcount: 13}
   - callsign: ED1ZAR-3
     data: {rxcount: 13}
   - callsign: G1DYQ
@@ -200,10 +206,8 @@ flight:
     data: {rxcount: 11}
   - callsign: ED2ZAD-5
     data: {rxcount: 9}
-  - callsign: ED2ZAE-5
-    data: {rxcount: 7}
-  - callsign: EA1FAQ-3
-    data: {rxcount: 6}
+  - callsign: ED4ZAF-3
+    data: {rxcount: 5}
   - callsign: M0ZOS
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -217,10 +221,14 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '90.9'
       rxcount: 4
+  - callsign: CT1AKV
+    data: {rxcount: 3}
   - callsign: F5LRQ-3
     data: {rxcount: 3}
   - callsign: ED1YAP-3
     data: {rxcount: 3}
+  - callsign: CT1ENI-8
+    data: {rxcount: 2}
   - callsign: G8IMN
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -238,18 +246,25 @@ flight:
     data: {rxcount: 2}
   - callsign: F6FDN-3
     data: {rxcount: 1}
-  - callsign: ED4ZAF-3
+  - callsign: EA5AHQ-15
     data: {rxcount: 1}
   - callsign: F5ZZC-4
     data: {rxcount: 1}
-  total_distance: '1066.2'
+  total_distance: '1315.5'
 flight_map: /assets/flights/25/flight_map.kml
+flight_map_with_images: /assets/flights/25/flight_map_with_images.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=dd1abfe8ccb89b250675ace3f0a060bc',
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS25*'}
+image_map: /hab/image-map/2017/07/01/ubseds25-image-map.html
 layout: post
 live: true
 payload_title: UBSEDS25
+photos: [/assets/flights/25/tracker_camera_front.jpg, /assets/flights/25/tracker_assembled_front.jpg,
+  /assets/flights/25/envelope_deflate_arty.jpg, /assets/flights/25/envelope_filled.jpg,
+  /assets/flights/25/cutaway_3.jpg, /assets/flights/25/tow_attachment.jpg, /assets/flights/25/tow_train_3.jpg]
 plots: true
+resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2017_Flights/UBSEDS25_20170701/'}
+sp_hash: '#!major=1.9&pm=93.5&fl=22'
 title: UBSEDS25
 ---
 
@@ -265,7 +280,12 @@ this altitude.
 The UBSEDS25 balloon was built from 50 micron thick PA-EVOH-PE
 multilayer film and was 1.9 meters in diameter. This size means the
 longest axis of the balloon and payload combined is more than 2
-meters, and so a NOTAM was required and obtained for the launch.
+meters, and so a NOTAM was required and obtained for the launch. This
+launch was unusual as the conditions were cloudy at launch. A 2nd "tow
+balloon" was used to pull the main balloon through the cloud
+deck. This [tow balloon](#tow-balloon) was timed to disconnect at
+05.55 BST, and this successfully occoured at an altitude of 4.6km
+(15,000 ft).
 
 [View Images Here](http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html)
 
@@ -273,7 +293,121 @@ meters, and so a NOTAM was required and obtained for the launch.
 
 <!--more-->
 
-{% include flight/map.html %}
+## Mass Table
+
+The mass that can be carried by the balloon is limited. For more
+detail about the balloon design see
+[Richard's talk at the UKHAS Conference 2016](https://github.com/richardeoin/a-quick-guide).
+
+This table does not include details of the tow balloon. See the
+[section](#tow-balloon) below.
+
+<div class="row">
+<div class="col-md-4">
+<table class="table table-bordered"><thead>
+<tr>
+<td></td>
+<td>Mass</td>
+</tr>
+</thead><tbody>
+<tr>
+<td>Tracker incl. Pi Zero</td>
+<td>63.5g</td>
+</tr>
+<tr>
+<td>Cutdown</td>
+<td>24.5g</td>
+</tr>
+<tr>
+<td>Streamer</td>
+<td>3.3g</td>
+</tr>
+<tr>
+<td>Line etc.</td>
+<td>2.2g</td>
+</tr>
+<tr class="active">
+<td>Total Payload</td>
+<td>93.5g</td>
+</tr>
+<tr>
+<td>Free Lift</td>
+<td>22g</td>
+</tr>
+<tr class="active">
+<td>Total Lift</td>
+<td>116g</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+The flight achieved a stable altitude of 12.8 km 2.5 hours after
+launch. The free lift was reduced to about 20g after the previous
+[UBSEDS24](/hab/flight/2017/05/08/ubseds24.html) (which used a higher
+free lift) was lost after a relatively short flight.
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+## Transmissions
+
+The tracker transmits once per minute during launch and when solar
+power is available. Otherwise it transmits every two minutes, if power
+is available. At night it may be too cold even for battery operation.
+
+### UHF 434.6MHz
+
+Telemetry is transmitted using the error-correcting Contestia 16/1000
+mode on 434.635MHz USB.
+
+300 baud RTTY is used for image downlink, except when GMSK is used
+(see below). Although slow, this was successfully used by Ron G8FJG to
+receive images. These images can be found
+[here](http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html). Instructions
+for configuring dl-fldigi are [here](http://ssdv.bristol-seds.co.uk).
+
+Some countries do not allow UHF ISM band operation. Therefore UHF is
+only transmitted **outside** the red lines on the geofence below.
+
+* [UHF Geofence image link](/assets/flights/25/ubseds25_no_uhf_world_miller_cylindrical.png)
+
+This band is also used for GMSK. GMSK is used to downlink images
+within the red area
+[on this map](/assets/flights/25/ubseds25_gmsk_rtty.png). The PER was
+too high to recover any images.
+
+### APRS M0SBU-5 / AD6AM-5
+
+For many countries the balloon transmits APRS packets on local
+frequencies. In particular this is 144.8MHz in Europe, 144.66MHz in
+Japan and 144.39MHz in North America.
+
+Some countries do not allow aeronautical mobile operation, which
+limits the balloon from using the amateur bands. Therefore APRS is
+only transmitted **outside** the red lines on the geofence below.
+
+* [APRS Geofence image link](/assets/flights/25/ubseds25_no_aprs_world_miller_cylindrical.png)
+
+## Tow Balloon
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/flights/25/cutaway_google_earth.png" style='width:100%;'/>
+    </div>
+</div>
+
+
+## Habhub tracker
+
+<p class="text-align-center">
+
+{% if page.habhub.live and page.live %}
+This flight is still ongoing. Check the <a class="live-tracker" target="_blank" href="{{ page.habhub.live }}"><u>LIVE TRACKER</u></a> for the latest updates!
+{% endif %}
+
+</p>
 
 {% include flight/statistics.html %}
 

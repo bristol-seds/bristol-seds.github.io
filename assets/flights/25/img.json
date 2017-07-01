@@ -1,0 +1,74 @@
+[
+  {
+    "human_time": "1 June at 9:42 AM local Europe/Paris", 
+    "name": "UBSE25_2017-07-01T07-45-07_1", 
+    "location": {
+      "latitude": 48.913333333333334, 
+      "altitude": 12846, 
+      "longitude": -3.3101666666666665
+    }
+  }, 
+  {
+    "human_time": "1 June at 8:28 AM local Europe/London", 
+    "name": "UBSE25_2017-07-01T07-30-23_1", 
+    "location": {
+      "latitude": 49.16916666666666, 
+      "altitude": 12851, 
+      "longitude": -3.1556666666666664
+    }
+  }, 
+  {
+    "human_time": "1 June at 8:28 AM local Europe/London", 
+    "name": "UBSE25_2017-07-01T07-24-29_1", 
+    "location": {
+      "latitude": 49.33416666666667, 
+      "altitude": 12857, 
+      "longitude": -3.0446666666666666
+    }
+  }, 
+  {
+    "human_time": "1 June at 7:58 AM local Europe/Guernsey", 
+    "name": "UBSE25_2017-07-01T07-00-39_1", 
+    "location": {
+      "latitude": 49.55183333333333, 
+      "altitude": 12839, 
+      "longitude": -2.906833333333333
+    }
+  }, 
+  {
+    "human_time": "1 June at 7:52 AM local Europe/Guernsey", 
+    "name": "UBSE25_2017-07-01T06-54-23_1", 
+    "location": {
+      "latitude": 49.674, 
+      "altitude": 12816, 
+      "longitude": -2.8335000000000004
+    }
+  }, 
+  {
+    "human_time": "1 June at 7:40 AM local Europe/Guernsey", 
+    "name": "UBSE25_2017-07-01T06-42-25_1", 
+    "location": {
+      "latitude": 49.81783333333334, 
+      "altitude": 12651, 
+      "longitude": -2.7445
+    }
+  }, 
+  {
+    "human_time": "1 June at 7:33 AM local Europe/Guernsey", 
+    "name": "UBSE25_2017-07-01T06-35-52_1", 
+    "location": {
+      "latitude": 49.88516666666666, 
+      "altitude": 12378, 
+      "longitude": -2.7071666666666667
+    }
+  }, 
+  {
+    "human_time": "1 June at 7:09 AM local Europe/London", 
+    "name": "UBSE25_2017-07-01T06-12-08_1", 
+    "location": {
+      "latitude": 50.37316666666667, 
+      "altitude": 9222, 
+      "longitude": -2.6201666666666665
+    }
+  }
+]

@@ -457,6 +457,158 @@
 </coordinates>
                 </Point>
             </Placemark>
+            <Placemark>
+                <name>UBSE25_2017-07-01T07-45-07_1</name>
+                <description>
+                    <p>Taken 1 June at 9:42 AM local Europe/Paris</p>
+                    <p>12846m altitude.
+                        <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T07-45-07_1">
+                            View Full Size
+                        </a>
+                    </p>
+                    <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T07-45-07_1">
+                        <img src="http://ssdv.bristol-seds.co.uk/UBSE25/png_thumb/UBSE25_2017-07-01T07-45-07_1.png"/>
+                    </a>
+                </description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>-3.31016666667,48.9133333333,12846</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>UBSE25_2017-07-01T07-30-23_1</name>
+                <description>
+                    <p>Taken 1 June at 8:28 AM local Europe/London</p>
+                    <p>12851m altitude.
+                        <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T07-30-23_1">
+                            View Full Size
+                        </a>
+                    </p>
+                    <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T07-30-23_1">
+                        <img src="http://ssdv.bristol-seds.co.uk/UBSE25/png_thumb/UBSE25_2017-07-01T07-30-23_1.png"/>
+                    </a>
+                </description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>-3.15566666667,49.1691666667,12851</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>UBSE25_2017-07-01T07-24-29_1</name>
+                <description>
+                    <p>Taken 1 June at 8:28 AM local Europe/London</p>
+                    <p>12857m altitude.
+                        <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T07-24-29_1">
+                            View Full Size
+                        </a>
+                    </p>
+                    <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T07-24-29_1">
+                        <img src="http://ssdv.bristol-seds.co.uk/UBSE25/png_thumb/UBSE25_2017-07-01T07-24-29_1.png"/>
+                    </a>
+                </description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>-3.04466666667,49.3341666667,12857</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>UBSE25_2017-07-01T07-00-39_1</name>
+                <description>
+                    <p>Taken 1 June at 7:58 AM local Europe/Guernsey</p>
+                    <p>12839m altitude.
+                        <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T07-00-39_1">
+                            View Full Size
+                        </a>
+                    </p>
+                    <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T07-00-39_1">
+                        <img src="http://ssdv.bristol-seds.co.uk/UBSE25/png_thumb/UBSE25_2017-07-01T07-00-39_1.png"/>
+                    </a>
+                </description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>-2.90683333333,49.5518333333,12839</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>UBSE25_2017-07-01T06-54-23_1</name>
+                <description>
+                    <p>Taken 1 June at 7:52 AM local Europe/Guernsey</p>
+                    <p>12816m altitude.
+                        <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T06-54-23_1">
+                            View Full Size
+                        </a>
+                    </p>
+                    <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T06-54-23_1">
+                        <img src="http://ssdv.bristol-seds.co.uk/UBSE25/png_thumb/UBSE25_2017-07-01T06-54-23_1.png"/>
+                    </a>
+                </description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>-2.8335,49.674,12816</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>UBSE25_2017-07-01T06-42-25_1</name>
+                <description>
+                    <p>Taken 1 June at 7:40 AM local Europe/Guernsey</p>
+                    <p>12651m altitude.
+                        <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T06-42-25_1">
+                            View Full Size
+                        </a>
+                    </p>
+                    <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T06-42-25_1">
+                        <img src="http://ssdv.bristol-seds.co.uk/UBSE25/png_thumb/UBSE25_2017-07-01T06-42-25_1.png"/>
+                    </a>
+                </description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>-2.7445,49.8178333333,12651</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>UBSE25_2017-07-01T06-35-52_1</name>
+                <description>
+                    <p>Taken 1 June at 7:33 AM local Europe/Guernsey</p>
+                    <p>12378m altitude.
+                        <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T06-35-52_1">
+                            View Full Size
+                        </a>
+                    </p>
+                    <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T06-35-52_1">
+                        <img src="http://ssdv.bristol-seds.co.uk/UBSE25/png_thumb/UBSE25_2017-07-01T06-35-52_1.png"/>
+                    </a>
+                </description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>-2.70716666667,49.8851666667,12378</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>UBSE25_2017-07-01T06-12-08_1</name>
+                <description>
+                    <p>Taken 1 June at 7:09 AM local Europe/London</p>
+                    <p>9222m altitude.
+                        <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T06-12-08_1">
+                            View Full Size
+                        </a>
+                    </p>
+                    <a href="http://ssdv.bristol-seds.co.uk/2017/07/01/ubseds25.html#UBSE25_2017-07-01T06-12-08_1">
+                        <img src="http://ssdv.bristol-seds.co.uk/UBSE25/png_thumb/UBSE25_2017-07-01T06-12-08_1.png"/>
+                    </a>
+                </description>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>-2.62016666667,50.3731666667,9222</coordinates>
+                </Point>
+            </Placemark>
         </Folder>
     </Document>
     </kml>
