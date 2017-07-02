@@ -37,7 +37,7 @@ d3.text("{{ page.speed_plot }}", function(text) {
     var chart2 = nv.models.lineChart().margin({left: 80, right: 40});
     chart2.yAxis.tickFormat(d3.format('.2f'));
     chart2.xAxis.tickFormat(function (d) {
-	  return d3.time.format("%H:%M:%S")(new Date(d*1000));
+	  return d3.time.format("%H:%M:%S")(new Date(d));
     });
     chart2.xAxis.axisLabel('Time');
     chart2.yAxis.axisLabel('Speed (m/s)');
