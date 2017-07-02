@@ -60,6 +60,6 @@ def timestamp2(datum):
     # Combine date and time timestamps
     timestamp = received_mean_t.timestamp + telemetry_t.timestamp
 
-    print(timestamp)
+    #print(timestamp)
 
     return timestamp
