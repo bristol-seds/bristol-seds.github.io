@@ -287,6 +287,7 @@ photos: [/assets/flights/25/tracker_camera_front.jpg, /assets/flights/25/tracker
 plots: true
 resources: {g8dhe: 'http://360.g8dhe.net/HAB_Flights/2017_Flights/UBSEDS25_20170701/'}
 sp_hash: '#!major=1.9&pm=93.5&fl=22'
+speed_plot: /assets/flights/25/speed_plot.csv
 title: UBSEDS25
 ---
 
