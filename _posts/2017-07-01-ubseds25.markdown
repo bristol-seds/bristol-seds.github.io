@@ -9,11 +9,12 @@ flight:
   - {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
   - {isocode: !!python/unicode 'es', name: !!python/unicode 'Spain'}
-  duration: 1 day, 5 hours
-  great_circle: '1720.5'
+  - {isocode: !!python/unicode 'dz', name: !!python/unicode 'Algeria'}
+  duration: 1 day, 14 hours
+  great_circle: '1830.1'
   laps: 0
   max_altitude: '13.1'
-  receiver_count: 46
+  receiver_count: 53
   receivers:
   - callsign: G8FJG_v
     data:
@@ -176,6 +177,8 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '2455.3'
       rxcount: 18
+  - callsign: IS0CAP
+    data: {rxcount: 17}
   - callsign: EA4RKU
     data: {rxcount: 16}
   - callsign: ED1ZAR-3
@@ -212,19 +215,25 @@ flight:
       rxcount: 12
   - callsign: F1ZGE-3
     data: {rxcount: 11}
+  - callsign: IS0AML-12
+    data: {rxcount: 9}
   - callsign: ED2ZAD-5
     data: {rxcount: 9}
   - callsign: ED4ZAF-3
     data: {rxcount: 8}
   - callsign: EA5AHQ-10
     data: {rxcount: 7}
-  - callsign: EA5AHQ-15
-    data: {rxcount: 6}
   - callsign: EA5URJ-10
+    data: {rxcount: 7}
+  - callsign: EA5AHQ-15
     data: {rxcount: 6}
   - callsign: EA5URV-10
     data: {rxcount: 5}
   - callsign: CT1ENI-8
+    data: {rxcount: 4}
+  - callsign: IW9GTD-11
+    data: {rxcount: 4}
+  - callsign: EA6VQ-15
     data: {rxcount: 4}
   - callsign: M0ZOS
     data:
@@ -242,6 +251,8 @@ flight:
   - callsign: CT1AKV
     data: {rxcount: 4}
   - callsign: CT2IAG
+    data: {rxcount: 3}
+  - callsign: IS0CAP-7
     data: {rxcount: 3}
   - callsign: F5LRQ-3
     data: {rxcount: 3}
@@ -264,6 +275,8 @@ flight:
     data: {rxcount: 2}
   - callsign: F6FDN-3
     data: {rxcount: 1}
+  - callsign: IZ0DCK
+    data: {rxcount: 1}
   - callsign: ED4YAG-3
     data: {rxcount: 1}
   - callsign: EA7CRT
@@ -272,7 +285,9 @@ flight:
     data: {rxcount: 1}
   - callsign: ED1ZAX-3
     data: {rxcount: 1}
-  total_distance: '2116.3'
+  - callsign: IH9PFY
+    data: {rxcount: 1}
+  total_distance: '3028.3'
 flight_map: /assets/flights/25/flight_map.kml
 flight_map_with_images: /assets/flights/25/flight_map_with_images.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=dd1abfe8ccb89b250675ace3f0a060bc',
