@@ -10,8 +10,8 @@ flight:
   - {isocode: !!python/unicode 'fr', name: !!python/unicode 'France'}
   - {isocode: !!python/unicode 'es', name: !!python/unicode 'Spain'}
   - {isocode: !!python/unicode 'dz', name: !!python/unicode 'Algeria'}
-  duration: 1 day, 14 hours
-  great_circle: '1830.1'
+  duration: 1 day, 15 hours
+  great_circle: '1887.4'
   laps: 0
   max_altitude: '13.1'
   receiver_count: 53
@@ -119,6 +119,8 @@ flight:
     data: {rxcount: 28}
   - callsign: EB1TK-5
     data: {rxcount: 28}
+  - callsign: BACKLOG
+    data: {rxcount: 27}
   - callsign: M0SBU-ax/p
     data:
       country: {isocode: !!python/unicode 'gb', name: !!python/unicode 'United Kingdom'}
@@ -133,8 +135,6 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '23.5'
       rxcount: 27
-  - callsign: BACKLOG
-    data: {rxcount: 26}
   - callsign: F6DZR-3
     data: {rxcount: 25}
   - callsign: M0SBU
@@ -163,6 +163,10 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '328.2'
       rxcount: 19
+  - callsign: IW9GTD-11
+    data: {rxcount: 19}
+  - callsign: IS0CAP
+    data: {rxcount: 18}
   - callsign: ED2ZAE-5
     data: {rxcount: 18}
   - callsign: SV3CIX
@@ -177,8 +181,6 @@ flight:
         !!python/unicode 'type': !!python/unicode 'listener_telemetry'
       max_distance: '2455.3'
       rxcount: 18
-  - callsign: IS0CAP
-    data: {rxcount: 17}
   - callsign: EA4RKU
     data: {rxcount: 16}
   - callsign: ED1ZAR-3
@@ -227,11 +229,11 @@ flight:
     data: {rxcount: 7}
   - callsign: EA5AHQ-15
     data: {rxcount: 6}
+  - callsign: IH9PFY
+    data: {rxcount: 6}
   - callsign: EA5URV-10
     data: {rxcount: 5}
   - callsign: CT1ENI-8
-    data: {rxcount: 4}
-  - callsign: IW9GTD-11
     data: {rxcount: 4}
   - callsign: EA6VQ-15
     data: {rxcount: 4}
@@ -285,9 +287,7 @@ flight:
     data: {rxcount: 1}
   - callsign: ED1ZAX-3
     data: {rxcount: 1}
-  - callsign: IH9PFY
-    data: {rxcount: 1}
-  total_distance: '3028.3'
+  total_distance: '3174.0'
 flight_map: /assets/flights/25/flight_map.kml
 flight_map_with_images: /assets/flights/25/flight_map_with_images.kml
 habhub: {archive: 'http://tracker.habhub.org/#!qm=dd1abfe8ccb89b250675ace3f0a060bc',
