@@ -14,7 +14,7 @@ flight:
   great_circle: '1887.4'
   laps: 0
   max_altitude: '13.1'
-  receiver_count: 53
+  receiver_count: 54
   receivers:
   - callsign: G8FJG_v
     data:
@@ -283,6 +283,8 @@ flight:
     data: {rxcount: 1}
   - callsign: EA7CRT
     data: {rxcount: 1}
+  - callsign: M0BIW
+    data: {rxcount: 1}
   - callsign: F5ZZC-4
     data: {rxcount: 1}
   - callsign: ED1ZAX-3
@@ -294,7 +296,7 @@ habhub: {archive: 'http://tracker.habhub.org/#!qm=dd1abfe8ccb89b250675ace3f0a060
   live: 'http://tracker.habhub.org/#!qm=All&q=UBSEDS25*'}
 image_map: /hab/image-map/2017/07/01/ubseds25-image-map.html
 layout: post
-live: true
+live: false
 payload_title: UBSEDS25
 photos: [/assets/flights/25/tracker_camera_front.jpg, /assets/flights/25/tracker_assembled_front.jpg,
   /assets/flights/25/envelope_deflate_arty.jpg, /assets/flights/25/envelope_filled.jpg,
