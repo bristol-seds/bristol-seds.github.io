@@ -1,0 +1,56 @@
+---
+layout: post
+title: "UKSEDS Lunar Rover Competition"
+categories: lrc
+asset_path: /assets/posts/lunar-rover-2017/
+photos: [/assets/posts/lunar-rover-2017/team.jpg, /assets/posts/lunar-rover-2017/prep.jpg, /assets/posts/lunar-rover-2017/action.jpg,
+		/assets/posts/lunar-rover-2017/climb.jpg, /assets/posts/lunar-rover-2017/mars_yard.jpg, /assets/posts/lunar-rover-2017/sample.jpg,
+		/assets/posts/lunar-rover-2017/roll.jpg, /assets/posts/lunar-rover-2017/houston.jpg, /assets/posts/lunar-rover-2017/vibration.jpg,
+		/assets/posts/lunar-rover-2017/competition.jpg]
+---
+
+The main project for Bristol SEDS in 2016/2017 acdemic year has been the [UKSEDS Lunar Rover Competition](http://robotics.ukseds.org/).
+After successfuly passing the Preliminary and Critical Design Reviews, our team was invited to compete against four other teams in the final contest at RAL Space in Harwell, where Bristol SEDS was awarded a second place.
+
+<!--more-->
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+### Mission
+
+The mission was based on a real proposal by ESA to send a lander to a rim of Shackleton Crater.
+The lander would deploy a battery powered rover, which would drive into the crater, collect a surface sample and return it to the lander for analysis.
+Being close to the south pole of the Moon, the base of Shackleton Crater has not seen any sunlight for millions of years
+and there is a possibility that ice and other volatiles, delivered with comet impacts over the years, have survived and can be used by a human lunar base.
+
+### Competition
+
+The objective for the competing teams was to design a 5 kg 30x30x30 cm rover that would be able to survive the vibrations of a rocket launch, drive over rough terrain and collect up to 500 g of dry ice.
+The competition followed the procedures of a real space industry project. The teams were required to first provide a Preliminary Design Review (PDR), that would outline the main design ideas.
+Following the feedback from the PDR, the teams with best designs were tasked with writing the Critical Design Review (CDR), which would contain a detailed design of the rover, risk assessment, budget etc.
+Five best teams received the funding to build the rovers of their designs and come to RAL Space to prove their rovers' ability to successfuly complete the mission.
+
+### Objective
+
+Each rover was tasked to drive to the sample over the rocks and hills of the Mars Yard at RAL Space, collect the sample and return to the starting point.
+Points were awarded based on how close the rover got to the sample and how much sample was collected.
+
+Next, the each rover was put on a vibration table that simulated the structural loads it would experience during launch.
+
+After that the rover had to complete the first task again with double points awarded for each achievement.
+
+### Rover Overview
+
+<img src="/assets/posts/lunar-rover-2017/rover1.jpg" class="center-block" width="50%">
+
+Our rover was mostly 3D printed, centred around a metal deployable scoop for best weight distribution.
+Servo motors were used to deploy the scoop and rotate the camera, while DC motors on each wheel were used to drive the rover.
+The commands were sent to the rover over WiFi, which was also used to send the image from the camera.
+Raspberry Pi was responsible for WiFi communication and camera image processing. Arduino Nano received the commands from the RPi and controlled the motors and sevos accordingly.
+The detailed design can be found in the [CDR document](https://drive.google.com/file/d/0B29poFh9h4GwX2J0TGxXTE1kVWc/view?usp=sharing)
+
+### Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ouL-cg1U0MI" frameborder="0" allowfullscreen></iframe>
