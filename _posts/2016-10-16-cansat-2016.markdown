@@ -97,3 +97,7 @@ altitude was calculated from the pressure values.
         <img src="/assets/posts/cansat-2016/A_team.JPG" style='width:100%;'/>
     </div>
 </div>
+
+# Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sfFcm6z3wnM" frameborder="0" allowfullscreen></iframe>
