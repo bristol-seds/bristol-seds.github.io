@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Coming Up: CanSat Competition 2017"
+categories: cansat
+
+---
+
+The second University of Bristol CanSat Competition is scheduled to start on the last weekend of October.
+
+<!--more-->
+
+<br />
+
+<center><img src="/assets/posts/cansat-2017/demo.JPG" style="width:800px;height:600px;"></center>
+
+<br />
+<br />
+Following the success (and a bit of criticism) of the University's first CanSat contest in 2016, 
+there was a lot of anticipation for the sequel. And now the wait is almost over! Once again organised with help from
+[Aerospace Engineering Department](http://www.bristol.ac.uk/engineering/departments/aerospace/) 
+of the University of Bristol, the competition will give the selected teams three weeks to develop and produce their 
+CanSats with the launch set to take place on the 18th of November.
+
+To take part in the competition, the participants are to form into teams and 
+submit their entry using [this Google Form](https://docs.google.com/a/bristol.ac.uk/forms/d/1bd33Ri4-xkptwQZHbSmQPtdkWog1ebTV1O3XLTwD53o/edit?usp=sharing).
+
+# Schedule
+
+### >> Application Deadline - 5pm 18th of October
+
+### >> Team Selection - 23rd of October
+
+### >> First Build Session - 28th of October
+
+### >> Launch Day - 18th of November
