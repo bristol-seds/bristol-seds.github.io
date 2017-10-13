@@ -666,7 +666,7 @@ the heaviest amatuer superpressure float to date!
 # Iridium Beacon
 
 There's a write-up about the operation of this Beacon on
-[Paul's github](https://github.com/PaulZC/Iridium_9603_Beacon/blob/master/Iridium_9603_Beacon.pdf). The
+[Paul's github](https://github.com/PaulZC/Iridium_9603_Beacon/blob/master/LEARN.md). The
 becaon ceased operation after 7 days of flight.
 
 # Transmissions
