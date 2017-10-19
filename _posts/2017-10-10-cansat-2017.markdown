@@ -15,11 +15,15 @@ The second University of Bristol CanSat Competition is scheduled to start on the
 
 <br />
 <br />
-Following the success (and a bit of criticism) of the University's first CanSat contest in 2016, 
+Following the success of the University's first CanSat contest in 2016, 
 there was a lot of anticipation for the sequel. And now the wait is almost over! Once again organised with help from
 [Aerospace Engineering Department](http://www.bristol.ac.uk/engineering/departments/aerospace/) 
 of the University of Bristol, the competition will give the selected teams three weeks to develop and produce their 
 CanSats with the launch set to take place on the 18th of November.
+
+The challenge is to design and build a working satellite in the volume of a soda can. The CanSats will be lifted by a drone and dropped with a parachute, you must download data during your drop.
+
+Each satellite will include a primary payload, which will be provided to each team, and a secondary payload of each team's choice. The provided kits include Arduino based pressure and temperature sensors as well as a radio module for data downlink to a ground station.
 
 To take part in the competition, the participants are to form into teams and 
 submit their entry using [this Google Form](https://docs.google.com/a/bristol.ac.uk/forms/d/1bd33Ri4-xkptwQZHbSmQPtdkWog1ebTV1O3XLTwD53o/edit?usp=sharing).
