@@ -10,6 +10,7 @@ committees:
         link: sofia
         bio: 3rd Year Undergraduate Aerospace Engineering
         role: President
+        email: sm15501@my.bristol.ac.uk
         linkedin: in/sofia-medina-cassillas
         linkedin-name: Sofia
 
@@ -18,6 +19,7 @@ committees:
         link: mansur
         bio: 3rd Year Undergraduate Aerospace Engineering
         role: Vice President
+        email: mt15715@my.bristol.ac.uk
         linkedin: in/mansur-tisaev-bb241b123
         linkedin-name: Mansur
 
@@ -26,6 +28,7 @@ committees:
         link: nuhaadh
         bio: 2nd Year Undergraduate Aerospace Engineering
         role: Vice President
+        email: nm16829@my.bristol.ac.uk
         linkedin: in/nuhaadhmahid
         linkedin-name: Nuhaadh
 
@@ -34,18 +37,21 @@ committees:
         link: lawrence
         bio: 3rd Year Undergraduate Electrical and Electronic Engineering
         role: Secretary
+        email: lj15685@my.bristol.ac.uk
 
       - image: alex.1.jpg
         name: Aleksandra Strupinskaia
         link: aleksandra
         bio: 2nd Year Undergraduate Aerospace Engineering 
         role: Treasurer
+        email: as16280@my.bristol.ac.uk
 
       - image: valeriy.1.jpg
         name: Valeriy Novikov
         link: valeriy
         bio: 3rd Year Undergraduate Electrical and Electronic Engineering
         role: Webmaster
+        email: vn15289@my.bristol.ac.uk
         github: novikovvm
         linkedin: in/novikovvm
         linkedin-name: Valeriy
@@ -207,6 +213,14 @@ committees:
       <h1><strong>{{ person.name }}</strong></h1>
       <h5><small>{{ person.bio }}</small></h5>
       <p>{{ person.role }}</p>
+      {% if person.email %}
+      <span class="icon  icon--email">
+        <svg viewBox="0 0 16 16">
+          <path fill="#828282" d="M 0 2 L 8 9.5 L 15.999 2 L 0 2 L 15.999 2 L 15.999 14 L 0 14 L 0 2 L 0.5 2 L 0.5 13.5 L 15.5 13.5 L 15.5 2 L 15.999 2 Z"/>
+        </svg>
+      </span>
+      <span class="username">{{ person.email }}</span>
+      {% endif %}
       {% if person.github %}
       <a href="https://github.com/{{ person.github }}">
         <span class="icon  icon--github">
