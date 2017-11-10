@@ -1,0 +1,119 @@
+---
+layout: post
+title: "Water Rocket Competition 2017"
+categories: water-rockets
+asset_path: /assets/posts/water-rockets-2017
+photos: [/assets/posts/water-rockets-2017/everyone.jpg, /assets/posts/water-rockets-2017/ballistica_parachute.JPG, /assets/posts/water-rockets-2017/pre_launch.JPG, /assets/posts/water-rockets-2017/bfr_nosecone.JPG, /assets/posts/water-rockets-2017/eggstronaut.JPG, /assets/posts/water-rockets-2017/fueling.JPG, /assets/posts/water-rockets-2017/bfr_launch.JPG, /assets/posts/water-rockets-2017/silver_arrow_launch.JPG]
+---
+
+
+
+Bristol SEDS kicked off the 2017/2018 academic year with a brand new Water Rocketry competition, challenging small teams of students to build water rockets as a prelude to our other projects for the year.
+
+
+<!--more-->
+
+
+Our competitors were given four weeks to build their rockets from the kick off meeting to final launch day, with a test launch day a week before the end of the competition. In the intervening time the teams had to select their pressure vessel (2L lemonade bottle), choose their stabilisation fins (cardboard triangles), and design a nose cone (cardboard cone taped to the bottle). Teams showed an enormous amount of ingenuity, going well beyond this base standard with some groups using 3D printers to manufacture their nose cones and fins, others modifying the standard 2L bottles to increase their capacity and still others experimenting with alternate propellants; using carbonated drinks as propellant instead of tap water.
+
+Of course a rocket without an interesting payload is hardly a rocket at all, so ultimately teams were tested on their ability to loft an unboiled egg into the air to the highest altitude (when compared with each other) and then recover the egg safely after landing.
+
+
+
+<br/>
+{% include carousel.html %}
+<br/>
+
+# Launch Window 1
+
+The first launch opportunity saw three teams venture to the downs to validate their designs. After some successful practice launches with no explosions the teams ended the day by strapping in their brave 'eggstronauts' for a full fight test.
+While the sacrifices of the heroic 'Egg-curry Seven' were near complete, the data they produced was invaluable for teams to learn about the subtleties of parachute deployment and lithobraking.
+
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/egg_in_rocket.JPG" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/egg_recovery.JPG" style='width:100%;'/>
+    </div>
+</div>
+
+# Launch Window 2
+
+Precisely a week after the unfortunate (and informative) events of Launch Window 1, all five teams gathered on the downs again for the final test day of their rockets.
+
+As it was the main launch day teams also had the chance to launch with an altimeter package to measure their flight profile, and were encouraged to test their recovery process with the surviving eggstronauts.
+All three veteran teams from the first weekend had made visible modifications and showed drastic improvement in flight behaviour, placing them at an advantage compared to the teams without flight tested hardware.
+
+
+# Results
+
+At the end of Launch Window 2 the competition judges compared notes and scored the rockets' performances to rank each team and determine the winners of the competition. 
+
+## 1st place: Silver Arrow
+
+The Silver Arrow demonstrated consistent flight behaviour and trajectory, and was able to consistently deploy its parachute and land softly. This meant it was a clear winner despite not posting the highest altitude or longest recorded flight time.
+
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/silver_arrow_team.JPG" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/silver_arrow_launch.JPG" style='width:100%;'/>
+    </div>
+</div>
+
+## 2nd place: BFR
+
+The BFR team took maximum advantage of the first launch day, greatly improving their inventively manufactured nosecone to increase parachute deployment reliability. 
+
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/bfr_team.JPG" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/bfr_launch.JPG" style='width:100%;'/>
+    </div>
+</div>
+
+## Joint 3rd place: Ballistica
+
+Ballistica made extensive use of 3D printed components for both its fins and nosecone. An ambitious team, Ballistica initially planned to use multiple stages in their design. 
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/ballistica_team.JPG" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/ballistica_launch.JPG" style='width:56%;'/>
+    </div>
+</div>
+
+## Joint 3th place: GTR
+
+Another ambitious team, GTR attempted to link multiple bottles to increase the volume of their pressure vessel which earned them many extra points from judges. When its pressure seals held, the GTR rocket proved to be a stable flyer. 
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/gtr_team.JPG" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/gtr_launch.JPG" style='width:56%;'/>
+    </div>
+</div>
+
+## 5th place: On the ground
+
+On the Ground produced possibly the best flying rocket, easily flying the highest and fastest of any rocket on the test days during their more successful launches. Unfortunately they were ultimately held back their innovative, but fatal-to-eggs, 'no parachute, ever' landing concept.
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/on_the_ground_team.JPG" style='width:100%;'/>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/posts/water-rockets-2017/on_the_ground_squared.JPG" style='width:100%;'/>
+    </div>
+</div>
